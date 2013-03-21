@@ -1,0 +1,243 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+#
+# Authors : Luis Galdos <luisgaldos@gmail.com>
+#
+# Copyright (c) 2011, Telefonica Móviles España S.A.U.
+#
+# This program is free software; you can redistribute it and/or
+# modify it under the terms of the GNU Lesser General Public
+# License as published by the Free Software Foundation; either
+# version 2.1 of the License, or (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+# Lesser General Public License for more details.
+#
+# You should have received a copy of the GNU Lesser General Public
+# License along with this program; if not, write to the
+# Free Software Foundation, Inc., 59 Temple Place - Suite 330,
+# Boston, MA 02111-1307, USA.
+#
+
+import gconf
+import os
+import shutil
+import sys
+import json
+import getopt
+import dbus
+from xdg import BaseDirectory
+
+NM_URI            = 'org.freedesktop.NetworkManager'
+NM_SETTINGS_PATH  = '/org/freedesktop/NetworkManager/Settings'
+
+NM_SETTINGS_IFACE           = 'org.freedesktop.NetworkManager.Settings'
+NM_SETTING_CONNECTION_IFACE = 'org.freedesktop.NetworkManager.Settings.Connection'
+
+home_dir        = os.environ['HOME']
+tgcm_dir        = os.path.join (home_dir, ".tgcm")
+tgcm_gconf_path = '/apps/tgcm'
+
+class SettingError(Exception):
+    pass
+
+class Setting():
+    def __init__(self, path, values, dbus_obj):
+        if (type(values) != type({})) and (not isinstance(values, dbus.Dictionary)):
+            raise TypeError, "Need a dictionary for Setting constructor"
+
+        try:
+            self.__path        = path
+            self.__dbus_object = dbus_obj
+            self.__connection  = values['connection']
+        except Exception, err:
+            raise SettingError, "Unexpected failure reading Setting values, %s" % err
+
+    def type(self):
+        return self.__connection['type']
+
+    def is_type(self, value):
+        return (self.type() == value)
+
+    def name(self):
+        return self.__connection['id']
+
+    def delete(self):
+        func = self.__dbus_object.get_dbus_method("Delete", NM_SETTING_CONNECTION_IFACE)
+        func()
+
+def usage():
+    print ""
+    print 'Usage: %s [ OPTIONS ]' % os.path.basename(sys.argv[0])
+    print "\t-c, --config-skip    : Don't remove the home configuration directory"
+    print "\t-n, --nm-skip        : Don't remove the Network Manager settings"
+    print "\t-a, --nm-all         : Remove all Network Manager settings (default only GSM settings)"
+    print "\t-g, --gconf-skip     : Don't remove the Gconfig settings"
+    print "\t-u, --autostart-skip : Don't remove XDG autostart files"
+    print "\t-h, --help           : Print this help messages"
+    print ""
+
+def error_exit(msg):
+    print "[ ERROR ] %s" % msg
+    sys.exit(1)
+
+def error_usage_exit(msg):
+    print "[ ERROR ] %s" % msg
+    print ""
+    usage()
+    sys.exit(1)
+
+def info(msg):
+    print "[ INFO ] %s" % msg
+
+def warning(msg):
+    print "[ WARN ] %s" % msg
+
+def error(msg):
+    print "[ ERROR ] %s" % msg
+
+# -- If the type is None, will return all the available settings
+def list_nm_settings(type_value=None):
+    retval = [ ]
+
+    try:
+        sbus = dbus.SystemBus()
+        sets = sbus.get_object(NM_URI, NM_SETTINGS_PATH)
+        ListConnections = sets.get_dbus_method("ListConnections", NM_SETTINGS_IFACE)
+        for path in ListConnections():
+            try:
+                obj  = sbus.get_object(NM_URI, path)
+                vals = obj.get_dbus_method("GetSettings", NM_SETTING_CONNECTION_IFACE)()
+                setting = Setting(path, vals, obj)
+                if type_value is None:
+                    retval.append(setting)
+                elif setting.is_type(type_value):
+                    retval.append(setting)
+            except Exception, err:
+                warning("Ignoring %s: %s" % (path, err.message))
+    except Exception, err:
+        error_exit("Unexpected failure reading NM settings, %s" % err)
+
+    return retval
+
+def delete_nm_settings(settings):
+    if len(settings) == 0:
+        print "  -> No NM settings to delete"
+        return
+
+    for setting in settings:
+        print "  -> Deleting '%s'" % setting.name()
+        setting.delete()
+
+def delete_autostart_files():
+    info("Going to remove XDG autostart files")
+    home_dir = os.path.expanduser('~')
+    autodirs = BaseDirectory.load_config_paths('autostart')
+    user_autodir = None
+    for foo in autodirs:
+        if foo.startswith(home_dir):
+            user_autodir = foo
+
+    if (user_autodir is None) or (not os.path.exists(user_autodir)):
+        return
+
+    for file in os.listdir(user_autodir):
+        if file.startswith('tgcm-'):
+            filepath = os.path.join(user_autodir, file)
+            print "--> Deleting file '%s': " % filepath,
+            try:
+                os.unlink(filepath)
+                print "OK"
+            except:
+                print "FAIL!"
+
+# -- Delete only the GSM settings of the Network Manager
+def delete_nm_gsm():
+    info("Going to delete the Network Manager settings of type GSM")
+    settings = list_nm_settings(type_value="gsm")
+    delete_nm_settings(settings)
+
+# -- Delete only the GSM settings of the Network Manager
+def delete_nm_all():
+    info("Going to delete ALL the Network Manager settings")
+    settings = list_nm_settings()
+    delete_nm_settings(settings)
+
+def delete_tgcm_config_dir():
+    info("Going to remove the configuration directory '%s'" % tgcm_dir)
+    if os.path.exists (tgcm_dir):
+        try:
+            shutil.rmtree (tgcm_dir)
+        except Exception, err:
+            error_exit("Couldn't remove config dir '%s', %s" % (tgcm_dir, err))
+
+def delete_gconf():
+    info("Going to delete Gconfig '%s'" % tgcm_gconf_path)
+    try:
+        client = gconf.client_get_default()
+        client.recursive_unset(tgcm_gconf_path, gconf.UNSET_INCLUDING_SCHEMA_NAMES)
+        client.suggest_sync()
+    except Exception, err:
+        error_exit("Couldn't delete Gconfig settings '%s', %s" % (tgcm_gconf_path, err))
+
+if __name__ == '__main__':
+
+    skip_config      = False
+    skip_nm_settings = False
+    all_nm_settings  = False
+    skip_gconf       = False
+    skip_autostart   = False
+
+    try:
+        opts, args = getopt.getopt(sys.argv[1:], "cnaguh",
+                                   [ "config-skip",
+                                     "nm-skip",
+                                     "nm-all",
+                                     "gconf-skip",
+                                     "autostart-skip",
+                                     "help" ])
+    except getopt.GetoptError, err:
+        error_usage_exit(err)
+
+    for opt, arg in opts:
+        if opt in ("-h", "--help"):
+            usage()
+            sys.exit(0)
+        elif opt in ("-c", "--config-skip"):
+            skip_config = True
+        elif opt in ("-n", "--nm-skip"):
+            skip_nm_settings = True
+        elif opt in ("-a", "--nm-all"):
+            all_nm_settings = True
+        elif opt in ("-g", "--gconf-skip"):
+            skip_gconf = True
+        elif opt in ("-u", "--autostart-skip"):
+            skip_autostart = True
+        else:
+            error_usage_exit("Unknow input option: %s" % opt)
+
+    # -- Insane sanity checks
+    if (skip_nm_settings is True) and (all_nm_settings is True):
+        error_exit("Couldn't skip the GSM settings when ALL is selected too")
+
+    # -- Let's start with the job
+    if skip_config is False:
+        delete_tgcm_config_dir()
+
+    if skip_autostart is False:
+        delete_autostart_files()
+
+    if skip_gconf is False:
+        delete_gconf()
+
+    # -- If the removing of all NM settings is requested, execute this step at next
+    if (skip_nm_settings is False) and (all_nm_settings is not True):
+        delete_nm_gsm()
+
+    if all_nm_settings is True:
+        delete_nm_all()
+
+    # -- Done without failures, return zero
+    sys.exit(0)

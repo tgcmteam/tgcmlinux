@@ -1,0 +1,19 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@ --with python-central
+
+export DH_ALWAYS_EXCLUDE=CVS:.svn
+
+override_dh_install:
+	dh_install 
+ifneq (,$(findstring tgcm-common,$(shell dh_listpackages)))
+	# set executable bit on files with a shebang
+	echo "*** ENTRA EN EL IFEQ ***"
+	egrep -rlZ '^#!(.*)python' debian/tgcm-common/usr/lib/ | xargs -0 chmod a+x --
+	rm -fr debian/tgcm-common/usr/share/applications
+	rm -fr debian/tgcm-common/usr/share/doc/tgcm
+	rm debian/tgcm-common/usr/share/locale/en_GB/LC_MESSAGES/tgcm.mo
+	dh_pycentral
+endif
+

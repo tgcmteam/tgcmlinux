@@ -1,0 +1,1088 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<profile version="1.0" fileversion="1.11.6.50" >
+	<profile-info>
+		<region>DE</region>
+		<provider>o2DE</provider>
+		<app-name>Mobile Connection Manager</app-name>
+		<app-version>8.9</app-version>
+		<coment>Mobile Connection Manager - Germany</coment>
+	</profile-info>
+	<user-profile name="default">
+	</user-profile>
+	<boem available="1">
+		<url>http://cm-stat.app.telefonica.de/collect/</url>
+		<show-warning>1</show-warning>
+	</boem>
+	<client-info name="default">
+		<selfcare-url></selfcare-url>
+		<support-url>http://www.o2online.de/goto/kontakt</support-url>
+		<help-phone>017955222</help-phone>
+	</client-info>
+	<coverage>
+		<wifi-url>
+		</wifi-url>
+		<wwan-url>
+		</wwan-url>
+	</coverage>
+	<log>
+		<sending available="1" address="datasupport.de@o2.com" />
+	</log>	
+	<device>
+		<!--  cs | ps | cs_ps -->
+		<domain>cs_ps</domain>
+		<!--  auto | gsm | wcdma | gsm_first | wcdma_first -->
+		<mode>auto</mode>
+	</device>
+	<sim-locks>
+	</sim-locks>
+	<services>
+		<!-- install-status: 0 = unavailable,  1 = uninstalled, 2 = installed  -->
+		<service id="sms" class="service.sms" install-status="2">
+			<smsc type="any">
+			</smsc>
+			<!-- type = any | prepay | postpay | sim -->
+			<notify-sms available="1" methodGSM7="status-report" methodUCS2="status-report">
+			</notify-sms>
+			<!-- method* = prefix | status-report | none -->
+			<pop-up-sms available="1">
+				<!-- sms with usage info from network -->
+				<number>80112</number>
+			</pop-up-sms>
+			<show-sending-sms-progress value="1">
+			</show-sending-sms-progress>
+			<policy name="edit-smsc" value="1">
+			</policy>
+		</service>
+		<service id="prepay" class="service.prepay.de" install-status="2">
+			<ussd name="recharge">*103*%1%#</ussd>
+			<ussd name="check">*101#</ussd>
+			<adv-url>http://o2aktionen.de/connectionmanager/</adv-url>
+		</service>
+		<service id="online_de" class="url-launcher" install-status="2">
+			<url>http://www.o2online.de</url>
+			<caption>o2online</caption>
+		</service>
+		<service id="favorites" class="service.favorites" install-status="2">
+		</service>
+		<service id="intranet" class="service.intranet" install-status="0">
+		</service>
+	</services>
+	<dock>
+		<!-- 0 = auto-hide, 1 = always -->
+		<appearance>1</appearance>
+		<!-- 0 = no-dockado, 1 = dockado -->
+		<status>1</status>
+		<dockables>
+			<dockable id="addressbook" class="dockable.addressbook">
+			</dockable>
+		</dockables>
+		<launcher size="4">
+			<item id="sms"/>
+			<item id="prepay"/>
+			<item id="online_de"/>
+			<item id="favorites"/>
+			<item id="addressbook"/>
+		</launcher>
+	</dock>
+	<favorite-list name="default">
+		<favorite readonly="1" userdata="0">
+			<name>Mein o2</name>
+			<type>0</type>
+			<url>http://o2online.de/nw/meino2/index.html</url>
+			<file>
+			</file>
+			<use-connection>0</use-connection>
+			<connection-name>
+			</connection-name>
+		</favorite>
+		<favorite readonly="1" userdata="0">
+			<name>Musik &amp; Apps</name>
+			<type>0</type>
+			<url>http://o2online.de/nw/musikapps/musik-und-fun.html</url>
+			<file>
+			</file>
+			<use-connection>0</use-connection>
+			<connection-name>
+			</connection-name>
+		</favorite>
+		<favorite readonly="1" userdata="0">
+			<name>Communication Center</name>
+			<type>0</type>
+			<url>http://www.o2online.de/nw/meino2/comcenter-public/o2-communication-center.html</url>
+			<file>
+			</file>
+			<use-connection>0</use-connection>
+			<connection-name>
+			</connection-name>
+		</favorite>
+	</favorite-list>
+	<policies>
+		<policy name="edit-connection" value="1"/>
+		<policy name="create-connection" value="1"/>
+		<policy name="export-connection" value="1"/>
+		<policy name="import-connection" value="1"/>
+		<policy name="delete-connection" value="1"/>
+		<policy name="edit-favorite" value="1"/>
+		<policy name="delete-favorite" value="1"/>
+		<policy name="install-devices" value="1"/>
+		<policy name="install-services" value="1"/>
+		<policy name="reconnect" value="0"/>
+		<policy name="connect-startup" value="0"/>
+		<policy name="launch-startup" value="0"/>
+		<policy name="warning-lan" value="1"/>
+		<policy name="warning-better-wifi" value="1"/>
+		<policy name="warning-better-lan" value="1"/>
+		<policy name="warning-previous-wifi" value="1"/>
+		<policy name="warning-previous-wwan" value="1"/>
+		<policy name="warning-previous-conn" value="1"/>
+		<policy name="import-wifi-profiles" value="1"/>
+		<policy name="enable-wifi-management" value="1"/>
+		<policy name="show-roaming-warning" value="1"/>
+		<policy name="connections-roaming" value="1"/>
+		<policy name="manage-connections-roaming" value="1"/>
+		<policy name="mydetails-show-startup" value="0"/>
+		<policy name="mydetails-active" value="1"/>
+		<policy name="modify-dock-appearance" value="1"/>
+		<policy name="warning-download-update" value="1"/>
+	</policies>
+	<connection-list>
+		<wwan-connection readonly="1">
+			<name>o2 Internet</name>
+			<profile condition="match-imsi:^(2620739|2620839)\d+$">
+				<!--o2 (Deutschland)-->
+				<auth-info>
+					<username>
+					</username>
+					<password>
+					</password>
+					<ask-password>0</ask-password>
+					<cypher-password>0</cypher-password>
+				</auth-info>
+				<dns-info>
+					<manual-dns-server>0</manual-dns-server>
+					<dns-server-list>
+						<dns-server>0.0.0.0</dns-server>
+						<dns-server>0.0.0.0</dns-server>
+					</dns-server-list>
+					<wins-server-list>
+						<wins-server>0.0.0.0</wins-server>
+						<wins-server>0.0.0.0</wins-server>
+					</wins-server-list>
+					<dns-suffixes>
+						<active>0</active>
+						<suffixes>
+						</suffixes>
+					</dns-suffixes>
+				</dns-info>
+				<proxy-info>
+					<configuration>0</configuration>
+					<proxy-list>
+					</proxy-list>
+					<proxy-auto>
+					</proxy-auto>
+					<bypass-proxy>
+						<bypass-locals>0</bypass-locals>
+						<bypass-addresses>
+						</bypass-addresses>
+					</bypass-proxy>
+					<use-http11>1</use-http11>
+				</proxy-info>
+				<apn>internet</apn>
+				<ip-info>
+					<active>0</active>
+					<address>0.0.0.0</address>
+				</ip-info>
+			</profile>
+			<profile condition="match-imsi:^(26207400|26208400)\d+$">
+				<!--debitel-->
+				<auth-info>
+					<username>
+					</username>
+					<password>
+					</password>
+					<ask-password>0</ask-password>
+					<cypher-password>0</cypher-password>
+				</auth-info>
+				<dns-info>
+					<manual-dns-server>0</manual-dns-server>
+					<dns-server-list>
+						<dns-server>0.0.0.0</dns-server>
+						<dns-server>0.0.0.0</dns-server>
+					</dns-server-list>
+					<wins-server-list>
+						<wins-server>0.0.0.0</wins-server>
+						<wins-server>0.0.0.0</wins-server>
+					</wins-server-list>
+					<dns-suffixes>
+						<active>0</active>
+						<suffixes>
+						</suffixes>
+					</dns-suffixes>
+				</dns-info>
+				<proxy-info>
+					<configuration>0</configuration>
+					<proxy-list>
+					</proxy-list>
+					<proxy-auto>
+					</proxy-auto>
+					<bypass-proxy>
+						<bypass-locals>0</bypass-locals>
+						<bypass-addresses>
+						</bypass-addresses>
+					</bypass-proxy>
+					<use-http11>1</use-http11>
+				</proxy-info>
+				<apn>internet.debitel.de</apn>
+				<ip-info>
+					<active>0</active>
+					<address>0.0.0.0</address>
+				</ip-info>
+			</profile>
+			<profile condition="match-imsi:^(26207401|26208401)\d+$">
+				<!--mobilcom-->
+				<auth-info>
+					<username>
+					</username>
+					<password>
+					</password>
+					<ask-password>0</ask-password>
+					<cypher-password>0</cypher-password>
+				</auth-info>
+				<dns-info>
+					<manual-dns-server>0</manual-dns-server>
+					<dns-server-list>
+						<dns-server>0.0.0.0</dns-server>
+						<dns-server>0.0.0.0</dns-server>
+					</dns-server-list>
+					<wins-server-list>
+						<wins-server>0.0.0.0</wins-server>
+						<wins-server>0.0.0.0</wins-server>
+					</wins-server-list>
+					<dns-suffixes>
+						<active>0</active>
+						<suffixes>
+						</suffixes>
+					</dns-suffixes>
+				</dns-info>
+				<proxy-info>
+					<configuration>0</configuration>
+					<proxy-list>
+					</proxy-list>
+					<proxy-auto>
+					</proxy-auto>
+					<bypass-proxy>
+						<bypass-locals>0</bypass-locals>
+						<bypass-addresses>
+						</bypass-addresses>
+					</bypass-proxy>
+					<use-http11>1</use-http11>
+				</proxy-info>
+				<apn>internet.mobilcom</apn>
+				<ip-info>
+					<active>0</active>
+					<address>0.0.0.0</address>
+				</ip-info>
+			</profile>
+			<profile condition="match-imsi:^(26207402|26208402)\d+$">
+				<!--talkline-->
+				<auth-info>
+					<username>
+					</username>
+					<password>
+					</password>
+					<ask-password>0</ask-password>
+					<cypher-password>0</cypher-password>
+				</auth-info>
+				<dns-info>
+					<manual-dns-server>0</manual-dns-server>
+					<dns-server-list>
+						<dns-server>0.0.0.0</dns-server>
+						<dns-server>0.0.0.0</dns-server>
+					</dns-server-list>
+					<wins-server-list>
+						<wins-server>0.0.0.0</wins-server>
+						<wins-server>0.0.0.0</wins-server>
+					</wins-server-list>
+					<dns-suffixes>
+						<active>0</active>
+						<suffixes>
+						</suffixes>
+					</dns-suffixes>
+				</dns-info>
+				<proxy-info>
+					<configuration>0</configuration>
+					<proxy-list>
+					</proxy-list>
+					<proxy-auto>
+					</proxy-auto>
+					<bypass-proxy>
+						<bypass-locals>0</bypass-locals>
+						<bypass-addresses>
+						</bypass-addresses>
+					</bypass-proxy>
+					<use-http11>1</use-http11>
+				</proxy-info>
+				<apn>internet.talkline</apn>
+				<ip-info>
+					<active>0</active>
+					<address>0.0.0.0</address>
+				</ip-info>
+			</profile>
+			<profile condition="match-imsi:^(26207403|26208403)\d+$">
+				<!--victorvox-->
+				<auth-info>
+					<username>
+					</username>
+					<password>
+					</password>
+					<ask-password>0</ask-password>
+					<cypher-password>0</cypher-password>
+				</auth-info>
+				<dns-info>
+					<manual-dns-server>0</manual-dns-server>
+					<dns-server-list>
+						<dns-server>0.0.0.0</dns-server>
+						<dns-server>0.0.0.0</dns-server>
+					</dns-server-list>
+					<wins-server-list>
+						<wins-server>0.0.0.0</wins-server>
+						<wins-server>0.0.0.0</wins-server>
+					</wins-server-list>
+					<dns-suffixes>
+						<active>0</active>
+						<suffixes>
+						</suffixes>
+					</dns-suffixes>
+				</dns-info>
+				<proxy-info>
+					<configuration>0</configuration>
+					<proxy-list>
+					</proxy-list>
+					<proxy-auto>
+					</proxy-auto>
+					<bypass-proxy>
+						<bypass-locals>0</bypass-locals>
+						<bypass-addresses>
+						</bypass-addresses>
+					</bypass-proxy>
+					<use-http11>1</use-http11>
+				</proxy-info>
+				<apn>internet.victorvox</apn>
+				<ip-info>
+					<active>0</active>
+					<address>0.0.0.0</address>
+				</ip-info>
+			</profile>
+			<profile condition="match-imsi:^(26207407|26208407)\d+$">
+				<!--telco-->
+				<auth-info>
+					<username>
+					</username>
+					<password>
+					</password>
+					<ask-password>0</ask-password>
+					<cypher-password>0</cypher-password>
+				</auth-info>
+				<dns-info>
+					<manual-dns-server>0</manual-dns-server>
+					<dns-server-list>
+						<dns-server>0.0.0.0</dns-server>
+						<dns-server>0.0.0.0</dns-server>
+					</dns-server-list>
+					<wins-server-list>
+						<wins-server>0.0.0.0</wins-server>
+						<wins-server>0.0.0.0</wins-server>
+					</wins-server-list>
+					<dns-suffixes>
+						<active>0</active>
+						<suffixes>
+						</suffixes>
+					</dns-suffixes>
+				</dns-info>
+				<proxy-info>
+					<configuration>0</configuration>
+					<proxy-list>
+					</proxy-list>
+					<proxy-auto>
+					</proxy-auto>
+					<bypass-proxy>
+						<bypass-locals>0</bypass-locals>
+						<bypass-addresses>
+						</bypass-addresses>
+					</bypass-proxy>
+					<use-http11>1</use-http11>
+				</proxy-info>
+				<apn>internet.telco</apn>
+				<ip-info>
+					<active>0</active>
+					<address>0.0.0.0</address>
+				</ip-info>
+			</profile>
+			<profile condition="match-imsi:^26207411\d+$">
+				<!--KabelD internet-->
+				<auth-info>
+					<username>
+					</username>
+					<password>
+					</password>
+					<ask-password>0</ask-password>
+					<cypher-password>0</cypher-password>
+				</auth-info>
+				<dns-info>
+					<manual-dns-server>0</manual-dns-server>
+					<dns-server-list>
+						<dns-server>0.0.0.0</dns-server>
+						<dns-server>0.0.0.0</dns-server>
+					</dns-server-list>
+					<wins-server-list>
+						<wins-server>0.0.0.0</wins-server>
+						<wins-server>0.0.0.0</wins-server>
+					</wins-server-list>
+					<dns-suffixes>
+						<active>0</active>
+						<suffixes>
+						</suffixes>
+					</dns-suffixes>
+				</dns-info>
+				<proxy-info>
+					<configuration>0</configuration>
+					<proxy-list>
+					</proxy-list>
+					<proxy-auto>
+					</proxy-auto>
+					<bypass-proxy>
+						<bypass-locals>0</bypass-locals>
+						<bypass-addresses>
+						</bypass-addresses>
+					</bypass-proxy>
+					<use-http11>1</use-http11>
+				</proxy-info>
+				<apn>internet.kabeld</apn>
+				<ip-info>
+					<active>0</active>
+					<address>0.0.0.0</address>
+				</ip-info>
+			</profile>
+			<profile condition="match-imsi:^(26207404|26208404)\d+$">
+				<!--Tchibo-->
+				<auth-info>
+					<username>
+					</username>
+					<password>
+					</password>
+					<ask-password>0</ask-password>
+					<cypher-password>0</cypher-password>
+				</auth-info>
+				<dns-info>
+					<manual-dns-server>0</manual-dns-server>
+					<dns-server-list>
+						<dns-server>0.0.0.0</dns-server>
+						<dns-server>0.0.0.0</dns-server>
+					</dns-server-list>
+					<wins-server-list>
+						<wins-server>0.0.0.0</wins-server>
+						<wins-server>0.0.0.0</wins-server>
+					</wins-server-list>
+					<dns-suffixes>
+						<active>0</active>
+						<suffixes>
+						</suffixes>
+					</dns-suffixes>
+				</dns-info>
+				<proxy-info>
+					<configuration>0</configuration>
+					<proxy-list>
+					</proxy-list>
+					<proxy-auto>
+					</proxy-auto>
+					<bypass-proxy>
+						<bypass-locals>0</bypass-locals>
+						<bypass-addresses>
+						</bypass-addresses>
+					</bypass-proxy>
+					<use-http11>1</use-http11>
+				</proxy-info>
+				<apn>Webmobil2</apn>
+				<ip-info>
+					<active>0</active>
+					<address>0.0.0.0</address>
+				</ip-info>
+			</profile>
+			<profile condition="match-imsi:^(26207408|26208408)\d+$">
+				<!--Alice-->
+				<auth-info>
+					<username>
+					</username>
+					<password>
+					</password>
+					<ask-password>0</ask-password>
+					<cypher-password>0</cypher-password>
+				</auth-info>
+				<dns-info>
+					<manual-dns-server>0</manual-dns-server>
+					<dns-server-list>
+						<dns-server>0.0.0.0</dns-server>
+						<dns-server>0.0.0.0</dns-server>
+					</dns-server-list>
+					<wins-server-list>
+						<wins-server>0.0.0.0</wins-server>
+						<wins-server>0.0.0.0</wins-server>
+					</wins-server-list>
+					<dns-suffixes>
+						<active>0</active>
+						<suffixes>
+						</suffixes>
+					</dns-suffixes>
+				</dns-info>
+				<proxy-info>
+					<configuration>0</configuration>
+					<proxy-list>
+					</proxy-list>
+					<proxy-auto>
+					</proxy-auto>
+					<bypass-proxy>
+						<bypass-locals>0</bypass-locals>
+						<bypass-addresses>
+						</bypass-addresses>
+					</bypass-proxy>
+					<use-http11>1</use-http11>
+				</proxy-info>
+				<apn>internet.partner1</apn>
+				<ip-info>
+					<active>0</active>
+					<address>0.0.0.0</address>
+				</ip-info>
+			</profile>
+			<profile condition="match-imsi:^(26207406|26208406)\d+$">
+				<!--Phonehouse-->
+				<auth-info>
+					<username>
+					</username>
+					<password>
+					</password>
+					<ask-password>0</ask-password>
+					<cypher-password>0</cypher-password>
+				</auth-info>
+				<dns-info>
+					<manual-dns-server>0</manual-dns-server>
+					<dns-server-list>
+						<dns-server>0.0.0.0</dns-server>
+						<dns-server>0.0.0.0</dns-server>
+					</dns-server-list>
+					<wins-server-list>
+						<wins-server>0.0.0.0</wins-server>
+						<wins-server>0.0.0.0</wins-server>
+					</wins-server-list>
+					<dns-suffixes>
+						<active>0</active>
+						<suffixes>
+						</suffixes>
+					</dns-suffixes>
+				</dns-info>
+				<proxy-info>
+					<configuration>0</configuration>
+					<proxy-list>
+					</proxy-list>
+					<proxy-auto>
+					</proxy-auto>
+					<bypass-proxy>
+						<bypass-locals>0</bypass-locals>
+						<bypass-addresses>
+						</bypass-addresses>
+					</bypass-proxy>
+					<use-http11>1</use-http11>
+				</proxy-info>
+				<apn>surf.phonehouse</apn>
+				<ip-info>
+					<active>0</active>
+					<address>0.0.0.0</address>
+				</ip-info>
+			</profile>
+			<profile condition="match-imsi:^26207410\d+$">
+				<!--Freenet-->
+				<auth-info>
+					<username>
+					</username>
+					<password>
+					</password>
+					<ask-password>0</ask-password>
+					<cypher-password>0</cypher-password>
+				</auth-info>
+				<dns-info>
+					<manual-dns-server>0</manual-dns-server>
+					<dns-server-list>
+						<dns-server>0.0.0.0</dns-server>
+						<dns-server>0.0.0.0</dns-server>
+					</dns-server-list>
+					<wins-server-list>
+						<wins-server>0.0.0.0</wins-server>
+						<wins-server>0.0.0.0</wins-server>
+					</wins-server-list>
+					<dns-suffixes>
+						<active>0</active>
+						<suffixes>
+						</suffixes>
+					</dns-suffixes>
+				</dns-info>
+				<proxy-info>
+					<configuration>0</configuration>
+					<proxy-list>
+					</proxy-list>
+					<proxy-auto>
+					</proxy-auto>
+					<bypass-proxy>
+						<bypass-locals>0</bypass-locals>
+						<bypass-addresses>
+						</bypass-addresses>
+					</bypass-proxy>
+					<use-http11>1</use-http11>
+				</proxy-info>
+				<apn>internet.online</apn>
+				<ip-info>
+					<active>0</active>
+					<address>0.0.0.0</address>
+				</ip-info>
+			</profile>
+			<profile condition="match-imsi:^26207409\d+$">
+				<!--M-Net-->
+				<auth-info>
+					<username>
+					</username>
+					<password>
+					</password>
+					<ask-password>0</ask-password>
+					<cypher-password>0</cypher-password>
+				</auth-info>
+				<dns-info>
+					<manual-dns-server>0</manual-dns-server>
+					<dns-server-list>
+						<dns-server>0.0.0.0</dns-server>
+						<dns-server>0.0.0.0</dns-server>
+					</dns-server-list>
+					<wins-server-list>
+						<wins-server>0.0.0.0</wins-server>
+						<wins-server>0.0.0.0</wins-server>
+					</wins-server-list>
+					<dns-suffixes>
+						<active>0</active>
+						<suffixes>
+						</suffixes>
+					</dns-suffixes>
+				</dns-info>
+				<proxy-info>
+					<configuration>0</configuration>
+					<proxy-list>
+					</proxy-list>
+					<proxy-auto>
+					</proxy-auto>
+					<bypass-proxy>
+						<bypass-locals>0</bypass-locals>
+						<bypass-addresses>
+						</bypass-addresses>
+					</bypass-proxy>
+					<use-http11>1</use-http11>
+				</proxy-info>
+				<apn>internet.online1</apn>
+				<ip-info>
+					<active>0</active>
+					<address>0.0.0.0</address>
+				</ip-info>
+			</profile>
+			<profile condition="match-imsi:^2620749\d+$">
+				<!--o2 Surf (Prepaid)-->
+				<auth-info>
+					<username>
+					</username>
+					<password>
+					</password>
+					<ask-password>0</ask-password>
+					<cypher-password>0</cypher-password>
+				</auth-info>
+				<dns-info>
+					<manual-dns-server>0</manual-dns-server>
+					<dns-server-list>
+						<dns-server>0.0.0.0</dns-server>
+						<dns-server>0.0.0.0</dns-server>
+					</dns-server-list>
+					<wins-server-list>
+						<wins-server>0.0.0.0</wins-server>
+						<wins-server>0.0.0.0</wins-server>
+					</wins-server-list>
+					<dns-suffixes>
+						<active>0</active>
+						<suffixes>
+						</suffixes>
+					</dns-suffixes>
+				</dns-info>
+				<proxy-info>
+					<configuration>0</configuration>
+					<proxy-list>
+					</proxy-list>
+					<proxy-auto>
+					</proxy-auto>
+					<bypass-proxy>
+						<bypass-locals>0</bypass-locals>
+						<bypass-addresses>
+						</bypass-addresses>
+					</bypass-proxy>
+					<use-http11>1</use-http11>
+				</proxy-info>
+				<apn>pinternet.interkom.de</apn>
+				<ip-info>
+					<active>0</active>
+					<address>0.0.0.0</address>
+				</ip-info>
+			</profile>
+			<profile condition="match-imsi:^26207500\d+$">
+				<!--Tchibo (Prepaid)-->
+				<auth-info>
+					<username>
+					</username>
+					<password>
+					</password>
+					<ask-password>0</ask-password>
+					<cypher-password>0</cypher-password>
+				</auth-info>
+				<dns-info>
+					<manual-dns-server>0</manual-dns-server>
+					<dns-server-list>
+						<dns-server>0.0.0.0</dns-server>
+						<dns-server>0.0.0.0</dns-server>
+					</dns-server-list>
+					<wins-server-list>
+						<wins-server>0.0.0.0</wins-server>
+						<wins-server>0.0.0.0</wins-server>
+					</wins-server-list>
+					<dns-suffixes>
+						<active>0</active>
+						<suffixes>
+						</suffixes>
+					</dns-suffixes>
+				</dns-info>
+				<proxy-info>
+					<configuration>0</configuration>
+					<proxy-list>
+					</proxy-list>
+					<proxy-auto>
+					</proxy-auto>
+					<bypass-proxy>
+						<bypass-locals>0</bypass-locals>
+						<bypass-addresses>
+						</bypass-addresses>
+					</bypass-proxy>
+					<use-http11>1</use-http11>
+				</proxy-info>
+				<apn>Webmobil1</apn>
+				<ip-info>
+					<active>0</active>
+					<address>0.0.0.0</address>
+				</ip-info>
+			</profile>
+			<profile condition="match-imsi:^26207515\d+$">
+				<!--FONIC (Prepaid)-->
+				<auth-info>
+					<username>
+					</username>
+					<password>
+					</password>
+					<ask-password>0</ask-password>
+					<cypher-password>0</cypher-password>
+				</auth-info>
+				<dns-info>
+					<manual-dns-server>0</manual-dns-server>
+					<dns-server-list>
+						<dns-server>0.0.0.0</dns-server>
+						<dns-server>0.0.0.0</dns-server>
+					</dns-server-list>
+					<wins-server-list>
+						<wins-server>0.0.0.0</wins-server>
+						<wins-server>0.0.0.0</wins-server>
+					</wins-server-list>
+					<dns-suffixes>
+						<active>0</active>
+						<suffixes>
+						</suffixes>
+					</dns-suffixes>
+				</dns-info>
+				<proxy-info>
+					<configuration>0</configuration>
+					<proxy-list>
+					</proxy-list>
+					<proxy-auto>
+					</proxy-auto>
+					<bypass-proxy>
+						<bypass-locals>0</bypass-locals>
+						<bypass-addresses>
+						</bypass-addresses>
+					</bypass-proxy>
+					<use-http11>1</use-http11>
+				</proxy-info>
+				<apn>pinternet.interkom.de</apn>
+				<ip-info>
+					<active>0</active>
+					<address>0.0.0.0</address>
+				</ip-info>
+			</profile>
+			<profile condition="match-imsi:^26207516\d+$">
+				<!--Freenet (Prepaid)-->
+				<auth-info>
+					<username>
+					</username>
+					<password>
+					</password>
+					<ask-password>0</ask-password>
+					<cypher-password>0</cypher-password>
+				</auth-info>
+				<dns-info>
+					<manual-dns-server>0</manual-dns-server>
+					<dns-server-list>
+						<dns-server>0.0.0.0</dns-server>
+						<dns-server>0.0.0.0</dns-server>
+					</dns-server-list>
+					<wins-server-list>
+						<wins-server>0.0.0.0</wins-server>
+						<wins-server>0.0.0.0</wins-server>
+					</wins-server-list>
+					<dns-suffixes>
+						<active>0</active>
+						<suffixes>
+						</suffixes>
+					</dns-suffixes>
+				</dns-info>
+				<proxy-info>
+					<configuration>0</configuration>
+					<proxy-list>
+					</proxy-list>
+					<proxy-auto>
+					</proxy-auto>
+					<bypass-proxy>
+						<bypass-locals>0</bypass-locals>
+						<bypass-addresses>
+						</bypass-addresses>
+					</bypass-proxy>
+					<use-http11>1</use-http11>
+				</proxy-info>
+				<apn>pinternet.interkom.de</apn>
+				<ip-info>
+					<active>0</active>
+					<address>0.0.0.0</address>
+				</ip-info>
+			</profile>
+			<profile condition="match-imsi:^26207511\d+$">
+				<!--mobilcom (Prepaid)-->
+				<auth-info>
+					<username>
+					</username>
+					<password>
+					</password>
+					<ask-password>0</ask-password>
+					<cypher-password>0</cypher-password>
+				</auth-info>
+				<dns-info>
+					<manual-dns-server>0</manual-dns-server>
+					<dns-server-list>
+						<dns-server>0.0.0.0</dns-server>
+						<dns-server>0.0.0.0</dns-server>
+					</dns-server-list>
+					<wins-server-list>
+						<wins-server>0.0.0.0</wins-server>
+						<wins-server>0.0.0.0</wins-server>
+					</wins-server-list>
+					<dns-suffixes>
+						<active>0</active>
+						<suffixes>
+						</suffixes>
+					</dns-suffixes>
+				</dns-info>
+				<proxy-info>
+					<configuration>0</configuration>
+					<proxy-list>
+					</proxy-list>
+					<proxy-auto>
+					</proxy-auto>
+					<bypass-proxy>
+						<bypass-locals>0</bypass-locals>
+						<bypass-addresses>
+						</bypass-addresses>
+					</bypass-proxy>
+					<use-http11>1</use-http11>
+				</proxy-info>
+				<apn>pinternet.interkom.de</apn>
+				<ip-info>
+					<active>0</active>
+					<address>0.0.0.0</address>
+				</ip-info>
+			</profile>
+			<profile condition="match-imsi:^26207514\d+$">
+				<!--Schlecker (Prepaid)-->
+				<auth-info>
+					<username>
+					</username>
+					<password>
+					</password>
+					<ask-password>0</ask-password>
+					<cypher-password>0</cypher-password>
+				</auth-info>
+				<dns-info>
+					<manual-dns-server>0</manual-dns-server>
+					<dns-server-list>
+						<dns-server>0.0.0.0</dns-server>
+						<dns-server>0.0.0.0</dns-server>
+					</dns-server-list>
+					<wins-server-list>
+						<wins-server>0.0.0.0</wins-server>
+						<wins-server>0.0.0.0</wins-server>
+					</wins-server-list>
+					<dns-suffixes>
+						<active>0</active>
+						<suffixes>
+						</suffixes>
+					</dns-suffixes>
+				</dns-info>
+				<proxy-info>
+					<configuration>0</configuration>
+					<proxy-list>
+					</proxy-list>
+					<proxy-auto>
+					</proxy-auto>
+					<bypass-proxy>
+						<bypass-locals>0</bypass-locals>
+						<bypass-addresses>
+						</bypass-addresses>
+					</bypass-proxy>
+					<use-http11>1</use-http11>
+				</proxy-info>
+				<apn>pinternet.interkom.de</apn>
+				<ip-info>
+					<active>0</active>
+					<address>0.0.0.0</address>
+				</ip-info>
+			</profile>
+		</wwan-connection>
+		<wwan-prototype>
+			<profile condition="default">
+				<auth-info>
+					<username>
+					</username>
+					<password>
+					</password>
+					<ask-password>0</ask-password>
+					<cypher-password>0</cypher-password>
+				</auth-info>
+				<dns-info>
+					<manual-dns-server>0</manual-dns-server>
+					<dns-server-list>
+						<dns-server>0.0.0.0</dns-server>
+						<dns-server>0.0.0.0</dns-server>
+					</dns-server-list>
+					<wins-server-list>
+						<wins-server>0.0.0.0</wins-server>
+						<wins-server>0.0.0.0</wins-server>
+					</wins-server-list>
+					<dns-suffixes>
+						<active>0</active>
+						<suffixes>
+						</suffixes>
+					</dns-suffixes>
+				</dns-info>
+				<proxy-info>
+					<configuration>0</configuration>
+					<proxy-list>
+					</proxy-list>
+					<proxy-auto>
+					</proxy-auto>
+					<bypass-proxy>
+						<bypass-locals>0</bypass-locals>
+						<bypass-addresses>
+						</bypass-addresses>
+					</bypass-proxy>
+					<use-http11>1</use-http11>
+				</proxy-info>
+				<apn>
+				</apn>
+				<ip-info>
+					<active>0</active>
+					<address>0.0.0.0</address>
+				</ip-info>
+			</profile>
+		</wwan-prototype>
+		<wifi-prototype>
+			<ssid>
+			</ssid>
+			<mac>0.0.0.0.0.0</mac>
+			<encryption>0</encryption>
+			<authentication>0</authentication>
+			<network-password>
+			</network-password>
+			<hidden>0</hidden>
+			<auth-802-1x>
+				<type>0</type>
+				<user>
+				</user>
+				<password>
+				</password>
+			</auth-802-1x>
+		</wifi-prototype>
+	</connection-list>
+	<news available="1">
+		<url os="win">http://cm-stat.app.telefonica.de/update/Win/rss.xml</url>
+		<url os="mac">http://cm-stat.app.telefonica.de/update/Mac/rss.xml</url>
+		<url os="linux">http://cm-stat.app.telefonica.de/update/Linux/rss.xml</url>
+	</news>
+	<traffic>
+		<!-- type= fixed | custom  -->
+		<billing-day type="custom">1</billing-day>
+		<monthly-limits>
+			<limit>30</limit>
+			<limit>300</limit>
+			<limit default="1">1024</limit>			
+			<limit>5120</limit>
+			<limit>10240</limit>
+			<limit>-1</limit>
+			<!-- -1 equals to  “Other” option -->
+		</monthly-limits>
+		<monthly-roaming-limits>
+			<limit default="1">5</limit>
+			<limit>-1</limit>
+			<!-- -1 equals to  “Other” option -->
+		</monthly-roaming-limits>
+		<alert-list>
+			<alert active="1">100</alert>
+			<alert active="1">90</alert>
+			<alert active="1">75</alert>
+			<alert active="0">50</alert>
+		</alert-list>
+		<alert-roaming-list>
+			<alert active="1">100</alert>
+			<alert active="1">90</alert>
+			<alert active="1">75</alert>
+			<alert active="0">50</alert>
+		</alert-roaming-list>
+	</traffic>
+	<!-- never | always | match-imsi | sim-uk -->
+	<prepay method="match-imsi:^26207(49|500|511|514|515|516)\d+$" disable-traffic="1" >
+		<url method="get">http://www.o2online.de/nw/support/mobilfunk/prepaid/prepaid.html</url>
+	</prepay>
+	<eapsim available="0">
+	</eapsim>
+	<userdata available="0">
+	</userdata>
+	<addressbook>
+		<copiagenda available="0">
+			<host>
+			</host>
+			<directory>
+			</directory>
+			<database>
+			</database>
+		</copiagenda>
+		<phone-number>
+			<country-code>+49</country-code>
+			<match>^(\+49|0)?(179|176)?(\d+)$</match>
+			<format>$2$3</format>
+		</phone-number>
+	</addressbook>
+	<ads available="0">
+		<url>file:///publi.htm</url>
+	</ads>
+</profile>

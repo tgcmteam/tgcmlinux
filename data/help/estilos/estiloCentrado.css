@@ -1,0 +1,123 @@
+/* CSS Document */
+BODY{
+    FONT-FAMILY: Verdana, Helvetica, sans-serif;
+	font-size:0.75em;
+	position:relative;
+	margin: 0px 5px 0px 5px;
+	width:800px;
+	background-color:#FFFFFF;
+	color:#000000;
+}
+img{
+	border: 0px none;
+}
+
+
+/**Inicio*/
+.Izq{
+	width:44%;
+	height:300px;
+	float:left;
+	position:static;
+}
+.Der{
+	width:47%;
+	height:300px;
+	float:right;
+	position:static;
+}
+.Logotipo{
+	width:100%;
+	height:200px;
+	float:left;
+	position:relative;
+	background-image:url(../img/portada.jpg);
+	background-position:left;
+	background-repeat:no-repeat;
+	background-color:#FFFFFF;
+	color:#666666;
+}
+.Logotipo p{
+	float:left;
+	position:relative;
+	text-align:center;
+	text-decoration:none;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:24px;
+	font-weight:bold;
+	padding:100px 0px 0px 25px;
+}
+.BarraCentro{
+	background-color:#999998;
+	color:#666666;
+	width:0.2%;
+	height:300px;
+	float:left;
+	position:relative;
+	margin:0px 2% 0px 2%;
+}
+.Titulos{
+text-align:left;
+}
+.Titulos a{
+	color:#0000FF;
+	background-color:#FFFFFF;
+	text-decoration:none;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	margin:0px 0px 0px 15px;
+}
+.Titulos a:hover{
+	color:#0000FF;
+	background-color:#FFFFFF;
+	text-decoration:underline;
+
+}
+.Titulos p{
+	color:#999999;
+	background-color:#FFFFFF;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+}
+.piePagina{
+	width:100%;
+	height:50px;
+	position:relative;
+	float:left;
+	text-align:center;
+}
+.MensajesCorporativos a{
+	text-align:center;
+	background-color:#FFFFFF;
+	color:#999999;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-style:normal;
+	text-decoration:none;
+}
+.MensajesCorporativos a:hover{
+	text-decoration:underline;
+}
+.MensajesCorporativos p{
+	text-align:center;
+	background-color:#FFFFFF;
+	color:#999999;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-style:normal;
+	text-decoration:none;
+	text-indent:2px;
+}
+.separador{
+	height:50px;
+}
+
+.BODYInicio{
+    FONT-FAMILY: Verdana, Helvetica, sans-serif;
+	font-size:0.75em;
+	position:relative;
+	margin: 100px 100px 100px 100px;
+}
+

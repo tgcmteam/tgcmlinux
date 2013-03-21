@@ -1,0 +1,136 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+#
+# Authors : Luis Galdos <luisgaldos@gmail.com>
+#
+# Copyright (c) 2012, Telefonica Móviles España S.A.U.
+#
+# This program is free software; you can redistribute it and/or
+# modify it under the terms of the GNU Lesser General Public
+# License as published by the Free Software Foundation; either
+# version 2.1 of the License, or (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+# Lesser General Public License for more details.
+#
+# You should have received a copy of the GNU Lesser General Public
+# License along with this program; if not, write to the
+# Free Software Foundation, Inc., 59 Temple Place - Suite 330,
+# Boston, MA 02111-1307, USA.
+#
+
+import dbus
+import sys
+import os
+import getopt
+import time
+import psutil
+import signal
+
+MM_URI          = "org.freedesktop.ModemManager"
+MM_DEVICES_PATH = "/org/freedesktop/ModemManager/Modems/"
+MM_DEBUG_IFACE  = "org.freedesktop.ModemManager.Debug"
+
+# -- Executable of the Mobile Manager
+MM_BINARY       = "/usr/sbin/mobile-manager"
+
+# -- Default signal to sent to the MM for activating the debugging messages
+MM_SIGNAL_LOGGING = signal.SIGUSR1
+
+def usage():
+    print ""
+    print 'Usage: %s [ OPTIONS ]' % sys.argv[0]
+    print "\t-d, --device=    : Device number to use (%i)" % DEFAULT_DEVICE_NR
+    print "\t-s, --signal     : Send the signal for MM logging level"
+    print "\t-f, --filters=   : Filters to setup, list with comas separated"
+    print "\t-h, --help       : Print this help message"
+    print ""
+
+def error_exit(msg):
+    print "[ ERROR ] %s" % msg
+    sys.exit(1)
+
+def error_usage_exit(msg):
+    print "[ ERROR ] %s" % msg
+    print ""
+    usage()
+    sys.exit(1)
+
+def mm_enable_filters(dev, enable):
+    print "Going to %s the debugging filters ... " % ("enable" if enable is True else "disable")
+    func = dev.get_dbus_method("FiltersEnable", MM_DEBUG_IFACE)
+    func(int(enable))
+
+def mm_set_filters(dev, filters):
+
+    if type(filters) == type(" "):
+        filters = filters.split(",")
+    elif type(filters) != type([ ]):
+        error_exit("Need a list as filters list. Aborting.")
+
+    print "Going to set the filters '%s'" % repr(filters)
+    func = dev.get_dbus_method("FiltersSet", MM_DEBUG_IFACE)
+    func(filters)
+
+def mm_emit_signal(value):
+    for proc in psutil.process_iter():
+        cmd = " ".join(proc.cmdline)
+        if MM_BINARY in cmd:
+            print "Going to send signal '%s' to '%s' (ID %s)" % (value, cmd, proc.pid)
+            try:
+                os.kill(proc.pid, MM_SIGNAL_LOGGING)
+                break
+            except OSError, err:
+                error_exit("Couldn't send signal, %s" % err)
+
+if __name__ == "__main__":
+
+    device_nr   = DEFAULT_DEVICE_NR = 0
+    emit_signal = False
+    filters     = None
+
+    try:
+        opts, args = getopt.getopt(sys.argv[1:], "d:sf:h",
+                                   [ "device=",
+                                     "signal",
+                                     "filters=",
+                                     "help" ])
+    except getopt.GetoptError, err:
+        error_usage_exit(err)
+
+    for opt, arg in opts:
+        if opt in ("-h", "--help"):
+            usage()
+            sys.exit(0)
+        elif opt in ("-s", "--signal"):
+            emit_signal = True
+        elif opt in ("-f", "--filters"):
+            filters = arg
+        elif opt in ("-d", "--device"):
+            try:
+                device_nr = int(arg)
+            except:
+                error_exit("Couldnt convert the device number to an integer")
+        else:
+            error_usage_exit("Unknow input option: %s" % opt)
+
+    # -- Sanity checks
+    if device_nr < 0:
+        error_exit("Device number must be greater than zero.")
+    if emit_signal is False and filters is None:
+        error_exit("Nothing to do for you? See --help")
+
+    # -- Start creating the DBus objects
+    sbus = dbus.SystemBus()
+    dev = sbus.get_object(MM_URI, os.path.join(MM_DEVICES_PATH, str(device_nr)))
+
+    if emit_signal is True:
+        mm_emit_signal(MM_SIGNAL_LOGGING)
+
+    if filters is not None:
+        mm_enable_filters(dev, True)
+        mm_set_filters(dev, filters)
+
+    sys.exit(0)

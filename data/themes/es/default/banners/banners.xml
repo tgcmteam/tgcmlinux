@@ -1,0 +1,761 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <bitmap file="banner_bgnd.png" name="banner.bknd" alphacolor=""/>
+  <bitmap file="movistar.png" name="icon.movistar" alphacolor=""/>
+  <bitmap file="blank.png" name="bnr.blank" alphacolor=""/>
+  <bitmap file="settings.png" name="icon.settings" alphacolor=""/>
+  <bitmap file="help.png" name="icon.help" alphacolor=""/>
+  <bitmap file="bar.png" name="icon.bar" alphacolor=""/>
+  
+  
+  <font name="font.banner" face="Arial" height="24" weight="550" underline="false" italic="false"/>  
+  <font name="font.buttons" face="Arial" height="10" weight="550" underline="false" italic="false"/>  
+  <font name="font.bnr.underline" face="Arial" height="10" weight="450" underline="true" italic="false"/>  
+
+
+  <layout name="banner.traffic" width="300" height="64">
+    <border resizeX="false" resizeY="false" minY="64"/>
+    <background type="image" bitmap="banner.bknd">
+      <resize type="frame" left="120" top="0" right="0" bottom="0"/>
+    </background>
+    <widgets>
+
+      <label id="lab.name"
+             anchor-tl="top-left" anchor-br="top-right"
+             left="35" top="23" width="86" height="36"
+             align="left-center"
+             multiline="false"
+             ellipsis="false"
+             font="font.banner"
+             color="#FFFFFF"
+             shadow="false"
+             text="#str.traffic"/>
+
+ <button id="icon.bar"
+              anchor-tl="top-right" anchor-br="none"
+              left="225" top="0" width="5" height="17"
+              onclick=""
+              image-normal="icon.bar"
+              ellipsis="false"
+              font-normal="font.buttons"
+              font-hot="font.bnr.underline"
+              font-down="font.bnr.underline"
+              color-normal="#B8CBDA"
+              color-hot="#FFFFFF"
+              text=""/>
+
+   <button id="icon.settings"
+              anchor-tl="top-right" anchor-br="none"
+              left="130" top="0" width="17" height="17"
+              onclick="app.configure(traffic)"
+              image-normal="icon.settings"
+              ellipsis="false"
+              font-normal="font.buttons"
+              font-hot="font.bnr.underline"
+              font-down="font.bnr.underline"
+              color-normal="#B8CBDA"
+              color-hot="#FFFFFF"
+              text=""/>
+
+   <button id="icon.help"
+              anchor-tl="top-right" anchor-br="none"
+              left="235" top="0" width="17" height="17"
+              onclick="app.openhelp(traffic)"
+              image-normal="icon.help"
+              ellipsis="false"
+              font-normal="font.buttons"
+              font-hot="font.bnr.underline"
+              font-down="font.bnr.underline"
+              color-normal="#B8CBDA"
+              color-hot="#FFFFFF"
+              text=""/>
+
+      <button id="btn.settings"
+              anchor-tl="top-right" anchor-br="none"
+              left="150" top="0" width="70" height="18"
+              onclick="app.configure(traffic)"
+              image-normal="bnr.blank"
+              image-hot="bnr.blank"
+              image-down="bnr.blank"
+              image-disable="bnr.blank"
+              text-align="left-bottom"
+              ellipsis="false"
+              font-normal="font.buttons"
+              font-hot="font.bnr.underline"
+              font-down="font.bnr.underline"
+              color-normal="#B8CBDA"
+              color-hot="#FFFFFF"
+              text="#str.settings"
+              tooltip="#str.settings"/>
+              
+      <button id="btn.help"
+              anchor-tl="top-right" anchor-br="none"
+              left="255" top="0" width="40" height="18"
+              onclick="app.openhelp(traffic)"
+              image-normal="bnr.blank"
+              image-hot="bnr.blank"
+              image-down="bnr.blank"
+              image-disable="bnr.blank"
+              text-align="left-bottom"
+              ellipsis="false"
+              font-normal="font.buttons"
+              font-hot="font.bnr.underline"
+              font-down="font.bnr.underline"
+              color-normal="#B8CBDA"
+              color-hot="#FFFFFF"
+              text="#str.help"
+              tooltip="#str.help"/>
+
+    <button id="lbl.movistar"
+              anchor-tl="top-right" anchor-br="none"
+              left="170" top="25" width="107" height="32"
+              onclick=""
+              image-normal="icon.movistar"
+              image-hot="icon.movistar"
+              image-down="icon.movistar"
+              image-disable="icon.movistar"
+              text-align="center-bottom"
+              ellipsis="false"
+              font-normal="font.buttons"
+              font-hot="font.bnr.underline"
+              font-down="font.bnr.underline"
+              color-normal="#B8CBDA"
+              color-hot="#FFFFFF"
+              text=""
+              tooltip=""/>
+
+          
+              
+    </widgets>
+  </layout>
+
+ 
+  <layout name="banner.videocall" width="300" height="64">
+    <border resizeX="false" resizeY="false" minY="64"/>
+    <background type="image" bitmap="banner.bknd">
+      <resize type="frame" left="120" top="0" right="0" bottom="0"/>
+    </background>
+    <widgets>
+
+      <label id="lab.name"
+             anchor-tl="top-left" anchor-br="top-right"
+             left="35" top="23" width="86" height="36"
+             align="left-center"
+             multiline="false"
+             ellipsis="false"
+             font="font.banner"
+             color="#FFFFFF"
+             shadow="false"
+             text="#str.srvvideocall"/>
+    
+ 
+ <button id="icon.bar"
+              anchor-tl="top-right" anchor-br="none"
+              left="225" top="0" width="5" height="17"
+              onclick=""
+              image-normal="icon.bar"
+              ellipsis="false"
+              font-normal="font.buttons"
+              font-hot="font.bnr.underline"
+              font-down="font.bnr.underline"
+              color-normal="#B8CBDA"
+              color-hot="#FFFFFF"
+              text=""/>
+
+   <button id="icon.settings"
+              anchor-tl="top-right" anchor-br="none"
+              left="130" top="0" width="17" height="17"
+              onclick="app.configure(videocall)"
+              image-normal="icon.settings"
+              ellipsis="false"
+              font-normal="font.buttons"
+              font-hot="font.bnr.underline"
+              font-down="font.bnr.underline"
+              color-normal="#B8CBDA"
+              color-hot="#FFFFFF"
+              text=""/>
+
+   <button id="icon.help"
+              anchor-tl="top-right" anchor-br="none"
+              left="235" top="0" width="17" height="17"
+              onclick="app.openhelp(videocall)"
+              image-normal="icon.help"
+              ellipsis="false"
+              font-normal="font.buttons"
+              font-hot="font.bnr.underline"
+              font-down="font.bnr.underline"
+              color-normal="#B8CBDA"
+              color-hot="#FFFFFF"
+              text=""/>
+
+      <button id="btn.settings"
+              anchor-tl="top-right" anchor-br="none"
+              left="150" top="0" width="70" height="18"
+              onclick="app.configure(videocall)"
+              image-normal="bnr.blank"
+              image-hot="bnr.blank"
+              image-down="bnr.blank"
+              image-disable="bnr.blank"
+              text-align="left-bottom"
+              ellipsis="false"
+              font-normal="font.buttons"
+              font-hot="font.bnr.underline"
+              font-down="font.bnr.underline"
+              color-normal="#B8CBDA"
+              color-hot="#FFFFFF"
+              text="#str.settings"
+              tooltip="#str.settings"/>
+              
+      <button id="btn.help"
+              anchor-tl="top-right" anchor-br="none"
+              left="255" top="0" width="40" height="18"
+              onclick="app.openhelp(videocall)"
+              image-normal="bnr.blank"
+              image-hot="bnr.blank"
+              image-down="bnr.blank"
+              image-disable="bnr.blank"
+              text-align="left-bottom"
+              ellipsis="false"
+              font-normal="font.buttons"
+              font-hot="font.bnr.underline"
+              font-down="font.bnr.underline"
+              color-normal="#B8CBDA"
+              color-hot="#FFFFFF"
+              text="#str.help"
+              tooltip="#str.help"/>
+
+    <button id="lbl.movistar"
+              anchor-tl="top-right" anchor-br="none"
+              left="170" top="25" width="107" height="32"
+              onclick=""
+              image-normal="icon.movistar"
+              image-hot="icon.movistar"
+              image-down="icon.movistar"
+              image-disable="icon.movistar"
+              text-align="center-bottom"
+              ellipsis="false"
+              font-normal="font.buttons"
+              font-hot="font.bnr.underline"
+              font-down="font.bnr.underline"
+              color-normal="#B8CBDA"
+              color-hot="#FFFFFF"
+              text=""
+              tooltip=""/>
+
+          
+
+    </widgets>
+  </layout>
+
+  <layout name="banner.addrbook" width="300" height="64">
+    <border resizeX="false" resizeY="false" minY="64"/>
+    <background type="image" bitmap="banner.bknd">
+      <resize type="frame" left="120" top="0" right="0" bottom="0"/>
+    </background>
+    <widgets>
+
+      <label id="lab.name"
+             anchor-tl="top-left" anchor-br="top-right"
+             left="35" top="23" width="86" height="36"
+             align="left-center"
+             multiline="false"
+             ellipsis="false"
+             font="font.banner"
+             color="#FFFFFF"
+             shadow="false"
+             text="#str.srvaddressbook"/>
+    
+   
+
+   <button id="icon.help"
+              anchor-tl="top-right" anchor-br="none"
+              left="235" top="0" width="17" height="17"
+              onclick="app.openhelp(addressbook)"
+              image-normal="icon.help"
+              ellipsis="false"
+              font-normal="font.buttons"
+              font-hot="font.bnr.underline"
+              font-down="font.bnr.underline"
+              color-normal="#B8CBDA"
+              color-hot="#FFFFFF"
+              text=""/>
+
+   
+      <button id="btn.help"
+              anchor-tl="top-right" anchor-br="none"
+              left="255" top="0" width="40" height="18"
+              onclick="app.openhelp(addressbook)"
+              image-normal="bnr.blank"
+              image-hot="bnr.blank"
+              image-down="bnr.blank"
+              image-disable="bnr.blank"
+              text-align="left-bottom"
+              ellipsis="false"
+              font-normal="font.buttons"
+              font-hot="font.bnr.underline"
+              font-down="font.bnr.underline"
+              color-normal="#B8CBDA"
+              color-hot="#FFFFFF"
+              text="#str.help"
+              tooltip="#str.help"/>
+
+    <button id="lbl.movistar"
+              anchor-tl="top-right" anchor-br="none"
+              left="170" top="25" width="107" height="32"
+              onclick=""
+              image-normal="icon.movistar"
+              image-hot="icon.movistar"
+              image-down="icon.movistar"
+              image-disable="icon.movistar"
+              text-align="center-bottom"
+              ellipsis="false"
+              font-normal="font.buttons"
+              font-hot="font.bnr.underline"
+              font-down="font.bnr.underline"
+              color-normal="#B8CBDA"
+              color-hot="#FFFFFF"
+              text=""
+              tooltip=""/>
+
+          
+
+    </widgets>
+  </layout>
+
+
+  <layout name="banner.wifi" width="300" height="64">
+    <border resizeX="false" resizeY="false" minY="64"/>
+    <background type="image" bitmap="banner.bknd">
+      <resize type="frame" left="120" top="0" right="0" bottom="0"/>
+    </background>
+    <widgets>
+
+      <label id="lab.name"
+             anchor-tl="top-left" anchor-br="top-right"
+             left="35" top="23" width="86" height="36"
+             align="left-center"
+             multiline="false"
+             ellipsis="false"
+             font="font.banner"
+             color="#FFFFFF"
+             shadow="false"
+             text="#str.srvwifi"/>
+    
+  
+
+
+   <button id="icon.help"
+              anchor-tl="top-right" anchor-br="none"
+              left="235" top="0" width="17" height="17"
+              onclick="app.openhelp(wifi)"
+              image-normal="icon.help"
+              ellipsis="false"
+              font-normal="font.buttons"
+              font-hot="font.bnr.underline"
+              font-down="font.bnr.underline"
+              color-normal="#B8CBDA"
+              color-hot="#FFFFFF"
+              text=""/>
+
+    
+              
+      <button id="btn.help"
+              anchor-tl="top-right" anchor-br="none"
+              left="255" top="0" width="40" height="18"
+              onclick="app.openhelp(wifi)"
+              image-normal="bnr.blank"
+              image-hot="bnr.blank"
+              image-down="bnr.blank"
+              image-disable="bnr.blank"
+              text-align="left-bottom"
+              ellipsis="false"
+              font-normal="font.buttons"
+              font-hot="font.bnr.underline"
+              font-down="font.bnr.underline"
+              color-normal="#B8CBDA"
+              color-hot="#FFFFFF"
+              text="#str.help"
+              tooltip="#str.help"/>
+
+    <button id="lbl.movistar"
+              anchor-tl="top-right" anchor-br="none"
+              left="170" top="25" width="107" height="32"
+              onclick=""
+              image-normal="icon.movistar"
+              image-hot="icon.movistar"
+              image-down="icon.movistar"
+              image-disable="icon.movistar"
+              text-align="center-bottom"
+              ellipsis="false"
+              font-normal="font.buttons"
+              font-hot="font.bnr.underline"
+              font-down="font.bnr.underline"
+              color-normal="#B8CBDA"
+              color-hot="#FFFFFF"
+              text=""
+              tooltip=""/>
+
+          
+
+    </widgets>
+  </layout>
+
+  <layout name="banner.favorites" width="300" height="64">
+    <border resizeX="false" resizeY="false" minY="64"/>
+    <background type="image" bitmap="banner.bknd">
+      <resize type="frame" left="120" top="0" right="0" bottom="0"/>
+    </background>
+    <widgets>
+
+      <label id="lab.name"
+             anchor-tl="top-left" anchor-br="top-right"
+             left="35" top="23" width="86" height="36"
+             align="left-center"
+             multiline="false"
+             ellipsis="false"
+             font="font.banner"
+             color="#FFFFFF"
+             shadow="false"
+             text="#str.srvfavorites"/>
+    
+  
+
+ <button id="icon.bar"
+              anchor-tl="top-right" anchor-br="none"
+              left="225" top="0" width="5" height="17"
+              onclick=""
+              image-normal="icon.bar"
+              ellipsis="false"
+              font-normal="font.buttons"
+              font-hot="font.bnr.underline"
+              font-down="font.bnr.underline"
+              color-normal="#B8CBDA"
+              color-hot="#FFFFFF"
+              text=""/>
+
+   <button id="icon.settings"
+              anchor-tl="top-right" anchor-br="none"
+              left="130" top="0" width="17" height="17"
+              onclick="app.configure(favorites)"
+              image-normal="icon.settings"
+              ellipsis="false"
+              font-normal="font.buttons"
+              font-hot="font.bnr.underline"
+              font-down="font.bnr.underline"
+              color-normal="#B8CBDA"
+              color-hot="#FFFFFF"
+              text=""/>
+
+   <button id="icon.help"
+              anchor-tl="top-right" anchor-br="none"
+              left="235" top="0" width="17" height="17"
+              onclick="app.openhelp(favorites)"
+              image-normal="icon.help"
+              ellipsis="false"
+              font-normal="font.buttons"
+              font-hot="font.bnr.underline"
+              font-down="font.bnr.underline"
+              color-normal="#B8CBDA"
+              color-hot="#FFFFFF"
+              text=""/>
+
+      <button id="btn.settings"
+              anchor-tl="top-right" anchor-br="none"
+              left="150" top="0" width="70" height="18"
+              onclick="app.configure(favorites)"
+              image-normal="bnr.blank"
+              image-hot="bnr.blank"
+              image-down="bnr.blank"
+              image-disable="bnr.blank"
+              text-align="left-bottom"
+              ellipsis="false"
+              font-normal="font.buttons"
+              font-hot="font.bnr.underline"
+              font-down="font.bnr.underline"
+              color-normal="#B8CBDA"
+              color-hot="#FFFFFF"
+              text="#str.settings"
+              tooltip="#str.settings"/>
+              
+      <button id="btn.help"
+              anchor-tl="top-right" anchor-br="none"
+              left="255" top="0" width="40" height="18"
+              onclick="app.openhelp(favorites)"
+              image-normal="bnr.blank"
+              image-hot="bnr.blank"
+              image-down="bnr.blank"
+              image-disable="bnr.blank"
+              text-align="left-bottom"
+              ellipsis="false"
+              font-normal="font.buttons"
+              font-hot="font.bnr.underline"
+              font-down="font.bnr.underline"
+              color-normal="#B8CBDA"
+              color-hot="#FFFFFF"
+              text="#str.help"
+              tooltip="#str.help"/>
+
+    <button id="lbl.movistar"
+              anchor-tl="top-right" anchor-br="none"
+              left="170" top="25" width="107" height="32"
+              onclick=""
+              image-normal="icon.movistar"
+              image-hot="icon.movistar"
+              image-down="icon.movistar"
+              image-disable="icon.movistar"
+              text-align="center-bottom"
+              ellipsis="false"
+              font-normal="font.buttons"
+              font-hot="font.bnr.underline"
+              font-down="font.bnr.underline"
+              color-normal="#B8CBDA"
+              color-hot="#FFFFFF"
+              text=""
+              tooltip=""/>
+
+          
+          
+              
+    </widgets>
+  </layout>
+
+
+  <layout name="banner.sms" width="300" height="64">
+    <border resizeX="false" resizeY="false" minY="64"/>
+    <background type="image" bitmap="banner.bknd">
+      <resize type="frame" left="120" top="0" right="0" bottom="0"/>
+    </background>
+    <widgets>
+
+      <label id="lab.name"
+             anchor-tl="top-left" anchor-br="top-right"
+             left="35" top="23" width="86" height="36"
+             align="left-center"
+             multiline="false"
+             ellipsis="false"
+             font="font.banner"
+             color="#FFFFFF"
+             shadow="false"
+             text="#str.srvsms"/>
+    
+ 
+ <button id="icon.bar"
+              anchor-tl="top-right" anchor-br="none"
+              left="225" top="0" width="5" height="17"
+              onclick=""
+              image-normal="icon.bar"
+              ellipsis="false"
+              font-normal="font.buttons"
+              font-hot="font.bnr.underline"
+              font-down="font.bnr.underline"
+              color-normal="#B8CBDA"
+              color-hot="#FFFFFF"
+              text=""/>
+
+   <button id="icon.settings"
+              anchor-tl="top-right" anchor-br="none"
+              left="130" top="0" width="17" height="17"
+              onclick="app.configure(sms)"
+              image-normal="icon.settings"
+              ellipsis="false"
+              font-normal="font.buttons"
+              font-hot="font.bnr.underline"
+              font-down="font.bnr.underline"
+              color-normal="#B8CBDA"
+              color-hot="#FFFFFF"
+              text=""/>
+
+   <button id="icon.help"
+              anchor-tl="top-right" anchor-br="none"
+              left="235" top="0" width="17" height="17"
+              onclick="app.openhelp(sms)"
+              image-normal="icon.help"
+              ellipsis="false"
+              font-normal="font.buttons"
+              font-hot="font.bnr.underline"
+              font-down="font.bnr.underline"
+              color-normal="#B8CBDA"
+              color-hot="#FFFFFF"
+              text=""/>
+
+      <button id="btn.settings"
+              anchor-tl="top-right" anchor-br="none"
+              left="150" top="0" width="70" height="18"
+              onclick="app.configure(sms)"
+              image-normal="bnr.blank"
+              image-hot="bnr.blank"
+              image-down="bnr.blank"
+              image-disable="bnr.blank"
+              text-align="left-bottom"
+              ellipsis="false"
+              font-normal="font.buttons"
+              font-hot="font.bnr.underline"
+              font-down="font.bnr.underline"
+              color-normal="#B8CBDA"
+              color-hot="#FFFFFF"
+              text="#str.settings"
+              tooltip="#str.settings"/>
+              
+      <button id="btn.help"
+              anchor-tl="top-right" anchor-br="none"
+              left="255" top="0" width="40" height="18"
+              onclick="app.openhelp(sms)"
+              image-normal="bnr.blank"
+              image-hot="bnr.blank"
+              image-down="bnr.blank"
+              image-disable="bnr.blank"
+              text-align="left-bottom"
+              ellipsis="false"
+              font-normal="font.buttons"
+              font-hot="font.bnr.underline"
+              font-down="font.bnr.underline"
+              color-normal="#B8CBDA"
+              color-hot="#FFFFFF"
+              text="#str.help"
+              tooltip="#str.help"/>
+
+    <button id="lbl.movistar"
+              anchor-tl="top-right" anchor-br="none"
+              left="170" top="25" width="107" height="32"
+              onclick=""
+              image-normal="icon.movistar"
+              image-hot="icon.movistar"
+              image-down="icon.movistar"
+              image-disable="icon.movistar"
+              text-align="center-bottom"
+              ellipsis="false"
+              font-normal="font.buttons"
+              font-hot="font.bnr.underline"
+              font-down="font.bnr.underline"
+              color-normal="#B8CBDA"
+              color-hot="#FFFFFF"
+              text=""
+              tooltip=""/>
+
+          
+          
+              
+    </widgets>
+  </layout>
+
+
+
+  <layout name="banner.recargasaldo" width="300" height="64">
+    <border resizeX="false" resizeY="false" minY="64"/>
+    <background type="image" bitmap="banner.bknd">
+      <resize type="frame" left="120" top="0" right="0" bottom="0"/>
+    </background>
+    <widgets>
+
+      <label id="lab.name"
+             anchor-tl="top-left" anchor-br="top-right"
+             left="35" top="23" width="86" height="36"
+             align="left-center"
+             multiline="false"
+             ellipsis="false"
+             font="font.banner"
+             color="#FFFFFF"
+             shadow="false"
+             text="#str.srvrecargasaldo"/>
+    
+  
+ <button id="icon.bar"
+              anchor-tl="top-right" anchor-br="none"
+              left="225" top="0" width="5" height="17"
+              onclick=""
+              image-normal="icon.bar"
+              ellipsis="false"
+              font-normal="font.buttons"
+              font-hot="font.bnr.underline"
+              font-down="font.bnr.underline"
+              color-normal="#B8CBDA"
+              color-hot="#FFFFFF"
+              text=""/>
+
+   <button id="icon.settings"
+              anchor-tl="top-right" anchor-br="none"
+              left="130" top="0" width="17" height="17"
+              onclick="app.configure(recargasaldo)"
+              image-normal="icon.settings"
+              ellipsis="false"
+              font-normal="font.buttons"
+              font-hot="font.bnr.underline"
+              font-down="font.bnr.underline"
+              color-normal="#B8CBDA"
+              color-hot="#FFFFFF"
+              text=""/>
+
+   <button id="icon.help"
+              anchor-tl="top-right" anchor-br="none"
+              left="235" top="0" width="17" height="17"
+              onclick="app.openhelp(recargasaldo)"
+              image-normal="icon.help"
+              ellipsis="false"
+              font-normal="font.buttons"
+              font-hot="font.bnr.underline"
+              font-down="font.bnr.underline"
+              color-normal="#B8CBDA"
+              color-hot="#FFFFFF"
+              text=""/>
+
+      <button id="btn.settings"
+              anchor-tl="top-right" anchor-br="none"
+              left="150" top="0" width="70" height="18"
+              onclick="app.configure(recargasaldo)"
+              image-normal="bnr.blank"
+              image-hot="bnr.blank"
+              image-down="bnr.blank"
+              image-disable="bnr.blank"
+              text-align="left-bottom"
+              ellipsis="false"
+              font-normal="font.buttons"
+              font-hot="font.bnr.underline"
+              font-down="font.bnr.underline"
+              color-normal="#B8CBDA"
+              color-hot="#FFFFFF"
+              text="#str.settings"
+              tooltip="#str.settings"/>
+              
+      <button id="btn.help"
+              anchor-tl="top-right" anchor-br="none"
+              left="255" top="0" width="40" height="18"
+              onclick="app.openhelp(recargasaldo)"
+              image-normal="bnr.blank"
+              image-hot="bnr.blank"
+              image-down="bnr.blank"
+              image-disable="bnr.blank"
+              text-align="left-bottom"
+              ellipsis="false"
+              font-normal="font.buttons"
+              font-hot="font.bnr.underline"
+              font-down="font.bnr.underline"
+              color-normal="#B8CBDA"
+              color-hot="#FFFFFF"
+              text="#str.help"
+              tooltip="#str.help"/>
+
+    <button id="lbl.movistar"
+              anchor-tl="top-right" anchor-br="none"
+              left="170" top="25" width="107" height="32"
+              onclick=""
+              image-normal="icon.movistar"
+              image-hot="icon.movistar"
+              image-down="icon.movistar"
+              image-disable="icon.movistar"
+              text-align="center-bottom"
+              ellipsis="false"
+              font-normal="font.buttons"
+              font-hot="font.bnr.underline"
+              font-down="font.bnr.underline"
+              color-normal="#B8CBDA"
+              color-hot="#FFFFFF"
+              text=""
+              tooltip=""/>
+
+          
+          
+              
+    </widgets>
+  </layout>
+
+</theme>

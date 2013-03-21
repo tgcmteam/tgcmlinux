@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
+  <mime-type type="application/x-extension-emsc">
+    <comment>connection or favorite</comment>
+    <comment xml:lang="en">connection or favorite</comment>
+    <comment xml:lang="es">conexión o favorito</comment>
+    <glob pattern="*.emsc"/>
+    <glob pattern="*.msgprs"/>
+    <glob pattern="*.tgcm" />
+  </mime-type>
+</mime-info>

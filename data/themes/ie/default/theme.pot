@@ -1,0 +1,206 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: GITGCM 8.7\n"
+"Report-Msgid-Bugs-To: flopez@experienceis.com\n"
+"POT-Creation-Date: 2011-02-08 13:46+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ie\default\icon:0
+msgid "icon.app"
+msgstr ""
+
+#: ie\default\image:0
+msgid "dock.bkgnd"
+msgstr ""
+
+#: ie\default\image:0
+msgid "dock.docking"
+msgstr ""
+
+#: ie\default\image:0
+msgid "dock.logoo2"
+msgstr ""
+
+#: ie\default\image:0
+msgid "wnd.sysclose"
+msgstr ""
+
+#: ie\default\image:0
+msgid "wnd.available"
+msgstr ""
+
+#: ie\default\image:0
+msgid "dock.connect"
+msgstr ""
+
+#: ie\default\image:0
+msgid "dock.disconnect"
+msgstr ""
+
+#: ie\default\image:0
+msgid "wnd.sysmin"
+msgstr ""
+
+#: ie\default\image:0
+msgid "dock.trafficbtn"
+msgstr ""
+
+#: ie\default\image:0
+msgid "dock.trafficgraph"
+msgstr ""
+
+#: ie\default\image:0
+msgid "dock.roaming"
+msgstr ""
+
+#: ie\default\image:0
+msgid "dock.home"
+msgstr ""
+
+#: ie\default\image:0
+msgid "dock.signal"
+msgstr ""
+
+#: ie\default\image:0
+msgid "dock.wifisignal"
+msgstr ""
+
+#: ie\default\image:0
+msgid "dock.lansignal"
+msgstr ""
+
+#: ie\default\image:0
+msgid "dock.lock"
+msgstr ""
+
+#: ie\default\image:0
+msgid "dock.unlock"
+msgstr ""
+
+#: ie\default\image:0
+msgid "dock.progconn"
+msgstr ""
+
+#: ie\default\image:0
+msgid "srv.sms"
+msgstr ""
+
+#: ie\default\image:0
+msgid "srv.more"
+msgstr ""
+
+#: ie\default\image:0
+msgid "srv.addressbook"
+msgstr ""
+
+#: ie\default\image:0
+msgid "srv.wifi"
+msgstr ""
+
+#: ie\default\image:0
+msgid "srv.favorites"
+msgstr ""
+
+#: ie\default\image:0
+msgid "srv.settings"
+msgstr ""
+
+#: ie\default\image:0
+msgid "srv.help"
+msgstr ""
+
+#: ie\default\image:0
+msgid "srv.circle"
+msgstr ""
+
+#: ie\default\icon:0
+msgid "wifi"
+msgstr ""
+
+#: ie\default\icon:0
+msgid "sms"
+msgstr ""
+
+#: ie\default\icon:0
+msgid "settings"
+msgstr ""
+
+#: ie\default\icon:0
+msgid "help"
+msgstr ""
+
+#: ie\default\icon:0
+msgid "addressbook"
+msgstr ""
+
+#: ie\default\icon:0
+msgid "favorites"
+msgstr ""
+
+#: ie\default\icon:0
+msgid "favorite-item"
+msgstr ""
+
+#: ie\default\icon:0
+msgid "traffic"
+msgstr ""
+
+#: ie\default\icon:0
+msgid "connected"
+msgstr ""
+
+#: ie\default\icon:0
+msgid "disconnected"
+msgstr ""
+
+#: ie\default\icon:0
+msgid "connected_smspending"
+msgstr ""
+
+#: ie\default\icon:0
+msgid "disconnected_smspending"
+msgstr ""
+
+#: ie\default\image:0
+msgid "banner.bknd"
+msgstr ""
+
+#: ie\default\image:0
+msgid "ban.settings"
+msgstr ""
+
+#: ie\default\image:0
+msgid "ban.help"
+msgstr ""
+
+#: ie\default\image:0
+msgid "notif.sms.bknd"
+msgstr ""
+
+#: ie\default\image:0
+msgid "notif.gen.bknd"
+msgstr ""
+
+#: ie\default\image:0
+msgid "notif.error.bknd"
+msgstr ""
+
+#: ie\default\image:0
+msgid "notif.traffic.bknd"
+msgstr ""
+
+#: ie\default\image:0
+msgid "notif.close"
+msgstr ""
+

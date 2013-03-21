@@ -1,0 +1,13 @@
+########################################################
+# Alcatel X060
+
+DefaultVendor=  0x1bbb
+DefaultProduct= 0xf017
+
+TargetVendor=   0x1bbb
+TargetProduct=  0x0017
+
+# only for reference
+# MessageEndpoint=0x01
+
+MessageContent="55534243123456788000000080000606f50402527000000000000000000000"

@@ -1,0 +1,62 @@
+# -- Udev rules for switching the mode of modems supported by the Tgcm of Telefonica
+
+ACTION!="add", GOTO="mm_end"
+SUBSYSTEM!="usb", GOTO="mm_end"
+
+# -- Novatel MC990D
+ATTRS{idVendor}=="1410", ATTRS{idProduct}=="5020", RUN+="@usbmode_bin@ -c @usbmode_dir@/1410_5020", GOTO="option1_load"
+
+# -- Novatel MC996D
+ATTRS{idVendor}=="1410", ATTRS{idProduct}=="5023", RUN+="@usbmode_bin@ -c @usbmode_dir@/1410_5023", GOTO="option1_load"
+
+# -- Novatel MC545
+ATTRS{idVendor}=="1410", ATTRS{idProduct}=="5059", RUN+="@usbmode_bin@ -c @usbmode_dir@/1410_5059", GOTO="option1_load"
+
+# -- ZTE MF190
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0149", RUN+="@usbmode_bin@ -c @usbmode_dir@/19d2_0149", GOTO="option1_load"
+
+# -- ZTE MF680
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="0150", RUN+="@usbmode_bin@ -c @usbmode_dir@/19d2_0150", GOTO="option1_load"
+
+# -- ZTE MF669
+ATTRS{idVendor}=="19d2", ATTRS{idProduct}=="1227", RUN+="@usbmode_bin@ -c @usbmode_dir@/19d2_1227", GOTO="option1_load"
+
+# -- Huawei E173-S
+ATTRS{idVendor}=="12d1", ATTRS{idProduct}=="1c24", RUN+="@usbmode_bin@ -c @usbmode_dir@/12d1_1c24", GOTO="option1_load"
+
+# -- Huawei E173-S
+ATTRS{idVendor}=="12d1", ATTRS{idProduct}=="14fe", RUN+="@usbmode_bin@ -c @usbmode_dir@/12d1_14fe", GOTO="option1_load"
+
+# -- Huawei E398
+ATTRS{idVendor}=="12d1", ATTRS{idProduct}=="1505", RUN+="@usbmode_bin@ -c @usbmode_dir@/12d1_1505", GOTO="mm_end"
+
+# -- Huawei E367
+ATTRS{idVendor}=="12d1", ATTRS{idProduct}=="150c", GOTO="option1_load"
+
+# -- Huawei E173-S
+ATTRS{idVendor}=="12d1", ATTRS{idProduct}=="1c23", GOTO="option1_load"
+
+# -- Huawei E353-S
+ATTRS{idVendor}=="12d1", ATTRS{idProduct}=="1c05", GOTO="option1_load"
+
+# -- Huawei E398
+ATTRS{idVendor}=="12d1", ATTRS{idProduct}=="150a", GOTO="option1_load"
+
+# -- Novatel MC990D
+ATTRS{idVendor}=="1410", ATTRS{idProduct}=="7001", GOTO="option1_load"
+
+# -- Alcatel X220
+ATTRS{idVendor}=="1bbb", ATTRS{idProduct}=="f017", RUN+="@usbmode_bin@ -c @usbmode_dir@/1bbb_f017", GOTO="mm_end"
+ATTRS{idVendor}=="1bbb", ATTRS{idProduct}=="0017", GOTO="option1_load"
+
+
+# -- Nothing to do, so go to the end
+GOTO="mm_end"
+
+# -- First load the module and add the new device ID to
+# -- @FIXME: No doubt, this ugly RUN needs a rework
+LABEL="option1_load"
+RUN+="/bin/sh -c '/sbin/modprobe option && /bin/echo ${PRODUCT} | sed -e s%/%\ %g | cut -d\  -f 1-2 > /sys/bus/usb-serial/drivers/option1/new_id'"
+GOTO="mm_end"
+
+LABEL="mm_end"

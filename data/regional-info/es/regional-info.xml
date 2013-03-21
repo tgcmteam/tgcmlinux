@@ -1,0 +1,406 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<profile version="1.0" fileversion="1.11.6.61" >
+	<profile-info>
+		<region>ES</region>
+		<provider>movistarES</provider>
+		<app-name>Escritorio Movistar</app-name>
+		<app-version>8.9</app-version>
+		<coment>Spain</coment>
+	</profile-info>
+	<user-profile name="default">
+	</user-profile>
+	<boem available="1">
+		<url>http://boem.movistar.es/ds/stats?cc=ES</url>
+		<show-warning>1</show-warning>
+	</boem>
+	<client-info name="default">
+		<selfcare-url>https://www.movistar.es/particulares/mi-movistar</selfcare-url>
+		<support-url>http://www.ayuda.movistar.es</support-url>
+		<help-phone>1004</help-phone>
+	</client-info>
+	<client-info name="premium">
+		<selfcare-url>https://www.movistar.es/particulares/mi-movistar</selfcare-url>
+		<support-url>http://www.ayuda.movistar.es</support-url>
+		<help-phone>1004</help-phone>
+	</client-info>
+	<coverage>
+		<wifi-url>http://www.movistar.es/particulares/internet/wifi/zona-cobertura-wifi</wifi-url>
+		<wwan-url>http://www.movistar.es/particulares/coberturas/internet</wwan-url>
+	</coverage>
+	<log>
+		<sending available="1" address="UG02567@telefonica.es" />
+	</log>
+	<device>
+		<!--  cs | ps | cs_ps -->
+		<domain>cs_ps</domain>
+		<!--  auto | gsm | wcdma | gsm_first | wcdma_first -->
+		<mode>auto</mode>
+	</device>
+	<sim-locks>
+	</sim-locks>
+	<services>
+		<!-- install-status: 0 = unavailable,  1 = uninstalled, 2 = installed  -->
+		<service id="sms" class="service.sms" install-status="2">
+			<smsc type="any">+34609090805</smsc>
+			<!-- type = any | prepay | postpay | sim -->
+			<notify-sms available="1" methodGSM7="prefix:*N#" methodUCS2="none">
+			</notify-sms>
+			<!--method* = prefix | status-report | none -->
+			<pop-up-sms available="1">
+				<!-- sms with usage info from network -->
+				<number>1004</number>
+				<number>609</number>
+				<number>609100109</number>
+				<number>+34609100609</number>
+				<number>*100*609#</number>
+				<number>+34609100109</number>
+				<number>22119</number>
+				<number>+609100109</number>
+				<number>22333</number>
+				<number>2266</number>
+				<number>224020</number>
+			</pop-up-sms>
+			<show-sending-sms-progress value="1">
+			</show-sending-sms-progress>
+			<policy name="edit-smsc" value="1">
+			</policy>
+		</service>
+		<service id="wifi" class="service.wifi.es" install-status="2">
+			<ussd name="ask">*127*0*5#</ussd>
+			<sms name="ask"><number>22127</number><text>CLAVE</text></sms>
+		</service>
+		<service id="favorites" class="service.favorites" install-status="2">
+		</service>
+		<service id="intranet" class="service.intranet" install-status="1">
+		</service>
+	</services>
+	<dock>
+		<!-- 0 = auto-hide, 1 = always -->
+		<appearance>0</appearance>
+		<!-- 0 = no-dockado, 1 = dockado -->
+		<status>1</status>
+		<dockables>
+			<dockable id="addressbook" class="dockable.addressbook"/>
+			<dockable id="recargasaldo" class="dockable.recargasaldo.es">
+				<url-1>https://www.canalcliente.movistar.es/fwk/cda/controller/CCLI_CW_privado/0,2217,2591675_12124916__29950863,00.html</url-1>
+				<url-2>http://www.movistar.es/particulares/movil/servicios/recarga-online</url-2>
+				<url-3>http://www.movistar.es/particulares/movil/tarifas-tarjeta/</url-3>
+			</dockable>
+		</dockables>
+		<launcher size="4">
+			<item id="recargasaldo"/>
+			<item id="wifi"/>
+			<item id="sms"/>
+			<item id="addressbook"/>
+			<item id="favorites"/>
+			<item id="intranet"/>
+		</launcher>
+	</dock>
+	<favorite-list name="default">
+		<favorite readonly="1" userdata="0">
+			<name>Seguridad para tu PC</name>
+			<type>0</type>
+			<url>http://seguridad.movistar.es/descargadirecta</url>
+			<file></file>
+		</favorite>
+		<favorite readonly="1" userdata="0">
+			<name>Cobertura Servicios Movistar</name>
+			<type>0</type>
+			<url>http://www.movistar.es/particulares/coberturas/todas-las-coberturas/ficha-ayuda/ci.todas-las-coberturas.ayudaDesplegable</url>
+			<file></file>
+		</favorite>
+		<favorite readonly="1" userdata="0">
+			<name>Mi Movistar</name>
+			<type>0</type>
+			<url>http://www.movistar.es/particulares/mi-movistar/</url>
+			<file></file>
+		</favorite>
+		<favorite readonly="1" userdata="1">
+			<name>Mensajería Web</name>
+			<type>0</type>
+			<url>http://www.mensajeriaweb.movistar.es</url>
+			<file></file>
+		</favorite>
+		<favorite readonly="1" userdata="0">
+			<name>Terra TV</name>
+			<type>0</type>
+			<url>http://www.terra.tv</url>
+			<file></file>
+		</favorite>
+		<favorite readonly="1" userdata="0">
+			<name>Soporte Técnico Móvil</name>
+			<type>0</type>
+			<url>http://www.movistar.es/particulares/ayuda/soporte-tecnico/</url>
+			<file></file>
+		</favorite>
+	</favorite-list>
+	<favorite-list name="premium">
+		<favorite readonly="1" userdata="1">
+			<name>Enviamensajes</name>
+			<type>0</type>
+			<url>http://www.enviamensajes.movistar.es</url>
+			<file></file>
+		</favorite>
+		<favorite readonly="1" userdata="0">
+			<name>Canal Premium</name>
+			<type>0</type>
+			<url>http://www.canalpremium.movistar.es</url>
+			<file></file>
+		</favorite>
+		<favorite readonly="1" userdata="0">
+			<name>Cobertura Móvil/Zona Wi-Fi</name>
+			<type>0</type>
+			<url>http://www.movistar.es/cobertura</url>
+			<file></file>
+		</favorite>
+	</favorite-list>	
+	<policies>
+		<policy name="edit-connection" value="1"/>
+		<policy name="create-connection" value="1"/>
+		<policy name="export-connection" value="1"/>
+		<policy name="import-connection" value="1"/>
+		<policy name="delete-connection" value="1"/>
+		<policy name="edit-favorite" value="1"/>
+		<policy name="delete-favorite" value="1"/>
+		<policy name="install-devices" value="1"/>
+		<policy name="install-services" value="1"/>
+		<policy name="reconnect" value="1"/>
+		<policy name="connect-startup" value="0"/>
+		<policy name="launch-startup" value="1"/>
+		<policy name="warning-lan" value="1"/>
+		<policy name="warning-better-wifi" value="1"/>
+		<policy name="warning-better-lan" value="1"/>
+		<policy name="warning-previous-wifi" value="1"/>
+		<policy name="warning-previous-wwan" value="1"/>
+		<policy name="warning-previous-conn" value="1"/>
+		<policy name="import-wifi-profiles" value="1"/>
+		<policy name="enable-wifi-management" value="1"/>
+		<policy name="show-roaming-warning" value="1"/>
+		<policy name="connections-roaming" value="1"/>
+		<policy name="manage-connections-roaming" value="0"/>
+		<policy name="mydetails-show-startup" value="1"/>
+		<policy name="mydetails-active" value="1"/>
+		<policy name="modify-dock-appearance" value="1"/>
+		<policy name="warning-download-update" value="0"/>
+	</policies>
+	<connection-list>
+		<wifi-connection readonly="1">
+			<name>Zona Wi-Fi</name>
+			<profile>
+				<ssid>Telefonica</ssid>
+				<mac>0.0.0.0.0.0</mac>
+				<encryption>1</encryption>
+				<authentication>0</authentication>
+				<network-password>
+				</network-password>
+				<hidden>0</hidden>
+				<auth-802-1x>
+					<type>0</type>
+					<user>
+					</user>
+					<password>
+					</password>
+				</auth-802-1x>
+			</profile>
+		</wifi-connection>
+		<wwan-connection readonly="1">
+			<name>Movistar Internet</name>
+			<profile condition="default">
+				<auth-info>
+					<username>MOVISTAR</username>
+					<password>CCEDJx8hJjM*</password>
+					<ask-password>0</ask-password>
+					<cypher-password>0</cypher-password>
+				</auth-info>
+				<dns-info>
+					<manual-dns-server>0</manual-dns-server>
+					<dns-server-list>
+						<dns-server>0.0.0.0</dns-server>
+						<dns-server>0.0.0.0</dns-server>
+					</dns-server-list>
+					<wins-server-list>
+						<wins-server>0.0.0.0</wins-server>
+						<wins-server>0.0.0.0</wins-server>
+					</wins-server-list>
+					<dns-suffixes>
+						<active>0</active>
+						<suffixes>
+						</suffixes>
+					</dns-suffixes>
+				</dns-info>
+				<proxy-info>
+					<!-- 0 = without proxy, 1 = proxy, 2 = autoconfig  -->
+					<configuration>0</configuration>
+					<proxy-list>
+						<!-- proxy type='any' means same proxy server for all protocols -->
+					</proxy-list>
+					<proxy-auto>
+					</proxy-auto>
+					<bypass-proxy>
+						<bypass-locals>0</bypass-locals>
+						<bypass-addresses>
+						</bypass-addresses>
+					</bypass-proxy>
+					<use-http11>1</use-http11>
+				</proxy-info>
+				<apn>movistar.es</apn>
+				<ip-info>
+					<active>0</active>
+					<address>0.0.0.0</address>
+				</ip-info>
+			</profile>
+		</wwan-connection>
+		<wwan-connection readonly="1">
+			<name>Movistar Deberes</name>
+			<profile condition="default">
+				<auth-info>
+					<username>Movistar</username>
+					<password>CAEjBz8BBhM*</password>
+					<ask-password>0</ask-password>
+					<cypher-password>0</cypher-password>
+				</auth-info>
+				<dns-info>
+					<manual-dns-server>0</manual-dns-server>
+					<dns-server-list>
+						<dns-server>0.0.0.0</dns-server>
+						<dns-server>0.0.0.0</dns-server>
+					</dns-server-list>
+					<wins-server-list>
+						<wins-server>0.0.0.0</wins-server>
+						<wins-server>0.0.0.0</wins-server>
+					</wins-server-list>
+					<dns-suffixes>
+						<active>0</active>
+						<suffixes>
+						</suffixes>
+					</dns-suffixes>
+				</dns-info>
+				<proxy-info>
+					<configuration>0</configuration>
+					<proxy-list>
+					</proxy-list>
+					<proxy-auto>
+					</proxy-auto>
+					<bypass-proxy>
+						<bypass-locals>0</bypass-locals>
+						<bypass-addresses>
+						</bypass-addresses>
+					</bypass-proxy>
+					<use-http11>1</use-http11>
+				</proxy-info>
+				<apn>deberes.movistar.es</apn>
+				<ip-info>
+					<active>0</active>
+					<address>0.0.0.0</address>
+				</ip-info>
+			</profile>
+		</wwan-connection>
+		<wwan-prototype>
+			<profile condition="default">
+				<auth-info>
+					<username>
+					</username>
+					<password>
+					</password>
+					<ask-password>0</ask-password>
+					<cypher-password>0</cypher-password>
+				</auth-info>
+				<dns-info>
+					<manual-dns-server>0</manual-dns-server>
+					<dns-server-list>
+						<dns-server>0.0.0.0</dns-server>
+						<dns-server>0.0.0.0</dns-server>
+					</dns-server-list>
+					<wins-server-list>
+						<wins-server>0.0.0.0</wins-server>
+						<wins-server>0.0.0.0</wins-server>
+					</wins-server-list>
+					<dns-suffixes>
+						<active>0</active>
+						<suffixes>
+						</suffixes>
+					</dns-suffixes>
+				</dns-info>
+				<proxy-info>
+					<configuration>0</configuration>
+					<proxy-list>
+					</proxy-list>
+					<proxy-auto>
+					</proxy-auto>
+					<bypass-proxy>
+						<bypass-locals>0</bypass-locals>
+						<bypass-addresses>
+						</bypass-addresses>
+					</bypass-proxy>
+					<use-http11>1</use-http11>
+				</proxy-info>
+				<apn>
+				</apn>
+				<ip-info>
+					<active>0</active>
+					<address>0.0.0.0</address>
+				</ip-info>
+			</profile>
+		</wwan-prototype>
+		<wifi-prototype>
+			<profile>
+				<ssid/>
+				<mac>0.0.0.0.0.0</mac>
+				<encryption>0</encryption>
+				<authentication>0</authentication>
+				<network-password>
+				</network-password>
+				<hidden>0</hidden>
+				<auth-802-1x>
+					<type>0</type>
+					<user>
+					</user>
+					<password>
+					</password>
+				</auth-802-1x>
+			</profile>
+		</wifi-prototype>
+	</connection-list>
+	<news available="1">
+		<url os="win">http://boem.movistar.es/ds/ServletRss?cmd=get&amp;cc=ES&amp;platform=WINDOWS</url>
+		<url os="mac">http://boem.movistar.es/ds/ServletRss?cmd=get&amp;cc=ES&amp;platform=MAC</url>
+		<url os="linux">http://boem.movistar.es/ds/ServletRss?cmd=get&amp;cc=ES&amp;platform=LINUX</url>
+	</news>
+	<traffic available="1" alerts-available="0">
+		<!-- type= fixed | custom  -->
+		<billing-day type="custom">18</billing-day>
+		<monthly-limits>
+		</monthly-limits>
+		<monthly-roaming-limits>
+		</monthly-roaming-limits>
+		<alert-list>
+		</alert-list>
+		<alert-roaming-list>
+		</alert-roaming-list>
+	</traffic>
+	<!-- never | always | match-imsi | sim-uk | user-selected-->
+	<!-- default 0/postpay  1/prepay -->
+	<prepay method="user-selected" default="0">
+	</prepay>
+	<eapsim available="0">
+	</eapsim>
+	<userdata available="1">
+	</userdata>
+	<addressbook>
+		<copiagenda available="0">
+			<host>sync.movistar.es</host>
+			<directory>syncml</directory>
+			<database>./pab</database>
+		</copiagenda>
+		<phone-number>
+			<country-code>+34</country-code>
+			<match>^(\+34)?(\d{9})$</match>
+			<format>$2</format>
+		</phone-number>
+	</addressbook>
+	<ads available="0">
+		<url>file:///publi.htm</url>
+	</ads>
+	<mydsl available="0">
+	</mydsl>
+</profile>

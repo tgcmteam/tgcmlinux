@@ -1,0 +1,7 @@
+[escritorio-movistar]
+name = Escritorio Movistar
+baseurl=http://open.movilforum.com/archive/escritorio-movistar/fedora8/
+enabled = 1
+gpgcheck = 1
+gpgkey = http://open.movilforum.com/archive/escritorio-movistar/fedora8/repodata/repomd.xml.key
+

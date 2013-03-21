@@ -1,0 +1,406 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<profile version="1.0" fileversion="1.11.6.51" >
+	<profile-info>
+		<region>GB</region>
+		<provider>O2UK</provider>
+		<app-name>Connection Manager</app-name>
+		<app-version>8.9</app-version>
+		<coment>United Kingdom</coment>
+	</profile-info>
+	<user-profile name="default">
+	</user-profile>
+	<boem available="1">
+		<url>http://uk.tgcm.telefonica.com/ds/stats?cc=GB</url>
+		<show-warning>1</show-warning>
+	</boem>
+	<client-info name="default">
+		<selfcare-url>
+		</selfcare-url>
+		<support-url>
+		</support-url>
+		<help-phone>
+		</help-phone>
+	</client-info>
+	<coverage>
+		<wifi-url>
+		</wifi-url>
+		<wwan-url>
+		</wwan-url>
+	</coverage>
+	<device>
+		<!--  cs | ps | cs_ps -->
+		<domain>cs_ps</domain>
+		<!--  auto | gsm | wcdma | gsm_first | wcdma_first -->
+		<mode>auto</mode>
+	</device>
+	<sim-locks>
+	</sim-locks>
+	<services>
+		<!-- install-status: 0 = unavailable,  1 = uninstalled, 2 = installed  -->
+		<service id="wifi" class="service.wifi.uk" install-status="2">
+			<ussd>
+			</ussd>
+		</service>
+		<service id="sms" class="service.sms" install-status="2">
+			<smsc type="postpay">+447802000332</smsc>
+			<smsc type="prepay">+447802092035</smsc>
+			<!-- type = any | prepay | postpay | sim -->
+			<notify-sms available="1" methodGSM7="prefix:*0#" methodUCS2="*0#">
+			</notify-sms>
+			<!-- method* = prefix | status-report | none -->
+			<pop-up-sms available="1">
+				<!-- sms with usage info from network -->
+				<number>O2-UK</number>
+			</pop-up-sms>
+			<!-- show-sending-sms-progress: 0 not to show progress dialog ; 1 show it -->
+			<show-sending-sms-progress value="1">
+			</show-sending-sms-progress>
+			<policy name="edit-smsc" value="1">
+			</policy>
+		</service>
+		<service id="favorites" class="service.favorites" install-status="2">
+		</service>
+		<service id="intranet" class="service.intranet" install-status="0">
+		</service>
+	</services>
+	<dock>
+		<!--0 = auto-hide, 1 = always-->
+		<appearance>1</appearance>
+		<!--0 = no-dockado, 1 = dockado-->
+		<status>1</status>
+		<dockables>
+			<dockable id="addressbook" class="dockable.addressbook">
+			</dockable>
+			<dockable id="settings" class="dockable.settings">
+			</dockable>
+			<dockable id="help" class="dockable.help">
+			</dockable>
+		</dockables>
+		<launcher size="4">
+			<item id="wifi"/>
+			<item id="sms"/>
+			<item id="settings"/>
+			<item id="help"/>
+			<item id="addressbook"/>
+			<item id="favorites"/>
+		</launcher>
+	</dock>
+	<favorite-list name="default">
+		<favorite readonly="1" userdata="0">
+			<name>O2</name>
+			<!-- 0 = url, 1 = file  -->
+			<type>0</type>
+			<url>http://www.o2.co.uk/</url>
+			<file>
+			</file>
+			<use-connection>0</use-connection>
+			<connection-name>
+			</connection-name>
+		</favorite>
+		<favorite readonly="1" userdata="0">
+			<name>O2 Mobile Broadband</name>
+			<!-- 0 = url, 1 = file  -->
+			<type>0</type>
+			<url>http://broadband.o2.co.uk/mobile/</url>
+			<file>
+			</file>
+			<use-connection>0</use-connection>
+			<connection-name>
+			</connection-name>
+		</favorite>
+		<favorite readonly="1" userdata="0">
+			<name>Mobile Broadband FAQs</name>
+			<type>0</type>
+			<url>http://service.o2.co.uk/IQ/srvs/cgi-bin/webcgi.exe?New,KB=Companion,question=ref(user):str(MobileBroadband),t=MB_Home,remove=cases,varset_searcharea=AllMobileBroadband,cmd=new</url>
+			<file>
+			</file>
+			<use-connection>0</use-connection>
+			<connection-name>
+			</connection-name>
+		</favorite>
+		<favorite readonly="1" userdata="0">
+			<name>Coverage Map</name>
+			<type>0</type>
+			<url>http://webgen.o2-uktech.com/postcodeChecker/</url>
+			<file>
+			</file>
+			<use-connection>0</use-connection>
+			<connection-name>
+			</connection-name>
+		</favorite>
+		<favorite readonly="1" userdata="0">
+			<name>Block or unblock 18 + content</name>
+			<type>0</type>
+			<url>http://www.o2.co.uk/ageverification/</url>
+			<file>
+			</file>
+			<use-connection>0</use-connection>
+			<connection-name>
+			</connection-name>
+		</favorite>
+		<favorite readonly="1" userdata="0">
+			<name>O2 Data Calculator</name>
+			<type>0</type>
+			<url>http://www.o2.co.uk/datacalculator</url>
+			<file>
+			</file>
+			<use-connection>0</use-connection>
+			<connection-name>
+			</connection-name>
+		</favorite>
+	</favorite-list>
+	<policies>
+		<policy name="edit-connection" value="1"/>
+		<policy name="create-connection" value="1"/>
+		<policy name="export-connection" value="1"/>
+		<policy name="import-connection" value="1"/>
+		<policy name="delete-connection" value="1"/>
+		<policy name="edit-favorite" value="1"/>
+		<policy name="delete-favorite" value="1"/>
+		<policy name="install-devices" value="1"/>
+		<policy name="install-services" value="1"/>
+		<policy name="reconnect" value="1"/>
+		<policy name="connect-startup" value="1"/>
+		<policy name="launch-startup" value="1"/>
+		<policy name="warning-lan" value="1"/>
+		<policy name="warning-better-wifi" value="1"/>
+		<policy name="warning-better-lan" value="1"/>
+		<policy name="warning-previous-wifi" value="1"/>
+		<policy name="warning-previous-wwan" value="1"/>
+		<policy name="warning-previous-conn" value="0"/>
+		<policy name="import-wifi-profiles" value="1"/>
+		<policy name="enable-wifi-management" value="1"/>
+		<policy name="show-roaming-warning" value="1"/>
+		<policy name="connections-roaming" value="1"/>
+		<policy name="manage-connections-roaming" value="1"/>
+		<policy name="mydetails-show-startup" value="1"/>
+		<policy name="mydetails-active" value="1"/>
+		<policy name="modify-dock-appearance" value="1"/>
+		<policy name="warning-download-update" value="1"/>
+	</policies>
+	<connection-list>
+		<lan-connection>
+			<name>Internet cable</name>
+		</lan-connection>
+		<wifi-connection readonly="1">
+			<name>O2 UK Wi-Fi</name>
+			<profile>
+				<ssid>BTOpenzone</ssid>
+				<encryption>1</encryption>
+				<authentication>0</authentication>
+				<network-password></network-password>
+				<hidden>0</hidden>
+				<auth-802-1x>
+					<type>100</type>
+					<user>
+					</user>
+					<password></password>
+				</auth-802-1x>
+				<mac>0.0.0.0.0.0</mac>
+			</profile>
+		</wifi-connection>
+		<wwan-connection readonly="1">
+			<name>O2 UK</name>
+			<profile condition="is-postpaid">
+				<!--O2 UK postpaid-->
+				<auth-info>
+					<username>O2web</username>
+					<password>NQ8mHTsaFQU*</password>
+					<ask-password>0</ask-password>
+					<cypher-password>0</cypher-password>
+				</auth-info>
+				<dns-info>
+					<manual-dns-server>1</manual-dns-server>
+					<dns-server-list>
+						<dns-server>193.113.200.200</dns-server>
+						<dns-server>193.113.200.201</dns-server>
+					</dns-server-list>
+					<wins-server-list>
+						<wins-server>0.0.0.0</wins-server>
+						<wins-server>0.0.0.0</wins-server>
+					</wins-server-list>
+					<dns-suffixes>
+						<active>0</active>
+						<suffixes></suffixes>
+					</dns-suffixes>
+				</dns-info>
+				<proxy-info>
+					<configuration>0</configuration>
+					<proxy-list></proxy-list>
+					<proxy-auto></proxy-auto>
+					<bypass-proxy>
+						<bypass-locals>0</bypass-locals>
+						<bypass-addresses></bypass-addresses>
+					</bypass-proxy>
+					<use-http11>1</use-http11>
+				</proxy-info>
+				<apn>mobile.o2.co.uk</apn>
+				<ip-info>
+					<active>0</active>
+					<address>0.0.0.0</address>
+				</ip-info>
+			</profile>
+			<profile condition="is-prepaid">
+				<!--O2 UK prepaid-->
+				<auth-info>
+					<username>o2bb</username>
+					<password>NQ8mHTsaFQU*</password>
+					<ask-password>0</ask-password>
+					<cypher-password>0</cypher-password>
+				</auth-info>
+				<dns-info>
+					<manual-dns-server>1</manual-dns-server>
+					<dns-server-list>
+						<dns-server>193.113.200.200</dns-server>
+						<dns-server>193.113.200.201</dns-server>
+					</dns-server-list>
+					<wins-server-list>
+						<wins-server>0.0.0.0</wins-server>
+						<wins-server>0.0.0.0</wins-server>
+					</wins-server-list>
+					<dns-suffixes>
+						<active>0</active>
+						<suffixes>
+						</suffixes>
+					</dns-suffixes>
+				</dns-info>
+				<proxy-info>
+					<configuration>0</configuration>
+					<proxy-list></proxy-list>
+					<proxy-auto></proxy-auto>
+					<bypass-proxy>
+						<bypass-locals>0</bypass-locals>
+						<bypass-addresses>
+						</bypass-addresses>
+					</bypass-proxy>
+					<use-http11>1</use-http11>
+				</proxy-info>
+				<apn>m-bb.o2.co.uk</apn>
+				<ip-info>
+					<active>0</active>
+					<address>0.0.0.0</address>
+				</ip-info>
+			</profile>
+		</wwan-connection>
+		<wwan-prototype>
+			<profile condition="default">
+				<auth-info>
+					<username></username>
+					<password></password>
+					<ask-password>0</ask-password>
+					<cypher-password>0</cypher-password>
+				</auth-info>
+				<dns-info>
+					<manual-dns-server>0</manual-dns-server>
+					<dns-server-list>
+						<dns-server>0.0.0.0</dns-server>
+						<dns-server>0.0.0.0</dns-server>
+					</dns-server-list>
+					<wins-server-list>
+						<wins-server>0.0.0.0</wins-server>
+						<wins-server>0.0.0.0</wins-server>
+					</wins-server-list>
+					<dns-suffixes>
+						<active>0</active>
+						<suffixes></suffixes>
+					</dns-suffixes>
+				</dns-info>
+				<proxy-info>
+					<configuration>0</configuration>
+					<proxy-list></proxy-list>
+					<proxy-auto></proxy-auto>
+					<bypass-proxy>
+						<bypass-locals>0</bypass-locals>
+						<bypass-addresses></bypass-addresses>
+					</bypass-proxy>
+					<use-http11>1</use-http11>
+				</proxy-info>
+				<apn>
+				</apn>
+				<ip-info>
+					<active>0</active>
+					<address>0.0.0.0</address>
+				</ip-info>
+			</profile>
+		</wwan-prototype>
+		<wifi-prototype>
+			<profile>
+				<ssid/>
+				<mac>0.0.0.0.0.0</mac>
+				<encryption>6</encryption>
+				<authentication>7</authentication>
+				<network-password>
+				</network-password>
+				<hidden>0</hidden>
+				<auth-802-1x>
+					<type>0</type>
+					<user></user>
+					<password></password>
+				</auth-802-1x>
+			</profile>
+		</wifi-prototype>
+	</connection-list>
+	<news available="1">
+		<url os="win">http://uk.tgcm.telefonica.com/ds/ServletRss?cmd=get&amp;cc=GB&amp;platform=WINDOWS</url>
+		<url os="mac">http://uk.tgcm.telefonica.com/ds/ServletRss?cmd=get&amp;cc=GB&amp;platform=MAC</url>
+		<url os="linux">http://uk.tgcm.telefonica.com/ds/ServletRss?cmd=get&amp;cc=GB&amp;platform=LINUX</url>
+	</news>
+	<traffic>
+		<!-- type= fixed | custom (0 means installation day) -->
+		<billing-day type="custom">0</billing-day>
+		<monthly-limits>
+			<limit>500</limit>
+			<limit>1024</limit>
+			<limit>2048</limit>
+			<limit default="1">3072</limit>
+			<limit>-1</limit>
+			<!-- -1 equals to  “Other” option -->
+		</monthly-limits>
+		<monthly-roaming-limits>
+			<limit>-1</limit>
+			<!-- -1 equals to  “Other” option -->
+		</monthly-roaming-limits>
+		<alert-list>
+			<alert active="1">100</alert>
+			<alert active="1">90</alert>
+			<alert active="1">75</alert>
+			<alert active="0">50</alert>
+		</alert-list>
+		<alert-roaming-list>
+			<alert active="0">100</alert>
+			<alert active="0">90</alert>
+			<alert active="0">75</alert>
+			<alert active="0">50</alert>
+		</alert-roaming-list>
+	</traffic>
+	<!-- never | always | match-imsi | sim-uk -->
+	<prepay method="sim-uk" disable-traffic="1" >
+		<url method="get">https://mobilebroadbandaccess.o2.co.uk/</url>
+		<param>DMPN=%s</param>
+	</prepay>
+	<eapsim available="0">
+	</eapsim>
+	<userdata available="0">
+	</userdata>
+	<addressbook>
+		<copiagenda available="0">
+			<host>
+			</host>
+			<directory>
+			</directory>
+			<database>
+			</database>
+		</copiagenda>
+		<phone-number>
+			<country-code>+44</country-code>
+			<match>^(\+44|0)(\d{10})$</match>
+			<format>$2</format>
+		</phone-number>
+	</addressbook>
+	<ads available="0">
+		<url>file:///publi.htm</url>
+	</ads>
+	<mydetails>
+		<url>http://uk.tgcm.telefonica.com/ds/userdetails?cc=GB</url>
+	</mydetails>
+</profile>

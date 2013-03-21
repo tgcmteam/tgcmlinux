@@ -1,0 +1,391 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<profile version="1.0" fileversion="1.11.6.28" >
+	<profile-info>
+		<region>CZ</region>
+		<provider>O2CZ</provider>
+		<app-name>O2 Průvodce připojením</app-name>
+		<app-version>8.9</app-version>
+		<coment>Czech</coment>
+	</profile-info>
+	<user-profile name="default">
+	</user-profile>
+	<boem available="1">
+		<url>http://cz.tgcm.telefonica.com/ds/stats?cc=CZ</url>
+		<show-warning>1</show-warning>
+	</boem>
+	<client-info name="default">
+		<selfcare-url>
+		</selfcare-url>
+		<support-url>http://www.techzona.cz</support-url>
+		<help-phone>*11 / *88</help-phone>
+	</client-info>
+	<coverage>
+		<wifi-url>
+		</wifi-url>
+		<wwan-url>
+		</wwan-url>
+	</coverage>
+	<device>
+		<!--  cs | ps | cs_ps -->
+		<domain>cs_ps</domain>
+		<!--  auto | gsm | wcdma | gsm_first | wcdma_first -->
+		<mode>auto</mode>
+	</device>
+	<sim-locks>
+	</sim-locks>
+	<services>
+		<!-- install-status: 0 = unavailable,  1 = uninstalled, 2 = installed  -->
+		<service id="internet" class="service.internet" install-status="2">
+			<url>http://www.cz.o2.com</url>
+		</service>
+		<service id="sms" class="service.sms" install-status="2">
+			<smsc type="any">+420602909909</smsc>
+			<!-- type = any | prepay | postpay | sim -->
+			<notify-sms available="0" methodGSM7="none" methodUCS2="none">
+			</notify-sms>
+			<!-- method* = prefix | status-report | none -->
+			<pop-up-sms available="0">
+				<!-- sms with usage info from network -->
+				<number>
+				</number>
+			</pop-up-sms>
+			<show-sending-sms-progress value="1">
+			</show-sending-sms-progress>
+			<policy name="edit-smsc" value="1">
+			</policy>
+		</service>
+		<service id="prepay" class="service.prepay.cz" install-status="2">
+			<ussd name="recharge">*102*%1%#</ussd>
+			<ussd name="check">*104*#</ussd>
+		</service>
+		<service id="selfcare" class="service.selfcare.cz" install-status="2">
+			<url>http://www.O2pripojse.cz</url>
+			<apn-list>
+				<apn>internet</apn>
+				<apn>internet.open</apn>
+				<apn>internet.open.s</apn>
+				<apn>internet.s</apn>
+				<apn>gointernet</apn>
+				<apn>gointernet.open</apn>
+				<apn>gointernet.open.s</apn>
+				<apn>gointernet.s</apn>
+				<apn>wap</apn>
+				<apn>gowap</apn>
+			</apn-list>
+		</service>
+		<service id="favorites" class="service.favorites" install-status="2">
+		</service>
+		<service id="intranet" class="service.intranet" install-status="1">
+		</service>
+	</services>
+	<dock>
+		<!-- 0 = auto-hide, 1 = always -->
+		<appearance>0</appearance>
+		<!-- 0 = no-dockado, 1 = dockado -->
+		<status>1</status>
+		<dockables>
+			<dockable id="addressbook" class="dockable.addressbook">
+			</dockable>
+		</dockables>
+		<launcher size="4">
+			<item id="internet"/>
+			<item id="sms"/>
+			<item id="addressbook"/>
+			<item id="selfcare"/>
+			<item id="prepay"/>
+			<item id="favorites"/>
+			<item id="intranet"/>
+		</launcher>
+	</dock>
+	<favorite-list name="default">
+		<favorite readonly="1" userdata="0">
+			<name>Služby O2</name>
+			<!-- 0 = url, 1 = file  -->
+			<type>0</type>
+			<url>http://www.cz.O2.com</url>
+			<file>
+			</file>
+			<use-connection>0</use-connection>
+			<connection-name>
+			</connection-name>
+		</favorite>
+		<favorite readonly="1" userdata="0">
+			<name>Služby pro firemní zákazníky</name>
+			<type>0</type>
+			<url>http://www.cz.O2.com/sme/</url>
+			<file>
+			</file>
+			<use-connection>0</use-connection>
+			<connection-name>
+			</connection-name>
+		</favorite>
+		<favorite readonly="1" userdata="0">
+			<name>Služby pro korporátní zákazníky</name>
+			<type>0</type>
+			<url>http://www.cz.O2.com/corporate/</url>
+			<file>
+			</file>
+			<use-connection>0</use-connection>
+			<connection-name>
+			</connection-name>
+		</favorite>
+		<favorite readonly="1" userdata="0">
+			<name>Techzona</name>
+			<type>0</type>
+			<url>http://www.techzona.cz</url>
+			<file>
+			</file>
+			<use-connection>0</use-connection>
+			<connection-name>
+			</connection-name>
+		</favorite>
+		<favorite readonly="1" userdata="0">
+			<name>O2 Active</name>
+			<type>0</type>
+			<url>http://www.O2active.cz</url>
+			<file>
+			</file>
+			<use-connection>0</use-connection>
+			<connection-name>
+			</connection-name>
+		</favorite>
+		<favorite readonly="1" userdata="0">
+			<name>O2 Extra</name>
+			<type>0</type>
+			<url>http://www.O2extra.cz</url>
+			<file>
+			</file>
+			<use-connection>0</use-connection>
+			<connection-name>
+			</connection-name>
+		</favorite>
+	</favorite-list>
+	<policies>
+		<policy name="edit-connection" value="1"/>
+		<policy name="create-connection" value="1"/>
+		<policy name="export-connection" value="1"/>
+		<policy name="import-connection" value="1"/>
+		<policy name="delete-connection" value="1"/>
+		<policy name="edit-favorite" value="1"/>
+		<policy name="delete-favorite" value="1"/>
+		<policy name="install-devices" value="1"/>
+		<policy name="install-services" value="1"/>
+		<policy name="reconnect" value="0"/>
+		<policy name="connect-startup" value="1"/>
+		<policy name="launch-startup" value="0"/>
+		<policy name="warning-lan" value="1"/>
+		<policy name="warning-better-wifi" value="1"/>
+		<policy name="warning-better-lan" value="1"/>
+		<policy name="warning-previous-wifi" value="1"/>
+		<policy name="warning-previous-wwan" value="1"/>
+		<policy name="warning-previous-conn" value="1"/>
+		<policy name="import-wifi-profiles" value="1"/>
+		<policy name="enable-wifi-management" value="1"/>
+		<policy name="show-roaming-warning" value="1"/>
+		<policy name="connections-roaming" value="1"/>
+		<policy name="manage-connections-roaming" value="0"/>
+		<policy name="mydetails-show-startup" value="0"/>
+		<policy name="mydetails-active" value="1"/>
+		<policy name="modify-dock-appearance" value="1"/>
+		<policy name="warning-download-update" value="1"/>
+	</policies>
+	<connection-list>
+		<wifi-connection readonly="1">
+			<name>O2 HotSpot</name>
+			<profile>
+				<ssid>CZO2</ssid>
+				<mac>0.0.0.0.0.0</mac>
+				<encryption>1</encryption>
+				<authentication>0</authentication>
+				<network-password>
+				</network-password>
+				<hidden>0</hidden>
+				<auth-802-1x>
+					<type>1000</type>
+					<user>
+					</user>
+					<password>
+					</password>
+				</auth-802-1x>
+			</profile>
+		</wifi-connection>
+		<wwan-connection readonly="1">
+			<name>O2 Mobilní internet</name>
+			<profile condition="default">
+				<!--O2 Mobile Internet-->
+				<auth-info>
+					<username>
+					</username>
+					<password>
+					</password>
+					<ask-password>0</ask-password>
+					<cypher-password>0</cypher-password>
+				</auth-info>
+				<dns-info>
+					<manual-dns-server>0</manual-dns-server>
+					<dns-server-list>
+						<dns-server>0.0.0.0</dns-server>
+						<dns-server>0.0.0.0</dns-server>
+					</dns-server-list>
+					<wins-server-list>
+						<wins-server>0.0.0.0</wins-server>
+						<wins-server>0.0.0.0</wins-server>
+					</wins-server-list>
+					<dns-suffixes>
+						<active>0</active>
+						<suffixes>
+						</suffixes>
+					</dns-suffixes>
+				</dns-info>
+				<proxy-info>
+					<configuration>0</configuration>
+					<proxy-list>
+					</proxy-list>
+					<proxy-auto>
+					</proxy-auto>
+					<bypass-proxy>
+						<bypass-locals>0</bypass-locals>
+						<bypass-addresses>
+						</bypass-addresses>
+					</bypass-proxy>
+					<use-http11>1</use-http11>
+				</proxy-info>
+				<apn>internet</apn>
+				<ip-info>
+					<active>0</active>
+					<address>0.0.0.0</address>
+				</ip-info>
+			</profile>
+		</wwan-connection>
+		<wwan-prototype>
+			<profile condition="default">
+				<auth-info>
+					<username>
+					</username>
+					<password>
+					</password>
+					<ask-password>0</ask-password>
+					<cypher-password>0</cypher-password>
+				</auth-info>
+				<dns-info>
+					<manual-dns-server>0</manual-dns-server>
+					<dns-server-list>
+						<dns-server>0.0.0.0</dns-server>
+						<dns-server>0.0.0.0</dns-server>
+					</dns-server-list>
+					<wins-server-list>
+						<wins-server>0.0.0.0</wins-server>
+						<wins-server>0.0.0.0</wins-server>
+					</wins-server-list>
+					<dns-suffixes>
+						<active>0</active>
+						<suffixes>
+						</suffixes>
+					</dns-suffixes>
+				</dns-info>
+				<proxy-info>
+					<configuration>0</configuration>
+					<proxy-list>
+					</proxy-list>
+					<proxy-auto>
+					</proxy-auto>
+					<bypass-proxy>
+						<bypass-locals>0</bypass-locals>
+						<bypass-addresses>
+						</bypass-addresses>
+					</bypass-proxy>
+					<use-http11>1</use-http11>
+				</proxy-info>
+				<apn>
+				</apn>
+				<ip-info>
+					<active>0</active>
+					<address>0.0.0.0</address>
+				</ip-info>
+			</profile>
+		</wwan-prototype>
+		<wifi-prototype>
+			<profile>
+				<ssid/>
+				<mac>0.0.0.0.0.0</mac>
+				<encryption>0</encryption>
+				<authentication>0</authentication>
+				<network-password>
+				</network-password>
+				<hidden>0</hidden>
+				<auth-802-1x>
+					<type>0</type>
+					<user>
+					</user>
+					<password>
+					</password>
+				</auth-802-1x>
+			</profile>
+		</wifi-prototype>
+	</connection-list>
+	<news available="1">
+		<url os="win">http://cz.tgcm.telefonica.com/ds/ServletRss?cmd=get&amp;cc=CZ&amp;platform=WINDOWS</url>
+		<url os="mac">http://cz.tgcm.telefonica.com/ds/ServletRss?cmd=get&amp;cc=CZ&amp;platform=MAC</url>
+		<url os="linux">http://cz.tgcm.telefonica.com/ds/ServletRss?cmd=get&amp;cc=CZ&amp;platform=LINUX</url>
+	</news>
+	<traffic>
+		<!-- type= fixed | custom  -->
+		<billing-day type="custom">1</billing-day>
+		<monthly-limits>
+			<limit default="1">200</limit>
+			<limit>1024</limit>
+			<limit>3072</limit>
+			<limit>5120</limit>
+			<limit>10240</limit>
+			<limit>-1</limit>
+			<!-- -1 equals to  “Other” option -->
+		</monthly-limits>
+		<monthly-roaming-limits>
+			<limit default="1">10</limit>
+			<limit>50</limit>
+			<limit>-1</limit>
+			<!-- -1 equals to  “Other” option -->
+		</monthly-roaming-limits>
+		<alert-list>
+			<alert active="1">100</alert>
+			<alert active="1">90</alert>
+			<alert active="1">75</alert>
+			<alert active="0">50</alert>
+		</alert-list>
+		<alert-roaming-list>
+			<alert active="1">100</alert>
+			<alert active="1">90</alert>
+			<alert active="1">75</alert>
+			<alert active="0">50</alert>
+		</alert-roaming-list>
+	</traffic>
+	<wifi-landing-page method="post">
+		<url>https://wlan1.cz.o2.com:8443/WLAN/wlan/login.do</url>
+		<params>logname=%1%&amp;logpass=%2%&amp;logroaming=cz.o2.com</params>
+	</wifi-landing-page>
+	<!-- never | always | match-imsi | sim-uk -->
+	<prepay method="never">
+	</prepay>
+	<eapsim available="0">
+	</eapsim>
+	<userdata available="0">
+	</userdata>
+	<addressbook>
+		<copiagenda available="0">
+			<host>
+			</host>
+			<directory>
+			</directory>
+			<database>
+			</database>
+		</copiagenda>
+		<phone-number>
+			<country-code>+420</country-code>
+			<match>^(\+420)?(\d{9})$</match>
+			<format>$2</format>
+		</phone-number>
+	</addressbook>
+	<ads available="0">
+		<url>file:///publi.htm</url>
+	</ads>
+</profile>

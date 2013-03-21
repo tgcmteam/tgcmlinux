@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <bitmap file="dock/bkgnd.png" name="dock.bkgnd" />
+  <bitmap file="dock/docking.png" name="dock.docking" />  
+  <bitmap file="dock/logoo2.png" name="dock.logoo2" />
+  <bitmap file="sysbtn/close.png" name="wnd.sysclose">
+    <subbitmap name="wnd.sysclose.normal" left="0" top="0" width="17" height="17"/>
+    <subbitmap name="wnd.sysclose.hot" left="17" top="0" width="17" height="17"/>
+    <subbitmap name="wnd.sysclose.down" left="34" top="0" width="17" height="17"/>
+  </bitmap>
+ <bitmap file="device/available.png" name="wnd.available">
+    <subbitmap name="dock.available.normal" left="0" top="0" width="126" height="25"/>
+    <subbitmap name="dock.available.hot" left="126" top="0" width="126" height="25"/>
+    <subbitmap name="dock.available.down" left="252" top="0" width="126" height="25"/>
+    <subbitmap name="dock.available.disable" left="378" top="0" width="126" height="25"/>
+  </bitmap>
+  <bitmap file="dock/connect.png" name="dock.connect">
+    <subbitmap name="dock.connect.normal" left="0" top="0" width="98" height="22"/>
+    <subbitmap name="dock.connect.hot" left="98" top="0" width="98" height="22"/>
+    <subbitmap name="dock.connect.down" left="196" top="0" width="98" height="22"/>
+    <subbitmap name="dock.connect.disable" left="294" top="0" width="98" height="22"/>
+  </bitmap>
+  <bitmap file="dock/disconnect.png" name="dock.disconnect">
+    <subbitmap name="dock.disconnect.normal" left="0" top="0" width="98" height="22"/>
+    <subbitmap name="dock.disconnect.hot" left="98" top="0" width="98" height="22"/>
+    <subbitmap name="dock.disconnect.down" left="196" top="0" width="98" height="22"/>
+    <subbitmap name="dock.disconnect.disable" left="294" top="0" width="98" height="22"/>
+  </bitmap>
+  <bitmap file="sysbtn/minimize.png" name="wnd.sysmin">
+    <subbitmap name="wnd.sysmin.normal" left="0" top="0" width="17" height="17"/>
+    <subbitmap name="wnd.sysmin.hot" left="17" top="0" width="17" height="17"/>
+    <subbitmap name="wnd.sysmin.down" left="34" top="0" width="17" height="17"/>
+  </bitmap>
+  <bitmap file="dock/traffic.png" name="dock.trafficbtn">
+    <subbitmap name="dock.traffic.normal" left="0" top="0" width="264" height="16"/>
+    <subbitmap name="dock.traffic.hot" left="264" top="0" width="264" height="16"/>
+    <subbitmap name="dock.traffic.down" left="528" top="0" width="264" height="16"/>
+    <subbitmap name="dock.traffic.disable" left="792" top="0" width="264" height="16"/>
+  </bitmap>
+  <bitmap file="dock/trafficgraph.png" name="dock.trafficgraph">
+    <subbitmap name="dock.traffic0" left="0" top="0" width="94" height="5"/>
+    <subbitmap name="dock.traffic1" left="0" top="5" width="94" height="5"/>
+    <subbitmap name="dock.traffic2" left="0" top="10" width="94" height="5"/>
+    <subbitmap name="dock.traffic3" left="0" top="15" width="94" height="5"/>
+    <subbitmap name="dock.traffic4" left="0" top="20" width="94" height="5"/>
+    <subbitmap name="dock.traffic5" left="0" top="25" width="94" height="5"/>
+    <subbitmap name="dock.traffic6" left="0" top="30" width="94" height="5"/>
+    <subbitmap name="dock.traffic7" left="0" top="35" width="94" height="5"/>
+    <subbitmap name="dock.traffic8" left="0" top="40" width="94" height="5"/>
+    <subbitmap name="dock.traffic9" left="0" top="45" width="94" height="5"/>
+    <subbitmap name="dock.traffic10" left="0" top="50" width="94" height="5"/>
+  </bitmap>  
+
+  <bitmap file="device/roaming.png" name="dock.roaming" />
+  <bitmap file="device/home.png" name="dock.home" />
+  <bitmap file="dock/signal.png" name="dock.signal">
+    <subbitmap name="dock.signal0" left="0" top="0" width="23" height="23"/>
+    <subbitmap name="dock.signal1" left="0" top="23" width="23" height="23"/>
+    <subbitmap name="dock.signal2" left="0" top="46" width="23" height="23"/>
+    <subbitmap name="dock.signal3" left="0" top="69" width="23" height="23"/>
+    <subbitmap name="dock.signal4" left="0" top="92" width="23" height="23"/>
+    <subbitmap name="dock.signal5" left="0" top="115" width="23" height="23"/>
+  </bitmap>
+  <bitmap file="dock/wifisignal.png" name="dock.wifisignal">
+    <subbitmap name="dock.wifisignal0" left="0" top="0" width="23" height="23"/>
+    <subbitmap name="dock.wifisignal1" left="0" top="23" width="23" height="23"/>
+    <subbitmap name="dock.wifisignal2" left="0" top="46" width="23" height="23"/>
+    <subbitmap name="dock.wifisignal3" left="0" top="69" width="23" height="23"/>
+    <subbitmap name="dock.wifisignal4" left="0" top="92" width="23" height="23"/>
+    <subbitmap name="dock.wifisignal5" left="0" top="115" width="23" height="23"/>
+  </bitmap>
+  <bitmap file="dock/lan.png" name="dock.lansignal">
+    <subbitmap name="dock.lan0" left="0" top="0" width="23" height="23"/>
+    <subbitmap name="dock.lan1" left="0" top="0" width="23" height="23"/>
+  </bitmap>
+  <bitmap file="dock/lock.png" name="dock.lock" />
+  <bitmap file="dock/unlock.png" name="dock.unlock" />
+  <bitmap file="dock/progconn.png" name="dock.progconn" />
+  <bitmap file="services/sms.png" name="srv.sms">
+    <subbitmap name="srv.sms.normal" left="0" top="0" width="55" height="71"/>
+    <subbitmap name="srv.sms.hot" left="55" top="0" width="55" height="71"/>
+    <subbitmap name="srv.sms.down" left="110" top="0" width="55" height="71"/>
+    <subbitmap name="srv.sms.disable" left="165" top="0" width="55" height="71"/>
+  </bitmap>
+  <bitmap file="services/more.png" name="srv.more">
+    <subbitmap name="srv.more.normal" left="0" top="0" width="55" height="71"/>
+    <subbitmap name="srv.more.hot" left="55" top="0" width="55" height="71"/>
+    <subbitmap name="srv.more.down" left="110" top="0" width="55" height="71"/>
+    <subbitmap name="srv.more.disable" left="165" top="0" width="55" height="71"/>
+  </bitmap>
+  <bitmap file="services/addressbook.png" name="srv.addressbook">
+    <subbitmap name="srv.adb.normal" left="0" top="0" width="55" height="71"/>
+    <subbitmap name="srv.adb.hot" left="55" top="0" width="55" height="71"/>
+    <subbitmap name="srv.adb.down" left="110" top="0" width="55" height="71"/>
+    <subbitmap name="srv.adb.disable" left="165" top="0" width="55" height="71"/>
+  </bitmap>
+ 
+  <bitmap file="services/wifi.png" name="srv.wifi">
+    <subbitmap name="srv.wifi.normal" left="0" top="0" width="55" height="71"/>
+    <subbitmap name="srv.wifi.hot" left="55" top="0" width="55" height="71"/>
+    <subbitmap name="srv.wifi.down" left="110" top="0" width="55" height="71"/>
+    <subbitmap name="srv.wifi.disable" left="165" top="0" width="55" height="71"/>
+  </bitmap>
+  <bitmap file="services/favorites.png" name="srv.favorites">
+    <subbitmap name="srv.fav.normal" left="0" top="0" width="55" height="71"/>
+    <subbitmap name="srv.fav.hot" left="55" top="0" width="55" height="71"/>
+    <subbitmap name="srv.fav.down" left="110" top="0" width="55" height="71"/>
+    <subbitmap name="srv.fav.disable" left="165" top="0" width="55" height="71"/>
+  </bitmap>
+ 
+
+  <bitmap file="services/uk-settings.png" name="srv.settings">
+    <subbitmap name="srv.settings.normal" left="0" top="0" width="55" height="71"/>
+    <subbitmap name="srv.settings.hot" left="55" top="0" width="55" height="71"/>
+    <subbitmap name="srv.settings.down" left="110" top="0" width="55" height="71"/>
+    <subbitmap name="srv.settings.disable" left="165" top="0" width="55" height="71"/>
+  </bitmap>
+
+  <bitmap file="services/uk-help.png" name="srv.help">
+    <subbitmap name="srv.help.normal" left="0" top="0" width="55" height="71"/>
+    <subbitmap name="srv.help.hot" left="55" top="0" width="55" height="71"/>
+    <subbitmap name="srv.help.down" left="110" top="0" width="55" height="71"/>
+    <subbitmap name="srv.help.disable" left="165" top="0" width="55" height="71"/>
+  </bitmap>
+  <bitmap file="services/circle.png" name="srv.circle"/>
+  
+  <font name="font.normal" face="Tahoma" height="11" weight="400" underline="false" italic="false"/>
+  <font name="font.bold" face="Tahoma Bold" height="11" weight="600" underline="false" italic="false"/>
+  <font name="font.big.bold" face="Tahoma Bold" height="12" weight="600" underline="false" italic="false"/>
+  <font name="font.underline" face="Tahoma" height="11" weight="400" underline="true" italic="false"/>
+  <font name="font.services" face="Tahoma" height="10" weight="600" underline="false" italic="false"/>
+  
+  <icon name="wifi" file="icons/wifi.ico"/>
+  <icon name="sms" file="icons/sms.ico"/>
+  <icon name="settings" file="icons/settings.ico"/>
+  <icon name="help" file="icons/help.ico"/>
+  <icon name="addressbook" file="icons/addressbook.ico"/>
+  <icon name="favorites" file="icons/favorites.ico"/>
+  <icon name="favorite-item" file="icons/fav.ico"/>
+  <icon name="traffic" file="icons/traffic.ico"/>
+  <icon name="connected" file="icons/conectado.ico"/>
+  <icon name="disconnected" file="icons/desconectado.ico"/>
+  <icon name="connected_smspending" file="icons/conectado_smspending.ico"/>
+  <icon name="disconnected_smspending" file="icons/desconectado_smspending.ico"/>
+
+
+  
+  <layout name="dock.layout" width="700" height="95" stickyX="0" stickyY="0" contextmenu="wnd.contextmenu()">
+    <border resizeX="true" resizeY="false" minX="710" minY="95" left="5" top="0" right="5" bottom="0"/>
+    <caption type="window" top="0" maximize="false" minimize="true"/>
+    <dock left="false"
+      right="false" top="true" bottom="true"
+      autohide="true" keepsize="true"
+      image="dock.docking" frames="16" fps="32"/>
+    <background type="image" bitmap="dock.bkgnd">
+      <resize type="frame" left="464" top="32" right="20" bottom="8"/>
+    </background>
+    <!-- <shape type="alphacolor" alphacolor="#FF00FF"/> -->
+    <shape type="roundrect" rwidth="18" rheight="18"/>
+    <accelerators>
+        <accelerator key="ctrl+D" action="app.disconnect()"/>
+		<accelerator key="ctrl+C" action="app.connect()"/>
+		<accelerator key="alt+X" action="window.close()"/>
+    </accelerators>	
+    <widgets>
+
+   <label id="lab.title"
+             anchor-tl="top-left" anchor-br="none"
+             left="35" top="6" width="160" height="16"
+             align="left-center"
+             multiline="false"
+             ellipsis="false"
+             font="font.bold"
+             color="#FFFFFF"
+             text="#str.apptitle"/>
+
+
+      <button id="btn.traffic"
+              visible="not user.prepay and traffic.available"
+              anchor-tl="top-right" anchor-br="none"
+              left="250" top="6" width="220" height="16"
+              cursor="hand"
+              onclick="app.traffic()"
+              tooltip="#user.data.description"
+              image-normal="dock.traffic.normal"
+              image-hot="dock.traffic.hot"
+              image-down="dock.traffic.down"
+              image-disable="dock.traffic.disable"
+              text-align="right-center"
+              color-normal="#FFFFFF"
+              font-normal="font.underline"
+              font-hot="font.underline"
+              font-down="font.underline"
+              multiline="false"
+              ellipsis="true"
+              text="#(str.user.data.used.label): #str.user.data.used.data / #str.user.data.limit.data"/>
+             
+      <button id="btn.prepayurl"
+              visible="user.prepay"
+              anchor-tl="top-right" anchor-br="none"
+              left="400" top="6" width="180" height="16"
+              cursor="hand"
+              onclick="app.prepaypage()"
+              font-normal="font.underline"
+              color-normal="#FFFFFF"
+              font-hot="font.underline"
+              font-down="font.underline"
+              text="#str.prepaypage"
+              tooltip="#str.prepaypage.description"/>
+      
+      <progress id="prog.traffic"
+                visible="not user.prepay and traffic.available"
+                status="user.data.used"
+                hittest="transparent"
+                anchor-tl="top-right" anchor-br="none"
+                left="475" top="11" width="94" height="5">
+        <state image="dock.traffic0"/>
+        <state image="dock.traffic1"/>
+        <state image="dock.traffic2"/>
+        <state image="dock.traffic3"/>
+        <state image="dock.traffic4"/>
+        <state image="dock.traffic5"/>
+        <state image="dock.traffic6"/>
+        <state image="dock.traffic7"/>
+        <state image="dock.traffic8"/>
+        <state image="dock.traffic9"/>
+        <state image="dock.traffic10"/>
+      </progress>
+
+      <button id="btn.min"
+              cursor="arrow"
+              onclick="window.mintotray()"
+              anchor-tl="top-right" anchor-br="none" 
+              left="655" top="5" width="17" height="17"
+              tooltip="#str.mintotray"
+              image-normal="wnd.sysmin.normal"
+              image-hot="wnd.sysmin.hot"
+              image-down="wnd.sysmin.down"/>
+
+      <button id="btn.close"
+              cursor="arrow"
+              onclick="window.close()"
+              anchor-tl="top-right" anchor-br="none"
+              left="675" top="5" width="17" height="17"
+              tooltip="#str.exit"
+              image-normal="wnd.sysclose.normal"
+              image-hot="wnd.sysclose.hot"
+              image-down="wnd.sysclose.down"/>
+
+    <bitmap id="img.logoo2"
+              image="dock.logoo2"
+              anchor-tl="top-left" anchor-br="none"
+              left="0" top="-3" width="32" height="32"
+              visible="true"/>
+
+      <label id="lab.statustext"
+             anchor-tl="top-left" anchor-br="none"
+             left="27" top="65" width="45" height="20"
+             align="right-center"
+             visible="true"
+             multiline="false"
+             ellipsis="false"
+             font="font.bold"
+             color="#025A99"
+             text="#str.connect.statustext" />
+
+      <label id="lab.statusconnected"
+             anchor-tl="top-left" anchor-br="none"
+             left="80" top="65" width="80" height="20"
+             align="left-center"
+             visible="app.connected"
+             multiline="false"
+             ellipsis="false"
+             font="font.bold"
+             color="#8DB81E"
+             text="#str.connect.status" />
+
+   <label id="lab.statusdisconnected"
+             anchor-tl="top-left" anchor-br="none"
+             left="80" top="65" width="90" height="20"
+             align="left-center"
+             visible="not app.connected"
+             multiline="false"
+             ellipsis="false"
+             font="font.bold"
+             color="#FF0000"
+             text="#str.connect.status" />
+
+
+     <button id="btn.networks"
+              anchor-tl="top-left" anchor-br="none"
+              left="260" top="63" width="130" height="22"
+              enable="not app.connecting"
+              onclick="app.networks()"
+              image-normal="dock.available.normal"
+              image-hot="dock.available.hot"
+              image-down="dock.available.down"
+              image-disable="dock.available.disable"
+              text-align="center-center"
+              multiline="false"
+              ellipsis="true"
+              font-normal="font.normal"
+              color-normal="#FFFFFF"
+              text="#str.networks"
+              tooltip=""/>
+
+     <button id="btn.connect"
+              onclick="app.connect()"
+              anchor-tl="top-left" anchor-br="none"
+              left="260" top="32" width="130" height="22"
+              visible="not app.connected and not app.connecting"
+              image-normal="dock.connect.normal"
+              image-hot="dock.connect.hot"
+              image-down="dock.connect.down"
+              image-disable="dock.connect.disable"
+              text-align="center-center"
+              multiline="false"
+              ellipsis="true"
+              font-normal="font.normal"
+              color-normal="#FFFFFF"
+              text="#str.connect"
+              tooltip=""/>
+      
+      <button id="btn.disconnect"
+              onclick="app.disconnect()"
+              anchor-tl="top-left" anchor-br="none"
+              left="260" top="32" width="130" height="22"
+              visible="app.connected"
+              enable="not app.connection.lan"
+              image-normal="dock.disconnect.normal"
+              image-hot="dock.disconnect.hot"
+              image-down="dock.disconnect.down"
+              image-disable="dock.disconnect.disable"
+     	        text-align="center-center"
+              multiline="false"
+              ellipsis="true"
+              font-normal="font.normal"
+              color-normal="#FFFFFF"
+              text="#str.disconnect"
+              tooltip="#str.disconnect.description"/>
+
+      <button-linux id="btn.disconnect"
+              onclick="app.disconnect()"
+              anchor-tl="top-left" anchor-br="none"
+              left="260" top="32" width="130" height="22"
+              visible="app.connected"
+              image-normal="dock.disconnect.normal"
+              image-hot="dock.disconnect.hot"
+              image-down="dock.disconnect.down"
+              image-disable="dock.disconnect.disable"
+     	        text-align="center-center"
+              multiline="false"
+              ellipsis="true"
+              font-normal="font.normal"
+              color-normal="#FFFFFF"
+              text="#str.disconnect"
+              tooltip="#str.disconnect.description"/>
+
+     <button id="btn.cancel"
+             onclick="app.cancel_connect()"
+             anchor-tl="top-left" anchor-br="none"
+             left="260" top="32" width="130" height="22"
+             visible="app.connecting"
+             image-normal="dock.disconnect.normal"
+             image-hot="dock.disconnect.hot"
+             image-down="dock.disconnect.down"
+             image-disable="dock.disconnect.disable"
+             text-align="center-center"
+             multiline="false"
+             ellipsis="true"
+             font-normal="font.normal"
+             color-normal="#FFFFFF"
+             text="#str.cancel"
+             tooltip=""/>
+
+      <progress id="prog.wwansignal.available.notconnected"
+                status="available.signal"
+                tooltip="#available.connection.description"
+                anchor-tl="top-left" anchor-br="none"
+                left="32" top="30" width="23" height="23"
+                visible="available.signal.wwan and not (app.connected or app.connecting)">
+        <state image="dock.signal0"/>
+        <state image="dock.signal1"/>
+        <state image="dock.signal2"/>
+        <state image="dock.signal3"/>
+        <state image="dock.signal4"/>
+        <state image="dock.signal5"/>
+
+      </progress>
+      
+      <progress id="prog.wifisignal.available.notconnected"
+                status="available.signal"
+                tooltip="#available.connection.description"
+                anchor-tl="top-left" anchor-br="none"
+                left="32" top="30" width="23" height="23"
+                visible="available.signal.wifi and not (app.connected or app.connecting)">
+        <state image="dock.wifisignal0"/>
+        <state image="dock.wifisignal1"/>
+        <state image="dock.wifisignal2"/>
+        <state image="dock.wifisignal3"/>
+        <state image="dock.wifisignal4"/>
+        <state image="dock.wifisignal5"/>
+      </progress>      
+
+      <bitmap id="img.roaming"
+              image="dock.roaming"
+              anchor-tl="top-left" anchor-br="none"
+              left="17" top="32" width="14" height="7"
+              visible="wwan.device.on and wwan.roaming"/>
+
+
+      <label id="lab.name.available.wwan"
+             anchor-tl="top-left" anchor-br="none"
+             visible="available.signal.wwan and not (app.connected or app.connecting)"
+             left="60" top="32" width="190" height="20"
+             align="left-center"
+             multiline="false"
+             ellipsis="true"
+             font="font.bold"
+             color="#025A80"
+             text="#wwan.operator #wwan.rat"
+             tooltip="#available.connection.description"/>
+             
+      <label id="lab.name.available.wifi"
+             anchor-tl="top-left" anchor-br="none"
+             visible="available.signal.wifi and not (app.connected or app.connecting)"
+             left="60" top="32" width="190" height="20"
+             align="left-center"
+             multiline="false"
+             ellipsis="true"
+             font="font.bold"
+             color="#025A80"
+             text="#available.connection"
+             tooltip="#available.connection.description"/>
+
+      <progress id="prog.wwansignal.connect"
+                status="app.connection.signal"
+                tooltip="#app.connection.tech.description"
+                anchor-tl="top-left" anchor-br="none"
+                left="32" top="30" width="23" height="23"
+                visible="app.connection.wwan">
+        <state image="dock.signal0"/>
+        <state image="dock.signal1"/>
+        <state image="dock.signal2"/>
+        <state image="dock.signal3"/>
+        <state image="dock.signal4"/>
+        <state image="dock.signal5"/>
+      </progress>
+      
+      <progress id="prog.wifisignal.connect"
+                status="app.connection.signal"
+                tooltip="#app.connection.tech.description"
+                anchor-tl="top-left" anchor-br="none"
+                left="32" top="30" width="23" height="23"
+                visible="app.connection.wifi">
+        <state image="dock.wifisignal0"/>
+        <state image="dock.wifisignal1"/>
+        <state image="dock.wifisignal2"/>
+        <state image="dock.wifisignal3"/>
+        <state image="dock.wifisignal4"/>
+        <state image="dock.wifisignal5"/>
+      </progress>
+
+      
+      <label id="lab.name.connect.wwan"
+             anchor-tl="top-left" anchor-br="none"
+             visible="app.connection.wwan and (app.connecting or app.connected)"
+             left="60" top="32" width="190" height="20"
+             align="left-center"
+             multiline="false"
+             ellipsis="true"
+             font="font.bold"
+             color="#025A80"
+             text="#wwan.operator #wwan.rat"
+             tooltip="#app.connection.tech.description"/>
+             
+      <label id="lab.name.connect.wifi"
+             anchor-tl="top-left" anchor-br="none"
+             visible="(app.connection.wifi or app.connection.lan) and (app.connecting or app.connected)"
+             left="60" top="32" width="190" height="20"
+             align="left-center"
+             multiline="false"
+             ellipsis="true"
+             font="font.bold"
+             color="#025A80"
+             text="#str.connection"
+             tooltip="#app.connection.tech.description"/>
+             
+      <progress id="prog.lan.connect"
+                status="app.connection.signal"
+                tooltip="#lan.signal.description"
+                anchor-tl="top-left" anchor-br="none"
+                left="32" top="30" width="23" height="23"
+                visible="app.connection.lan">
+        <state image="dock.lan0"/>
+        <state image="dock.lan1"/>
+      </progress>
+
+      <animate id="anim.progconn"
+               left="159" top="74" width="94" height="5"
+               anchor-tl="top-left" anchor-br="none"
+               image="dock.progconn"               
+               horizontal="false"
+               frames="30"
+               fps="7"
+               visible="app.connecting"
+               play="app.connecting" />
+
+      <services id="dock.services"
+                left="410" top="20" width="276" height="71"
+                anchor-tl="top-left" anchor-br="bottom-right"
+                paddingX="0" paddingY="0"
+                item-height="71">
+        
+        <service id="wifi"
+                onclick="app.service()"
+                height="71" width="55"
+                visible="false"
+                image-normal="srv.wifi.normal"
+                image-hot="srv.wifi.hot"
+                image-down="srv.wifi.down"
+                image-disable="srv.wifi.disable"
+                font-normal="font.services"
+                color-normal="#025A99"
+                text-align="center-bottom"
+                multiline="true"
+                ellipsis="false"/>
+
+        <service id="sms"
+                onclick="app.service()"
+                height="71" width="55"
+                visible="false"
+                image-normal="srv.sms.normal"
+                image-hot="srv.sms.hot"
+                image-down="srv.sms.down"
+                image-disable="srv.sms.disable"
+                font-normal="font.services"
+                color-normal="#025A99"
+                text-align="center-bottom"
+                multiline="true"
+                ellipsis="false"
+                alt-image="srv.circle"
+                alt-top="30"
+                alt-left="34"
+                alt-width="17"
+                alt-height="17"
+                alt-font="font.normal"
+                alt-color="#00518C"/>
+ 
+        <service id="settings"
+                onclick="app.service()"
+                height="71" width="55"
+                visible="false"
+                image-normal="srv.settings.normal"
+                image-hot="srv.settings.hot"
+                image-down="srv.settings.down"
+                image-disable="srv.settings.disable"
+                font-normal="font.services"
+                color-normal="#025A99"
+                text-align="center-bottom"
+                multiline="true"
+                ellipsis="false"/>
+                
+	      <service id="help"
+                onclick="app.service()"
+                height="71" width="55"
+                visible="false"
+                image-normal="srv.help.normal"
+                image-hot="srv.help.hot"
+                image-down="srv.help.down"
+                image-disable="srv.help.disable"
+                font-normal="font.services"
+                color-normal="#025A99"
+                text-align="center-bottom"
+                multiline="true"
+                ellipsis="false"/>
+        
+     <more id="btn.moreservices"
+                ondown="app.moreservices()"
+                height="71" width="55"
+                visible="false"
+                image-normal="srv.more.normal"
+                image-hot="srv.more.hot"
+                image-down="srv.more.down"
+                image-disable="srv.more.disable"
+                font-normal="font.services"
+                color-normal="#025A99"
+                text-align="center-bottom"
+                multiline="false"
+                ellipsis="false"
+                text="#str.srvmore"/>
+        
+        <service id="addressbook"
+                onclick="app.service()"
+                height="71" width="55"
+                visible="false"
+                image-normal="srv.adb.normal"
+                image-hot="srv.adb.hot"
+                image-down="srv.adb.down"
+                image-disable="srv.adb.disable"
+                font-normal="font.services"
+                color-normal="#025A99"
+                text-align="center-bottom"
+                multiline="true"
+                ellipsis="false"/>
+        
+        <service id="favorites"
+                onclick="app.service()"
+                height="71" width="60"
+                visible="false"
+                image-normal="srv.fav.normal"
+                image-hot="srv.fav.hot"
+                image-down="srv.fav.down"
+                image-disable="srv.fav.disable"
+                font-normal="font.services"
+                color-normal="#025A99"
+                text-align="center-bottom"
+                multiline="true"
+                ellipsis="false"/>
+        
+      </services>
+    </widgets>
+  </layout>
+
+  <include file="banners/banners.xml"/>  
+  <include file="notifiers/notifiers.xml"/>    
+</theme>

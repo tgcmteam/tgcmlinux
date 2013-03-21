@@ -1,0 +1,5952 @@
+# translation of gl.po to spanish
+#
+# Roberto Majadas <telemaco@openshine.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: gl\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-03-14 13:34+0100\n"
+"PO-Revision-Date: 2010-05-27 12:43+0100\n"
+"Last-Translator: Óscar <oscar.sanjose@gmail.com>\n"
+"Language-Team: spanish <telemaco@openshine.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../data/glade/addressbook.glade.h:1
+#, fuzzy
+msgid "<b>Data source.</b>"
+msgstr "[GL]<b>Resumen</b>[/GL]"
+
+#: ../data/glade/addressbook.glade.h:2
+#, fuzzy
+msgid "<b>Name</b>"
+msgstr "[GL]<b>Nombre:</b>[/GL]"
+
+#: ../data/glade/addressbook.glade.h:3
+#, fuzzy
+msgid "<b>Telephone</b>"
+msgstr "[GL]<b>Tiempo</b>[/GL]"
+
+#: ../data/glade/addressbook.glade.h:4
+#, fuzzy
+msgid "<small><i>Please, the fields in bold are mandatory</i></small>"
+msgstr "[GL]<small><i>Los campos en negrita son obligatorios</i></small>[/GL]"
+
+#: ../data/glade/addressbook.glade.h:5
+msgid "Application name"
+msgstr ""
+
+#: ../data/glade/addressbook.glade.h:6
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:224
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:240
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:273
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.glade.h:15
+#: ../src/tgcm/ui/widgets/settings/Connections/connections.glade.h:3
+msgid "Delete"
+msgstr ""
+
+#: ../data/glade/addressbook.glade.h:7
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:248
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:250
+msgid "E-mail"
+msgstr ""
+
+#: ../data/glade/addressbook.glade.h:8
+#, fuzzy
+msgid "Edit contact"
+msgstr "[GL]Editar contacto[/GL]"
+
+#: ../data/glade/addressbook.glade.h:9
+#, fuzzy
+msgid "Import"
+msgstr "[GL]Importar[/GL]"
+
+#: ../data/glade/addressbook.glade.h:10
+#, fuzzy
+msgid "Import contacts"
+msgstr "[GL]Eliminar contactois[/GL]"
+
+#: ../data/glade/addressbook.glade.h:11
+msgid "Import progress:"
+msgstr ""
+
+#: ../data/glade/addressbook.glade.h:12
+#, fuzzy
+msgid "Import result:"
+msgstr "[GL]Importar[/GL]"
+
+#: ../data/glade/addressbook.glade.h:13
+#, fuzzy
+msgid "Message status"
+msgstr "[GL]begin status[/GL]"
+
+#: ../data/glade/addressbook.glade.h:14
+#: ../src/tgcm/ui/widgets/settings/Connections/connections.glade.h:7
+#, fuzzy
+msgid "Modify"
+msgstr "[GL]Modificar[/GL]"
+
+#: ../data/glade/addressbook.glade.h:15
+msgid "New"
+msgstr ""
+
+#: ../data/glade/addressbook.glade.h:16
+msgid "Search: "
+msgstr ""
+
+#: ../data/glade/addressbook.glade.h:17
+msgid "Select the source:"
+msgstr ""
+
+#: ../data/glade/addressbook.glade.h:18
+msgid "Send mail"
+msgstr ""
+
+#: ../data/glade/addressbook.glade.h:19
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:182
+#, fuzzy
+msgid "Send message"
+msgstr "[GL]end estatus[/GL]"
+
+#: ../data/glade/addressbook.glade.h:20
+msgid "TGCM - Address book"
+msgstr ""
+
+#. TRANSLATORS: Replace this string with your names, one name per line.
+#: ../data/glade/addressbook.glade.h:22
+msgid "translator-credits"
+msgstr "[GL]translator-credits[/GL]"
+
+#: ../data/glade/progress_dialog.glade.h:1
+#, fuzzy
+msgid "Connecting to Internet WWAN"
+msgstr "[GL]Conectando con internet GRPS/3G[/GL]"
+
+#: ../data/glade/ask_password.glade.h:1
+msgid "Enter the user password for the X connection"
+msgstr ""
+
+#: ../data/glade/ask_password.glade.h:2
+msgid "Introduction to password"
+msgstr ""
+
+#: ../data/glade/ask_password.glade.h:3
+msgid "Password :  "
+msgstr ""
+
+#: ../data/glade/import.glade.h:1
+#, fuzzy
+msgid "<b>Connection : WWAN Internet</b>"
+msgstr "[GL]<b>Conexíon : Internet WWAN</b>[/GL]"
+
+#: ../data/glade/import.glade.h:2
+#, fuzzy
+msgid "<b>shortcut : 'test'</b>"
+msgstr "[GL]<b>Acceso directo : '%s'</b>[/GL]"
+
+#: ../data/glade/import.glade.h:3
+msgid "Do you want to import this data?"
+msgstr ""
+
+#: ../data/glade/import.glade.h:4
+#, fuzzy
+msgid "File : "
+msgstr "[GL]Fichero : [/GL]"
+
+#: ../data/glade/import.glade.h:5
+msgid "File name"
+msgstr ""
+
+#: ../data/glade/import.glade.h:6
+#, fuzzy
+msgid "Import file"
+msgstr "[GL]Importar[/GL]"
+
+#: ../data/glade/import.glade.h:7
+msgid ""
+"The connection does not have an associated user.\n"
+"Enter user name to connect."
+msgstr ""
+
+#: ../data/glade/import.glade.h:9
+msgid "The file content is as follows: "
+msgstr ""
+
+#: ../data/glade/import.glade.h:10
+msgid "This connection already exists and I would like to overwrite it"
+msgstr ""
+
+#: ../data/glade/import.glade.h:11
+msgid "This connection cannot be overwritten."
+msgstr ""
+
+#: ../data/glade/import.glade.h:12
+msgid "This shortcut already exists and I would like to overwrite it"
+msgstr ""
+
+#: ../data/glade/import.glade.h:13
+msgid "User name: "
+msgstr ""
+
+#: ../data/glade/import.glade.h:14
+#, fuzzy
+msgid "_Import"
+msgstr "[GL]_Importar[/GL]"
+
+#: ../data/glade/helpdialog.glade.h:1
+#, fuzzy
+msgid "<b>About escritorio movistar</b>"
+msgstr "[GL]<b>Acerca de Escritorio movistar</b>[/GL]"
+
+#: ../data/glade/helpdialog.glade.h:2
+#, fuzzy
+msgid "<b>Help</b>"
+msgstr "[GL]<b>Tiempo</b>[/GL]"
+
+#: ../data/glade/helpdialog.glade.h:3
+#, fuzzy
+msgid "<b>escritorio movistar Linux 7.0</b>"
+msgstr "[GL]<b>Escritorio movistar Linux 6.5</b>[/GL]"
+
+#: ../data/glade/helpdialog.glade.h:4
+#, fuzzy
+msgid "Copyright © 2003-2010"
+msgstr "[GL]Copyright © 2003-2008[/GL]"
+
+#: ../data/glade/helpdialog.glade.h:5
+#, fuzzy
+msgid "Escritorio Movistar - Help"
+msgstr "[GL]Escritorio Movistar - Beta[/GL]"
+
+#: ../data/glade/helpdialog.glade.h:6
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.glade.h:23
+msgid "Help topics"
+msgstr ""
+
+#: ../data/glade/helpdialog.glade.h:7
+msgid ""
+"Help topics show the application manual with a list of the questions and "
+"answers given to the most common problems."
+msgstr ""
+
+#: ../data/glade/helpdialog.glade.h:8
+msgid "Information on the Mobile Internet Device:"
+msgstr ""
+
+#: ../data/glade/helpdialog.glade.h:9
+msgid "Telefónica Móviles España"
+msgstr "Telefónica Móviles España"
+
+#: ../data/glade/helpdialog.glade.h:10
+msgid ""
+"You can phone 609 for more information or send your query to the following "
+"address:"
+msgstr ""
+
+#: ../data/glade/helpdialog.glade.h:11
+msgid "help_online_label"
+msgstr ""
+
+#: ../data/glade/connect-preferences-frame.glade.h:1
+msgid ""
+"(*) As this option has not been selected the connection that will be used is "
+"either the one which is currently active or the TGCM pre-set connection."
+msgstr ""
+
+#: ../data/glade/connect-preferences-frame.glade.h:2
+#, fuzzy
+msgid "<b>Connection</b>"
+msgstr "[GL]<b>Conexión</b>[/GL]"
+
+#: ../data/glade/connect-preferences-frame.glade.h:3
+#, fuzzy
+msgid "_Install service"
+msgstr "[GL]_Instalar servicio[/GL]"
+
+#: ../data/glade/connect-preferences-frame.glade.h:4
+#, fuzzy
+msgid "_Uninstall service"
+msgstr "[GL]_Instalar servicio[/GL]"
+
+#: ../data/glade/connect-preferences-frame.glade.h:5
+#: ../src/tgcm/ui/Actions/MSDABookmarks/MSDABookmarks.glade.h:21
+msgid "_Use the following specific connection(*):"
+msgstr ""
+
+#: ../data/glade/connection.glade.h:1
+msgid "<b><small>Advanced options</small></b>"
+msgstr ""
+
+#: ../data/glade/connection.glade.h:2
+#, fuzzy
+msgid "<b>APN address</b>"
+msgstr "[GL]<b>Nombre:</b>[/GL]"
+
+#: ../data/glade/connection.glade.h:3
+#, fuzzy
+msgid "<b>Connection name : </b>"
+msgstr "[GL]<b>Conexión:</b>[/GL]"
+
+#: ../data/glade/connection.glade.h:4
+msgid "<b>Domain name servers</b>"
+msgstr ""
+
+#: ../data/glade/connection.glade.h:5
+#, fuzzy
+msgid "<b>Internet access proxy</b>"
+msgstr "[GL]<b>Eliminar acceso directo</b>[/GL]"
+
+#: ../data/glade/connection.glade.h:6
+#, fuzzy
+msgid "<b>User identification</b>"
+msgstr "[GL]<b>Inicio</b>[/GL]"
+
+#: ../data/glade/connection.glade.h:7
+msgid "<small>Use commas (,) to separate the suffixes.</small>"
+msgstr ""
+
+#: ../data/glade/connection.glade.h:8
+#, fuzzy
+msgid "APN: "
+msgstr "[GL]APN[/GL]"
+
+#: ../data/glade/connection.glade.h:9
+msgid "Address :"
+msgstr ""
+
+#: ../data/glade/connection.glade.h:10
+msgid "Assigned by the network"
+msgstr ""
+
+#: ../data/glade/connection.glade.h:11
+msgid "Assigned by the user"
+msgstr ""
+
+#: ../data/glade/connection.glade.h:12
+#, fuzzy
+msgid "Connection details"
+msgstr "[GL]Connect dialog[/GL]"
+
+#: ../data/glade/connection.glade.h:13
+msgid "DNS suffix search order : "
+msgstr ""
+
+#: ../data/glade/connection.glade.h:14
+msgid "Don't use proxy server"
+msgstr ""
+
+#: ../data/glade/connection.glade.h:15
+#, fuzzy
+msgid "Network configuration"
+msgstr "[GL]_Abrir configuración[/GL]"
+
+#: ../data/glade/connection.glade.h:16
+msgid "Password:"
+msgstr ""
+
+#: ../data/glade/connection.glade.h:17
+#, fuzzy
+msgid "Port :"
+msgstr "[GL]Puerto : [/GL]"
+
+#: ../data/glade/connection.glade.h:18
+msgid "Primary DNS : "
+msgstr ""
+
+#: ../data/glade/connection.glade.h:19
+#, fuzzy
+msgid "Request password to connect"
+msgstr "[GL]start connection[/GL]"
+
+#: ../data/glade/connection.glade.h:20
+msgid "Secondary DNS : "
+msgstr ""
+
+#: ../data/glade/connection.glade.h:21
+msgid "Use proxy server : "
+msgstr ""
+
+#: ../data/glade/connection.glade.h:22
+msgid "Username: "
+msgstr ""
+
+#: ../data/glade/security.glade.h:1
+#: ../src/tgcm/ui/widgets/settings/Services/services.glade.h:11
+msgid "Key:"
+msgstr ""
+
+#: ../data/glade/security.glade.h:2
+msgid "Remember telephone number and password"
+msgstr ""
+
+#: ../data/glade/security.glade.h:3
+#: ../src/tgcm/ui/widgets/settings/Services/services.glade.h:16
+#, fuzzy
+msgid "Telephone:"
+msgstr "[GL]Teléfono:[/GL]"
+
+#: ../data/glade/security.glade.h:4
+#, fuzzy
+msgid "This service requires identification:"
+msgstr "[GL]Este servicio requiere identificación:[/GL]"
+
+#: ../data/glade/security.glade.h:5
+msgid "User data"
+msgstr ""
+
+#: ../src/tgcm/__init__.py.in:79
+#: ../src/tgcm/ui/windows/Settings/Settings.py:78
+#: ../src/tgcm/ui/windows/Settings/Settings.py:87
+#: ../src/tgcm/ui/ThemedDock.py:398 ../src/tgcm/__init__.py:79
+#, fuzzy
+msgid "Contacts"
+msgstr "[GL]Conectar[/GL]"
+
+#: ../src/tgcm/__init__.py.in:80 ../src/tgcm/__init__.py:80
+msgid "Recarga Saldo"
+msgstr ""
+
+#: ../src/tgcm/__init__.py.in:81
+#: ../src/tgcm/ui/windows/Dialog/Dialog.glade.h:3
+#: ../src/tgcm/ui/windows/HelpDialog/HelpDialog.py:60
+#: ../src/tgcm/ui/ThemedDock.py:427 ../src/tgcm/__init__.py:81
+msgid "Help"
+msgstr ""
+
+#: ../src/tgcm/__init__.py.in:82
+#: ../src/tgcm/ui/windows/Dialog/Dialog.glade.h:4
+#: ../src/tgcm/ui/ThemedDock.py:425 ../src/tgcm/__init__.py:82
+msgid "Settings"
+msgstr ""
+
+#: ../src/tgcm/core/Addressbook.py:284 ../src/tgcm/core/Addressbook.py:335
+msgid "The address book can't be opened."
+msgstr ""
+
+#: ../src/tgcm/core/Addressbook.py:286 ../src/tgcm/core/Addressbook.py:337
+#, fuzzy
+msgid "It can't connect."
+msgstr "[GL]start connection[/GL]"
+
+#: ../src/tgcm/core/Addressbook.py:288 ../src/tgcm/core/Addressbook.py:339
+msgid "An incorrect answer has been entered."
+msgstr ""
+
+#: ../src/tgcm/core/Addressbook.py:290 ../src/tgcm/core/Addressbook.py:341
+msgid "The user/password is incorrect."
+msgstr ""
+
+#: ../src/tgcm/core/Addressbook.py:292 ../src/tgcm/core/Addressbook.py:343
+msgid "Unknown error."
+msgstr ""
+
+#: ../src/tgcm/core/Addressbook.py:302
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:740
+#, python-format
+msgid ""
+"%s contacts in the address book have been imported from the selected source."
+msgstr ""
+
+#: ../src/tgcm/core/Addressbook.py:317 ../src/tgcm/ui/ThemedDock.py:180
+#, fuzzy
+msgid "Connecting..."
+msgstr "[GL]Conectando...[/GL]"
+
+#: ../src/tgcm/core/Addressbook.py:319
+msgid "Starting to import..."
+msgstr ""
+
+#: ../src/tgcm/core/Addressbook.py:321
+msgid "Downloading..."
+msgstr ""
+
+#: ../src/tgcm/core/Addressbook.py:323
+#, fuzzy
+msgid "Confirming data..."
+msgstr "[GL]Confirmando datos...[/GL]"
+
+#: ../src/tgcm/core/Addressbook.py:325
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:810
+#, fuzzy
+msgid "Cancelling."
+msgstr "[GL]Cancelado.[/GL]"
+
+#: ../src/tgcm/core/Addressbook.py:327
+#, fuzzy
+msgid "Import correct."
+msgstr "[GL]Importación correcta.[/GL]"
+
+#: ../src/tgcm/core/Addressbook.py:329
+msgid "An error has occurred when importing."
+msgstr ""
+
+#: ../src/tgcm/core/Addressbook.py:331
+msgid "All the data has not been imported."
+msgstr ""
+
+#: ../src/tgcm/core/Device.py:507 ../src/tgcm/core/Device.py:516
+#: ../src/tgcm/core/Device.py:523 ../src/tgcm/core/Device.py:553
+#, fuzzy
+msgid "Notification"
+msgstr "[GL]Noticias[/GL]"
+
+#: ../src/tgcm/core/Device.py:509
+#, python-format
+msgid "The SMS for %s, sent on %s at %s, has been delivered on %s at %s."
+msgstr ""
+
+#: ../src/tgcm/core/Device.py:518
+#, python-format
+msgid ""
+"There has been an error while sending the SMS for %s, sent on %s at %s. "
+msgstr ""
+
+#: ../src/tgcm/core/Device.py:525
+#, python-format
+msgid ""
+"The SMS for %s, sent on %s at %s, has been stored in the short message "
+"service center."
+msgstr ""
+
+#: ../src/tgcm/core/TrafficManager.py:410
+#: ../src/tgcm/core/TrafficManager.py:414
+#: ../src/tgcm/ui/windows/Traffic/Traffic.glade.h:15
+#: ../src/tgcm/ui/ThemedDock.py:437
+msgid "Traffic"
+msgstr ""
+
+#: ../src/tgcm/core/TrafficManager.py:410
+msgid "The set WWAN traffic limit has been reached"
+msgstr ""
+
+#: ../src/tgcm/core/TrafficManager.py:414
+#, python-format
+msgid "The set WWAN traffic limit percentage has been reached (%s%s)"
+msgstr ""
+
+#: ../src/tgcm/core/Config.py:1915
+msgid "SMS"
+msgstr ""
+
+#: ../src/tgcm/core/Config.py:1917
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:101
+#, fuzzy
+msgid "Text"
+msgstr "[GL]text[/GL]"
+
+#: ../src/tgcm/core/Config.py:1970
+#, fuzzy
+msgid "Internet"
+msgstr "[GL]movistar Internet[/GL]"
+
+#: ../src/tgcm/core/Config.py:1987
+#, fuzzy
+msgid "Intranet"
+msgstr "[GL]movistar Intranet[/GL]"
+
+#: ../src/tgcm/core/Config.py:2022
+msgid "Selfcare"
+msgstr ""
+
+#: ../src/tgcm/core/Config.py:2078
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad.py:65
+msgid "Find Hotspots"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDImporter.py:90
+msgid "The selected file cannot be imported in your country."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDImporter.py:91
+#, python-format
+msgid "The selected file must be installed in \"%s\"."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDImporter.py:128 ../src/tgcm/ui/MSD/MSDImporter.py:144
+#: ../src/tgcm/ui/MSD/MSDImporter.py:163 ../src/tgcm/ui/MSD/MSDImporter.py:182
+#: ../src/tgcm/ui/MSD/MSDImporter.py:204 ../src/tgcm/ui/MSD/MSDImporter.py:223
+#: ../src/tgcm/ui/MSD/MSDImporter.py:244 ../src/tgcm/ui/MSD/MSDImporter.py:260
+#: ../src/tgcm/ui/MSD/MSDImporter.py:278 ../src/tgcm/ui/MSD/MSDImporter.py:343
+#: ../src/tgcm/ui/MSD/MSDImporter.py:357 ../src/tgcm/ui/MSD/MSDImporter.py:375
+#: ../src/tgcm/ui/MSD/MSDImporter.py:387
+#, fuzzy, python-format
+msgid "<b>Connection: '%s'</b>"
+msgstr "[GL]<b>Conexión : '%s'</b>[/GL]"
+
+#: ../src/tgcm/ui/MSD/MSDImporter.py:129 ../src/tgcm/ui/MSD/MSDImporter.py:145
+#: ../src/tgcm/ui/MSD/MSDImporter.py:164 ../src/tgcm/ui/MSD/MSDImporter.py:183
+#: ../src/tgcm/ui/MSD/MSDImporter.py:205 ../src/tgcm/ui/MSD/MSDImporter.py:224
+#: ../src/tgcm/ui/MSD/MSDImporter.py:245 ../src/tgcm/ui/MSD/MSDImporter.py:261
+#: ../src/tgcm/ui/MSD/MSDImporter.py:279 ../src/tgcm/ui/MSD/MSDImporter.py:312
+#: ../src/tgcm/ui/MSD/MSDImporter.py:326
+#, fuzzy, python-format
+msgid "<b>Favourite: '%s'</b>"
+msgstr "[GL]<b>Conexión : '%s'</b>[/GL]"
+
+#: ../src/tgcm/ui/MSD/MSDImporter.py:302
+msgid "<b>This favourite cannot be imported</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDImporter.py:303
+#, fuzzy
+msgid ""
+"Error when importing the favourite. Probably the associated file does not "
+"exist in your system."
+msgstr ""
+"[GL]Error al importar el acceso directo. Probablemente el archivo asociado "
+"no exista en tu sistema.[/GL]"
+
+#: ../src/tgcm/ui/MSD/MSDUtils.py:127
+msgid "1st"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDUtils.py:128
+msgid "2nd"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDUtils.py:129
+msgid "3rd"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDUtils.py:130
+msgid "4th"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDUtils.py:131
+msgid "5th"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDUtils.py:132
+msgid "6th"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDUtils.py:133
+msgid "7th"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDUtils.py:134
+msgid "8th"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDUtils.py:135
+msgid "9th"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDUtils.py:136
+msgid "10th"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDUtils.py:137
+msgid "11th"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDUtils.py:138
+msgid "12th"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDUtils.py:139
+msgid "13th"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDUtils.py:140
+msgid "14th"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDUtils.py:141
+msgid "15th"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDUtils.py:142
+msgid "16th"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDUtils.py:143
+msgid "17th"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDUtils.py:144
+msgid "18th"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDUtils.py:145
+msgid "19th"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDUtils.py:146
+msgid "20th"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDUtils.py:147
+msgid "21st"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDUtils.py:148
+msgid "22nd"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDUtils.py:149
+msgid "23rd"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDUtils.py:150
+msgid "24th"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDUtils.py:151
+msgid "25th"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDUtils.py:152
+msgid "26th"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDUtils.py:153
+msgid "27th"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDUtils.py:154
+msgid "28th"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDUtils.py:155
+msgid "29th"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDUtils.py:156
+msgid "30th"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDUtils.py:157
+msgid "31st"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDAction.py:181
+#, fuzzy
+msgid "Installing service"
+msgstr "[GL]Instalando servicio[/GL]"
+
+#: ../src/tgcm/ui/MSD/MSDAction.py:181
+#, python-format
+msgid "Please wait while the service '%s' is being installed."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDAction.py:181 ../src/tgcm/ui/MSD/MSDAction.py:205
+#, fuzzy, python-format
+msgid "%s"
+msgstr "[GL]%[/GL]"
+
+#: ../src/tgcm/ui/MSD/MSDAction.py:196
+#: ../src/tgcm/ui/widgets/settings/Services/Services.py:200
+#, python-format
+msgid "Do you want to uninstall the service '%s'?"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDAction.py:200
+#: ../src/tgcm/ui/widgets/settings/Services/Services.py:98
+#: ../src/tgcm/ui/widgets/settings/Services/Services.py:121
+#: ../src/tgcm/ui/widgets/settings/Services/Services.py:204
+#: ../src/tgcm/ui/widgets/settings/Services/Services.py:221
+#, fuzzy
+msgid "Uninstall service"
+msgstr "[GL]Desinstalar servicio[/GL]"
+
+#: ../src/tgcm/ui/MSD/MSDAction.py:201
+#: ../src/tgcm/ui/widgets/settings/Services/Services.py:205
+msgid "You will be able to install it again from this configuration window."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDAction.py:205
+#, fuzzy
+msgid "Uninstalling service"
+msgstr "[GL]Desinstalando servicio[/GL]"
+
+#: ../src/tgcm/ui/MSD/MSDAction.py:205
+#, python-format
+msgid "Please wait while the service '%s' is being uninstalled."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDConnectionsManager.py:42
+#: ../src/tgcm/ui/ThemedDock.py:173 ../src/tgcm/ui/ThemedDock.py:410
+#, fuzzy
+msgid "Disconnected"
+msgstr "[GL]disconnect[/GL]"
+
+#: ../src/tgcm/ui/MSD/MSDConnectionsManager.py:42
+#: ../src/tgcm/ui/ThemedDock.py:167
+#, fuzzy
+msgid "Connected"
+msgstr "[GL]Conectado[/GL]"
+
+#: ../src/tgcm/ui/MSD/MSDConnectionsManager.py:42
+#, fuzzy
+msgid "Connecting"
+msgstr "[GL]Connect dialog[/GL]"
+
+#: ../src/tgcm/ui/MSD/MSDConnectionsManager.py:42
+#, fuzzy
+msgid "Disconnecting"
+msgstr "[GL]disconnect[/GL]"
+
+#: ../src/tgcm/ui/MSD/MSDConnectionsManager.py:43
+#: ../src/tgcm/ui/ThemedDock.py:418
+#, fuzzy
+msgid "Connect"
+msgstr "[GL]Conectar[/GL]"
+
+#: ../src/tgcm/ui/MSD/MSDConnectionsManager.py:43
+#: ../src/tgcm/ui/ThemedDock.py:417
+#, fuzzy
+msgid "Disconnect"
+msgstr "[GL]disconnect[/GL]"
+
+#: ../src/tgcm/ui/MSD/MSDConnectionsManager.py:165
+msgid ""
+"You are about to connect you in roaming and your customary data fares do not "
+"apply for the traffic that consummate abroad. Inform yourself of your "
+"roaming data fares in the 22119 (free call cost in the European Union; from "
+"other countries applicable price to calls with destination Spain according "
+"to roaming fare of the line). To control your bill you can define alerts in "
+"Escritorio Movistar and will receive notifications when reaching a certain "
+"amount of data spent."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDConnectionsManager.py:167
+msgid ""
+"You're about to connect while abroad. Network operators have different "
+"charges for data usage and costs can soon mount up. To set up alerts so you "
+"know approximately how much data you have used go to Settings / Alerts."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDConnectionsManager.py:171
+#, fuzzy
+msgid "Roaming alert"
+msgstr "[GL]Roaming[/GL]"
+
+#: ../src/tgcm/ui/MSD/MSDConnectionsManager.py:488
+msgid "Do not show this dialogue again"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDConnectionsManager.py:512
+#, fuzzy
+msgid "_Use established connection"
+msgstr "[GL]start connection[/GL]"
+
+#: ../src/tgcm/ui/MSD/MSDConnectionsManager.py:532
+msgid "Do not ask again"
+msgstr ""
+
+#. !/usr/bin/python
+#. -*- coding: utf-8 -*-
+#.
+#. Authors : Roberto Majadas <roberto.majadas@openshine.com>
+#. Oier Blasco <oierblasco@gmail.com>
+#. Alvaro Peña <alvaro.pena@openshine.com>
+#.
+#. Copyright (c) 2003-2007, Telefonica Móviles España S.A.U.
+#.
+#. This library is free software; you can redistribute it and/or
+#. modify it under the terms of the GNU General Public
+#. License as published by the Free Software Foundation; either
+#. version 2 of the License, or (at your option) any later version.
+#. This library is distributed in the hope that it will be useful,
+#. but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+#. Library General Public License for more details.
+#. You should have received a copy of the GNU General Public
+#. License along with this library; if not, write to the Free
+#. Software Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+#.
+#: ../src/tgcm/ui/MSD/MSDMessages.py:25 ../src/tgcm/ui/MSD/MSDMessages.py:48
+msgid "Connection with the Mobile Internet Device cannot be established."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:30
+msgid "Running device"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:31
+msgid "Device off"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:32
+msgid "Checking PIN code"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:33
+msgid "Checking PUK code"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:34
+msgid "Searching network and registering"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:35
+msgid "Device ready"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:36
+#, fuzzy
+msgid "Device not detected"
+msgstr "[GL]Tarjeta no detectada[/GL]"
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:37
+msgid "Device detected"
+msgstr ""
+
+#. dialog de Seguridad sim SIM
+#: ../src/tgcm/ui/MSD/MSDMessages.py:41
+msgid "Introduce the device PIN"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:42
+msgid ""
+"The SIM device PIN code is activated.\n"
+"To activate it enter its value in the box\n"
+"and click on Accept."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:43
+msgid ""
+"The SIM device PIN code is deactivated.\n"
+"To activate it enter its value in the box\n"
+"and click on Accept."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:44
+msgid "The PIN code entered is incorrect."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:45
+msgid ""
+"The PIN code entered must have between 4 and 8 figures.\n"
+"Please, try again."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:46
+msgid "The PIN and the PIN check do not coincide."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:47
+msgid "The PUK code entered is incorrect."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:50
+msgid ""
+"You have cancelled the process checking your PUK code and Mobile Internet "
+"Device will go off\n"
+"\n"
+"To run the process again start it from the device menu through the option "
+"'Activate device'."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:51 ../src/tgcm/ui/MSD/MSDMessages.py:56
+#, fuzzy
+msgid "Checking cancelled"
+msgstr "[GL]Canceled[/GL]"
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:53
+msgid ""
+"You have cancelled the process checking the PIN code and your Device Mobile "
+"Internet will go off.\n"
+"\n"
+"To run the process again start it from the device menu through the option "
+"'Activate device'."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:58
+msgid ""
+"The SIM device PIN code change procedure has been unsuccessful.\n"
+"The Mobile Internet Device will now go off. The next time that it is turned "
+"on its PUK code will be requested."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:59
+#, fuzzy
+msgid "Error when changing the PIN"
+msgstr "[GL]Error en el cambio de PIN[/GL]"
+
+#. Estados del pin
+#: ../src/tgcm/ui/MSD/MSDMessages.py:63
+#, fuzzy
+msgid "Activated"
+msgstr "[GL]Activado[/GL]"
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:64
+#, fuzzy
+msgid "Deactivated"
+msgstr "[GL]Desactivado[/GL]"
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:66
+msgid ""
+"The SIM device PIN code is activated.\n"
+"To deactivate it enter its value in the box and click on the Accept button."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:68
+msgid ""
+"The SIM device PIN code is deactivated.\n"
+"To activate it enter its value in the box and click on the Accept button."
+msgstr ""
+
+#. buscar operadora
+#: ../src/tgcm/ui/MSD/MSDMessages.py:71
+#, fuzzy
+msgid "Select operator manual"
+msgstr "[GL]Selección de operadora[/GL]"
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:72
+msgid ""
+"A search for available operators will now be carried out. This operation "
+"could take a few minutes. To start the search click on Accept."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:74
+msgid ""
+"An error has occurred in the activate/deactivate process of the PIN code of "
+"the SIM device.\n"
+"The Mobile Internet Device will now go off. The next time that it is turned "
+"on its PUK code will be requested."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:76
+#, fuzzy
+msgid "Error on activating/deactivating the PIN"
+msgstr "[GL]Error en la activación/desactivación  del  PIN[/GL]"
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:78
+msgid ""
+"Please, wait while it searches for available operators.\n"
+"This process could take a few minutes."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:79
+#, fuzzy
+msgid "Searching for operators"
+msgstr "[GL]Selección de operadora[/GL]"
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:81
+msgid "An error has occurred while searching for available operators."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:82
+msgid "An error has occurred while the selected operator was being configured."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:84
+msgid ""
+"Please wait while the operator is being configured\n"
+"selected."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:85
+#, fuzzy
+msgid "Configuring operator"
+msgstr "[GL]Configurando operadora[/GL]"
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:87
+msgid ""
+"On restarting the information on the accumulated traffic will be deleted."
+msgstr ""
+
+#. Bookmarks
+#: ../src/tgcm/ui/MSD/MSDMessages.py:91
+#, fuzzy
+msgid "<b>Delete favourite</b>"
+msgstr "[GL]<b>Cliente de correo</b>[/GL]"
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:92
+#, python-format
+msgid "Do you want to delete the favourite '%s'?"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:94
+msgid "New favourite"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:95
+msgid "Modify favourite"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:97
+msgid "<b>Favourite name is invalid</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:98
+msgid "The favourite name cannot have the character '/'."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:100
+#, fuzzy
+msgid "<b>Favourite name</b>"
+msgstr "[GL]<b>Total</b>[/GL]"
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:101
+msgid "Enter a name for the favourite."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:103
+#, python-format
+msgid "<b>A favourite with the name '%s' already exists</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:104
+msgid "Please choose another name."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:106
+msgid "<b>You have not chosen a file</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:107
+msgid "Please choose a file to create the favourite."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:109
+#, fuzzy
+msgid "<b>You have not entered the URL</b>"
+msgstr "[GL]<b>No has introducido la URL</b>[/GL]"
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:110
+msgid "Please enter a URL to create the favourite."
+msgstr ""
+
+#. Connections
+#: ../src/tgcm/ui/MSD/MSDMessages.py:114
+#, fuzzy
+msgid "<b>Delete connection</b>"
+msgstr "[GL]<b>Cliente de correo</b>[/GL]"
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:115
+#, python-format
+msgid "Do you want to delete the connection '%s'?"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:117
+#, fuzzy
+msgid "<b>Delete default connection</b>"
+msgstr "[GL]<b>Cliente de correo</b>[/GL]"
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:118
+msgid ""
+"The default connection can not be deleted.\n"
+"If you are sure you want to delete this connection, select another one as "
+"default."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:120
+#, fuzzy
+msgid "New connection"
+msgstr "[GL]Del connection %s [/GL]"
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:121
+#, fuzzy
+msgid "Modify connection"
+msgstr "[GL]stop connection 2[/GL]"
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:123
+#, python-format
+msgid "<b>A connection with the name '%s' already exists</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:124
+msgid "Please choose another name"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:126
+#, fuzzy
+msgid "<b>Connection name</b>"
+msgstr "[GL]<b>Conexión</b>[/GL]"
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:127
+msgid "Enter a name to connect."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:129
+#, fuzzy
+msgid "<b>Enter a user</b>"
+msgstr "[GL]<b>Introduce un usuario</b>[/GL]"
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:130
+msgid "You have not entered the user name to connect."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:132
+#, fuzzy
+msgid "<b>Enter the password</b>"
+msgstr "[GL]<b>Cliente de correo</b>[/GL]"
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:133
+msgid "You have not entered the connection password."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:135
+msgid "<b>The personalised profile field is empty</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:136
+msgid "Please, state the personalised profile that you want to use."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:138
+#, fuzzy
+msgid "<b>The DNS information is incomplete</b>"
+msgstr "[GL]<b>La información de DNS no está completa</b>[/GL]"
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:139
+msgid "Please, fill in the corresponding fields correctly."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:141
+msgid "<b>The Proxy address is invalid</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:142
+msgid "Enter a valid address."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:144
+#, fuzzy
+msgid "<b>he Proxy port is invalid</b>"
+msgstr "[GL]<b>El puerto del Proxy no es válido</b>[/GL]"
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:145
+msgid "Positive whole numbers are allowed."
+msgstr ""
+
+#. Connections Manager
+#: ../src/tgcm/ui/MSD/MSDMessages.py:149
+msgid "<b>Connection with the PPP Manager cannot be established</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:150
+msgid ""
+"Connection through the PPP Manager has failed. This means that at the moment "
+"it is impossible to establish connection with Internet with this application."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:152
+#, python-format
+msgid "<b>Enter the user password to the connection '%s'</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:154
+msgid "<b>Connection is not possible</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:155
+msgid ""
+"The Mobile Internet Device is not ready to be connected. Please Insert it or "
+"turn it on if it is off and wait until it is registered on the network."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:157
+#, fuzzy
+msgid "<b>Confirm the end of the application</b>"
+msgstr "[GL]<b>Confirmar fin de la aplicación</b>[/GL]"
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:158
+msgid ""
+"You are connected. If you leave the application the connection will close. "
+"Do you want to continue?"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:160
+#, fuzzy
+msgid "<b>No device has been selected</b>"
+msgstr "[GL]<b>No hay conexión establecida</b>[/GL]"
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:161
+msgid ""
+"The requested connection cannot be established as there is no device. Please "
+"choose a device in the Configuration window."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:163
+#, fuzzy
+msgid "<b>Error in the connection</b>"
+msgstr "[GL]<b>Error en la conexión</b>[/GL]"
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:164
+msgid "Connection cannot be established. Please, try again."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:166
+msgid "<b>Another active connection has been detected</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:168
+#, fuzzy, python-format
+msgid "<b>Open service '%s'</b>"
+msgstr "[GL]<b>Abrir servicio '%s'</b>[/GL]"
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:169
+#, python-format
+msgid "Do you want to establish connection associated with the service? (%s)"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:170
+#, python-format
+msgid ""
+"At the moment you are connected to '%s'. Do you want to open the service by "
+"changing your associated connection '%s' or would you prefer to use the "
+"current connection?\n"
+"If you change the connection you could loose information in other services "
+"and Open favourites."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:171
+#, python-format
+msgid ""
+"At the moment you are connected to '%s'. Do you want to open the service by "
+"changing to your default connection '%s' or do you prefer to use the "
+"connection current?\n"
+"If you change the connection you could loose information in other services "
+"and Open favourites."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:174
+#, fuzzy, python-format
+msgid "<b>Open favourite '%s'</b>"
+msgstr "[GL]<b>Conexión : '%s'</b>[/GL]"
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:175
+#, python-format
+msgid ""
+"Do you want to establish the connection associated with the favourite? (%s)"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:176
+#, python-format
+msgid ""
+"At the moment you are connected to '%s'. Do you want to open the favourite? "
+"by changing your associated connection '%s' or would you prefer to use the "
+"current connection?\n"
+"If you change the connection you could loose information in other services "
+"and Open favourites."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:177
+#, python-format
+msgid ""
+"At the moment you are connected to '%s'. Do you want to open the favourite? "
+"by changing to your default connection '%s' or do you prefer to use the "
+"connection current?\n"
+"If you change the connection you could loose information in other services "
+"and Open favourites."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:179
+#, fuzzy
+msgid "<b>Connect to the pre-set connection</b>"
+msgstr "[GL]<b>No es posible conectar</b>[/GL]"
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:180
+#, fuzzy
+msgid "<b>Connect to the selected connection</b>"
+msgstr "[GL]<b>No es posible conectar</b>[/GL]"
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:181
+#, python-format
+msgid ""
+"At the moment you are connected to '%s'. Do you want to open the connection "
+"'%s' or Do you prefer to use the current connection?\n"
+"If you change the connection you could loose information in other services "
+"and Open favourites."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:183
+#, python-format
+msgid "Do you want to establish the preset connection (%s)?"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:184
+#, python-format
+msgid "Do you want to establish the connection (%s)?"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:186
+msgid "<b>The telephone number is invalid</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:187
+msgid "Numerical characters are the values allowed."
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PukDialog/PukDialog.py:95
+msgid "<b>Puk authentication cancel</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PukDialog/PukDialog.py:96
+msgid ""
+"You have canceled the PUK authentication process, the card will be turn off"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PukDialog/PukDialog.py:108
+msgid "You have entered an invalid PUK code"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PukDialog/PukDialog.py:113
+msgid "You have entered an invalid PIN code"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PukDialog/PukDialog.py:118
+msgid "The two Pin codes are not equal"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PukDialog/PukDialog.py:131
+msgid "You have entered an incorrect PUK code"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PukDialog/PukDialog.glade.h:1
+#, fuzzy
+msgid "<big><b>SIM card is blocked</b></big>"
+msgstr "[GL]<big><b>Nombre:</b></big>[/GL]"
+
+#: ../src/tgcm/ui/windows/PukDialog/PukDialog.glade.h:2
+msgid "Confirm PIN number"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PukDialog/PukDialog.glade.h:3
+msgid "New PIN number"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PukDialog/PukDialog.glade.h:4
+msgid "PUK number"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PukDialog/PukDialog.glade.h:5
+msgid "SIM card is blocked"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PukDialog/PukDialog.glade.h:6
+msgid ""
+"Your SIM card is blocked. You must enter your <b>PUK number</b> and <b>PIN "
+"number</b> for your SIM card.\n"
+"You have 10 attempts in order to enter the correct PUK number. If you fail, "
+"your SIM card will be blocked"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/Traffic/BillingDayChangeDialog.glade.h:1
+msgid "Select the day your monthly billing starts : "
+msgstr ""
+
+#: ../src/tgcm/ui/windows/Traffic/Traffic.glade.h:1
+msgid "<b>(from x to y)</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/Traffic/Traffic.glade.h:2
+msgid "<b>Current Billing Day</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/Traffic/Traffic.glade.h:3
+#, fuzzy
+msgid "<b>Current Session</b>"
+msgstr "[GL]<b>Conexión</b>[/GL]"
+
+#: ../src/tgcm/ui/windows/Traffic/Traffic.glade.h:4
+#, fuzzy
+msgid "<b>Data Used History</b>"
+msgstr "[GL]<b>Red movistar</b>[/GL]"
+
+#: ../src/tgcm/ui/windows/Traffic/Traffic.glade.h:5
+#, fuzzy
+msgid ""
+"<small><span foreground=\"blue\" underline=\"single\">Change your billing "
+"day</span></small>"
+msgstr ""
+"[GL]<span foreground=\"blue\" underline=\"single\">http://www.canalcliente."
+"movistar.es</span>[/GL]"
+
+#: ../src/tgcm/ui/windows/Traffic/Traffic.glade.h:6
+#, fuzzy
+msgid ""
+"<small><span foreground=\"blue\" underline=\"single\">http://www."
+"canalcliente.movistar.es</span></small>"
+msgstr ""
+"[GL]<span foreground=\"blue\" underline=\"single\">http://www.canalcliente."
+"movistar.es</span>[/GL]"
+
+#: ../src/tgcm/ui/windows/Traffic/Traffic.glade.h:7
+msgid ""
+"<small>The data counter gives you a close estimate of what you've used and "
+"might not be the\n"
+"same as you see on your bill. If you use your dongle on more than one "
+"computer, \n"
+"each computer will have it's oun data counter. Add together all you data "
+"counters\n"
+" to find out what you've used in total.</small>"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/Traffic/Traffic.glade.h:11
+msgid ""
+"<small>The information provided is approximate. Remember that if you want to "
+"know your exact traffic usage, go to:</small>"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/Traffic/Traffic.glade.h:12
+msgid ""
+"<small>The invoicing period starts the 18th and ends the 17th of every "
+"month. The Information provided is for guidance.</small>"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/Traffic/Traffic.glade.h:13
+msgid "History"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/Traffic/Traffic.glade.h:14
+msgid "Reset History"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/Traffic/Traffic.py:69
+#, fuzzy, python-format
+msgid "%s - Traffic"
+msgstr "[GL]Tráfico : [/GL]"
+
+#: ../src/tgcm/ui/windows/Traffic/Traffic.py:72
+#, fuzzy, python-format
+msgid "%s - What you've used"
+msgstr "[GL]<small>Con_sumo</small>[/GL]"
+
+#: ../src/tgcm/ui/windows/Traffic/Traffic.py:125
+#, python-format
+msgid "The billing period begins on the %s and ends on the %s of each month."
+msgstr ""
+
+#: ../src/tgcm/ui/windows/Traffic/Traffic.py:127
+msgid "Current period"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/Traffic/Traffic.py:140
+msgid "This month"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/Traffic/Traffic.py:141
+#, fuzzy
+msgid "<b>This month</b>"
+msgstr "[GL]<b>Tiempo</b>[/GL]"
+
+#: ../src/tgcm/ui/windows/Traffic/Traffic.py:142
+msgid ""
+"This screen gives you information about your mobile broadband usage. 'This "
+"session' tells you about your current O2 data network or Wi-Fi connection. "
+"'This month' shows your usage on the O2 data network only. For more "
+"information see the Help guide."
+msgstr ""
+
+#: ../src/tgcm/ui/windows/Traffic/Traffic.py:151
+msgid "You are going to delete all the history data. Are you sure?"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/Traffic/Traffic.py:155
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1216
+msgid "Delete the message text"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/Traffic/Traffic.py:253
+#, python-format
+msgid "<b><small>(%s days - %s-%s-%s until today)</small></b>"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/Traffic/Traffic.py:256
+msgid "Change Billing Day"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/Dialog/Dialog.glade.h:1
+msgid "<span color=\"#012952\" size=\"small\" weight=\"bold\">Help</span>"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/Dialog/Dialog.glade.h:2
+msgid "<span color=\"#012952\" size=\"small\" weight=\"bold\">Settings</span>"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PinDialog/AskPinDialog.py:92
+msgid ""
+"You have canceled the PIN code insertion, the mobile device will be turn off"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PinDialog/AskPinDialog.py:95
+#, fuzzy
+msgid "PIN code insertion canceled"
+msgstr "[GL]Importacion cancelada[/GL]"
+
+#: ../src/tgcm/ui/windows/PinDialog/AskPinDialog.py:105
+#: ../src/tgcm/ui/windows/PinDialog/ManagePinDialog.py:109
+#: ../src/tgcm/ui/windows/PinDialog/ChangePinDialog.py:105
+msgid "The PIN code requires between 4 and 8 digits"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PinDialog/AskPinDialog.py:120
+#: ../src/tgcm/ui/windows/PinDialog/ManagePinDialog.py:132
+#: ../src/tgcm/ui/windows/PinDialog/ChangePinDialog.py:132
+msgid "The PIN code is invalid"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PinDialog/ManagePinDialog.py:80
+msgid ""
+"The <b>PIN code</b> of your SIM card is not activated. If you want to "
+"activate it, enter your <b>PIN code</b> and press Accept button.\n"
+"You have 3 attempts in order to enter the PIN code correctly. If you fail, "
+"the SIM card will be blocked."
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PinDialog/ManagePinDialog.py:81
+#: ../src/tgcm/ui/windows/PinDialog/ManagePinDialog.glade.h:1
+#, fuzzy
+msgid "<b><big>Activate PIN code</big></b>"
+msgstr "[GL]<b><big>Agenda</big></b>[/GL]"
+
+#: ../src/tgcm/ui/windows/PinDialog/ManagePinDialog.py:82
+#: ../src/tgcm/ui/windows/PinDialog/ManagePinDialog.glade.h:2
+msgid "Activate PIN code"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PinDialog/ManagePinDialog.py:84
+msgid ""
+"The <b>PIN code</b> of your SIM card is activated. If you want to deactivate "
+"it, enter your <b>PIN code</b> and press Accept button.\n"
+"You have 3 attempts in order to enter the PIN code correctly. If you fail, "
+"the SIM card will be blocked."
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PinDialog/ManagePinDialog.py:85
+#, fuzzy
+msgid "<b><big>Deactivate PIN code</big></b>"
+msgstr "[GL]<b><big>Servicios</big></b>[/GL]"
+
+#: ../src/tgcm/ui/windows/PinDialog/ManagePinDialog.py:86
+#, fuzzy
+msgid "Deactivate PIN code"
+msgstr "[GL]Desactivado[/GL]"
+
+#: ../src/tgcm/ui/windows/PinDialog/ManagePinDialog.py:122
+msgid "<b>Wrong insertion of PIN code</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PinDialog/ManagePinDialog.py:123
+msgid ""
+"The PIN code insertion process of your SIM card has failed. Now , your card "
+"will be turn off. The next turn on of your card, the PUK code will be "
+"required"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PinDialog/ChangePinDialog.py:110
+msgid "The two PIN codes are not equal"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PinDialog/ChangePinDialog.py:122
+#, fuzzy
+msgid "<b>Error changing PIN code</b>"
+msgstr "[GL]<b>Error en la conexión</b>[/GL]"
+
+#: ../src/tgcm/ui/windows/PinDialog/ChangePinDialog.py:123
+msgid ""
+"The PIN code change of your SIM card has failed. Now , your card will be "
+"turn off. The next turn on of your card, the PUK code will be required"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PinDialog/ChangePinDialog.glade.h:1
+#, fuzzy
+msgid "<b><big>Change PIN code</big></b>"
+msgstr "[GL]<b><big>Conexiones</big></b>[/GL]"
+
+#: ../src/tgcm/ui/windows/PinDialog/ChangePinDialog.glade.h:2
+msgid "Change PIN code"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PinDialog/ChangePinDialog.glade.h:3
+msgid "Confirm PIN code : "
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PinDialog/ChangePinDialog.glade.h:4
+msgid "New PIN code : "
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PinDialog/ChangePinDialog.glade.h:5
+msgid "Old PIN code : "
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PinDialog/ChangePinDialog.glade.h:6
+msgid ""
+"Please, enter the old and the new PIN code.\n"
+"You have <b>3 attempts</b> in order to enter the PIN code correctly. If you "
+"fail, the SIM card will be blocked."
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PinDialog/ManagePinDialog.glade.h:3
+#: ../src/tgcm/ui/windows/PinDialog/AskPinDialog.glade.h:3
+msgid "PIN code : "
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PinDialog/ManagePinDialog.glade.h:4
+msgid ""
+"The <b>PIN code</b> of your SIM card is not activated. If you want to "
+"activate it, enter your <b>PIN code</b> and press Accept button.\n"
+"You have <b>3 attempts</b> in order to enter the PIN code correctly. If you "
+"fail, the SIM card will be blocked."
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PinDialog/ManagePinDialog.glade.h:6
+msgid "error_label"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PinDialog/AskPinDialog.glade.h:1
+#, fuzzy
+msgid "<b><big>Enter PIN code</big></b>"
+msgstr "[GL]<b><big>Servicios</big></b>[/GL]"
+
+#: ../src/tgcm/ui/windows/PinDialog/AskPinDialog.glade.h:2
+msgid "Enter PIN code"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PinDialog/AskPinDialog.glade.h:4
+msgid ""
+"The <b>PIN code</b> of your SIM card is required to active it.\n"
+"You have <b>3 attempts</b> in order to enter the PIN code correctly. If you "
+"fail, the SIM card will be blocked."
+msgstr ""
+
+#: ../src/tgcm/ui/windows/NewsServiceDialog/NewsServiceDialog.glade.h:1
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad.py:197
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad.py:201
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad.py:205
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad.py:209
+msgid "All"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/NewsServiceDialog/NewsServiceDialog.glade.h:2
+#, fuzzy
+msgid "Install"
+msgstr "[GL]Instalar[/GL]"
+
+#: ../src/tgcm/ui/windows/NewsServiceDialog/NewsServiceDialog.glade.h:3
+#: ../src/tgcm/ui/windows/NewsServiceDialog/NewsServiceDialog.py:188
+#: ../src/tgcm/ui/windows/NewsServiceDialog/NewsServiceDialog.py:190
+msgid "News"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/NewsServiceDialog/NewsServiceDialog.glade.h:4
+msgid "Open Link"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/NewsServiceDialog/NewsServiceDialog.glade.h:5
+msgid "Unread"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/NewsServiceDialog/NewsServiceDialog.glade.h:6
+#: ../src/tgcm/ui/windows/NewsServiceDialog/NewsServiceDialog.py:193
+#: ../src/tgcm/ui/windows/NewsServiceDialog/NewsServiceDialog.py:195
+msgid "Updates"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/NewsServiceDialog/NewsServiceDialog.py:98
+#: ../src/tgcm/ui/windows/NewsServiceDialog/NewsServiceDialog.py:107
+msgid "Title"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/NewsServiceDialog/NewsServiceDialog.py:102
+#: ../src/tgcm/ui/windows/NewsServiceDialog/NewsServiceDialog.py:111
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.glade.h:13
+msgid "Date"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/NewsServiceDialog/NewsServiceDialog.py:130
+#, python-format
+msgid "%s - News and Updates"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/NewsServiceDialog/NewsServiceDialog.py:162
+#: ../src/tgcm/ui/windows/NewsServiceDialog/NewsServiceDialog.py:250
+#: ../src/tgcm/ui/Actions/CZRecharge/CZRecharge.py:81
+#: ../src/tgcm/ui/Actions/CZRecharge/CZRecharge.py:107
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad.py:219
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad.py:235
+msgid "Please wait a minute..."
+msgstr ""
+
+#: ../src/tgcm/ui/windows/NewsServiceDialog/NewsServiceDialog.py:237
+msgid "<b>You can't install updates now</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/NewsServiceDialog/NewsServiceDialog.py:238
+msgid ""
+"You are not connected. If you want to install updates, please connect and "
+"try again."
+msgstr ""
+
+#: ../src/tgcm/ui/windows/Settings/Settings.py:77
+#: ../src/tgcm/ui/widgets/settings/General/general.glade.h:14
+msgid "General"
+msgstr "[GL]General[/GL]"
+
+#: ../src/tgcm/ui/windows/Settings/Settings.py:79
+msgid "Dock"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/Settings/Settings.py:80
+#: ../src/tgcm/ui/windows/Settings/Settings.py:89
+#, fuzzy
+msgid "Devices"
+msgstr "[GL]Servicios[/GL]"
+
+#: ../src/tgcm/ui/windows/Settings/Settings.py:81
+#: ../src/tgcm/ui/windows/Settings/Settings.py:90
+#, fuzzy
+msgid "My Internet connections"
+msgstr "[GL]start connection[/GL]"
+
+#: ../src/tgcm/ui/windows/Settings/Settings.py:82
+#: ../src/tgcm/ui/windows/Settings/Settings.py:91
+#: ../src/tgcm/ui/widgets/settings/Dock/Dock.py:51
+#: ../src/tgcm/ui/widgets/settings/Services/services.glade.h:12
+#, fuzzy
+msgid "Services"
+msgstr "[GL]Servicios[/GL]"
+
+#: ../src/tgcm/ui/windows/Settings/Settings.py:83
+#: ../src/tgcm/ui/windows/Settings/Settings.py:92
+msgid "Alerts"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/Settings/Settings.py:86
+#: ../src/tgcm/ui/widgets/settings/Devices/Devices.py:61
+msgid "Options"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/Settings/Settings.py:88
+msgid "Appearance"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/Settings/Settings.py:109
+#, python-format
+msgid "%s - Settings"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/CarrierDialog/CarrierDialog.glade.h:1
+#, fuzzy
+msgid "<b><big>Carrier selection</big></b>"
+msgstr "[GL]<b><big>Servicios</big></b>[/GL]"
+
+#: ../src/tgcm/ui/windows/CarrierDialog/CarrierDialog.glade.h:2
+msgid "Carrier list : "
+msgstr ""
+
+#: ../src/tgcm/ui/windows/CarrierDialog/CarrierDialog.glade.h:3
+#: ../src/tgcm/ui/widgets/dock/DeviceMenuPopup/DeviceMenuPopup.glade.h:1
+#, fuzzy
+msgid "Carrier selection"
+msgstr "[GL]Correo electrónico[/GL]"
+
+#: ../src/tgcm/ui/windows/CarrierDialog/CarrierDialog.glade.h:4
+#: ../src/tgcm/ui/windows/CarrierDialog/CarrierDialog.py:185
+msgid "Scanning carriers"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/CarrierDialog/CarrierDialog.glade.h:5
+msgid ""
+"Select a carrier from the available list below pressing Accept button or "
+"search new networks pressing Refresh button."
+msgstr ""
+
+#: ../src/tgcm/ui/windows/CarrierDialog/CarrierDialog.py:118
+msgid "Attaching to network"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/CarrierDialog/CarrierDialog.py:130
+#, fuzzy
+msgid "<b>Network selection failure</b>"
+msgstr "[GL]<b>No has seleccionado un archivo</b>[/GL]"
+
+#: ../src/tgcm/ui/windows/CarrierDialog/CarrierDialog.py:131
+msgid "The network selection has failed. Try again or select other carrier."
+msgstr ""
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:64
+#, python-format
+msgid "%s - Contacts"
+msgstr ""
+
+#. self.newmessage_tab_image.set_from_file(os.path.join(self.action_dir, "msjnuevo_16x16.png"))
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:127
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:197
+msgid "Text to find"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:151
+#, fuzzy
+msgid "Delete contact"
+msgstr "[GL]Nuevo contacto[/GL]"
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:158
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:876
+#, fuzzy
+msgid "Modify contact"
+msgstr "[GL]Modificar contacto[/GL]"
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:167
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:873
+#, fuzzy
+msgid "New contact"
+msgstr "[GL]Nuevo contacto[/GL]"
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:174
+msgid "Send Mail"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:248
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:250
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:506
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:508
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:948
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:955
+#, fuzzy
+msgid "Name"
+msgstr "[GL]Nombre[/GL]"
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:248
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:506
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:948
+msgid "Telephone"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:250
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:837
+#: ../src/tgcm/ui/windows/HelpDialog/HelpDialog.py:115
+#: ../src/tgcm/ui/windows/HelpDialog/HelpDialog.py:161
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:508
+msgid "Phone number"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:427
+msgid "Select destination file to export"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:446
+msgid "Select file to import"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:567
+#, python-format
+msgid "Do you want to delete the contact? \"%s\"?"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:569
+#, python-format
+msgid "Do you want to delete %d contacts?"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:574
+#, fuzzy
+msgid "Delete contacts"
+msgstr "[GL]Nuevo contacto[/GL]"
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:689
+#, fuzzy
+msgid "movistar copiagenda"
+msgstr "[GL]movistar Internet[/GL]"
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:690
+msgid "Device SIM"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:742
+msgid ""
+"Contacts have not been imported due to the fact that the source is not "
+"installed, is not available or some type of error has occured. Please check "
+"that the source is available and try again."
+msgstr ""
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:767
+#, fuzzy
+msgid "<b>Connection has not been established</b>"
+msgstr "[GL]<b>No hay conexión establecida</b>[/GL]"
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:768
+msgid ""
+"You have to be connected to be able to import the Copiagenda contacts "
+"movistar. Please pre-connect and try again."
+msgstr ""
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:783
+#, fuzzy
+msgid ""
+"A problem has arisen when trying to import.\n"
+"Reinstalling the application could solve the problem."
+msgstr ""
+"[GL]Ha ocurrido un problema al intentar importar.\n"
+"Reinstalar la aplicación podría resolver el problema.[/GL]"
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:802
+#, fuzzy
+msgid "Cancelling..."
+msgstr "[GL]Cancelado.[/GL]"
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:892
+msgid "<b>Incorrect telephone number</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:893
+msgid ""
+"Incorrect phone number. This field only allows numbers and characters +, # "
+"and *."
+msgstr ""
+
+#: ../src/tgcm/ui/windows/ConnectionDialog/ConnectionDialog.py:53
+#, fuzzy
+msgid "New WWAN connection"
+msgstr "[GL]Del connection %s [/GL]"
+
+#: ../src/tgcm/ui/windows/ConnectionDialog/ConnectionDialog.py:55
+#, fuzzy, python-format
+msgid "Edit connection - %s"
+msgstr "[GL]Del connection %s [/GL]"
+
+#: ../src/tgcm/ui/windows/HelpDialog/HelpDialog.py:61
+#, fuzzy
+msgid "Information about your dongle"
+msgstr "[GL]Información no disponible[/GL]"
+
+#: ../src/tgcm/ui/windows/HelpDialog/HelpDialog.py:63
+#, python-format
+msgid "%s - Help"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/HelpDialog/HelpDialog.py:74
+#, python-format
+msgid "About %s"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/HelpDialog/HelpDialog.py:80
+#, python-format
+msgid ""
+"You can phone %s for more information or send your query to the following "
+"address:"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/HelpDialog/HelpDialog.py:83
+msgid "You can send your query to the following address:"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/HelpDialog/HelpDialog.py:86
+#, python-format
+msgid "You can phone %s for more information."
+msgstr ""
+
+#: ../src/tgcm/ui/windows/HelpDialog/HelpDialog.py:115
+#: ../src/tgcm/ui/windows/HelpDialog/HelpDialog.py:117
+#: ../src/tgcm/ui/windows/HelpDialog/HelpDialog.py:161
+#: ../src/tgcm/ui/windows/HelpDialog/HelpDialog.py:163
+#, fuzzy
+msgid "Model"
+msgstr "[GL]Modelo[/GL]"
+
+#: ../src/tgcm/ui/windows/HelpDialog/HelpDialog.py:115
+#: ../src/tgcm/ui/windows/HelpDialog/HelpDialog.py:117
+#: ../src/tgcm/ui/windows/HelpDialog/HelpDialog.py:161
+#: ../src/tgcm/ui/windows/HelpDialog/HelpDialog.py:163
+msgid "Manufacturer"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/HelpDialog/HelpDialog.py:115
+#: ../src/tgcm/ui/windows/HelpDialog/HelpDialog.py:117
+#: ../src/tgcm/ui/windows/HelpDialog/HelpDialog.py:161
+#: ../src/tgcm/ui/windows/HelpDialog/HelpDialog.py:163
+msgid "Firmware"
+msgstr "[GL]Firmware[/GL]"
+
+#: ../src/tgcm/ui/windows/HelpDialog/HelpDialog.py:121
+#: ../src/tgcm/ui/windows/HelpDialog/HelpDialog.py:167
+#: ../src/tgcm/ui/windows/HelpDialog/HelpDialog.py:169
+#, fuzzy
+msgid "Information unavailable"
+msgstr "[GL]Información no disponible[/GL]"
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:99
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.glade.h:28
+#, fuzzy
+msgid "Messages"
+msgstr "[GL]Mensajes[/GL]"
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:122
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.glade.h:9
+msgid "Contacts:"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:128
+msgid "Search:"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:139
+msgid "Send delivery report"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:172
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:657
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:774
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:868
+msgid "From:"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:594
+msgid "Add recipients"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:596
+msgid "Add recipient"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:646
+#, python-format
+msgid "The contacts %s is already on the recipient list."
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:648
+#, python-format
+msgid "The contact  %s is already on the recipient list."
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:649
+msgid "Recipient repeated"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:655
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:772
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:866
+#, fuzzy
+msgid "Contact:"
+msgstr "[GL]Conectar[/GL]"
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:655
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:674
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:772
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:791
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:866
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:885
+#, fuzzy
+msgid "Content:"
+msgstr "[GL]Conectar[/GL]"
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:655
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:657
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:680
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:772
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:774
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:797
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:866
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:868
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:891
+msgid "Date:"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:657
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:674
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:774
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:791
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:868
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:885
+#, fuzzy
+msgid "Message:"
+msgstr "[GL]Mensajes[/GL]"
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:764
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:766
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.glade.h:36
+#: ../src/tgcm/ui/widgets/traffic/TrafficGraph/TrafficGraph.py:99
+msgid "Received"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:855
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:857
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.glade.h:41
+#: ../src/tgcm/ui/widgets/traffic/TrafficGraph/TrafficGraph.py:100
+msgid "Sent"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:942
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:944
+msgid "Draft"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:967
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:968
+#, fuzzy
+msgid "Message"
+msgstr "[GL]Mensajes[/GL]"
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1088
+msgid "<b>1 character left / 1 message</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1090
+#, python-format
+msgid "<span foreground=\"red\"><b>1 character left / %d messages</b></span>"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1092
+#, python-format
+msgid "<b>1 character left / %d messages</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1095
+#, python-format
+msgid "<b>%d characters left / 1 message</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1097
+#, python-format
+msgid "<span foreground=\"red\"><b>%d characters left / %d messages</b></span>"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1099
+#, python-format
+msgid "<b>%d characters left / %d messages</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1212
+msgid ""
+"The text and the message recipients that you are writing will be deleted. "
+"Are you sure?"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1231
+msgid "The draft is going to be updated. Do you want to continue?"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1233
+msgid "The draft copy is going to be saved. Do you want to continue?"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1237
+msgid "Save Draft"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1264
+msgid "To send an sms, you need to set an available 3G device"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1268
+#, fuzzy
+msgid "No 3G Device selected"
+msgstr "[GL]Tarjeta no detectada[/GL]"
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1275
+msgid "The 3G device is not ready to send sms's"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1279
+#, fuzzy
+msgid "3G Device not ready"
+msgstr "[GL]Tarjeta no detectada[/GL]"
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1304
+#, python-format
+msgid ""
+"It is not possible to send more than %s SMS simultaneously. Please check the "
+"number of SMS to sent and try again."
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1308
+msgid "Your sms will be sent. Do you want to continue?"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1312
+msgid "Send SMS"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1337
+msgid "Sending"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1337
+msgid "Sending message. Please, wait..."
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1488
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1558
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1624
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1820
+#, python-format
+msgid "Today at %s"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1641
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1693
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1929
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1978
+msgid ""
+"The selected messages will be deleted permanently. Do you want to continue?"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1645
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1697
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1933
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1982
+msgid "Delete messages"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1660
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1712
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1905
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1997
+msgid ""
+"The current message data is going to be deleted. Do you want to continue?"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1664
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1716
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1909
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:2001
+msgid "Message not sent"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1842
+#, python-format
+msgid ""
+"From: %s\t\t\tReceived: %s\n"
+"%s"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1856
+#, python-format
+msgid ""
+"To: %s\t\t\t\tSended: %s\n"
+"%s"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:2033
+msgid "Update drafts"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:2036
+#, fuzzy
+msgid "Save"
+msgstr "[GL]Clave:[/GL]"
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:2083
+msgid "SMS received"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:2101
+#, python-format
+msgid "%s Information"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:2103
+#, python-format
+msgid "SMS from %s :"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:2161
+msgid ""
+"An error has occurred when trying to send the message. Please check the "
+"numbers and the coverage and try again."
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:2167
+msgid "Error on sending"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.glade.h:1
+msgid "<b>Delivery notification.</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.glade.h:2
+msgid "<b>Total X characters / 1 message</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.glade.h:3
+msgid "Activate notifications"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.glade.h:4
+msgid "Address Book: "
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.glade.h:5
+msgid "Always ask"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.glade.h:6
+msgid "Caller"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.glade.h:7
+msgid ""
+"Chargeable text message (SMS) sending is currently not possible for Pay & Go "
+"customers."
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.glade.h:8
+msgid "Close"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.glade.h:10
+#, fuzzy
+msgid "Conversations"
+msgstr "[GL]Conexiones[/GL]"
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.glade.h:11
+msgid "Copy"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.glade.h:12
+msgid "Cut"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.glade.h:14
+msgid "Date: "
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.glade.h:16
+msgid "Delete selected"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.glade.h:17
+msgid "Delivery notification"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.glade.h:18
+msgid "Drafts"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.glade.h:19
+#, fuzzy
+msgid "Edit"
+msgstr "[GL]_Editar[/GL]"
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.glade.h:20
+msgid "For: "
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.glade.h:21
+#, fuzzy
+msgid "From: "
+msgstr "[GL]Fichero : [/GL]"
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.glade.h:22
+msgid "H_elp"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.glade.h:24
+msgid "Inbox"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.glade.h:25
+#, fuzzy
+msgid "Look for contact: "
+msgstr "[GL]Modificar contacto[/GL]"
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.glade.h:26
+msgid "Message D_eletion"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.glade.h:27
+msgid "Message: "
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.glade.h:29
+msgid "Messages  sen_t"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.glade.h:30
+msgid "Messages _received"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.glade.h:31
+msgid "Messages received:"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.glade.h:32
+msgid "Messages sent:"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.glade.h:33
+#, fuzzy
+msgid "Messages: "
+msgstr "[GL]Mensajes[/GL]"
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.glade.h:34
+msgid "New message"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.glade.h:35
+msgid "Paste"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.glade.h:37
+#, fuzzy
+msgid "Recipient"
+msgstr "[GL]Recepción[/GL]"
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.glade.h:38
+msgid "Reply"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.glade.h:39
+msgid "Select all"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.glade.h:40
+#, fuzzy
+msgid "Send"
+msgstr "[GL]Agenda[/GL]"
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.glade.h:42
+msgid "Show messages: "
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.glade.h:43
+#, fuzzy
+msgid "To:"
+msgstr "[GL]Tipo :[/GL]"
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.glade.h:44
+msgid "Use this short message centre:"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.glade.h:45
+msgid ""
+"With Direct Messaging discover the easiest way to send and receive messages\n"
+"in text with you Mobile Internet Device and your computer.\n"
+"\n"
+"With Direct Messaging you will be able to:\n"
+"> Send up to 10 text messages a minute.\n"
+"> Store as many sent and received messages as you want.\n"
+"> Send messages to your Address Book contacts.\n"
+"\n"
+"To use this service you need a Device for Mobile Internet."
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.glade.h:54
+#, fuzzy
+msgid "_Configuration"
+msgstr "[GL]_Configuración[/GL]"
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.glade.h:55
+#, fuzzy
+msgid "_Edition"
+msgstr "[GL]_Editar[/GL]"
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.glade.h:56
+#, fuzzy
+msgid "_Messages"
+msgstr "[GL]Mensajes[/GL]"
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.glade.h:57
+msgid "_New message"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.glade.h:58
+#, fuzzy
+msgid "_Open configuration"
+msgstr "[GL]_Abrir configuración[/GL]"
+
+#. TRANSLATORS: Replace this string with your names, one name per line.
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.glade.h:60
+msgid "credit- translator"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.glade.h:61
+#, fuzzy
+msgid ""
+"©2003-2008\n"
+"Telefónica Móviles España S.A.U."
+msgstr ""
+"[GL]Copyright 2003-2007\n"
+"Telefónica Móviles España S.A.U.[/GL]"
+
+#: ../src/tgcm/ui/Actions/MSDAIntranet/MSDAIntranet.glade.h:1
+#: ../src/tgcm/ui/Actions/MSDAInternet/MSDAInternet.glade.h:2
+#, fuzzy
+msgid "<b>Home page</b>"
+msgstr "[GL]<b>Roaming</b>[/GL]"
+
+#: ../src/tgcm/ui/Actions/MSDAIntranet/MSDAIntranet.glade.h:2
+msgid ""
+"Access Intranet from your company faster, easier and safer.\n"
+"\n"
+"This service needs a specific contract. For more information, Contact the "
+"sales agent assigned to your company."
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDAIntranet/MSDAIntranet.glade.h:5
+#: ../src/tgcm/ui/Actions/CZRecharge/CZRecharge.glade.h:1
+#: ../src/tgcm/ui/Actions/MSDABookmarks/MSDABookmarks.glade.h:6
+#: ../src/tgcm/ui/Actions/MSDAInternet/MSDAInternet.glade.h:3
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad.glade.h:4
+#: ../src/tgcm/ui/Actions/CZSelfcare/CZSelfcare.glade.h:1
+msgid "Action Preferences Window"
+msgstr "[GL]Action Preferences Window[/GL]"
+
+#: ../src/tgcm/ui/Actions/MSDAIntranet/MSDAIntranet.glade.h:6
+#: ../src/tgcm/ui/Actions/MSDAInternet/MSDAInternet.glade.h:5
+msgid "Open web browser by default when starting the service"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDAIntranet/MSDAIntranet.glade.h:7
+#: ../src/tgcm/ui/Actions/MSDAInternet/MSDAInternet.glade.h:6
+#, fuzzy
+msgid "Page : "
+msgstr "[GL]Puerto : [/GL]"
+
+#: ../src/tgcm/ui/Actions/MSDAIntranet/MSDAIntranet.glade.h:8
+msgid ""
+"This service enables you to access your company's intranet easily And "
+"safely. This service needs a specific contract. For more information, "
+"contact the sales agent assigned to your company."
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDAIntranet/MSDAIntranet.py:77
+#: ../src/tgcm/ui/Actions/MSDAInternet/MSDAInternet.py:73
+msgid ""
+"The home page you have established is invalid. Please, correct it in the "
+"service configuration."
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDAIntranet/MSDAIntranet.py:81
+#: ../src/tgcm/ui/Actions/MSDAInternet/MSDAInternet.py:77
+msgid "Error in the home page"
+msgstr ""
+
+#. TODO: PILLAR LA REFERENCIA AL DIALOGO DE PREFERENCIAS
+#. self.conn_manager.main_window.preferences.show_all(tab="3:0")
+#: ../src/tgcm/ui/Actions/CZRecharge/czrecharge.glade.h:1
+msgid "<span color=\"red\"><big>Recharge Dobíjení Kreditu .</big></span>"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/CZRecharge/czrecharge.glade.h:2
+msgid "Check"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/CZRecharge/czrecharge.glade.h:3
+msgid "Enter voucher number :   "
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/CZRecharge/czrecharge.glade.h:4
+msgid "My balance :"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/CZRecharge/czrecharge.glade.h:5
+#: ../src/tgcm/ui/Actions/DERecharge/derecharge.glade.h:5
+#: ../src/tgcm/ui/ThemedDock.py:403
+#, fuzzy
+msgid "Recharge"
+msgstr "[GL]Fecha[/GL]"
+
+#: ../src/tgcm/ui/Actions/CZRecharge/CZRecharge.glade.h:2
+#: ../src/tgcm/ui/Actions/MSDAInternet/MSDAInternet.glade.h:4
+#: ../src/tgcm/ui/Actions/CZSelfcare/CZSelfcare.glade.h:2
+msgid "Browse quickly through your favourite internet pages from any where"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/CZRecharge/CZRecharge.glade.h:3
+#: ../src/tgcm/ui/Actions/MSDAInternet/MSDAInternet.glade.h:7
+#: ../src/tgcm/ui/Actions/CZSelfcare/CZSelfcare.glade.h:3
+#, fuzzy
+msgid ""
+"This service enables you to access Internet from the Escritorio movistar."
+msgstr ""
+"[GL]Este servicio te permite acceder a Internet desde el Escritorio movistar."
+"[/GL]"
+
+#. dlg.set_icon_from_file (os.path.join(action_dir, "MSDAMovilidad_16x16.png"))
+#: ../src/tgcm/ui/Actions/CZRecharge/CZRecharge.py:134
+#: ../src/tgcm/ui/Actions/CZRecharge/CZRecharge.py:147
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad.py:261
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad.py:275
+msgid "Sending message"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/CZRecharge/CZRecharge.py:135
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad.py:262
+#, fuzzy
+msgid "<b>Answer received:</b>"
+msgstr "[GL]<b>Al conectar abrir:</b>[/GL]"
+
+#: ../src/tgcm/ui/Actions/CZRecharge/CZRecharge.py:149
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad.py:277
+#: ../src/tgcm/ui/Actions/CZSelfcare/CZSelfcare.py:51
+msgid "Service not available"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDABookmarks/MSDABookmarks.glade.h:1
+#: ../src/tgcm/ui/Actions/MSDAInternet/MSDAInternet.glade.h:1
+msgid "      "
+msgstr "[GL]      [/GL]"
+
+#: ../src/tgcm/ui/Actions/MSDABookmarks/MSDABookmarks.glade.h:2
+msgid ""
+"(*) If you do not select this option, the connection used will be the one "
+"that is currently active or the Escritorio preferred connection."
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDABookmarks/MSDABookmarks.glade.h:3
+#, fuzzy
+msgid "<b>Connection:</b>"
+msgstr "[GL]<b>Conexión:</b>[/GL]"
+
+#: ../src/tgcm/ui/Actions/MSDABookmarks/MSDABookmarks.glade.h:4
+#, fuzzy
+msgid "<b>When connecting open:</b>"
+msgstr "[GL]<b>Al conectar abrir:</b>[/GL]"
+
+#: ../src/tgcm/ui/Actions/MSDABookmarks/MSDABookmarks.glade.h:5
+#, fuzzy
+msgid "<big><b>Name:</b></big>"
+msgstr "[GL]<big><b>Nombre:</b></big>[/GL]"
+
+#: ../src/tgcm/ui/Actions/MSDABookmarks/MSDABookmarks.glade.h:7
+msgid ""
+"Discover Favourites services, the easiest way to have all your most-"
+"frequently used program and web pages one click away.\n"
+"\n"
+"Click install to start using the service and discover a few of useful "
+"network-operator provided links."
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDABookmarks/MSDABookmarks.glade.h:10
+#: ../src/tgcm/ui/widgets/settings/Connections/connections.glade.h:4
+#, fuzzy
+msgid "Export..."
+msgstr "[GL]E_xportar ...[/GL]"
+
+#: ../src/tgcm/ui/Actions/MSDABookmarks/MSDABookmarks.glade.h:11
+msgid "Favourite created"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDABookmarks/MSDABookmarks.glade.h:12
+msgid ""
+"Favourite created successfully. Don't forget that you can modify it from "
+"Settings > Services > Favourites."
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDABookmarks/MSDABookmarks.glade.h:13
+msgid "File"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDABookmarks/MSDABookmarks.glade.h:14
+#: ../src/tgcm/ui/widgets/settings/Connections/connections.glade.h:6
+#, fuzzy
+msgid "Import..."
+msgstr "[GL]_Importar ...[/GL]"
+
+#: ../src/tgcm/ui/Actions/MSDABookmarks/MSDABookmarks.glade.h:15
+#, fuzzy
+msgid "Modify..."
+msgstr "[GL]_Modificar...[/GL]"
+
+#: ../src/tgcm/ui/Actions/MSDABookmarks/MSDABookmarks.glade.h:16
+#, fuzzy
+msgid "New..."
+msgstr "[GL]_Nuevo...[/GL]"
+
+#: ../src/tgcm/ui/Actions/MSDABookmarks/MSDABookmarks.glade.h:17
+msgid "Remove"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDABookmarks/MSDABookmarks.glade.h:18
+msgid "Select a file"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDABookmarks/MSDABookmarks.glade.h:19
+msgid "URL Address : "
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDABookmarks/MSDABookmarks.glade.h:20
+msgid "_Do not show this message again"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDABookmarks/MSDABookmarks.glade.h:22
+#, fuzzy
+msgid "dialogue"
+msgstr "[GL]dialog[/GL]"
+
+#: ../src/tgcm/ui/Actions/MSDABookmarks/MSDABookmarks.py:85
+msgid ""
+"(*) If you do not select this option, the connection used will be the one "
+"that is currently active or the preferred O2 connection."
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDABookmarks/MSDABookmarks.py:186
+#, fuzzy
+msgid "Favourites"
+msgstr "[GL]Fabricante[/GL]"
+
+#: ../src/tgcm/ui/Actions/MSDABookmarks/MSDABookmarks.py:346
+msgid "Export favourite"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDABookmarks/MSDABookmarks.py:367
+#: ../src/tgcm/ui/widgets/settings/Connections/Connections.py:176
+#, fuzzy
+msgid "<b>The file must have an extension</b>"
+msgstr "[GL]<b>El fichero debe tener una extensión</b>[/GL]"
+
+#: ../src/tgcm/ui/Actions/MSDABookmarks/MSDABookmarks.py:368
+#: ../src/tgcm/ui/widgets/settings/Connections/Connections.py:177
+msgid "The files that you save must have extension .tgcm"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDABookmarks/MSDABookmarks.py:384
+#, fuzzy
+msgid "Import favourite"
+msgstr "[GL]Importar[/GL]"
+
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad.py:60
+msgid "Wi-Fi areas"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad.py:102
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad.py:103
+msgid "Enter a letter of the location you want to find and click search."
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad.py:104
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad.py:105
+msgid ""
+"Enter a letter or a number of the postcode you want to find and click search."
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad.py:107
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad.py:116
+#, python-format
+msgid "Updated on %s"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/wifiareas.glade.h:1
+#: ../src/tgcm/ui/widgets/traffic/SessionInfo/SessionInfoUK.glade.h:1
+#: ../src/tgcm/ui/widgets/traffic/SessionInfo/SessionInfo.glade.h:1
+msgid "--"
+msgstr "[GL]--[/GL]"
+
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/wifiareas.glade.h:2
+msgid "<b>List of Wi-Fi</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/wifiareas.glade.h:3
+#, fuzzy
+msgid ""
+"<span foreground=\"#0000ff\" underline_color=\"#0000FF\"><u>Check Wi-Fi areas "
+"online</u></span>"
+msgstr ""
+"[GL]<span foreground=\"#0000ff\" underline_color=\"#0000FF\"><u>http://www."
+"telefonicaonline.com/zonawifi</u></span>[/GL]"
+
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/wifiareas.glade.h:4
+msgid "Hotspots found:"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/wifiareas.glade.h:5
+msgid "If your Rate include Wi-Fi access request your connection password : "
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/wifiareas.glade.h:6
+msgid "Location name"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/wifiareas.glade.h:7
+msgid "Location type"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/wifiareas.glade.h:8
+msgid "Postcode"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/wifiareas.glade.h:9
+#, fuzzy
+msgid "Province"
+msgstr "[GL]Provincia : [/GL]"
+
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/wifiareas.glade.h:10
+msgid "Request password"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/wifiareas.glade.h:11
+msgid "Town / City"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad.glade.h:1
+msgid "<b>Telefónica Wi-Fi Coverage Area</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad.glade.h:2
+msgid ""
+"<span foreground=\"#0000ff\" underline_color=\"#0000FF\"><u>http://www."
+"telefonicaonline.com/zonawifi</u></span>"
+msgstr ""
+"[GL]<span foreground=\"#0000ff\" underline_color=\"#0000FF\"><u>http://www."
+"telefonicaonline.com/zonawifi</u></span>[/GL]"
+
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad.glade.h:3
+msgid ""
+"<span foreground=\"blue\" size=\"xx-large\">Zonas Wi-Fi de Telefónica</span>"
+msgstr ""
+"[GL]<span foreground=\"blue\" size=\"xx-large\">Zonas Wi-Fi de Telefónica</"
+"span>[/GL]"
+
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad.glade.h:5
+msgid "Coverage"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad.glade.h:6
+msgid "Escritorio movistar - Zonas Wi-Fi de Telefónica"
+msgstr "[GL]Escritorio movistar - Zonas Wi-Fi de Telefónica[/GL]"
+
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad.glade.h:7
+msgid ""
+"If you have one of these Rates subscribed you can request your key to "
+"connect by clicking on the 'Request key' button."
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad.glade.h:8
+msgid "List of Coverage"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad.glade.h:9
+#, fuzzy
+msgid "Location :"
+msgstr "[GL]Localidad :[/GL]"
+
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad.glade.h:10
+#, fuzzy
+msgid "Province : "
+msgstr "[GL]Provincia : [/GL]"
+
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad.glade.h:11
+msgid "Request key"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad.glade.h:12
+msgid "Result of the Wi-Fi points of access search: "
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad.glade.h:13
+#, fuzzy
+msgid ""
+"Select your location to access the list of Zonas Wi-Fi de Telefónica. If you "
+"have Internet access you can consult an updated list in:"
+msgstr ""
+"[GL]Selecciona tu ubicación para acceder a la lista de Zonas Wi-Fi de "
+"Telefónica. Si tienes acceso a Internet puedes consultar un listado "
+"actualizado en:[/GL]"
+
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad.glade.h:14
+msgid ""
+"To find out about the Zonas Wi-Fi de Telefónica access points click on the "
+"'Coverage' button."
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad.glade.h:15
+#, fuzzy
+msgid "Town :"
+msgstr "[GL]Tipo :[/GL]"
+
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad.glade.h:16
+#, fuzzy
+msgid "Type :"
+msgstr "[GL]Tipo :[/GL]"
+
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad.glade.h:17
+msgid "Updated in December, 2008"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad.glade.h:18
+msgid ""
+"With any of the <b>Mobile Broad Band Rates</b> premium quality you will be \n"
+"able to connect to the Zonas Wi-Fi de Telefónica free and with unlimited \n"
+"access.\n"
+"\n"
+"The Rates that you will be able to take advantage of with the Wi-Fi access \n"
+"are the following :\n"
+"\n"
+"<b>- Internet in the M&#243;vil Plus\n"
+"- Flat Rate Internet Plus\n"
+"- Flat Rate Internet Premium</b>\n"
+"\n"
+"For more information on the Broad Band Mobile Rates phone the <b>109</b>."
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad.glade.h:30
+msgid ""
+"With any of the <b>Mobile Broad Band Rates</b> with Premium Quality you will "
+"be able to connect up to the Zonas Wi-Fi de Telefónica free and with "
+"unlimited access."
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad.glade.h:31
+msgid ""
+"With any of the <b>Mobile Broad Band Rates</b> with Premium Quality you will "
+"be able to connect up to the Zonas Wi-Fi de Telefónica free and with "
+"unlimited access.\n"
+"\n"
+"The Rates that you will be able to take advantage of with the Wi-Fi access "
+"are the following :\n"
+"\n"
+"<b>- Internet in the Móvil Plus\n"
+"- Flat Rate Internet Plus\n"
+"- Flat Rate Internet Premium\n"
+"</b>\n"
+"\n"
+"For more information on the Broad Band Mobile Rates phone the <b>109</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/CZSelfcare/CZSelfcare.py:52
+msgid "<b>Service not available</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/CZSelfcare/CZSelfcare.py:53
+msgid "To access the Selfcare, please connect via O2 GPRS/UMTS network"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/DERecharge/derecharge.glade.h:1
+#, fuzzy
+msgid "<b><big>Recharge</big></b>"
+msgstr "[GL]<b><big>Roaming</big></b>[/GL]"
+
+#: ../src/tgcm/ui/Actions/DERecharge/derecharge.glade.h:2
+#, fuzzy
+msgid "Balance"
+msgstr "[GL]Cancelar[/GL]"
+
+#: ../src/tgcm/ui/Actions/DERecharge/derecharge.glade.h:3
+msgid "Enter number :  "
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/DERecharge/derecharge.glade.h:4
+msgid "Plan management"
+msgstr ""
+
+#: ../src/tgcm/ui/DevicePolicy.py:59
+#, fuzzy
+msgid "<b>SIM not found</b>"
+msgstr "[GL]<b>SIM no encontrada</b>[/GL]"
+
+#: ../src/tgcm/ui/DevicePolicy.py:60
+msgid ""
+"The Internet Mobile Device does not have a valid SIM card. Please, check "
+"that the SIM card is correctly inserted in the Internet Mobile Device."
+msgstr ""
+
+#: ../src/tgcm/ui/DevicePolicy.py:129
+msgid ""
+"The Mobile Internet Device does not have a valid SIM card.\n"
+"Please check to see that the device contains a SIM of your network operator."
+msgstr ""
+
+#: ../src/tgcm/ui/ThemedDock.py:262
+#, python-format
+msgid ""
+"Data purchased: %s\n"
+"Consumed data: %s\n"
+"Available data until %s : %s"
+msgstr ""
+
+#: ../src/tgcm/ui/ThemedDock.py:267
+#, python-format
+msgid ""
+"Data Purchased: %s\n"
+"You've used: %s\n"
+"Data Available until %s : %s"
+msgstr ""
+
+#: ../src/tgcm/ui/ThemedDock.py:346 ../src/tgcm/ui/ThemedDock.py:376
+#: ../src/tgcm/ui/widgets/dock/DeviceZone/DeviceZone.py:92
+#, fuzzy
+msgid "No device"
+msgstr "[GL]Not dbus connection available[/GL]"
+
+#: ../src/tgcm/ui/ThemedDock.py:387
+msgid "Available data"
+msgstr ""
+
+#: ../src/tgcm/ui/ThemedDock.py:390
+msgid "You've used"
+msgstr ""
+
+#. localizables
+#: ../src/tgcm/ui/ThemedDock.py:395
+#: ../src/tgcm/ui/widgets/dock/Window/Window.py:89
+msgid "Minimize to system tray"
+msgstr ""
+
+#: ../src/tgcm/ui/ThemedDock.py:396
+msgid "Minimize"
+msgstr ""
+
+#: ../src/tgcm/ui/ThemedDock.py:397
+#, fuzzy
+msgid "More..."
+msgstr "[GL]_Modificar...[/GL]"
+
+#: ../src/tgcm/ui/ThemedDock.py:399
+msgid "Wi-Fi"
+msgstr ""
+
+#: ../src/tgcm/ui/ThemedDock.py:400
+#, fuzzy
+msgid "Favorites"
+msgstr "[GL]Fabricante[/GL]"
+
+#: ../src/tgcm/ui/ThemedDock.py:401
+#, fuzzy
+msgid "%Messages"
+msgstr "[GL]Mensajes[/GL]"
+
+#: ../src/tgcm/ui/ThemedDock.py:402
+msgid "%Prepay"
+msgstr ""
+
+#: ../src/tgcm/ui/ThemedDock.py:404 ../src/tgcm/ui/ThemedDock.py:405
+#: ../src/tgcm/ui/widgets/dock/Window/Window.py:83
+#, python-format
+msgid "Close %s"
+msgstr ""
+
+#: ../src/tgcm/ui/ThemedDock.py:408
+#, fuzzy
+msgid "Smart Connection"
+msgstr "[GL]start connection[/GL]"
+
+#: ../src/tgcm/ui/ThemedDock.py:411
+msgid "Status"
+msgstr ""
+
+#: ../src/tgcm/ui/ThemedDock.py:413
+msgid "Get connected to the default connection"
+msgstr ""
+
+#: ../src/tgcm/ui/ThemedDock.py:419
+#, fuzzy
+msgid "Cancel"
+msgstr "[GL]Cancelar[/GL]"
+
+#: ../src/tgcm/ui/ThemedDock.py:421
+#, fuzzy
+msgid "DISCONNECT"
+msgstr "[GL]DISCONNECTED ---> %s[/GL]"
+
+#: ../src/tgcm/ui/ThemedDock.py:422
+msgid "CONNECT"
+msgstr ""
+
+#: ../src/tgcm/ui/ThemedDock.py:423
+msgid "CANCEL"
+msgstr ""
+
+#: ../src/tgcm/ui/ThemedDock.py:432
+msgid "Available networks"
+msgstr ""
+
+#: ../src/tgcm/ui/ThemedDock.py:434
+msgid "AVAILABLE NETWORKS"
+msgstr ""
+
+#: ../src/tgcm/ui/ThemedDock.py:436
+msgid "Available mobile networks"
+msgstr ""
+
+#: ../src/tgcm/ui/ThemedDock.py:447
+#, fuzzy, python-format
+msgid "To cancel connection to %s, click here"
+msgstr "[GL]Del connection %s [/GL]"
+
+#: ../src/tgcm/ui/widgets/settings/Dock/dock.glade.h:1
+msgid "Always visible"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Dock/dock.glade.h:2
+msgid ""
+"Auto-hide dock (invoke it taking the cursor to the hiding side of the "
+"screen)."
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Dock/dock.glade.h:3
+msgid ""
+"Check those services and favourites that will be ready in the menu area in "
+"your dock.\n"
+"Have in mind that the first 4 will be shown, but the rest will be displayed "
+"under the menu displayed after clicking the \"more\" button.\n"
+"Sort the order of your services using the arrow buttons beside the list."
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Dock/dock.glade.h:6
+msgid "Display"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Dock/dock.glade.h:7
+msgid "Menu"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Dock/dock.glade.h:8
+msgid "Please select a behaviour for the dock:"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Alerts/alerts.glade.h:2
+#, no-c-format
+msgid "% of the reference data volume "
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Alerts/alerts.glade.h:3
+msgid "- When connected via <b>a mobile network (WWAN)</b>:"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Alerts/alerts.glade.h:4
+msgid "- When connected via <b>roaming</b>:"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Alerts/alerts.glade.h:5
+#, fuzzy
+msgid "<b>Alerts</b>"
+msgstr "[GL]<b>Resumen</b>[/GL]"
+
+#: ../src/tgcm/ui/widgets/settings/Alerts/alerts.glade.h:6
+msgid "Alert me when I reach "
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Alerts/alerts.glade.h:7
+#: ../src/tgcm/ui/widgets/settings/General/general.glade.h:18
+msgid "MB"
+msgstr "[GL]MB[/GL]"
+
+#: ../src/tgcm/ui/widgets/settings/Alerts/alerts.glade.h:8
+msgid "Select the reference data volume:"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Alerts/Alerts.py:101
+#: ../src/tgcm/ui/widgets/settings/General/General.py:465
+msgid "Custom"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Connections/Connections.py:155
+#, fuzzy
+msgid "Export connection"
+msgstr "[GL]start connection[/GL]"
+
+#: ../src/tgcm/ui/widgets/settings/Connections/Connections.py:164
+#: ../src/tgcm/ui/widgets/settings/Connections/Connections.py:200
+msgid "tgcm Files"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Connections/Connections.py:192
+#, fuzzy
+msgid "Import connection"
+msgstr "[GL]start connection[/GL]"
+
+#: ../src/tgcm/ui/widgets/settings/Connections/connections.glade.h:1
+msgid "/home/user/.tgcm/connection.log"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Connections/connections.glade.h:2
+#, fuzzy
+msgid "Activate connection log"
+msgstr "[GL]start connection[/GL]"
+
+#: ../src/tgcm/ui/widgets/settings/Connections/connections.glade.h:5
+#, fuzzy
+msgid "File: "
+msgstr "[GL]Fichero : [/GL]"
+
+#: ../src/tgcm/ui/widgets/settings/Connections/connections.glade.h:8
+msgid "New WWAN connection..."
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Connections/connections.glade.h:9
+msgid "Open log"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Connections/connections.glade.h:10
+msgid "Pre-set"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Connections/connections.glade.h:11
+msgid ""
+"This is where you can manage your connection profiles. You can add new "
+"profiles and modify or delete existing ones."
+msgstr ""
+
+#. Device desc labels
+#: ../src/tgcm/ui/widgets/settings/Devices/Devices.py:67
+msgid "Choose the device you want to use with %(app_name)s to connect to the WWAN."
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Devices/Devices.py:69
+msgid "Choose the device you want to use with %(app_name)s to connect to the Wi-Fi networks."
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Devices/devices.glade.h:1
+#, fuzzy
+msgid "<b>Devices</b>"
+msgstr "[GL]<b>Dispositivo detectado</b>[/GL]"
+
+#: ../src/tgcm/ui/widgets/settings/Devices/devices.glade.h:2
+#, fuzzy
+msgid "WWAN Devices"
+msgstr "[GL]Servicios[/GL]"
+
+#: ../src/tgcm/ui/widgets/settings/Devices/devices.glade.h:3
+msgid "List of devices :"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Devices/devices.glade.h:4
+msgid "List of devices : "
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Devices/devices.glade.h:5
+msgid "Select"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Devices/devices.glade.h:6
+#, fuzzy
+msgid "Wi-Fi Devices"
+msgstr "[GL]Servicios[/GL]"
+
+#: ../src/tgcm/ui/widgets/settings/Devices/devices.glade.h:7
+msgid "label"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Addressbook/addressbook.glade.h:1
+#, fuzzy
+msgid "<b>Contacts</b>"
+msgstr "[GL]<b>Total</b>[/GL]"
+
+#: ../src/tgcm/ui/widgets/settings/Addressbook/addressbook.glade.h:2
+#, fuzzy
+msgid "<b>Storage</b>"
+msgstr "[GL]<b>Roaming</b>[/GL]"
+
+#: ../src/tgcm/ui/widgets/settings/Addressbook/addressbook.glade.h:3
+msgid ""
+"<span foreground=\"blue\" underline=\"single\">http://www.copiagenda."
+"movistar.es</span>"
+msgstr ""
+"[GL]<span foreground=\"blue\" underline=\"single\">http://www.copiagenda."
+"movistar.es</span>[/GL]"
+
+#: ../src/tgcm/ui/widgets/settings/Addressbook/addressbook.glade.h:4
+msgid ""
+"From the Address book you can keep a list of contacts that you will be able "
+"to send e-mails to."
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Addressbook/addressbook.glade.h:5
+msgid ""
+"Moreover, if you use the service <b>Copiagenda</b> from movistar, you will "
+"be able to download the network contacts you have stored. Downloading "
+"contacts will vary in cost depending on the data subscribed.\n"
+"For more information about this service you can visit :"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Addressbook/addressbook.glade.h:7
+msgid ""
+"The identification data to download the online contacts is included in the "
+"configuration window <b>User data</b>."
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Addressbook/addressbook.glade.h:8
+msgid "Use the Evolution address book."
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Addressbook/addressbook.glade.h:9
+msgid "Use the built-in address book."
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Addressbook/addressbook.glade.h:10
+msgid ""
+"You can choose between save your contact list in the address book on "
+"Evolution, or save them in the built-in address book itself."
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/General.py:69
+msgid "Networks and SIM card"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/General.py:84
+#: ../src/tgcm/ui/widgets/settings/General/general.glade.h:19
+#, fuzzy
+msgid "Manual"
+msgstr "[GL]_Manual[/GL]"
+
+#: ../src/tgcm/ui/widgets/settings/General/General.py:94
+msgid ""
+"This is your monthly data allowance on the O2 network. You can find this by "
+"looking on your bill."
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/General.py:99
+msgid "You can find this on your bill."
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/General.py:104
+msgid "You can find your mobile broadband number on your bill or contract."
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/General.py:109
+msgid "This is your personal or business mobile phone number."
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/general.glade.h:1
+msgid "<b>Network technology selection</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/general.glade.h:2
+#, fuzzy
+msgid "<b>Operator selection</b>"
+msgstr "[GL]<b>Dispositivo detectado</b>[/GL]"
+
+#: ../src/tgcm/ui/widgets/settings/General/general.glade.h:3
+#, fuzzy
+msgid "<b>PIN</b>"
+msgstr "[GL]<b>Inicio</b>[/GL]"
+
+#: ../src/tgcm/ui/widgets/settings/General/general.glade.h:4
+#, fuzzy
+msgid "<b>Start Up and Connection</b>"
+msgstr "[GL]<b>Conexión</b>[/GL]"
+
+#: ../src/tgcm/ui/widgets/settings/General/general.glade.h:5
+msgid "<b>Updates and news</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/general.glade.h:6
+msgid ""
+"<span color=\"red\">This number must be a number 11 digits long,\n"
+"starting with 07.</span>"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/general.glade.h:8
+#, fuzzy
+msgid "<span foreground=\"blue\" underline=\"single\">o2.co.uk</span>"
+msgstr ""
+"[GL]<span foreground=\"blue\" underline=\"single\">http://www.copiagenda."
+"movistar.es</span>[/GL]"
+
+#: ../src/tgcm/ui/widgets/settings/General/general.glade.h:9
+#, fuzzy
+msgid "Automatic"
+msgstr "[GL]_Automática[/GL]"
+
+#: ../src/tgcm/ui/widgets/settings/General/general.glade.h:10
+msgid "Automatically check for updates and news when I connect"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/general.glade.h:11
+msgid "Change PIN"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/general.glade.h:12
+#, fuzzy
+msgid "Connect to the Internet when I open the application"
+msgstr "[GL]<b>Confirmar fin de la aplicación</b>[/GL]"
+
+#: ../src/tgcm/ui/widgets/settings/General/general.glade.h:13
+#, fuzzy
+msgid "Deactivate PIN"
+msgstr "[GL]_Desactivar/Activar PIN...[/GL]"
+
+#: ../src/tgcm/ui/widgets/settings/General/general.glade.h:15
+msgid "I'm on the O2 Mobile Broadband Pay & Go"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/general.glade.h:16
+msgid "I'm on the O2 Mobile Broadband Pay Monthly"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/general.glade.h:17
+msgid "Launch the application when I start up my computer"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/general.glade.h:20
+msgid "Manual. Use this network technology: "
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/general.glade.h:21
+msgid "Mobile broadband number: "
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/general.glade.h:22
+msgid "Mobile phone number:"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/general.glade.h:23
+msgid "My bill date:"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/general.glade.h:24
+msgid "My details"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/general.glade.h:25
+msgid "My monthly O2 network data allowance (excluding Wi-Fi): "
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/general.glade.h:26
+msgid "Please, see your O2's Privacy Policy at "
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/general.glade.h:27
+msgid "SIM"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/general.glade.h:28
+msgid "Search operators"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/general.glade.h:29
+msgid "See updates and news"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/general.glade.h:30
+msgid ""
+"To get the most out of your mobile broadband service, please complete the "
+"fields below:"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/general.glade.h:31
+msgid ""
+"To help us keep you informed of things like software updates, improvements "
+"to mobile broadband and O2 offers, please complete the following fields:"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/general.glade.h:32
+msgid ""
+"UTMS/3G only\n"
+"UTMS/3G prefered\n"
+"GPRS/2.5G only\n"
+"GPRS/2.5G prefered"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Services/services.glade.h:1
+#, fuzzy
+msgid "<b>New users:</b>"
+msgstr "[GL]<b>Nuevos usuarios:</b>[/GL]"
+
+#: ../src/tgcm/ui/widgets/settings/Services/services.glade.h:2
+msgid "Always request key on connecting"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Services/services.glade.h:3
+#, fuzzy
+msgid "Connect without identifying myself"
+msgstr "[GL]Conectar sin identificarme[/GL]"
+
+#: ../src/tgcm/ui/widgets/settings/Services/services.glade.h:4
+msgid ""
+"If you are a new movistar service user or you have forgotten you key to "
+"access, \n"
+"ask for your key by sending a free text message to 22770. Indicating in the "
+"message the \n"
+"key you want. The key must have between 6 and 14 characters and is sensitive "
+"to the \n"
+"capital letters. After sending the message, you will receive a text message "
+"confirming your \n"
+"key.\n"
+"\n"
+"Example, send \"Blues\" to 22770 so that this is you access key."
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Services/services.glade.h:13
+msgid ""
+"Some services need identification. From Here you can save your user and "
+"key.\n"
+"\n"
+"Select how you want to connect up to the movistar services:"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Services/services.glade.h:17
+msgid "Use the following data"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Services/services.glade.h:18
+msgid "User details"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Services/Services.py:100
+#: ../src/tgcm/ui/widgets/settings/Services/Services.py:123
+#: ../src/tgcm/ui/widgets/settings/Services/Services.py:223
+#, fuzzy
+msgid "Install service"
+msgstr "[GL]_Instalar servicio[/GL]"
+
+#: ../src/tgcm/ui/widgets/traffic/SessionInfo/SessionInfoUK.glade.h:2
+#: ../src/tgcm/ui/widgets/traffic/SessionInfo/SessionInfo.glade.h:2
+msgid "00:00:00"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/SessionInfo/SessionInfoUK.glade.h:3
+msgid "How long:"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/SessionInfo/SessionInfoUK.glade.h:4
+msgid "How much:"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/SessionInfo/SessionInfo.glade.h:3
+msgid "Data Transfered :"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/SessionInfo/SessionInfo.glade.h:4
+msgid "Maximum speed : "
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/SessionInfo/SessionInfo.glade.h:5
+msgid "Session Time :"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/TrafficHistoryGraph/TrafficHistoryGraph.py:136
+#: ../src/tgcm/ui/widgets/traffic/TrafficHistoryGraph/TrafficHistoryGraph.py:156
+#, fuzzy
+msgid "Monthly allowance"
+msgstr "[GL]<small>Con_sumo</small>[/GL]"
+
+#: ../src/tgcm/ui/widgets/traffic/TrafficHistoryGraph/TrafficHistoryGraph.py:138
+#: ../src/tgcm/ui/widgets/traffic/TrafficHistoryGraph/TrafficHistoryGraph.py:178
+msgid "Billing"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/TrafficHistoryGraph/TrafficHistoryGraph.py:139
+#: ../src/tgcm/ui/widgets/traffic/TrafficHistoryGraph/TrafficHistoryGraph.py:179
+msgid "period"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/TrafficHistoryGraph/TrafficHistoryGraph.py:140
+#: ../src/tgcm/ui/widgets/traffic/TrafficHistoryGraph/TrafficHistoryGraph.py:201
+msgid "Data used (MB)"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/TrafficHistoryGraph/TrafficHistoryGraph.py:280
+msgid "This"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/TrafficHistoryGraph/TrafficHistoryGraph.py:282
+msgid "Last"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/TrafficHistoryGraph/TrafficHistoryGraph.py:283
+msgid "month"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/TrafficHistoryGraph/TrafficHistoryGraph.py:321
+#, python-format
+msgid "Month %d"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/TrafficHistoryGraph/TrafficHistoryGraph.py:357
+#: ../src/tgcm/ui/widgets/traffic/TrafficHistoryGraph/TrafficHistoryGraph.py:373
+#, python-format
+msgid "%s Network"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/TrafficHistoryGraph/TrafficHistoryGraph.py:360
+#: ../src/tgcm/ui/widgets/traffic/TrafficHistoryGraph/TrafficHistoryGraph.py:387
+msgid "Roaming"
+msgstr "[GL]Roaming[/GL]"
+
+#: ../src/tgcm/ui/widgets/traffic/TrafficHistoryGraph/TrafficHistoryGraph.py:463
+msgid "Jan"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/TrafficHistoryGraph/TrafficHistoryGraph.py:463
+#, fuzzy
+msgid "Feb"
+msgstr "[GL]feb[/GL]"
+
+#: ../src/tgcm/ui/widgets/traffic/TrafficHistoryGraph/TrafficHistoryGraph.py:463
+#, fuzzy
+msgid "Mar"
+msgstr "[GL]mar[/GL]"
+
+#: ../src/tgcm/ui/widgets/traffic/TrafficHistoryGraph/TrafficHistoryGraph.py:463
+msgid "Apr"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/TrafficHistoryGraph/TrafficHistoryGraph.py:463
+#, fuzzy
+msgid "Jun"
+msgstr "[GL]jun[/GL]"
+
+#: ../src/tgcm/ui/widgets/traffic/TrafficHistoryGraph/TrafficHistoryGraph.py:463
+#, fuzzy
+msgid "Jul"
+msgstr "[GL]jul[/GL]"
+
+#: ../src/tgcm/ui/widgets/traffic/TrafficHistoryGraph/TrafficHistoryGraph.py:463
+msgid "Aug"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/TrafficHistoryGraph/TrafficHistoryGraph.py:463
+#, fuzzy
+msgid "Sep"
+msgstr "[GL]sep[/GL]"
+
+#: ../src/tgcm/ui/widgets/traffic/TrafficHistoryGraph/TrafficHistoryGraph.py:463
+#, fuzzy
+msgid "Oct"
+msgstr "[GL]oct[/GL]"
+
+#: ../src/tgcm/ui/widgets/traffic/TrafficHistoryGraph/TrafficHistoryGraph.py:463
+#, fuzzy
+msgid "Nov"
+msgstr "[GL]nov[/GL]"
+
+#: ../src/tgcm/ui/widgets/traffic/TrafficHistoryGraph/TrafficHistoryGraph.py:463
+#, fuzzy
+msgid "Dic"
+msgstr "[GL]dic[/GL]"
+
+#: ../src/tgcm/ui/widgets/traffic/TrafficHistoryGraph/TrafficHistoryGraph.py:478
+#, python-format
+msgid "Summary from %s to current date"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/TrafficGraph/TrafficGraph.py:50
+#, fuzzy
+msgid "Now"
+msgstr "[GL]nov[/GL]"
+
+#: ../src/tgcm/ui/widgets/traffic/TrafficGraph/TrafficGraph.py:51
+msgid "Time"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/TrafficGraph/TrafficGraph.py:104
+#, python-format
+msgid ""
+"Average Speed: %.2f KBits/s\n"
+"Download Speed: %.2f KBits/s\n"
+"Upload Speed: %.2f KBits/s"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfo.py:69
+msgid "Data limit at maximun speed"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfo.py:70
+msgid "Available data at maximun speed"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfo.glade.h:1
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfoUK.glade.h:2
+#, fuzzy
+msgid "<b>0</b>"
+msgstr "[GL]<b>Total</b>[/GL]"
+
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfo.glade.h:2
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfoUK.glade.h:3
+#, fuzzy
+msgid "<b>12</b>"
+msgstr "[GL]<b>Total</b>[/GL]"
+
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfo.glade.h:3
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfoUK.glade.h:4
+#, fuzzy
+msgid "<b>1GB</b>"
+msgstr "[GL]<b>Total</b>[/GL]"
+
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfo.glade.h:4
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfoUK.glade.h:5
+msgid "<b>256MB</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfo.glade.h:5
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfoUK.glade.h:6
+#, fuzzy
+msgid "<b>34MB</b>"
+msgstr "[GL]<b>Total</b>[/GL]"
+
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfo.glade.h:6
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfoUK.glade.h:7
+msgid "<b>756MB</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfo.glade.h:7
+msgid "<small><b>Data Transfered</b></small>"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfo.glade.h:8
+#, fuzzy
+msgid "<small><b>SMS Sent</b></small>"
+msgstr "[GL]<small>Con_sumo</small>[/GL]"
+
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfo.glade.h:9
+msgid "<small>Available Data</small>"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfo.glade.h:10
+#, fuzzy
+msgid "<small>Data Used</small>"
+msgstr "[GL]<small>Con_sumo</small>[/GL]"
+
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfo.glade.h:11
+#, fuzzy
+msgid "<small>Roaming Data</small>"
+msgstr "[GL]<small>Con_sumo</small>[/GL]"
+
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfo.glade.h:12
+#, fuzzy
+msgid "<small>Roaming</small>"
+msgstr "[GL]<small>Con_sumo</small>[/GL]"
+
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfo.glade.h:13
+#, fuzzy
+msgid "<small>Total</small>"
+msgstr "[GL]<small>Con_sumo</small>[/GL]"
+
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfo.glade.h:14
+#, fuzzy
+msgid "<small>Transference Limit</small>"
+msgstr "[GL]<small>Con_sumo</small>[/GL]"
+
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfoUK.glade.h:1
+#, fuzzy
+msgid ""
+" <small><span foreground=\"blue\" underline=\"single\">My details</span></"
+"small>"
+msgstr ""
+"[GL]<span foreground=\"blue\" underline=\"single\">http://www.copiagenda."
+"movistar.es</span>[/GL]"
+
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfoUK.glade.h:8
+msgid ""
+"<b><small><span color=\"red\">You have exceed your monthly data usage "
+"allowance and will now be charged\n"
+"for any data you use on the O2 network until the start of your next bill.\n"
+"\n"
+"Don't forget that you receibe unlimited Wi-Fi through our partners The "
+"Cloud\n"
+"and BT Openzone.</span></small></b>"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfoUK.glade.h:13
+#, fuzzy
+msgid "<b>How much</b>"
+msgstr "[GL]<b>Roaming</b>[/GL]"
+
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfoUK.glade.h:14
+#, fuzzy
+msgid "<small>Abroad</small>"
+msgstr "[GL]<small>Con_sumo</small>[/GL]"
+
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfoUK.glade.h:15
+#, fuzzy
+msgid "<small>Data abroad</small>"
+msgstr "[GL]<small>(Separado por comas)</small>[/GL]"
+
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfoUK.glade.h:16
+#, fuzzy
+msgid "<small>Monthly allowance</small>"
+msgstr "[GL]<small>Con_sumo</small>[/GL]"
+
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfoUK.glade.h:17
+#, fuzzy
+msgid "<small>Texts sent</small>"
+msgstr "[GL]<small>Con_sumo</small>[/GL]"
+
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfoUK.glade.h:18
+#, fuzzy
+msgid "<small>UK</small>"
+msgstr "[GL]<small>Con_sumo</small>[/GL]"
+
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfoUK.glade.h:19
+#, fuzzy
+msgid "<small>What you've used</small>"
+msgstr "[GL]<small>Con_sumo</small>[/GL]"
+
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfoUK.glade.h:20
+#, fuzzy
+msgid "<small>What's left</small>"
+msgstr "[GL]<small>Con_sumo</small>[/GL]"
+
+#: ../src/tgcm/ui/widgets/dock/Systray/Systray.glade.h:1
+msgid "See available networks"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/Systray/Systray.glade.h:2
+msgid "Show the dock"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/Systray/Systray.py:145
+#, python-format
+msgid ""
+"%s\n"
+"%s\n"
+"Current speed: %s/s\n"
+"Time: %02d:%02d:%02d\n"
+"Traffic: %s"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/Systray/Systray.py:154
+#, fuzzy, python-format
+msgid "%s - Disconnected"
+msgstr "[GL]disconnect[/GL]"
+
+#: ../src/tgcm/ui/widgets/dock/DeviceMenuPopup/DeviceMenuPopup.glade.h:2
+#, fuzzy
+msgid "G_PRS/2.5G preferred"
+msgstr "[GL]G_PRS/2.5G preferido[/GL]"
+
+#: ../src/tgcm/ui/widgets/dock/DeviceMenuPopup/DeviceMenuPopup.glade.h:3
+msgid "Network technology selection"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/DeviceMenuPopup/DeviceMenuPopup.glade.h:4
+msgid "PIN management"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/DeviceMenuPopup/DeviceMenuPopup.glade.h:5
+msgid "Turn off"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/DeviceMenuPopup/DeviceMenuPopup.glade.h:6
+msgid "Turn on"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/DeviceMenuPopup/DeviceMenuPopup.glade.h:7
+#, fuzzy
+msgid "U_TMS/3G preferred"
+msgstr "[GL]U_TMS/3G preferido[/GL]"
+
+#: ../src/tgcm/ui/widgets/dock/DeviceMenuPopup/DeviceMenuPopup.glade.h:8
+#, fuzzy
+msgid "_Activate PIN ..."
+msgstr "[GL]_Desactivar/Activar PIN...[/GL]"
+
+#: ../src/tgcm/ui/widgets/dock/DeviceMenuPopup/DeviceMenuPopup.glade.h:9
+#, fuzzy
+msgid "_Automatic"
+msgstr "[GL]_Automática[/GL]"
+
+#: ../src/tgcm/ui/widgets/dock/DeviceMenuPopup/DeviceMenuPopup.glade.h:10
+#, fuzzy
+msgid "_Change PIN..."
+msgstr "[GL]_Cambiar PIN...[/GL]"
+
+#: ../src/tgcm/ui/widgets/dock/DeviceMenuPopup/DeviceMenuPopup.glade.h:11
+#, fuzzy
+msgid "_Deactivate PIN ..."
+msgstr "[GL]_Desactivar/Activar PIN...[/GL]"
+
+#: ../src/tgcm/ui/widgets/dock/DeviceMenuPopup/DeviceMenuPopup.glade.h:12
+#, fuzzy
+msgid "_GPRS/2.5G only"
+msgstr "[GL]_GPRS/2.5G sólo[/GL]"
+
+#: ../src/tgcm/ui/widgets/dock/DeviceMenuPopup/DeviceMenuPopup.glade.h:13
+msgid "_Manual"
+msgstr "[GL]_Manual[/GL]"
+
+#: ../src/tgcm/ui/widgets/dock/DeviceMenuPopup/DeviceMenuPopup.glade.h:14
+#, fuzzy
+msgid "_UTMS/3G only"
+msgstr "[GL]_UTMS/3G sólo[/GL]"
+
+#: ../src/tgcm/ui/widgets/dock/Window/Window.py:96
+#, python-format
+msgid "%s Help"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/Window/Window.py:103
+#, python-format
+msgid "%s Settings"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/ServicesToolbar/ServicesToolbar.py:110
+#, fuzzy
+msgid "More"
+msgstr "[GL]_Modificar...[/GL]"
+
+#: ../src/tgcm/ui/widgets/dock/ConnectionZone/ConnectionZone.py:194
+#, python-format
+msgid "%s - Available Networks"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/ConnectionZone/ConnectionZone.py:204
+msgid ""
+"Select the connection that you want to use and press the Connect button."
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/TrafficZone/TrafficZone.py:41
+msgid "January"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/TrafficZone/TrafficZone.py:41
+msgid "February"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/TrafficZone/TrafficZone.py:41
+msgid "March"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/TrafficZone/TrafficZone.py:41
+#, fuzzy
+msgid "April"
+msgstr "[GL]Abrir[/GL]"
+
+#: ../src/tgcm/ui/widgets/dock/TrafficZone/TrafficZone.py:41
+msgid "June"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/TrafficZone/TrafficZone.py:42
+msgid "July"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/TrafficZone/TrafficZone.py:42
+msgid "August"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/TrafficZone/TrafficZone.py:42
+msgid "September"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/TrafficZone/TrafficZone.py:42
+msgid "October"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/TrafficZone/TrafficZone.py:42
+#, fuzzy
+msgid "November"
+msgstr "[GL]Nombre[/GL]"
+
+#: ../src/tgcm/ui/widgets/dock/TrafficZone/TrafficZone.py:42
+msgid "December"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/LinkButton/LinkButton.py:35
+msgid "View usage &amp; buy access"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/DeviceZone/DeviceZone.py:108
+msgid "Device switched off"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/DeviceZone/DeviceZone.py:205
+msgid ""
+"Device: No device\n"
+"No available device has found"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/DeviceZone/DeviceZone.py:209
+#, python-format
+msgid ""
+"Device: %s\n"
+"Device is detected but turned off"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/DeviceZone/DeviceZone.py:217
+msgid "Good"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/DeviceZone/DeviceZone.py:219
+msgid "Medium"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/DeviceZone/DeviceZone.py:221
+msgid "Bad"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/DeviceZone/DeviceZone.py:230
+#, fuzzy
+msgid "Activate"
+msgstr "[GL]Activado[/GL]"
+
+#: ../src/tgcm/ui/widgets/dock/DeviceZone/DeviceZone.py:232
+#, fuzzy
+msgid "Deactivate"
+msgstr "[GL]Desactivado[/GL]"
+
+#: ../src/tgcm/ui/widgets/dock/DeviceZone/DeviceZone.py:234
+#, python-format
+msgid ""
+"Device: %s\n"
+"Signal Strength: %s\n"
+"Network technology: %s\n"
+"Operator: %s\n"
+"PIN: %s"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/DeviceZone/DeviceZone.py:237
+#, fuzzy, python-format
+msgid "Device: %s"
+msgstr "[GL]Fichero : [/GL]"
+
+#, fuzzy
+#~ msgid "<b><span foreground=\"#515774\">Connection : </span></b>"
+#~ msgstr "[GL]<b><span foreground=\"#515774\">Conexión : </span></b>[/GL]"
+
+#, fuzzy
+#~ msgid "<b><span foreground=\"#515774\">Time : </span></b>"
+#~ msgstr "[GL]<b><span foreground=\"#515774\">Tiempo : </span></b>[/GL]"
+
+#, fuzzy
+#~ msgid "<b><span foreground=\"#515774\">Traffic : </span></b>"
+#~ msgstr "[GL]<b><span foreground=\"#515774\">Tráfico : </span></b>[/GL]"
+
+#, fuzzy
+#~ msgid "<b><span foreground=\"#515774\">Velocity : </span></b>"
+#~ msgstr "[GL]<b><span foreground=\"#515774\">Velocidad : </span></b>[/GL]"
+
+#, fuzzy
+#~ msgid "<small>Tra_ffic</small>"
+#~ msgstr "[GL]<small>Con_sumo</small>[/GL]"
+
+#, fuzzy
+#~ msgid "<span foreground=\"#003c86\">None established</span>"
+#~ msgstr "[GL]<span foreground=\"#003c86\">Ninguna establecida</span>[/GL]"
+
+#, fuzzy
+#~ msgid "<span foreground=\"white\">E_xpand</span>"
+#~ msgstr "[GL]<span foreground=\"white\">E_xpandir</span>[/GL]"
+
+#, fuzzy
+#~ msgid "<span foreground=\"white\">WWAN  Device: </span>"
+#~ msgstr "[GL]<span foreground=\"white\">Dispositivo  WWAN : </span>[/GL]"
+
+#, fuzzy
+#~ msgid "Co_ntract"
+#~ msgstr "[GL]Co_ntraer[/GL]"
+
+#, fuzzy
+#~ msgid "Escritorio Movistar"
+#~ msgstr "[GL]Escritorio Movistar - Beta[/GL]"
+
+#, fuzzy
+#~ msgid "Select a contact from the list:"
+#~ msgstr "[GL]Selecciona un contacto de la lista:[/GL]"
+
+#~ msgid "Telefónica"
+#~ msgstr "Telefónica Móviles España"
+
+#, fuzzy
+#~ msgid "Configuration "
+#~ msgstr "[GL]Configuración [/GL]"
+
+#, fuzzy
+#~ msgid "Open TGCM configuration and its services"
+#~ msgstr "[GL]Abre la configuración del Escritorio y sus servicios[/GL]"
+
+#, fuzzy
+#~ msgid "Ignore"
+#~ msgstr "[GL]Ignorar[/GL]"
+
+#~ msgid "dialog1"
+#~ msgstr "[GL]dialog1[/GL]"
+
+#, fuzzy
+#~ msgid ""
+#~ "200 MB\n"
+#~ "1 GB\n"
+#~ "5 GB\n"
+#~ "Another amount"
+#~ msgstr ""
+#~ "[GL]200 MB\n"
+#~ "1 GB\n"
+#~ "5 GB\n"
+#~ "Otra cantidad[/GL]"
+
+#, fuzzy
+#~ msgid "<b><big>Movistar Network</big></b>"
+#~ msgstr "[GL]<b><big>Red movistar</big></b>[/GL]"
+
+#, fuzzy
+#~ msgid "<b><big>Unconnected</big></b>"
+#~ msgstr "[GL]<b><big>Conexiones</big></b>[/GL]"
+
+#, fuzzy
+#~ msgid "<b>Log (MB)</b>"
+#~ msgstr "[GL]<b>Histórico (MB)</b>[/GL]"
+
+#, fuzzy
+#~ msgid "<b>Movistar Network</b>"
+#~ msgstr "[GL]<b>Red movistar</b>[/GL]"
+
+#, fuzzy
+#~ msgid "<b>Received</b>"
+#~ msgstr "[GL]<b>Recibido</b>[/GL]"
+
+#~ msgid "<b>Red movistar</b>"
+#~ msgstr "[GL]<b>Red movistar</b>[/GL]"
+
+#~ msgid "<b>Roaming</b>"
+#~ msgstr "[GL]<b>Roaming</b>[/GL]"
+
+#, fuzzy
+#~ msgid "<b>SMS sent:</b>"
+#~ msgstr "[GL]<b>Resumen</b>[/GL]"
+
+#, fuzzy
+#~ msgid "<b>Sent</b>"
+#~ msgstr "[GL]<b>Resumen</b>[/GL]"
+
+#, fuzzy
+#~ msgid "<b>Speed</b>"
+#~ msgstr "[GL]<b>Resumen</b>[/GL]"
+
+#, fuzzy
+#~ msgid "<b>Summary: from 18/02/2008</b>"
+#~ msgstr "[GL]<b>Resumen: desde 18/02/2008</b>[/GL]"
+
+#, fuzzy
+#~ msgid "<b>Summary</b>"
+#~ msgstr "[GL]<b>Ayuda</b>[/GL]"
+
+#, fuzzy
+#~ msgid "<b>Time:</b>"
+#~ msgstr "[GL]<b>Tiempo:</b>[/GL]"
+
+#~ msgid "<b>Total</b>"
+#~ msgstr "[GL]<b>Total</b>[/GL]"
+
+#, fuzzy
+#~ msgid "<b>Traffic:</b>"
+#~ msgstr "[GL]<b>Tráfico:</b>[/GL]"
+
+#, fuzzy
+#~ msgid "<b>Traffic</b>"
+#~ msgstr "[GL]<b>Tráfico</b>[/GL]"
+
+#, fuzzy
+#~ msgid "<span foreground=\"blue\" size=\"xx-large\">Traffic</span>"
+#~ msgstr "[GL]<span foreground=\"blue\" size=\"xx-large\">Agenda</span>[/GL]"
+
+#, fuzzy
+#~ msgid "Accumulated"
+#~ msgstr "[GL]Acumulado[/GL]"
+
+#, fuzzy
+#~ msgid "Receiving"
+#~ msgstr "[GL]Recepción[/GL]"
+
+#, fuzzy
+#~ msgid "_Restart"
+#~ msgstr "[GL]Red movistar[/GL]"
+
+#, fuzzy
+#~ msgid "<b><big>Address book</big></b>"
+#~ msgstr "[GL]<b><big>Accesos directos</big></b>[/GL]"
+
+#, fuzzy
+#~ msgid "<b><big>Connections</big></b>"
+#~ msgstr "[GL]<b><big>Conexiones</big></b>[/GL]"
+
+#~ msgid "<b><big>General</big></b>"
+#~ msgstr "[GL]<b><big>General</big></b>[/GL]"
+
+#, fuzzy
+#~ msgid "<b><big>My devices</big></b>"
+#~ msgstr "[GL]<b><big>Servicios</big></b>[/GL]"
+
+#, fuzzy
+#~ msgid "<b><big>Services</big></b>"
+#~ msgstr "[GL]<b><big>Servicios</big></b>[/GL]"
+
+#, fuzzy
+#~ msgid "<b><big>Shortcut</big></b>"
+#~ msgstr "[GL]<b><big>Servicios</big></b>[/GL]"
+
+#, fuzzy
+#~ msgid "<b><big>User data</big></b>"
+#~ msgstr "[GL]<b><big>Agenda</big></b>[/GL]"
+
+#, fuzzy
+#~ msgid "<b>News</b>"
+#~ msgstr "[GL]<b>Resumen</b>[/GL]"
+
+#, fuzzy
+#~ msgid "<b>Profile assigned by Telefónica Móviles</b>"
+#~ msgstr "[GL]<b>Perfil asignado por Telefónica Móviles</b>[/GL]"
+
+#, fuzzy
+#~ msgid "<b>Start</b>"
+#~ msgstr "[GL]<b>Total</b>[/GL]"
+
+#, fuzzy
+#~ msgid "<small>(Separated by commas)</small>"
+#~ msgstr "[GL]<small>(Separado por comas)</small>[/GL]"
+
+#~ msgid "APN"
+#~ msgstr "[GL]APN[/GL]"
+
+#, fuzzy
+#~ msgid "Connect to start"
+#~ msgstr "[GL]Conectar[/GL]"
+
+#, fuzzy
+#~ msgid "Connections"
+#~ msgstr "[GL]Conexiones[/GL]"
+
+#~ msgid "DNS"
+#~ msgstr "[GL]DNS[/GL]"
+
+#, fuzzy
+#~ msgid "Do not use proxy"
+#~ msgstr "[GL]No usar proxy[/GL]"
+
+#, fuzzy
+#~ msgid "E_xport ..."
+#~ msgstr "[GL]E_xportar ...[/GL]"
+
+#, fuzzy
+#~ msgid "Identification"
+#~ msgstr "[GL]Identificación[/GL]"
+
+#, fuzzy
+#~ msgid "Port : "
+#~ msgstr "[GL]Puerto : [/GL]"
+
+#~ msgid "Proxy"
+#~ msgstr "[GL]Proxy[/GL]"
+
+#, fuzzy
+#~ msgid "Request password on connecting"
+#~ msgstr "[GL]start connection[/GL]"
+
+#, fuzzy
+#~ msgid "Service"
+#~ msgstr "[GL]Servicio[/GL]"
+
+#, fuzzy
+#~ msgid "TGCM - Configuration"
+#~ msgstr "[GL]Configuración[/GL]"
+
+#, fuzzy
+#~ msgid "Use proxy"
+#~ msgstr "[GL]Usar proxy[/GL]"
+
+#, fuzzy
+#~ msgid "User "
+#~ msgstr "[GL]Usuario [/GL]"
+
+#, fuzzy
+#~ msgid "_Import ..."
+#~ msgstr "[GL]_Importar ...[/GL]"
+
+#, fuzzy
+#~ msgid "_Modify ..."
+#~ msgstr "[GL]_Modificar ...[/GL]"
+
+#, fuzzy
+#~ msgid "_Modify..."
+#~ msgstr "[GL]_Modificar...[/GL]"
+
+#, fuzzy
+#~ msgid "_New ..."
+#~ msgstr "[GL]_Nueva ...[/GL]"
+
+#, fuzzy
+#~ msgid "_New..."
+#~ msgstr "[GL]_Nuevo...[/GL]"
+
+#, fuzzy
+#~ msgid "dialogue1"
+#~ msgstr "[GL]dialog1[/GL]"
+
+#, fuzzy
+#~ msgid "Export shortcut"
+#~ msgstr "[GL]Exportar acceso directo[/GL]"
+
+#, fuzzy
+#~ msgid "Import shortcut"
+#~ msgstr "[GL]Importar acceso directo[/GL]"
+
+#, fuzzy
+#~ msgid "<span foreground=\"white\">No device available</span>"
+#~ msgstr "[GL]<span foreground=\"white\">E_xpandir</span>[/GL]"
+
+#, fuzzy
+#~ msgid "Configuration"
+#~ msgstr "[GL]Configuración[/GL]"
+
+#, fuzzy
+#~ msgid "Configure shortcuts..."
+#~ msgstr "[GL]Configurar accesos directos...[/GL]"
+
+#, fuzzy
+#~ msgid "<b>Device Detected</b>"
+#~ msgstr "[GL]<b>Dispositivo Detectado</b>[/GL]"
+
+#, fuzzy
+#~ msgid "Movistar Network"
+#~ msgstr "[GL]movistar Internet[/GL]"
+
+#, fuzzy
+#~ msgid "%s: Not connected"
+#~ msgstr "[GL]start connection[/GL]"
+
+#, fuzzy
+#~ msgid "%s: connected"
+#~ msgstr "[GL]disconnect[/GL]"
+
+#, fuzzy
+#~ msgid "None established"
+#~ msgstr "[GL]Ninguna establecida[/GL]"
+
+#, fuzzy
+#~ msgid "Connecting to '%s'"
+#~ msgstr "[GL]Conectando con '%s'[/GL]"
+
+#, fuzzy
+#~ msgid "Disconnecting '%s'"
+#~ msgstr "[GL]Desconectando '%s'[/GL]"
+
+#~ msgid "<b><span foreground=\"#515774\"> GPRS</span></b>"
+#~ msgstr "[GL]<b><span foreground=\"#515774\"> GPRS</span></b>[/GL]"
+
+#~ msgid "<b><span foreground=\"#515774\">3G</span></b>"
+#~ msgstr "[GL]<b><span foreground=\"#515774\">3G</span></b>[/GL]"
+
+#~ msgid "<b><span foreground=\"#515774\">3,5G</span></b>"
+#~ msgstr "[GL]<b><span foreground=\"#515774\">3,5G</span></b>[/GL]"
+
+#~ msgid "<b><span foreground=\"#515774\">3,5G+</span></b>"
+#~ msgstr "[GL]<b><span foreground=\"#515774\">3,5G+</span></b>[/GL]"
+
+#, fuzzy
+#~ msgid "Registered on the 3G network"
+#~ msgstr "[GL]Registrado en red 3G[/GL]"
+
+#, fuzzy
+#~ msgid "Activated to %s MB "
+#~ msgstr "[GL]Activado a %s MB [/GL]"
+
+#, fuzzy
+#~ msgid "Activated to %s MB and %s MB"
+#~ msgstr "[GL]Activado a %s MB y %s MB[/GL]"
+
+#, fuzzy
+#~ msgid "<b>New device found</b>"
+#~ msgstr "[GL]<b>Nombre de conexión</b>[/GL]"
+
+#, fuzzy
+#~ msgid "<b>Connecting</b>"
+#~ msgstr "[GL]<b>Conexión</b>[/GL]"
+
+#, fuzzy
+#~ msgid "<b>Home</b>"
+#~ msgstr "[GL]<b>Nombre:</b>[/GL]"
+
+#, fuzzy
+#~ msgid "Close Connection Manager"
+#~ msgstr "[GL]Not dbus connection available[/GL]"
+
+#, fuzzy
+#~ msgid "Disconnecting..."
+#~ msgstr "[GL]disconnect[/GL]"
+
+#, fuzzy
+#~ msgid "<b>A roaming connection has been established</b>"
+#~ msgstr "[GL]<b>No hay conexión establecida</b>[/GL]"
+
+#, fuzzy
+#~ msgid "  <b><span foreground=\"#025a99\">Status : </span></b>"
+#~ msgstr "[GL]<b><span foreground=\"#515774\">Tiempo : </span></b>[/GL]"
+
+#, fuzzy
+#~ msgid "<b><big><span foreground='white'>CONNECT</span></big></b>"
+#~ msgstr "[GL]<b><span foreground=\"blue\">movistar</span></b>[/GL]"
+
+#, fuzzy
+#~ msgid "<b><span foreground='white'>Available networks</span></b>"
+#~ msgstr "[GL]<b><span foreground=\"blue\">movistar</span></b>[/GL]"
+
+#~ msgid "-"
+#~ msgstr "[GL]-[/GL]"
+
+#~ msgid "<b><big>Sin Conexión</big></b>"
+#~ msgstr "[GL]<b><big>Sin Conexión</big></b>[/GL]"
+
+#~ msgid "<b>Enviado</b>"
+#~ msgstr "[GL]<b>Enviado</b>[/GL]"
+
+#~ msgid "<b>Velocidad</b>"
+#~ msgstr "[GL]<b>Velocidad</b>[/GL]"
+
+#~ msgid "<span foreground=\"blue\" size=\"xx-large\">Consumo</span>"
+#~ msgstr "[GL]<span foreground=\"blue\" size=\"xx-large\">Consumo</span>[/GL]"
+
+#~ msgid "A_viso al alcanzar el siguiente límite:"
+#~ msgstr "[GL]A_viso al alcanzar el siguiente límite:[/GL]"
+
+#~ msgid "Aviso al alcanzar:"
+#~ msgstr "[GL]Aviso al alcanzar:[/GL]"
+
+#~ msgid "Aviso al alcanzar: "
+#~ msgstr "[GL]Aviso al alcanzar: [/GL]"
+
+#~ msgid "Aviso de consumo en Red movistar : "
+#~ msgstr "[GL]Aviso de consumo en Red movistar : [/GL]"
+
+#~ msgid "Aviso de consumo en Roaming : "
+#~ msgstr "[GL]Aviso de consumo en Roaming : [/GL]"
+
+#~ msgid "Avisos"
+#~ msgstr "[GL]Avisos[/GL]"
+
+#~ msgid ""
+#~ "El periodo de facturación comienza el 18 y finaliza el 17 de cada mes. La "
+#~ "información proporcionada es orientativa. \n"
+#~ "Recuerda que si quieres conocer tu consumo real puedes visitar:"
+#~ msgstr ""
+#~ "[GL]El periodo de facturación comienza el 18 y finaliza el 17 de cada "
+#~ "mes. La información proporcionada es orientativa. \n"
+#~ "Recuerda que si quieres conocer tu consumo real puedes visitar:[/GL]"
+
+#~ msgid "Envío"
+#~ msgstr "[GL]Envío[/GL]"
+
+#~ msgid "Escritorio movistar - Consumo"
+#~ msgstr "[GL]Escritorio movistar - Consumo[/GL]"
+
+#~ msgid "Kb/s"
+#~ msgstr "[GL]Kb/s[/GL]"
+
+#~ msgid "Reiniciar automáticamente al finalizar el ciclo de facturación"
+#~ msgstr ""
+#~ "[GL]Reiniciar automáticamente al finalizar el ciclo de facturación[/GL]"
+
+#~ msgid "Se avisará al consumir X MB"
+#~ msgstr "[GL]Se avisará al consumir X MB[/GL]"
+
+#~ msgid "Sesión actual"
+#~ msgstr "[GL]Sesión actual[/GL]"
+
+#~ msgid "Tiempo de conexión(min)"
+#~ msgstr "[GL]Tiempo de conexión(min)[/GL]"
+
+#~ msgid "Velocidad máxima : "
+#~ msgstr "[GL]Velocidad máxima : [/GL]"
+
+#~ msgid "_Reiniciar"
+#~ msgstr "[GL]_Reiniciar[/GL]"
+
+#~ msgid "Datos de usuario"
+#~ msgstr "[GL]Datos de usuario[/GL]"
+
+#~ msgid "Recordar teléfono y clave"
+#~ msgstr "[GL]Recordar teléfono y clave[/GL]"
+
+#~ msgid "Abre la agenda de contactos del Escritorio"
+#~ msgstr "[GL]Abre la agenda de contactos del Escritorio[/GL]"
+
+#~ msgid "Abre la información de ayuda sobre el Escritorio"
+#~ msgstr "[GL]Abre la información de ayuda sobre el Escritorio[/GL]"
+
+#~ msgid ""
+#~ "Abre tus accesos directos a aplicaciones locales y a direcciones de "
+#~ "Internet"
+#~ msgstr ""
+#~ "[GL]Abre tus accesos directos a aplicaciones locales y a direcciones de "
+#~ "Internet[/GL]"
+
+#~ msgid "Accesos directos"
+#~ msgstr "[GL]Accesos directos[/GL]"
+
+#~ msgid "Ayuda"
+#~ msgstr "[GL]Ayuda[/GL]"
+
+#~ msgid "<b>Acceso directo : 'prueba'</b>"
+#~ msgstr "[GL]<b>Acceso directo : 'prueba'</b>[/GL]"
+
+#~ msgid "El contenido del fichero es el siguiente : "
+#~ msgstr "[GL]El contenido del fichero es el siguiente : [/GL]"
+
+#~ msgid "Esta conexión no se puede sobrescribir."
+#~ msgstr "[GL]Esta conexión no se puede sobrescribir.[/GL]"
+
+#~ msgid "Esta conexión ya existe y deseo sobrescribirla"
+#~ msgstr "[GL]Esta conexión ya existe y deseo sobrescribirla[/GL]"
+
+#~ msgid "Este acceso directo ya existe y deseo sobrescribirlo"
+#~ msgstr "[GL]Este acceso directo ya existe y deseo sobrescribirlo[/GL]"
+
+#~ msgid "Importar archivo"
+#~ msgstr "[GL]Importar archivo[/GL]"
+
+#~ msgid ""
+#~ "La conexión no dispone de usuario asociado.\n"
+#~ "Introduce el nombre de usuario para la conexión."
+#~ msgstr ""
+#~ "[GL]La conexión no dispone de usuario asociado.\n"
+#~ "Introduce el nombre de usuario para la conexión.[/GL]"
+
+#~ msgid "Nombre de usuario : "
+#~ msgstr "[GL]Nombre de usuario : [/GL]"
+
+#~ msgid "Nombre del fichero"
+#~ msgstr "[GL]Nombre del fichero[/GL]"
+
+#~ msgid "¿Deseas importar estos datos?"
+#~ msgstr "[GL]¿Deseas importar estos datos?[/GL]"
+
+#~ msgid ""
+#~ "<span foreground=\"blue\" underline=\"single\">http://www.atencionenlinea."
+#~ "movistar.es</span>"
+#~ msgstr ""
+#~ "[GL]<span foreground=\"blue\" underline=\"single\">http://www."
+#~ "atencionenlinea.movistar.es</span>[/GL]"
+
+#~ msgid "Aviso"
+#~ msgstr "[GL]Aviso[/GL]"
+
+#~ msgid "Enviar correo"
+#~ msgstr "[GL]Enviar correo[/GL]"
+
+#~ msgid "Escritorio movistar - Ayuda"
+#~ msgstr "[GL]Escritorio movistar - Ayuda[/GL]"
+
+#~ msgid "Escritorio movistar BETA"
+#~ msgstr "[GL]Escritorio movistar BETA[/GL]"
+
+#~ msgid "Información sobre la Tarjeta o Módem USB Internet Móvil:"
+#~ msgstr "[GL]Información sobre la Tarjeta o Módem USB Internet Móvil:[/GL]"
+
+#~ msgid "Ningún dispositivo seleccionado"
+#~ msgstr "[GL]Ningún dispositivo seleccionado[/GL]"
+
+#~ msgid "Nuevo correo"
+#~ msgstr "[GL]Nuevo correo[/GL]"
+
+#~ msgid ""
+#~ "Para más información, puedes llamar al 609 o escribir tu consulta desde "
+#~ "la siguiente dirección:"
+#~ msgstr ""
+#~ "[GL]Para más información, puedes llamar al 609 o escribir tu consulta "
+#~ "desde la siguiente dirección:[/GL]"
+
+#~ msgid "Redimensiona la ventana a su tamaño contraído"
+#~ msgstr "[GL]Redimensiona la ventana a su tamaño contraído[/GL]"
+
+#~ msgid "Redimensiona la ventana a su tamaño original"
+#~ msgstr "[GL]Redimensiona la ventana a su tamaño original[/GL]"
+
+#~ msgid ""
+#~ "TME procesa con fines estadísticos datos anónimos de los usuarios, "
+#~ "relativos a la utilización de los servicios del Escritorio movistar, "
+#~ "datos de conexión, sistema operativo y versiones del software, con el "
+#~ "único objetivo de detectar posibles mejoras del servicio y facilitar su "
+#~ "utilización por parte de los usuarios, sin que en ningún caso se realice "
+#~ "tratamiento de datos personales."
+#~ msgstr ""
+#~ "[GL]TME procesa con fines estadísticos datos anónimos de los usuarios, "
+#~ "relativos a la utilización de los servicios del Escritorio movistar, "
+#~ "datos de conexión, sistema operativo y versiones del software, con el "
+#~ "único objetivo de detectar posibles mejoras del servicio y facilitar su "
+#~ "utilización por parte de los usuarios, sin que en ningún caso se realice "
+#~ "tratamiento de datos personales.[/GL]"
+
+#~ msgid "Temas de ayuda"
+#~ msgstr "[GL]Temas de ayuda[/GL]"
+
+#~ msgid ""
+#~ "Temas de ayuda muestra el manual de la aplicación con una lista con las "
+#~ "preguntas y respuestas a los problemas más frecuentes."
+#~ msgstr ""
+#~ "[GL]Temas de ayuda muestra el manual de la aplicación con una lista con "
+#~ "las preguntas y respuestas a los problemas más frecuentes.[/GL]"
+
+#~ msgid "_No volver a mostrar este mensaje"
+#~ msgstr "[GL]_No volver a mostrar este mensaje[/GL]"
+
+#~ msgid "<b>Teléfono:</b>"
+#~ msgstr "[GL]<b>Teléfono:</b>[/GL]"
+
+#~ msgid "A_yuda"
+#~ msgstr "[GL]A_yuda[/GL]"
+
+#~ msgid "Correo electrónico:"
+#~ msgstr "[GL]Correo electrónico:[/GL]"
+
+#~ msgid "Eliminar"
+#~ msgstr "[GL]Eliminar[/GL]"
+
+#~ msgid "Escritorio movistar - Agenda"
+#~ msgstr "[GL]Escritorio movistar - Agenda[/GL]"
+
+#~ msgid "No se ha podido importar correctamente\t\n"
+#~ msgstr "[GL]No se ha podido importar correctamente[/GL]\t\n"
+
+#~ msgid "Nombre de la aplicación"
+#~ msgstr "[GL]Nombre de la aplicación[/GL]"
+
+#~ msgid "Nuevo"
+#~ msgstr "[GL]Nuevo[/GL]"
+
+#~ msgid "Progreso de la importación"
+#~ msgstr "[GL]Progreso de la importación[/GL]"
+
+#~ msgid "Salir"
+#~ msgstr "[GL]Salir[/GL]"
+
+#~ msgid "Ver a_yuda"
+#~ msgstr "[GL]Ver a_yuda[/GL]"
+
+#~ msgid "_Archivo"
+#~ msgstr "[GL]_Archivo[/GL]"
+
+#~ msgid "_Eliminar contacto"
+#~ msgstr "[GL]_Eliminar contacto[/GL]"
+
+#~ msgid "_Herramientas"
+#~ msgstr "[GL]_Herramientas[/GL]"
+
+#~ msgid "_Modificar contacto"
+#~ msgstr "[GL]_Modificar contacto[/GL]"
+
+#~ msgid "_Nuevo contacto"
+#~ msgstr "[GL]_Nuevo contacto[/GL]"
+
+#~ msgid "Activar tarjeta"
+#~ msgstr "[GL]Activar tarjeta[/GL]"
+
+#~ msgid "Desactivar tarjeta"
+#~ msgstr "[GL]Desactivar tarjeta[/GL]"
+
+#~ msgid "Gestión del PIN"
+#~ msgstr "[GL]Gestión del PIN[/GL]"
+
+#~ msgid "Selección _tecnologia de red"
+#~ msgstr "[GL]Selección _tecnologia de red[/GL]"
+
+#~ msgid "_Automático"
+#~ msgstr "[GL]_Automático[/GL]"
+
+#~ msgid ""
+#~ "(*) De no seleccionar esta opción, la conexión que se utilizará será la "
+#~ "que esté activa en ese momento o la predeterminada del Escritorio."
+#~ msgstr ""
+#~ "[GL](*) De no seleccionar esta opción, la conexión que se utilizará será "
+#~ "la que esté activa en ese momento o la predeterminada del Escritorio.[/GL]"
+
+#~ msgid "_Desinstalar servicio"
+#~ msgstr "[GL]_Desinstalar servicio[/GL]"
+
+#~ msgid "_Usar la siguiente conexión específica (*):"
+#~ msgstr "[GL]_Usar la siguiente conexión específica (*):[/GL]"
+
+#~ msgid "Contraseña :  "
+#~ msgstr "[GL]Contraseña :  [/GL]"
+
+#~ msgid "Introducción de contraseña"
+#~ msgstr "[GL]Introducción de contraseña[/GL]"
+
+#~ msgid "Introduce la contraseña de usuario para la conexión X"
+#~ msgstr "[GL]Introduce la contraseña de usuario para la conexión X[/GL]"
+
+#~ msgid "<b><big>Datos de usuario</big></b>"
+#~ msgstr "[GL]<b><big>Datos de usuario</big></b>[/GL]"
+
+#~ msgid "<b><big>Mis dispositivos</big></b>"
+#~ msgstr "[GL]<b><big>Mis dispositivos</big></b>[/GL]"
+
+#~ msgid "<b>Noticias</b>"
+#~ msgstr "[GL]<b>Noticias</b>[/GL]"
+
+#~ msgid "<big><b>Nombre :</b></big>"
+#~ msgstr "[GL]<big><b>Nombre :</b></big>[/GL]"
+
+#~ msgid "Acceso directo creado"
+#~ msgstr "[GL]Acceso directo creado[/GL]"
+
+#~ msgid ""
+#~ "Acceso directo creado con éxito. Recuerda que puedes modificarlo desde "
+#~ "Configuración > Accesos Directos."
+#~ msgstr ""
+#~ "[GL]Acceso directo creado con éxito. Recuerda que puedes modificarlo "
+#~ "desde Configuración > Accesos Directos.[/GL]"
+
+#~ msgid ""
+#~ "Algunos servicios del Escritorio movistar necesitan identificación. Desde "
+#~ "aquí puedes\n"
+#~ "guardar tu usuario y clave.\n"
+#~ "\n"
+#~ "Selecciona la forma en que deseas conectarte con los servicios movistar:"
+#~ msgstr ""
+#~ "[GL]Algunos servicios del Escritorio movistar necesitan identificación. "
+#~ "Desde aquí puedes\n"
+#~ "guardar tu usuario y clave.\n"
+#~ "\n"
+#~ "Selecciona la forma en que deseas conectarte con los servicios movistar:[/"
+#~ "GL]"
+
+#~ msgid ""
+#~ "Así mismo, si eres usuario del servicio <b>Copiagenda</b> de movistar, "
+#~ "podrás\n"
+#~ "descargarte los contactos en red que tengas almacenados. La descarga\n"
+#~ "de contactos tendrá un coste asociado en función de datos contratada.\n"
+#~ "Para mas información relativa a este servicio puedes visitar :"
+#~ msgstr ""
+#~ "[GL]Así mismo, si eres usuario del servicio <b>Copiagenda</b> de "
+#~ "movistar, podrás\n"
+#~ "descargarte los contactos en red que tengas almacenados. La descarga\n"
+#~ "de contactos tendrá un coste asociado en función de datos contratada.\n"
+#~ "Para mas información relativa a este servicio puedes visitar :[/GL]"
+
+#~ msgid "Búsqueda de dominio :  "
+#~ msgstr "[GL]Búsqueda de dominio :  [/GL]"
+
+#~ msgid "Contraseña "
+#~ msgstr "[GL]Contraseña [/GL]"
+
+#~ msgid ""
+#~ "Define el orden en que deseas que aparezcan los servicios en el "
+#~ "Escritorio movistar.\n"
+#~ "Selecciona el servicio que deseas mover y pulsa los botones Subir y Bajar "
+#~ "hasta\n"
+#~ "conseguir la posición deseada."
+#~ msgstr ""
+#~ "[GL]Define el orden en que deseas que aparezcan los servicios en el "
+#~ "Escritorio movistar.\n"
+#~ "Selecciona el servicio que deseas mover y pulsa los botones Subir y Bajar "
+#~ "hasta\n"
+#~ "conseguir la posición deseada.[/GL]"
+
+#~ msgid "Descargar automáticamente nuevas noticias al conectar"
+#~ msgstr "[GL]Descargar automáticamente nuevas noticias al conectar[/GL]"
+
+#~ msgid ""
+#~ "Desde aquí puedes gestionar las conexiones guardadas por el Escritorio "
+#~ "movistar."
+#~ msgstr ""
+#~ "[GL]Desde aquí puedes gestionar las conexiones guardadas por el "
+#~ "Escritorio movistar.[/GL]"
+
+#~ msgid ""
+#~ "Desde la Agenda del Escritorio movistar mantienes una lista de contactos\n"
+#~ " a los que podrás enviar mensajes, videollamadas y correos electrónicos."
+#~ msgstr ""
+#~ "[GL]Desde la Agenda del Escritorio movistar mantienes una lista de "
+#~ "contactos\n"
+#~ " a los que podrás enviar mensajes, videollamadas y correos electrónicos.[/"
+#~ "GL]"
+
+#~ msgid "Direcciones del servidor asignadas por el usuario"
+#~ msgstr "[GL]Direcciones del servidor asignadas por el usuario[/GL]"
+
+#~ msgid "Direcciones del servidor asignadas por la red"
+#~ msgstr "[GL]Direcciones del servidor asignadas por la red[/GL]"
+
+#~ msgid "Dirección : "
+#~ msgstr "[GL]Dirección : [/GL]"
+
+#~ msgid "Dirección URL : "
+#~ msgstr "[GL]Dirección URL : [/GL]"
+
+#~ msgid "Elige si quieres que el Escritorio movistar descargue noticias."
+#~ msgstr ""
+#~ "[GL]Elige si quieres que el Escritorio movistar descargue noticias.[/GL]"
+
+#~ msgid ""
+#~ "Elige si quieres que el Escritorio movistar se ejecute cuando enciendas "
+#~ "el ordenador."
+#~ msgstr ""
+#~ "[GL]Elige si quieres que el Escritorio movistar se ejecute cuando "
+#~ "enciendas el ordenador.[/GL]"
+
+#~ msgid "Escritorio movistar - Configuración"
+#~ msgstr "[GL]Escritorio movistar - Configuración[/GL]"
+
+#~ msgid "Fichero"
+#~ msgstr "[GL]Fichero[/GL]"
+
+#~ msgid "Lanzar Escritorio movistar al iniciar la sesión"
+#~ msgstr "[GL]Lanzar Escritorio movistar al iniciar la sesión[/GL]"
+
+#~ msgid "Lista de accesos directos :"
+#~ msgstr "[GL]Lista de accesos directos :[/GL]"
+
+#~ msgid ""
+#~ "Los datos de identificación para realizar la descarga de contactos en "
+#~ "red\n"
+#~ "se recogen en la ventana de configuración <b>Datos de usuario</b>."
+#~ msgstr ""
+#~ "[GL]Los datos de identificación para realizar la descarga de contactos en "
+#~ "red\n"
+#~ "se recogen en la ventana de configuración <b>Datos de usuario</b>.[/GL]"
+
+#~ msgid "Mis dispositivos"
+#~ msgstr "[GL]Mis dispositivos[/GL]"
+
+#~ msgid "Ocultar servicios no instalados"
+#~ msgstr "[GL]Ocultar servicios no instalados[/GL]"
+
+#~ msgid "Perfil _personalizado:"
+#~ msgstr "[GL]Perfil _personalizado:[/GL]"
+
+#~ msgid "Perfil por _defecto"
+#~ msgstr "[GL]Perfil por _defecto[/GL]"
+
+#~ msgid "Preguntar antes de cambiar la conexión activa."
+#~ msgstr "[GL]Preguntar antes de cambiar la conexión activa.[/GL]"
+
+#~ msgid "Preguntar antes de conectar a un servicio."
+#~ msgstr "[GL]Preguntar antes de conectar a un servicio.[/GL]"
+
+#~ msgid "Preguntar antes de conectar con el botón de conectar."
+#~ msgstr "[GL]Preguntar antes de conectar con el botón de conectar.[/GL]"
+
+#~ msgid "Selecciona un archivo"
+#~ msgstr "[GL]Selecciona un archivo[/GL]"
+
+#~ msgid "Servidor primario : "
+#~ msgstr "[GL]Servidor primario : [/GL]"
+
+#~ msgid "Servidor secundario :"
+#~ msgstr "[GL]Servidor secundario :[/GL]"
+
+#~ msgid ""
+#~ "Si eres un usuario nuevo de los servicios movistar o has olvidado tu "
+#~ "clave de acceso, \n"
+#~ "solicita tu clave con un mensaje de texto gratuito al 770. Indicando en "
+#~ "el mensaje la \n"
+#~ "clave que desees. La clave deberá tener entre 6 y 14 caracteres y es "
+#~ "sensible a las \n"
+#~ "mayúsculas. Tras enviar el mensaje, recibirás un mensaje de texto "
+#~ "confirmando tu \n"
+#~ "clave .\n"
+#~ "\n"
+#~ "Ejemplo, envía \"Azules\" al 770 para que esa sea tu clave de acceso."
+#~ msgstr ""
+#~ "[GL]Si eres un usuario nuevo de los servicios movistar o has olvidado tu "
+#~ "clave de acceso, \n"
+#~ "solicita tu clave con un mensaje de texto gratuito al 770. Indicando en "
+#~ "el mensaje la \n"
+#~ "clave que desees. La clave deberá tener entre 6 y 14 caracteres y es "
+#~ "sensible a las \n"
+#~ "mayúsculas. Tras enviar el mensaje, recibirás un mensaje de texto "
+#~ "confirmando tu \n"
+#~ "clave .\n"
+#~ "\n"
+#~ "Ejemplo, envía \"Azules\" al 770 para que esa sea tu clave de acceso.[/GL]"
+
+#~ msgid "Solicitar contraseña al conectar"
+#~ msgstr "[GL]Solicitar contraseña al conectar[/GL]"
+
+#~ msgid "Solicitar siempre clave al conectar"
+#~ msgstr "[GL]Solicitar siempre clave al conectar[/GL]"
+
+#~ msgid "Utilizar los siguientes datos"
+#~ msgstr "[GL]Utilizar los siguientes datos[/GL]"
+
+#~ msgid "_Predeterminar"
+#~ msgstr "[GL]_Predeterminar[/GL]"
+
+#~ msgid "_Restaurar apariencia original"
+#~ msgstr "[GL]_Restaurar apariencia original[/GL]"
+
+#~ msgid "_Ver noticias"
+#~ msgstr "[GL]_Ver noticias[/GL]"
+
+#~ msgid "Abrir Escritorio movistar"
+#~ msgstr "[GL]Abrir Escritorio movistar[/GL]"
+
+#~ msgid "3G"
+#~ msgstr "[GL]3G[/GL]"
+
+#~ msgid "<span foreground=\"#003c86\">0 Kbits/s</span>"
+#~ msgstr "[GL]<span foreground=\"#003c86\">0 Kbits/s</span>[/GL]"
+
+#~ msgid "<span foreground=\"#003c86\">0 bytes</span>"
+#~ msgstr "[GL]<span foreground=\"#003c86\">0 bytes</span>[/GL]"
+
+#~ msgid "<span foreground=\"#003c86\">00:00:00</span>"
+#~ msgstr "[GL]<span foreground=\"#003c86\">00:00:00</span>[/GL]"
+
+#~ msgid "Conectar con la conexión predeterminada"
+#~ msgstr "[GL]Conectar con la conexión predeterminada[/GL]"
+
+#~ msgid "Desconectar"
+#~ msgstr "[GL]Desconectar[/GL]"
+
+#~ msgid "GPRS /"
+#~ msgstr "[GL]GPRS /[/GL]"
+
+#~ msgid "Muestra gráfica de consumo"
+#~ msgstr "[GL]Muestra gráfica de consumo[/GL]"
+
+#~ msgid "Leídos"
+#~ msgstr "[GL]Leídos[/GL]"
+
+#~ msgid "No leídos"
+#~ msgstr "[GL]No leídos[/GL]"
+
+#~ msgid "Todos"
+#~ msgstr "[GL]Todos[/GL]"
+
+#~ msgid "<b>Página de inicio</b>"
+#~ msgstr "[GL]<b>Página de inicio</b>[/GL]"
+
+#~ msgid "Abrir navegador por defecto al iniciar el servicio"
+#~ msgstr "[GL]Abrir navegador por defecto al iniciar el servicio[/GL]"
+
+#~ msgid ""
+#~ "Navega rápidamente por tus páginas favoritas de internet desde cualquier "
+#~ "lugar"
+#~ msgstr ""
+#~ "[GL]Navega rápidamente por tus páginas favoritas de internet desde "
+#~ "cualquier lugar[/GL]"
+
+#~ msgid "Página : "
+#~ msgstr "[GL]Página : [/GL]"
+
+#~ msgid "Accede a Internet desde el Escritorio movistar"
+#~ msgstr "[GL]Accede a Internet desde el Escritorio movistar[/GL]"
+
+#~ msgid ""
+#~ "Accede a la Intranet de tu empresa de la forma más rápida, cómoda y "
+#~ "segura.\n"
+#~ "\n"
+#~ "Este servicio requiere contratación específica. Para más información, "
+#~ "contacta con el comercial asignado a tu empresa."
+#~ msgstr ""
+#~ "[GL]Accede a la Intranet de tu empresa de la forma más rápida, cómoda y "
+#~ "segura.\n"
+#~ "\n"
+#~ "Este servicio requiere contratación específica. Para más información, "
+#~ "contacta con el comercial asignado a tu empresa.[/GL]"
+
+#~ msgid ""
+#~ "Este servicio te permite acceder a la intranet de tu empresa de forma "
+#~ "cómoda y segura. El servicio requiere contratación específica. Para más "
+#~ "información, contacta con el comercial asignado a tu empresa."
+#~ msgstr ""
+#~ "[GL]Este servicio te permite acceder a la intranet de tu empresa de forma "
+#~ "cómoda y segura. El servicio requiere contratación específica. Para más "
+#~ "información, contacta con el comercial asignado a tu empresa.[/GL]"
+
+#~ msgid "Página: "
+#~ msgstr "[GL]Página: [/GL]"
+
+#~ msgid "Conecta con la intranet de tu empresa"
+#~ msgstr "[GL]Conecta con la intranet de tu empresa[/GL]"
+
+#~ msgid "<b>Cobertura Zona Wi-Fi de Telefónica</b>"
+#~ msgstr "[GL]<b>Cobertura Zona Wi-Fi de Telefónica</b>[/GL]"
+
+#~ msgid "Cobertura"
+#~ msgstr "[GL]Cobertura[/GL]"
+
+#~ msgid ""
+#~ "Con cualquiera de las <b>Tarifas Banda Ancha Móvil</b> de calidad Premium "
+#~ "prodrás conectarte en las Zonas Wi-Fi de Telefónica gratuitamente y de "
+#~ "forma ilimitada."
+#~ msgstr ""
+#~ "[GL]Con cualquiera de las <b>Tarifas Banda Ancha Móvil</b> de calidad "
+#~ "Premium prodrás conectarte en las Zonas Wi-Fi de Telefónica gratuitamente "
+#~ "y de forma ilimitada.[/GL]"
+
+#~ msgid ""
+#~ "Con cualquiera de las <b>Tarifas Banda Ancha Móvil</b> de calidad Premium "
+#~ "prodrás conectarte en las Zonas Wi-Fi de Telefónica gratuitamente y de "
+#~ "forma ilimitada.\n"
+#~ "\n"
+#~ "Las Tarifas con las que podrás disfrutar del acceso Wi-Fi son las "
+#~ "siguientes :\n"
+#~ "\n"
+#~ "<b>- Internet en el Móvil Plus\n"
+#~ "- Tarifa Plana Internet Plus\n"
+#~ "- Tarifa Plana Internet Premium\n"
+#~ "</b>\n"
+#~ "\n"
+#~ "Para más información sobre las Tarifas Banda Ancha Móvil llama al <b>109</"
+#~ "b>"
+#~ msgstr ""
+#~ "[GL]Con cualquiera de las <b>Tarifas Banda Ancha Móvil</b> de calidad "
+#~ "Premium prodrás conectarte en las Zonas Wi-Fi de Telefónica gratuitamente "
+#~ "y de forma ilimitada.\n"
+#~ "\n"
+#~ "Las Tarifas con las que podrás disfrutar del acceso Wi-Fi son las "
+#~ "siguientes :\n"
+#~ "\n"
+#~ "<b>- Internet en el Móvil Plus\n"
+#~ "- Tarifa Plana Internet Plus\n"
+#~ "- Tarifa Plana Internet Premium\n"
+#~ "</b>\n"
+#~ "\n"
+#~ "Para más información sobre las Tarifas Banda Ancha Móvil llama al <b>109</"
+#~ "b>[/GL]"
+
+#~ msgid ""
+#~ "Con cualquiera de las <b>Tarifas Banda Ancha Móvil</b> de la calidad "
+#~ "Premium podrás conectarte en las Zonas Wi-Fi de Telefónica gratuitamente y "
+#~ "de forma ilimitada.\n"
+#~ "\n"
+#~ "Las Tarifas con las que podrás disfrutar del acceso Wi-Fi son las "
+#~ "siguientes:\n"
+#~ "\n"
+#~ "<b>- Internet en el Móvil Plus\n"
+#~ "- Tarifa Plana Internet Plus\n"
+#~ "- Tarifa Plana Internet Premium</b>\n"
+#~ "\n"
+#~ "Para más información sobre las Tarifas Banda Ancha Móvil llama al <b>109</"
+#~ "b>."
+#~ msgstr ""
+#~ "[GL]Con cualquiera de las <b>Tarifas Banda Ancha Móvil</b> de la calidad "
+#~ "Premium podrás conectarte en las Zonas Wi-Fi de Telefónica gratuitamente y "
+#~ "de forma ilimitada.\n"
+#~ "\n"
+#~ "Las Tarifas con las que podrás disfrutar del acceso Wi-Fi son las "
+#~ "siguientes:\n"
+#~ "\n"
+#~ "<b>- Internet en el Móvil Plus\n"
+#~ "- Tarifa Plana Internet Plus\n"
+#~ "- Tarifa Plana Internet Premium</b>\n"
+#~ "\n"
+#~ "Para más información sobre las Tarifas Banda Ancha Móvil llama al <b>109</"
+#~ "b>.[/GL]"
+
+#~ msgid "Listado de cobertura"
+#~ msgstr "[GL]Listado de cobertura[/GL]"
+
+#~ msgid ""
+#~ "Para conocer los puntos de acceso de la Zona Wi-Fi de Telefónica pulsa el "
+#~ "botón de 'Cobertura'."
+#~ msgstr ""
+#~ "[GL]Para conocer los puntos de acceso de la Zona Wi-Fi de Telefónica pulsa "
+#~ "el botón de 'Cobertura'.[/GL]"
+
+#~ msgid "Puntos de acceso Wi-Fi resultado de la búsqueda: "
+#~ msgstr "[GL]Puntos de acceso Wi-Fi resultado de la búsqueda: [/GL]"
+
+#~ msgid ""
+#~ "Si tienes contratado una de estas Tarifas puedes solicitar tu clave para "
+#~ "conectarte pulsando el botón 'Solicitar clave'."
+#~ msgstr ""
+#~ "[GL]Si tienes contratado una de estas Tarifas puedes solicitar tu clave "
+#~ "para conectarte pulsando el botón 'Solicitar clave'.[/GL]"
+
+#~ msgid "Solicitar clave"
+#~ msgstr "[GL]Solicitar clave[/GL]"
+
+#~ msgid "Ubicación :"
+#~ msgstr "[GL]Ubicación :[/GL]"
+
+#~ msgid "Solicitando clave..."
+#~ msgstr "[GL]Solicitando clave...[/GL]"
+
+#~ msgid "Espere un momento, por favor..."
+#~ msgstr "[GL]Espere un momento, por favor...[/GL]"
+
+#~ msgid "Envío de mensaje"
+#~ msgstr "[GL]Envío de mensaje[/GL]"
+
+#~ msgid ""
+#~ "Gestiona el acceso a la Zona Wi-Fi de tu Tarifa Banda Ancha Móvil con Wi-Fi"
+#~ msgstr ""
+#~ "[GL]Gestiona el acceso a la Zona Wi-Fi de tu Tarifa Banda Ancha Móvil con "
+#~ "Wi-Fi[/GL]"
+
+#~ msgid ""
+#~ "Correo Móvil te permite usar tu cuenta de correo movistar. Dispones de "
+#~ "agenda, libreta de direcciones y aviso por SMS para los correos "
+#~ "recibidos.\n"
+#~ "\n"
+#~ "Recuerda que en las preferencias de seguridad puedes configurar el acceso "
+#~ "a éste y otros servicios movistar."
+#~ msgstr ""
+#~ "[GL]Correo Móvil te permite usar tu cuenta de correo movistar. Dispones "
+#~ "de agenda, libreta de direcciones y aviso por SMS para los correos "
+#~ "recibidos.\n"
+#~ "\n"
+#~ "Recuerda que en las preferencias de seguridad puedes configurar el acceso "
+#~ "a éste y otros servicios movistar.[/GL]"
+
+#~ msgid ""
+#~ "Este servicio te permite enviar y recibir correos electrónicos con "
+#~ "notificaciones por móvil. Dispones además de libreta de direcciones."
+#~ msgstr ""
+#~ "[GL]Este servicio te permite enviar y recibir correos electrónicos con "
+#~ "notificaciones por móvil. Dispones además de libreta de direcciones.[/GL]"
+
+#~ msgid "Usar cliente web"
+#~ msgstr "[GL]Usar cliente web[/GL]"
+
+#~ msgid "Usar el siguiente programa cliente:"
+#~ msgstr "[GL]Usar el siguiente programa cliente:[/GL]"
+
+#~ msgid "Correo Móvil"
+#~ msgstr "[GL]Correo Móvil[/GL]"
+
+#~ msgid "Accede a tu cuenta del servicio Correo Móvil"
+#~ msgstr "[GL]Accede a tu cuenta del servicio Correo Móvil[/GL]"
+
+#~ msgid ""
+#~ "Descubre con Mensajería Web la forma más sencilla de enviar mensajes de "
+#~ "texto y mensajes multimedia desde tu ordenador.\n"
+#~ "\n"
+#~ "Recuerda que en las preferencias de seguridad puedes configurar el acceso "
+#~ "a éste y otros servicios movistar."
+#~ msgstr ""
+#~ "[GL]Descubre con Mensajería Web la forma más sencilla de enviar mensajes "
+#~ "de texto y mensajes multimedia desde tu ordenador.\n"
+#~ "\n"
+#~ "Recuerda que en las preferencias de seguridad puedes configurar el acceso "
+#~ "a éste y otros servicios movistar.[/GL]"
+
+#~ msgid ""
+#~ "Este servicio te permite enviar mensajes de texto y multimedia desde tu "
+#~ "ordenador mediante el servicio Mensajería Web."
+#~ msgstr ""
+#~ "[GL]Este servicio te permite enviar mensajes de texto y multimedia desde "
+#~ "tu ordenador mediante el servicio Mensajería Web.[/GL]"
+
+#~ msgid "Envía mensajes de texto y multimedia"
+#~ msgstr "[GL]Envía mensajes de texto y multimedia[/GL]"
+
+#~ msgid "<b>Mobile Manager no disponible</b>"
+#~ msgstr "[GL]<b>Mobile Manager no disponible</b>[/GL]"
+
+#~ msgid ""
+#~ "Mobile manager no está activado o no funciona correctamente.\n"
+#~ "Por favor trate de reactivarlo para iniciar el Escritorio movistar."
+#~ msgstr ""
+#~ "[GL]Mobile manager no está activado o no funciona correctamente.\n"
+#~ "Por favor trate de reactivarlo para iniciar el Escritorio movistar.[/GL]"
+
+#~ msgid "Parameters %s "
+#~ msgstr "[GL]Parameters %s [/GL]"
+
+#~ msgid "Parameters %s ,%s, %s ,%s, %s, %s, %s"
+#~ msgstr "[GL]Parameters %s ,%s, %s ,%s, %s, %s, %s[/GL]"
+
+#~ msgid "MobileDial stop"
+#~ msgstr "[GL]MobileDial stop[/GL]"
+
+#~ msgid "<b>¿Deseas desinstalar el servicio '%s'?</b>"
+#~ msgstr "[GL]<b>¿Deseas desinstalar el servicio '%s'?</b>[/GL]"
+
+#~ msgid "Podrás volver a instalarlo desde esta ventana de configuración."
+#~ msgstr ""
+#~ "[GL]Podrás volver a instalarlo desde esta ventana de configuración.[/GL]"
+
+#~ msgid "Por favor, espera mientras se desinstala el servicio '%s'."
+#~ msgstr "[GL]Por favor, espera mientras se desinstala el servicio '%s'.[/GL]"
+
+#~ msgid "Por favor, espera mientras se instala el servicio '%s'."
+#~ msgstr "[GL]Por favor, espera mientras se instala el servicio '%s'.[/GL]"
+
+#~ msgid "Iniciando importación..."
+#~ msgstr "[GL]Iniciando importación...[/GL]"
+
+#~ msgid "Descargando..."
+#~ msgstr "[GL]Descargando...[/GL]"
+
+#~ msgid "Se produjo un error al importar."
+#~ msgstr "[GL]Se produjo un error al importar.[/GL]"
+
+#~ msgid "No se importaron todos los datos."
+#~ msgstr "[GL]No se importaron todos los datos.[/GL]"
+
+#~ msgid "No se ha podido abrir la agenda."
+#~ msgstr "[GL]No se ha podido abrir la agenda.[/GL]"
+
+#~ msgid "No se ha podido conectar."
+#~ msgstr "[GL]No se ha podido conectar.[/GL]"
+
+#~ msgid "Se ha recibido una respuesta incorrecta."
+#~ msgstr "[GL]Se ha recibido una respuesta incorrecta.[/GL]"
+
+#~ msgid "El usuario/contraseña son incorrectos."
+#~ msgstr "[GL]El usuario/contraseña son incorrectos.[/GL]"
+
+#~ msgid "Error desconocido."
+#~ msgstr "[GL]Error desconocido.[/GL]"
+
+#~ msgid "<b>Número de teléfono incorrecto</b>"
+#~ msgstr "[GL]<b>Número de teléfono incorrecto</b>[/GL]"
+
+#~ msgid ""
+#~ "Número de teléfono incorrecto. Este campo sólo permite números y los "
+#~ "caracteres +, # y *."
+#~ msgstr ""
+#~ "[GL]Número de teléfono incorrecto. Este campo sólo permite números y los "
+#~ "caracteres +, # y *.[/GL]"
+
+#~ msgid "Eliminar contacto"
+#~ msgstr "[GL]Eliminar contacto[/GL]"
+
+#~ msgid "Enviar Correo"
+#~ msgstr "[GL]Enviar Correo[/GL]"
+
+#~ msgid "Teléfono"
+#~ msgstr "[GL]Teléfono[/GL]"
+
+#~ msgid "Seleccione el fichero destino para exportar"
+#~ msgstr "[GL]Seleccione el fichero destino para exportar[/GL]"
+
+#~ msgid "¿Deseas eliminar el contacto \"%s\"?"
+#~ msgstr "[GL]¿Deseas eliminar el contacto \"%s\"?[/GL]"
+
+#~ msgid "¿Deseas eliminar %d contactos?"
+#~ msgstr "[GL]¿Deseas eliminar %d contactos?[/GL]"
+
+#~ msgid ""
+#~ "Es necesario estar conectado para poder importar los contactos de "
+#~ "Copiagenda movistar. Por favor, conecta previamente y vuelve a intentarlo."
+#~ msgstr ""
+#~ "[GL]Es necesario estar conectado para poder importar los contactos de "
+#~ "Copiagenda movistar. Por favor, conecta previamente y vuelve a intentarlo."
+#~ "[/GL]"
+
+#~ msgid "Los ficheros que guardes deben tener extensión .emsc"
+#~ msgstr "[GL]Los ficheros que guardes deben tener extensión .emsc[/GL]"
+
+#~ msgid "Canal Cliente"
+#~ msgstr "[GL]Canal Cliente[/GL]"
+
+#~ msgid "Yavoy"
+#~ msgstr "[GL]Yavoy[/GL]"
+
+#~ msgid "Cobertura GPRS\\3G\\3.5G"
+#~ msgstr "[GL]Cobertura GPRS\\3G\\3.5G[/GL]"
+
+#~ msgid "Cobertura Zona ADSL\\Wi-Fi de Telefónica"
+#~ msgstr "[GL]Cobertura Zona ADSL\\Wi-Fi de Telefónica[/GL]"
+
+#~ msgid "Desconectado"
+#~ msgstr "[GL]Desconectado[/GL]"
+
+#~ msgid "Conectando"
+#~ msgstr "[GL]Conectando[/GL]"
+
+#~ msgid "Desconectando"
+#~ msgstr "[GL]Desconectando[/GL]"
+
+#~ msgid "Aqui iba un status"
+#~ msgstr "[GL]Aqui iba un status[/GL]"
+
+#~ msgid "error in MSDConnectionsManager in async status"
+#~ msgstr "[GL]error in MSDConnectionsManager in async status[/GL]"
+
+#~ msgid "No se ha encontrado el ppp manager"
+#~ msgstr "[GL]No se ha encontrado el ppp manager[/GL]"
+
+#~ msgid "stop connecction 0"
+#~ msgstr "[GL]stop connecction 0[/GL]"
+
+#~ msgid "stop connecction 1"
+#~ msgstr "[GL]stop connecction 1[/GL]"
+
+#~ msgid "MSDConnManager : method -> __is_device_selected()"
+#~ msgstr "[GL]MSDConnManager : method -> __is_device_selected()[/GL]"
+
+#~ msgid "actualizando ui para %s"
+#~ msgstr "[GL]actualizando ui para %s[/GL]"
+
+#~ msgid "CONNECTED (Aborted)"
+#~ msgstr "[GL]CONNECTED (Aborted)[/GL]"
+
+#~ msgid "CONNECTED ---> %s"
+#~ msgstr "[GL]CONNECTED ---> %s[/GL]"
+
+#~ msgid "CONNECTING (Aborted)"
+#~ msgstr "[GL]CONNECTING (Aborted)[/GL]"
+
+#~ msgid "CONNECTING ---> %s"
+#~ msgstr "[GL]CONNECTING ---> %s[/GL]"
+
+#~ msgid "DISCONNECTED (Aborted)"
+#~ msgstr "[GL]DISCONNECTED (Aborted)[/GL]"
+
+#~ msgid "Conectando a '%s'"
+#~ msgstr "[GL]Conectando a '%s'[/GL]"
+
+#~ msgid "DISCONNECTING ---> %s"
+#~ msgstr "[GL]DISCONNECTING ---> %s[/GL]"
+
+#~ msgid "No volver a mostrar este dialogo"
+#~ msgstr "[GL]No volver a mostrar este dialogo[/GL]"
+
+#~ msgid "_Usar conexión establecida"
+#~ msgstr "[GL]_Usar conexión establecida[/GL]"
+
+#~ msgid "No preguntar de nuevo"
+#~ msgstr "[GL]No preguntar de nuevo[/GL]"
+
+#~ msgid "Importar conexión"
+#~ msgstr "[GL]Importar conexión[/GL]"
+
+#~ msgid "Ficheros emsc"
+#~ msgstr "[GL]Ficheros emsc[/GL]"
+
+#~ msgid "Ficheros msgprs"
+#~ msgstr "[GL]Ficheros msgprs[/GL]"
+
+#~ msgid "Exportar conexión"
+#~ msgstr "[GL]Exportar conexión[/GL]"
+
+#~ msgid "<b>Resumen : desde %s</b>"
+#~ msgstr "[GL]<b>Resumen : desde %s</b>[/GL]"
+
+#~ msgid "process history disconnecting"
+#~ msgstr "[GL]process history disconnecting[/GL]"
+
+#~ msgid "Consumo"
+#~ msgstr "[GL]Consumo[/GL]"
+
+#~ msgid "Se ha alcanzado el límite de consumo WWAN fijado"
+#~ msgstr "[GL]Se ha alcanzado el límite de consumo WWAN fijado[/GL]"
+
+#~ msgid ""
+#~ "Se ha alcanzado el tanto por ciento del límite de consumo WWAN fijado"
+#~ msgstr ""
+#~ "[GL]Se ha alcanzado el tanto por ciento del límite de consumo WWAN "
+#~ "fijado[/GL]"
+
+#~ msgid "Rcv %s bytes  in %s seconds speed = %s"
+#~ msgstr "[GL]Rcv %s bytes  in %s seconds speed = %s[/GL]"
+
+#~ msgid "Notificando delegado"
+#~ msgstr "[GL]Notificando delegado[/GL]"
+
+#~ msgid "<b>Reiniciar consumo acumulado</b>"
+#~ msgstr "[GL]<b>Reiniciar consumo acumulado</b>[/GL]"
+
+#~ msgid "%.2f Kbits/s"
+#~ msgstr "[GL]%.2f Kbits/s[/GL]"
+
+#~ msgid "<b>%.2f Kbits/s</b>"
+#~ msgstr "[GL]<b>%.2f Kbits/s</b>[/GL]"
+
+#~ msgid "Ningún dispositivo disponible"
+#~ msgstr "[GL]Ningún dispositivo disponible[/GL]"
+
+#~ msgid "<b>Este acceso directo no puede ser importado</b>"
+#~ msgstr "[GL]<b>Este acceso directo no puede ser importado</b>[/GL]"
+
+#~ msgid "Caso de que no haya usuario"
+#~ msgstr "[GL]Caso de que no haya usuario[/GL]"
+
+#~ msgid "<b>La conexión '%s' no se puede sobrescribir</b>"
+#~ msgstr "[GL]<b>La conexión '%s' no se puede sobrescribir</b>[/GL]"
+
+#~ msgid "preguntar la conexion, si desea ser sobreescrita"
+#~ msgstr "[GL]preguntar la conexion, si desea ser sobreescrita[/GL]"
+
+#~ msgid "preguntar si se puede sobreescribir el acceso directo"
+#~ msgstr "[GL]preguntar si se puede sobreescribir el acceso directo[/GL]"
+
+#~ msgid "ask(Puedo sobreescribir bookmark y conn no porque es internt/gprs)"
+#~ msgstr ""
+#~ "[GL]ask(Puedo sobreescribir bookmark y conn no porque es internt/gprs)[/"
+#~ "GL]"
+
+#~ msgid "ask(Puedo sobreescribir bookmark y conn)"
+#~ msgstr "[GL]ask(Puedo sobreescribir bookmark y conn)[/GL]"
+
+#~ msgid "ask(Puedo sobreescribir bookmark y conn, sin user)"
+#~ msgstr "[GL]ask(Puedo sobreescribir bookmark y conn, sin user)[/GL]"
+
+#~ msgid "ask (Puedo sobreescribir bookmark)"
+#~ msgstr "[GL]ask (Puedo sobreescribir bookmark)[/GL]"
+
+#~ msgid "ask (Puedo no sobreescribir porque es internet gprs3g )"
+#~ msgstr "[GL]ask (Puedo no sobreescribir porque es internet gprs3g )[/GL]"
+
+#~ msgid "ask (Puedo sobreescribir conn)"
+#~ msgstr "[GL]ask (Puedo sobreescribir conn)[/GL]"
+
+#~ msgid "Falta el campo %s en el fichero"
+#~ msgstr "[GL]Falta el campo %s en el fichero[/GL]"
+
+#~ msgid "Error importando : %s"
+#~ msgstr "[GL]Error importando : %s[/GL]"
+
+#~ msgid "Estás registrado en la red GPRS."
+#~ msgstr "[GL]Estás registrado en la red GPRS.[/GL]"
+
+#~ msgid "Estás registrado en la red 3G."
+#~ msgstr "[GL]Estás registrado en la red 3G.[/GL]"
+
+#~ msgid "<span foreground=\"white\">Ningún dispositivo disponible</span>"
+#~ msgstr ""
+#~ "[GL]<span foreground=\"white\">Ningún dispositivo disponible</span>[/GL]"
+
+#~ msgid "Nuevo acceso directo..."
+#~ msgstr "[GL]Nuevo acceso directo...[/GL]"
+
+#~ msgid ""
+#~ "Cargando datos de la agenda...\n"
+#~ "Por favor espera. "
+#~ msgstr ""
+#~ "[GL]Cargando datos de la agenda...\n"
+#~ "Por favor espera. [/GL]"
+
+#~ msgid "Tarjeta detectada"
+#~ msgstr "[GL]Tarjeta detectada[/GL]"
+
+#~ msgid "Inicializando tarjeta"
+#~ msgstr "[GL]Inicializando tarjeta[/GL]"
+
+#~ msgid "Tarjeta no tiene SIM"
+#~ msgstr "[GL]Tarjeta no tiene SIM[/GL]"
+
+#~ msgid ""
+#~ "La Tarjeta o Módem USB Internet Móvil no contiene una tarjeta SIM válida. "
+#~ "Por favor, comprueba que hay una tarjeta SIM introducida correctamente en "
+#~ "la Tarjeta o Módem USB Internet Móvil."
+#~ msgstr ""
+#~ "[GL]La Tarjeta o Módem USB Internet Móvil no contiene una tarjeta SIM "
+#~ "válida. Por favor, comprueba que hay una tarjeta SIM introducida "
+#~ "correctamente en la Tarjeta o Módem USB Internet Móvil.[/GL]"
+
+#~ msgid "Comprobando código PIN"
+#~ msgstr "[GL]Comprobando código PIN[/GL]"
+
+#~ msgid "Tarjeta apagada"
+#~ msgstr "[GL]Tarjeta apagada[/GL]"
+
+#~ msgid "Buscando red y registrando"
+#~ msgstr "[GL]Buscando red y registrando[/GL]"
+
+#~ msgid "Tarjeta preparada"
+#~ msgstr "[GL]Tarjeta preparada[/GL]"
+
+#~ msgid ""
+#~ "Se ha detectado la inserción del dispositivo :\n"
+#~ "\n"
+#~ "<b>%s</b>.\n"
+#~ "\n"
+#~ "¿Deseas seleccionarlo como dispositivo WWAN?"
+#~ msgstr ""
+#~ "[GL]Se ha detectado la inserción del dispositivo :\n"
+#~ "\n"
+#~ "<b>%s</b>.\n"
+#~ "\n"
+#~ "¿Deseas seleccionarlo como dispositivo WWAN?[/GL]"
+
+#~ msgid ""
+#~ "No se ha podido establecer comunicación con la Tarjeta o Módem USB "
+#~ "Internet Móvil."
+#~ msgstr ""
+#~ "[GL]No se ha podido establecer comunicación con la Tarjeta o Módem USB "
+#~ "Internet Móvil.[/GL]"
+
+#~ msgid "Tarjeta  apagada"
+#~ msgstr "[GL]Tarjeta  apagada[/GL]"
+
+#~ msgid "Comprobando código PUK"
+#~ msgstr "[GL]Comprobando código PUK[/GL]"
+
+#~ msgid "Tarjeta  detectada"
+#~ msgstr "[GL]Tarjeta  detectada[/GL]"
+
+#~ msgid "Indroduzca el PIN de la tarjeta"
+#~ msgstr "[GL]Indroduzca el PIN de la tarjeta[/GL]"
+
+#~ msgid ""
+#~ "El código PIN de la tarjeta SIM se encuentra activado.\n"
+#~ "Para desactivarlo introduce su valor en la casilla\n"
+#~ "y pulsa Aceptar."
+#~ msgstr ""
+#~ "[GL]El código PIN de la tarjeta SIM se encuentra activado.\n"
+#~ "Para desactivarlo introduce su valor en la casilla\n"
+#~ "y pulsa Aceptar.[/GL]"
+
+#~ msgid ""
+#~ "El código PIN de la tarjeta SIM se encuentra desactivado.\n"
+#~ "Para activarlo introduce su valor en la casilla\n"
+#~ "y pulsa Aceptar."
+#~ msgstr ""
+#~ "[GL]El código PIN de la tarjeta SIM se encuentra desactivado.\n"
+#~ "Para activarlo introduce su valor en la casilla\n"
+#~ "y pulsa Aceptar.[/GL]"
+
+#~ msgid "El código PIN introducido no es correcto."
+#~ msgstr "[GL]El código PIN introducido no es correcto.[/GL]"
+
+#~ msgid ""
+#~ "El código PIN introducido debe tener entre 4 y 8 cifras.\n"
+#~ "Por favor, inténtalo de nuevo."
+#~ msgstr ""
+#~ "[GL]El código PIN introducido debe tener entre 4 y 8 cifras.\n"
+#~ "Por favor, inténtalo de nuevo.[/GL]"
+
+#~ msgid "El PIN y la verificación del PIN no coinciden."
+#~ msgstr "[GL]El PIN y la verificación del PIN no coinciden.[/GL]"
+
+#~ msgid "El código PUK introducido no es correcto."
+#~ msgstr "[GL]El código PUK introducido no es correcto.[/GL]"
+
+#~ msgid ""
+#~ "No se ha podido establecer contacto con la Tarjeta o Módem USB Internet "
+#~ "Móvil."
+#~ msgstr ""
+#~ "[GL]No se ha podido establecer contacto con la Tarjeta o Módem USB "
+#~ "Internet Móvil.[/GL]"
+
+#~ msgid ""
+#~ "Has cancelado el proceso de comprobación del código PUK y tu Tarjeta o "
+#~ "Módem USB Internet Móvil se apagará\n"
+#~ "\n"
+#~ "Para volver a iniciar el proceso enciéndela desde el menú de tarjeta a "
+#~ "través de la opción 'Activar tarjeta'."
+#~ msgstr ""
+#~ "[GL]Has cancelado el proceso de comprobación del código PUK y tu Tarjeta "
+#~ "o Módem USB Internet Móvil se apagará\n"
+#~ "\n"
+#~ "Para volver a iniciar el proceso enciéndela desde el menú de tarjeta a "
+#~ "través de la opción 'Activar tarjeta'.[/GL]"
+
+#~ msgid "Comprobación cancelada"
+#~ msgstr "[GL]Comprobación cancelada[/GL]"
+
+#~ msgid ""
+#~ "Has cancelado el proceso de comprobación del código PIN y tu Tarjeta o "
+#~ "Módem USB Internet Móvil se apagará.\n"
+#~ "\n"
+#~ "Para volver a iniciar el proceso enciéndela desde el menú de tarjeta a "
+#~ "través de la opción 'Activar tarjeta'."
+#~ msgstr ""
+#~ "[GL]Has cancelado el proceso de comprobación del código PIN y tu Tarjeta "
+#~ "o Módem USB Internet Móvil se apagará.\n"
+#~ "\n"
+#~ "Para volver a iniciar el proceso enciéndela desde el menú de tarjeta a "
+#~ "través de la opción 'Activar tarjeta'.[/GL]"
+
+#~ msgid ""
+#~ "Ha fallado el proceso de cambio de PIN de la tarjeta SIM.\n"
+#~ "A continuación se apagará la Tarjeta o Módem USB Internet Móvil. La "
+#~ "siguiente vez que se encienda se pedirá el código PUK de la misma."
+#~ msgstr ""
+#~ "[GL]Ha fallado el proceso de cambio de PIN de la tarjeta SIM.\n"
+#~ "A continuación se apagará la Tarjeta o Módem USB Internet Móvil. La "
+#~ "siguiente vez que se encienda se pedirá el código PUK de la misma.[/GL]"
+
+#~ msgid ""
+#~ "El código PIN de la tarjeta SIM se encuentra activado.\n"
+#~ "Para desactivarlo introduce su valor en la casilla y pulsa el botón "
+#~ "Aceptar."
+#~ msgstr ""
+#~ "[GL]El código PIN de la tarjeta SIM se encuentra activado.\n"
+#~ "Para desactivarlo introduce su valor en la casilla y pulsa el botón "
+#~ "Aceptar.[/GL]"
+
+#~ msgid ""
+#~ "El código PIN de la tarjeta SIM se encuentra desactivado.\n"
+#~ "Para activarlo introduce su valor en la casilla y pulsa el botón Aceptar."
+#~ msgstr ""
+#~ "[GL]El código PIN de la tarjeta SIM se encuentra desactivado.\n"
+#~ "Para activarlo introduce su valor en la casilla y pulsa el botón Aceptar."
+#~ "[/GL]"
+
+#~ msgid "Selección manual de operadora"
+#~ msgstr "[GL]Selección manual de operadora[/GL]"
+
+#~ msgid ""
+#~ "A continuación se van a buscar las operadoras disponibles. Esta operación "
+#~ "puede tardar varios minutos. Para comenzar la búsqueda pulsa en Aceptar."
+#~ msgstr ""
+#~ "[GL]A continuación se van a buscar las operadoras disponibles. Esta "
+#~ "operación puede tardar varios minutos. Para comenzar la búsqueda pulsa en "
+#~ "Aceptar.[/GL]"
+
+#~ msgid ""
+#~ "Ha fallado el proceso de activación/desactivación  del código PIN de la "
+#~ "tarjeta SIM.\n"
+#~ "A continuación se apagará la Tarjeta o Módem USB Internet Móvil. La "
+#~ "siguiente vez que se encienda se pedirá el código PUK de la misma."
+#~ msgstr ""
+#~ "[GL]Ha fallado el proceso de activación/desactivación  del código PIN de "
+#~ "la tarjeta SIM.\n"
+#~ "A continuación se apagará la Tarjeta o Módem USB Internet Móvil. La "
+#~ "siguiente vez que se encienda se pedirá el código PUK de la misma.[/GL]"
+
+#~ msgid ""
+#~ "Por favor, espera mientras se buscan las operadoras disponibles.\n"
+#~ "Este proceso puede tardar varios minutos."
+#~ msgstr ""
+#~ "[GL]Por favor, espera mientras se buscan las operadoras disponibles.\n"
+#~ "Este proceso puede tardar varios minutos.[/GL]"
+
+#~ msgid "Buscando operadoras"
+#~ msgstr "[GL]Buscando operadoras[/GL]"
+
+#~ msgid ""
+#~ "Se ha producido un error mientras se buscaban las operadoras disponibles."
+#~ msgstr ""
+#~ "[GL]Se ha producido un error mientras se buscaban las operadoras "
+#~ "disponibles.[/GL]"
+
+#~ msgid ""
+#~ "Se ha producido un error mientras se configuraba la operadora "
+#~ "seleccionada."
+#~ msgstr ""
+#~ "[GL]Se ha producido un error mientras se configuraba la operadora "
+#~ "seleccionada.[/GL]"
+
+#~ msgid ""
+#~ "Por favor, espera mientras se configura la operadora\n"
+#~ "seleccionada."
+#~ msgstr ""
+#~ "[GL]Por favor, espera mientras se configura la operadora\n"
+#~ "seleccionada.[/GL]"
+
+#~ msgid "Al reiniciar se eliminará la información del consumo acumulado."
+#~ msgstr ""
+#~ "[GL]Al reiniciar se eliminará la información del consumo acumulado.[/GL]"
+
+#~ msgid "¿Deseas eliminar el acceso directo '%s'?"
+#~ msgstr "[GL]¿Deseas eliminar el acceso directo '%s'?[/GL]"
+
+#~ msgid "Nuevo acceso directo"
+#~ msgstr "[GL]Nuevo acceso directo[/GL]"
+
+#~ msgid "Modificar acceso directo"
+#~ msgstr "[GL]Modificar acceso directo[/GL]"
+
+#~ msgid "<b>Nombre de acceso directo</b>"
+#~ msgstr "[GL]<b>Nombre de acceso directo</b>[/GL]"
+
+#~ msgid "Introduce un nombre para el acceso directo."
+#~ msgstr "[GL]Introduce un nombre para el acceso directo.[/GL]"
+
+#~ msgid "<b>Ya existe un acceso directo con el nombre '%s'</b>"
+#~ msgstr "[GL]<b>Ya existe un acceso directo con el nombre '%s'</b>[/GL]"
+
+#~ msgid "Por favor, elige otro nombre."
+#~ msgstr "[GL]Por favor, elige otro nombre.[/GL]"
+
+#~ msgid ""
+#~ "Por favor, selecciona un archivo para la creación del acceso directo."
+#~ msgstr ""
+#~ "[GL]Por favor, selecciona un archivo para la creación del acceso directo."
+#~ "[/GL]"
+
+#~ msgid "Por favor, introduce una URL para la creación del acceso directo."
+#~ msgstr ""
+#~ "[GL]Por favor, introduce una URL para la creación del acceso directo.[/GL]"
+
+#~ msgid "<b>Eliminar conexión</b>"
+#~ msgstr "[GL]<b>Eliminar conexión</b>[/GL]"
+
+#~ msgid "¿Deseas eliminar la conexión '%s'?"
+#~ msgstr "[GL]¿Deseas eliminar la conexión '%s'?[/GL]"
+
+#~ msgid "Nueva conexión"
+#~ msgstr "[GL]Nueva conexión[/GL]"
+
+#~ msgid "Modificar conexión"
+#~ msgstr "[GL]Modificar conexión[/GL]"
+
+#~ msgid "<b>Ya existe una conexión con el nombre '%s'</b>"
+#~ msgstr "[GL]<b>Ya existe una conexión con el nombre '%s'</b>[/GL]"
+
+#~ msgid "Por favor, elige otro nombre"
+#~ msgstr "[GL]Por favor, elige otro nombre[/GL]"
+
+#~ msgid "Introduce un nombre para la conexión."
+#~ msgstr "[GL]Introduce un nombre para la conexión.[/GL]"
+
+#~ msgid "No has introducido el nombre de usuario para la conexión."
+#~ msgstr "[GL]No has introducido el nombre de usuario para la conexión.[/GL]"
+
+#~ msgid "<b>Introduce la contraseña</b>"
+#~ msgstr "[GL]<b>Introduce la contraseña</b>[/GL]"
+
+#~ msgid "No has introducido la contraseña de la conexión."
+#~ msgstr "[GL]No has introducido la contraseña de la conexión.[/GL]"
+
+#~ msgid "<b>El campo perfil personalizado está vacío</b>"
+#~ msgstr "[GL]<b>El campo perfil personalizado está vacío</b>[/GL]"
+
+#~ msgid "Por favor, indica el perfil personalizado que deseas utilizar."
+#~ msgstr ""
+#~ "[GL]Por favor, indica el perfil personalizado que deseas utilizar.[/GL]"
+
+#~ msgid "Por favor, rellena debidamente los campos correspondientes."
+#~ msgstr ""
+#~ "[GL]Por favor, rellena debidamente los campos correspondientes.[/GL]"
+
+#~ msgid "<b>La dirección del Proxy no es válida</b>"
+#~ msgstr "[GL]<b>La dirección del Proxy no es válida</b>[/GL]"
+
+#~ msgid "Introduce una dirección válida."
+#~ msgstr "[GL]Introduce una dirección válida.[/GL]"
+
+#~ msgid "Los valores permitidos son enteros positivos."
+#~ msgstr "[GL]Los valores permitidos son enteros positivos.[/GL]"
+
+#~ msgid "<b>No es posible la comunicación con el PPP Manager</b>"
+#~ msgstr "[GL]<b>No es posible la comunicación con el PPP Manager</b>[/GL]"
+
+#~ msgid ""
+#~ "La conexión a través del PPP Manager no ha podido ser realizada. Lo que "
+#~ "significa que por el momento no es posible la conexión a Internet "
+#~ "mediante esta aplicación."
+#~ msgstr ""
+#~ "[GL]La conexión a través del PPP Manager no ha podido ser realizada. Lo "
+#~ "que significa que por el momento no es posible la conexión a Internet "
+#~ "mediante esta aplicación.[/GL]"
+
+#~ msgid "<b>Introduce la contraseña de usuario para la conexión '%s'</b>"
+#~ msgstr ""
+#~ "[GL]<b>Introduce la contraseña de usuario para la conexión '%s'</b>[/GL]"
+
+#~ msgid ""
+#~ "La Tarjeta o Módem USB Internet Móvil no está preparada para conectar. "
+#~ "Por favor insértala o enciéndela si se encuentra apagada y espera a que "
+#~ "se registre en la red."
+#~ msgstr ""
+#~ "[GL]La Tarjeta o Módem USB Internet Móvil no está preparada para "
+#~ "conectar. Por favor insértala o enciéndela si se encuentra apagada y "
+#~ "espera a que se registre en la red.[/GL]"
+
+#~ msgid ""
+#~ "El Escritorio movistar está conectado. Si sales de la aplicación la "
+#~ "conexión se cerrará. ¿Deseas continuar?."
+#~ msgstr ""
+#~ "[GL]El Escritorio movistar está conectado. Si sales de la aplicación la "
+#~ "conexión se cerrará. ¿Deseas continuar?.[/GL]"
+
+#~ msgid "<b>No hay ningún dispositivo seleccionado</b>"
+#~ msgstr "[GL]<b>No hay ningún dispositivo seleccionado</b>[/GL]"
+
+#~ msgid ""
+#~ "No se puede realizar la conexión solicitada debido a que no hay ningún "
+#~ "dispositivo. Por favor, selecciona un dispositivo en la ventana de "
+#~ "configuración."
+#~ msgstr ""
+#~ "[GL]No se puede realizar la conexión solicitada debido a que no hay "
+#~ "ningún dispositivo. Por favor, selecciona un dispositivo en la ventana de "
+#~ "configuración.[/GL]"
+
+#~ msgid ""
+#~ "No ha sido posible realizar la conexión. Por favor, inténtalo de nuevo."
+#~ msgstr ""
+#~ "[GL]No ha sido posible realizar la conexión. Por favor, inténtalo de "
+#~ "nuevo.[/GL]"
+
+#~ msgid "<b>Se ha detectado otra conexión activa</b>"
+#~ msgstr "[GL]<b>Se ha detectado otra conexión activa</b>[/GL]"
+
+#~ msgid "¿Deseas conectarte con la conexión asociada al servicio? (%s)"
+#~ msgstr ""
+#~ "[GL]¿Deseas conectarte con la conexión asociada al servicio? (%s)[/GL]"
+
+#~ msgid ""
+#~ "En este momento estás conectado con '%s'. ¿Deseas abrir el servicio "
+#~ "cambiando a su conexión asociada '%s' o prefieres usar la conexión "
+#~ "actual?\n"
+#~ "Si cambias la conexión puedes perder información en otros servicios y "
+#~ "accesos directos abiertos."
+#~ msgstr ""
+#~ "[GL]En este momento estás conectado con '%s'. ¿Deseas abrir el servicio "
+#~ "cambiando a su conexión asociada '%s' o prefieres usar la conexión "
+#~ "actual?\n"
+#~ "Si cambias la conexión puedes perder información en otros servicios y "
+#~ "accesos directos abiertos.[/GL]"
+
+#~ msgid ""
+#~ "En este momento estás conectado con '%s'. ¿Deseas abrir el servicio "
+#~ "cambiando a su conexión por defecto '%s' o prefieres usar la conexión "
+#~ "actual?\n"
+#~ "Si cambias la conexión puedes perder información en otros servicios y "
+#~ "accesos directos abiertos."
+#~ msgstr ""
+#~ "[GL]En este momento estás conectado con '%s'. ¿Deseas abrir el servicio "
+#~ "cambiando a su conexión por defecto '%s' o prefieres usar la conexión "
+#~ "actual?\n"
+#~ "Si cambias la conexión puedes perder información en otros servicios y "
+#~ "accesos directos abiertos.[/GL]"
+
+#~ msgid "<b>Abrir acceso directo '%s'</b>"
+#~ msgstr "[GL]<b>Abrir acceso directo '%s'</b>[/GL]"
+
+#~ msgid "¿Deseas conectarte con la conexión asociada al acceso directo? (%s)"
+#~ msgstr ""
+#~ "[GL]¿Deseas conectarte con la conexión asociada al acceso directo? (%s)[/"
+#~ "GL]"
+
+#~ msgid ""
+#~ "En este momento estás conectado con '%s'. ¿Deseas abrir el acceso directo "
+#~ "cambiando a su conexión asociada '%s' o prefieres usar la conexión "
+#~ "actual?\n"
+#~ "Si cambias la conexión puedes perder información en otros servicios y "
+#~ "accesos directos abiertos."
+#~ msgstr ""
+#~ "[GL]En este momento estás conectado con '%s'. ¿Deseas abrir el acceso "
+#~ "directo cambiando a su conexión asociada '%s' o prefieres usar la "
+#~ "conexión actual?\n"
+#~ "Si cambias la conexión puedes perder información en otros servicios y "
+#~ "accesos directos abiertos.[/GL]"
+
+#~ msgid ""
+#~ "En este momento estás conectado con '%s'. ¿Deseas abrir el acceso directo "
+#~ "cambiando a su conexión por defecto '%s' o prefieres usar la conexión "
+#~ "actual?\n"
+#~ "Si cambias la conexión puedes perder información en otros servicios y "
+#~ "accesos directos abiertos."
+#~ msgstr ""
+#~ "[GL]En este momento estás conectado con '%s'. ¿Deseas abrir el acceso "
+#~ "directo cambiando a su conexión por defecto '%s' o prefieres usar la "
+#~ "conexión actual?\n"
+#~ "Si cambias la conexión puedes perder información en otros servicios y "
+#~ "accesos directos abiertos.[/GL]"
+
+#~ msgid "<b>Conectar con la conexión predeterminada</b>"
+#~ msgstr "[GL]<b>Conectar con la conexión predeterminada</b>[/GL]"
+
+#~ msgid ""
+#~ "En este momento estás conectado con '%s'. ¿Deseas abrir la conexión '%s' "
+#~ "o prefieres usar la conexión actual?\n"
+#~ "Si cambias la conexión puedes perder información en otros servicios y "
+#~ "accesos directos abiertos."
+#~ msgstr ""
+#~ "[GL]En este momento estás conectado con '%s'. ¿Deseas abrir la conexión "
+#~ "'%s' o prefieres usar la conexión actual?\n"
+#~ "Si cambias la conexión puedes perder información en otros servicios y "
+#~ "accesos directos abiertos.[/GL]"
+
+#~ msgid ""
+#~ "¿Deseas conectarte con la conexión predeterminada para el Escritorio "
+#~ "movistar (%s)?"
+#~ msgstr ""
+#~ "[GL]¿Deseas conectarte con la conexión predeterminada para el Escritorio "
+#~ "movistar (%s)?[/GL]"
+
+#~ msgid "<b>El número de teléfono no es válido</b>"
+#~ msgstr "[GL]<b>El número de teléfono no es válido</b>[/GL]"
+
+#~ msgid "Los valores permitidos son caracteres numéricos."
+#~ msgstr "[GL]Los valores permitidos son caracteres numéricos.[/GL]"
+
+#~ msgid "Leído"
+#~ msgstr "[GL]Leído[/GL]"
+
+#~ msgid "Título"
+#~ msgstr "[GL]Título[/GL]"
+
+#~ msgid "Creando nueva instancia"
+#~ msgstr "[GL]Creando nueva instancia[/GL]"
+
+#~ msgid "Sec mananager init"
+#~ msgstr "[GL]Sec mananager init[/GL]"
+
+#~ msgid "Ignorando parametros el objeto ya esta construido"
+#~ msgstr "[GL]Ignorando parametros el objeto ya esta construido[/GL]"
+
+#~ msgid "lanzando URL NO segura"
+#~ msgstr "[GL]lanzando URL NO segura[/GL]"
+
+#~ msgid "ERROR creando fichero temporal"
+#~ msgstr "[GL]ERROR creando fichero temporal[/GL]"
+
+#~ msgid "error creando temporal file url %s "
+#~ msgstr "[GL]error creando temporal file url %s [/GL]"
+
+#~ msgid "Escritorio movistar: no conectado"
+#~ msgstr "[GL]Escritorio movistar: no conectado[/GL]"
+
+#~ msgid "Escritorio movistar:conectado"
+#~ msgstr "[GL]Escritorio movistar:conectado[/GL]"
+
+#~ msgid "ene"
+#~ msgstr "[GL]ene[/GL]"
+
+#~ msgid "abr"
+#~ msgstr "[GL]abr[/GL]"
+
+#~ msgid "ago"
+#~ msgstr "[GL]ago[/GL]"
+
+#~ msgid "No entries in RSS"
+#~ msgstr "[GL]No entries in RSS[/GL]"

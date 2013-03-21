@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<profile version="1.0" fileversion="1.11.6.44" >
+	<profile-info>
+		<region>EC</region>
+		<provider>MovistarLATAM</provider>
+		<app-name>Escritorio Movistar Latam</app-name>
+		<app-version>8.9</app-version>
+		<coment>Ecuador (Latam)</coment>
+	</profile-info>
+	<user-profile name="default"/>
+	<boem available="1">
+		<url>http://ec.tgcm.telefonica.com/ds/stats?cc=EC</url>
+		<show-warning>1</show-warning>
+	</boem>
+	<client-info name="default">
+		<selfcare-url/>
+		<support-url/>
+		<help-phone>1-800</help-phone>
+	</client-info>
+	<coverage>
+		<wifi-url/>
+		<wwan-url/>
+	</coverage>
+	<device>
+		<domain>cs_ps</domain>
+		<mode>auto</mode>
+	</device>
+	<sim-locks/>
+	<services>
+		<!-- install-status: 0 = unavailable,  1 = available but unselected, 2 = available and selected  -->
+		<service id="sms" class="service.sms" install-status="2">
+			<!-- sms with usage info from network -->
+			<smsc type="any">+59395897705</smsc>
+			<!-- type = any | prepay | postpay | sim -->
+			<notify-sms available="0" methodGSM7="none" methodUCS2="none"/>
+			<!--method* = prefix | status-report | none -->
+			<pop-up-sms available="0">
+				<!-- sms with usage info from network -->
+				<number></number>
+			</pop-up-sms>
+			<show-sending-sms-progress value="1">
+			</show-sending-sms-progress>
+			<policy name="edit-smsc" value="1"/>
+		</service>
+		<service id="favorites" class="service.favorites" install-status="2"/>
+		<service id="recharge_latam" class="url-launcher" install-status="2">
+			<url>http://www.recarga.movistar.com.ec</url>
+			<caption>Recarga</caption>
+		</service>
+		<service id="shop_latam" class="url-launcher" install-status="2">
+			<url>http://www.tienda.movistar.com.ec</url>
+			<caption>Tienda Movistar</caption>
+		</service>
+		<service id="videocall" class="service.videocall" install-status="1"/>
+		<service id="internet" class="service.internet" install-status="2">
+			<url>http://www.movistar.com.ec</url>
+		</service>
+	</services>
+	<dock>
+		<!-- 0 = auto-hide, 1 = always -->
+		<appearance>0</appearance>
+		<!-- 0 = no-dockado, 1 = dockado -->
+		<status>1</status>
+		<dockables>
+			<dockable id="addressbook" class="dockable.addressbook">
+			</dockable>
+		</dockables>
+		<launcher size="6">
+			<item id="sms"/>
+			<item id="addressbook"/>
+			<item id="favorites"/>
+			<item id="recharge_latam"/>
+			<item id="shop_latam"/>
+			<item id="videocall"/>
+			<item id="internet"/>
+		</launcher>
+	</dock>
+	<favorite-list name="default">
+		<favorite readonly="1" userdata="0">
+			<name>Comunidades - Zona M</name>
+			<!-- 0 = url, 1 = file  -->
+			<type>0</type>
+			<url>http://www.zonam.ec</url>
+			<file/>
+			<use-connection>0</use-connection>
+			<connection-name/>
+		</favorite>
+		<favorite readonly="1" userdata="0">
+			<name>Comunidades - Hotmail</name>
+			<type>0</type>
+			<url>http://www.hotmail.com</url>
+			<file/>
+			<use-connection>0</use-connection>
+			<connection-name/>
+		</favorite>
+		<favorite readonly="1" userdata="0">
+			<name>Comunidades - Facebook</name>
+			<type>0</type>
+			<url>http://www.facebook.com</url>
+			<file/>
+			<use-connection>0</use-connection>
+			<connection-name/>
+		</favorite>
+		<favorite readonly="1" userdata="0">
+			<name>Contenidos Movistar</name>
+			<type>0</type>
+			<url>http://www.movistar.com.ec/contenidos</url>
+			<file/>
+			<use-connection>0</use-connection>
+			<connection-name/>
+		</favorite>
+		<favorite readonly="1" userdata="0">
+			<name>Guíame</name>
+			<type>0</type>
+			<url>http://www.guiame.com.ec</url>
+			<file/>
+			<use-connection>0</use-connection>
+			<connection-name/>
+		</favorite>
+	</favorite-list>
+	<policies>
+		<policy name="edit-connection" value="1"/>
+		<policy name="create-connection" value="1"/>
+		<policy name="export-connection" value="1"/>
+		<policy name="import-connection" value="1"/>
+		<policy name="delete-connection" value="1"/>
+		<policy name="edit-favorite" value="1"/>
+		<policy name="delete-favorite" value="1"/>
+		<policy name="install-devices" value="1"/>
+		<policy name="install-services" value="1"/>
+		<policy name="reconnect" value="0"/>
+		<policy name="connect-startup" value="0"/>
+		<policy name="launch-startup" value="0"/>
+		<policy name="import-wifi-profiles" value="1"/>
+		<policy name="enable-wifi-management" value="1"/>
+		<policy name="show-roaming-warning" value="1"/>
+		<policy name="connections-roaming" value="1"/>
+		<policy name="manage-connections-roaming" value="0"/>
+		<policy name="mydetails-show-startup" value="0"/>
+		<policy name="mydetails-active" value="1"/>
+		<policy name="modify-dock-appearance" value="1"/>
+		<policy name="warning-download-update" value="1"/>
+	</policies>
+	<connection-list>
+		<wwan-connection readonly="1">
+			<name>Movistar internet</name>
+			<profile condition="default">
+				<auth-info>
+					<username>movistar</username>
+					<password>KAEjBz8BBhM*</password>
+					<ask-password>0</ask-password>
+					<cypher-password>0</cypher-password>
+				</auth-info>
+				<dns-info>
+					<manual-dns-server>0</manual-dns-server>
+					<dns-server-list>
+						<dns-server>0.0.0.0</dns-server>
+						<dns-server>0.0.0.0</dns-server>
+					</dns-server-list>
+					<wins-server-list>
+						<wins-server>0.0.0.0</wins-server>
+						<wins-server>0.0.0.0</wins-server>
+					</wins-server-list>
+					<dns-suffixes>
+						<active>0</active>
+						<suffixes></suffixes>
+					</dns-suffixes>
+				</dns-info>
+				<proxy-info>
+					<!-- 0 = without proxy, 1 = proxy, 2 = autoconfig  -->
+					<configuration>0</configuration>
+					<proxy-list>
+                  <!-- proxy type='any' means same proxy server for all protocols -->
+                  </proxy-list>
+					<proxy-auto></proxy-auto>
+					<bypass-proxy>
+						<bypass-locals>0</bypass-locals>
+						<bypass-addresses></bypass-addresses>
+					</bypass-proxy>
+					<use-http11>1</use-http11>
+				</proxy-info>
+				<apn>navega.movistar.ec</apn>
+				<ip-info>
+					<active>0</active>
+					<address>0.0.0.0</address>
+				</ip-info>
+			</profile>
+		</wwan-connection>
+		<wwan-prototype>
+			<profile condition="default">
+				<auth-info>
+					<username/>
+					<password/>
+					<ask-password>0</ask-password>
+					<cypher-password>0</cypher-password>
+				</auth-info>
+				<dns-info>
+					<manual-dns-server>0</manual-dns-server>
+					<dns-server-list>
+						<dns-server>0.0.0.0</dns-server>
+						<dns-server>0.0.0.0</dns-server>
+					</dns-server-list>
+					<wins-server-list>
+						<wins-server>0.0.0.0</wins-server>
+						<wins-server>0.0.0.0</wins-server>
+					</wins-server-list>
+					<dns-suffixes>
+						<active>0</active>
+						<suffixes/>
+					</dns-suffixes>
+				</dns-info>
+				<proxy-info>
+					<configuration>0</configuration>
+					<proxy-list/>
+					<proxy-auto/>
+					<bypass-proxy>
+						<bypass-locals>0</bypass-locals>
+						<bypass-addresses/>
+					</bypass-proxy>
+					<use-http11>1</use-http11>
+				</proxy-info>
+				<apn/>
+				<ip-info>
+					<active>0</active>
+					<address>0.0.0.0</address>
+				</ip-info>
+			</profile>
+		</wwan-prototype>
+		<wifi-prototype>
+			<ssid/>
+			<mac>0.0.0.0.0.0</mac>
+			<encryption>0</encryption>
+			<authentication>0</authentication>
+			<network-password/>
+			<hidden>0</hidden>
+			<auth-802-1x>
+				<type>0</type>
+				<user/>
+				<password/>
+			</auth-802-1x>
+		</wifi-prototype>
+	</connection-list>
+	<news available="1">
+		<url os="win">http://ec.tgcm.telefonica.com/ds/ServletRss?cmd=get&amp;cc=EC&amp;platform=WINDOWS</url>
+		<url os="mac">http://ec.tgcm.telefonica.com/ds/ServletRss?cmd=get&amp;cc=EC&amp;platform=MAC</url>
+		<url os="linux">http://ec.tgcm.telefonica.com/ds/ServletRss?cmd=get&amp;cc=EC&amp;platform=LINUX</url>
+	</news>
+	<traffic available="0">
+		<billing-day type="custom">1</billing-day>
+		<!-- <billing-day type="fixed">18</billing-day> -->
+		<monthly-limits>
+			<limit default="1">1000</limit>
+			<limit>1024</limit>
+			<limit>3072</limit>
+			<limit>5120</limit>
+			<limit>10240</limit>
+			<limit>-1</limit>
+			<!-- -1 equals to "Other" option-->
+		</monthly-limits>
+		<monthly-roaming-limits>
+			<limit default="1">10</limit>
+			<limit>50</limit>
+			<limit>-1</limit>
+			<!-- -1 equals to "Other" option-->
+		</monthly-roaming-limits>
+		<alert-list>
+			<alert active="1">100</alert>
+			<alert active="1">90</alert>
+			<alert active="1">75</alert>
+			<alert active="0">50</alert>
+		</alert-list>
+		<alert-roaming-list>
+			<alert active="1">100</alert>
+			<alert active="1">90</alert>
+			<alert active="1">75</alert>
+			<alert active="0">50</alert>
+		</alert-roaming-list>
+	</traffic>
+	<!-- never | always | match-imsi | sim-uk -->
+	<prepay method="never"/>
+	<eapsim available="0"/>
+	<userdata available="0"/>
+	<addressbook>
+		<copiagenda available="0">
+			<host/>
+			<directory/>
+			<database/>
+		</copiagenda>
+		<phone-number>
+			<country-code>+593</country-code>
+			<match><![CDATA[^\+?\d*?(\d{7})$]]></match>
+			<format><![CDATA[$1]]></format>
+		</phone-number>
+	</addressbook>
+	<ads available="0">
+		<!-- 2450 -->
+		<url id="main">http://o2ie-te.amobee.com/upsteed/gaprequest?ve=3&amp;pi=1500&amp;ui=%ui%&amp;ch=120&amp;as=new.tag.key.ppal&amp;ua=none&amp;ac=1&amp;ai=%ai%&amp;pr=0101&amp;ps=MMA_6_1:300.50&amp;ac=1</url>
+		<url id="service">http://o2ie-te.amobee.com/upsteed/gaprequest?ve=3&amp;pi=1500&amp;ui=%ui%&amp;ch=120&amp;as=new.tag.key.services&amp;ua=none&amp;ac=1&amp;ai=%ai%&amp;pr=0101&amp;ps=MMA_4_1:168.42&amp;ac=1</url>
+		
+		<!-- 
+		<url id="main">http://200.39.21.12:8080/osg/gapv30GetAdInfo?ve=3&amp;pi=2450&amp;ui=%ui%&amp;ch=120&amp;as=142596&amp;ua=none&amp;ac=1&amp;ai=%ai%&amp;pr=0101&amp;ps=MMA_6_1:300.50&amp;ac=1</url>
+		<url id="service">http://200.39.21.12:8080/osg/gapv30GetAdInfo?ve=3&amp;pi=2450&amp;ui=%ui%&amp;ch=120&amp;as=142594&amp;ua=none&amp;ac=1&amp;ai=%ai%&amp;pr=0101&amp;ps=MMA_4_1:168.42&amp;ac=1</url>	
+		-->
+
+		
+		<auth-sdp available="1">
+			<service-id>0100378700</service-id>
+			<sp-id>001362</sp-id>
+			<sp-password>escmov1362</sp-password>
+		</auth-sdp>
+	</ads>
+</profile>

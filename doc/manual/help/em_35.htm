@@ -1,0 +1,121 @@
+<!doctype HTML public "-//W3C//DTD HTML 4.0 Frameset//ES">
+
+<html>
+
+<!--(==============================================================)-->
+<!--(Document created with RoboEditor. )============================-->
+<!--(==============================================================)-->
+
+<head>
+
+<title>Conexión del Teléfono con Infrarrojos</title>
+
+<!--(Meta)==========================================================-->
+
+<meta http-equiv=content-type content="text/html; charset=UTF-8" />
+
+<!--(Links)=========================================================-->
+
+<link rel="stylesheet" href="css/estilo.css">
+<style type="text/css">
+<!--
+.Estilo1 {font-size: small}
+.Estilo2 {font-family: "Courier New", Courier, monospace}
+.Estilo3 {font-weight: bold}
+-->
+</style>
+</head>
+
+<!--(Body)==========================================================-->
+
+
+<body class="navbar">
+<!-- Menu de navegacion del sitio -->
+<!-- Caja de texto -->
+<div class="logoManual"></div>
+	<div class="logoManual2" id="izquierda">
+	  <div align="center" class="Estilo3"><a name="inicio"></a>Guía de Usuario</div>
+</div>
+
+
+<ul class="navbar">
+  <li><a href="index.htm">Presentación</a>
+  <li><a href="em_20.htm">Instalar el software</a>
+  <li><a href="em_30.htm"><strong>Instalar el hardware</strong></a>
+  <li><a href="em_40.htm">Utilizar Escritorio movistar</a>
+  <li><a href="em_50.htm">Servicios de Escritorio movistar</a>
+  <li><a href="em_60.htm">Personalizar Escritorio movistar</a>
+  <li><a href="em_70.htm">Desinstalar</a>
+  <li><a href="em_80.htm">Ayuda y Acerca de...</a>
+  <li><a href="em_90.htm">Preguntas frecuentes</a>
+  <li><a href="em_100.htm">Resolución de problemas</a>
+  <li><a href="em_110.htm">Glosario de términos</a>
+</ul>
+
+
+<!-- Contenido principal -->
+<div class=CabeceraMarcas>
+  <p>&nbsp;</p>
+  </div>
+
+<h1 style="text-align: center;"
+	align=center>Instalar el hardware de Escritorio movistar</h1>
+<h2 style="text-align: center;"
+	align=center>Conexión del Teléfono con Infrarrojos</h2>
+</div>
+
+
+  <!-- barra de navegacion adelante y atras -->
+<div id="clear"> 
+<p><span id=izquierda><a href="em_34.htm">«« Anterior</a></span><span id=derecha><a href="em_40.htm">Siguiente »»</a></span>
+</div><br>  
+  
+
+
+  <p>Para que tu Teléfono con infrarrojos enlace correctamente con tu portátil debes tener en consideración las siguientes pautas: </p>
+  <UL type="disc">
+    <LI>En primer lugar asegúrate de que el puerto infrarrojos está   habilitado en la BIOS del ordenador (en el caso de que tu equipo cuente con esta   característica). </LI>
+  </UL>
+  <UL type="disc">
+    <LI>Una vez cargado el sistema operativo, debes activar el   servicio IrDA con el comando <span class="Estilo2"><STRONG>start</STRONG></span>, que habitualmente se   encuentra en <span class="Estilo2"><STRONG>/etc/rc.d/init.d/irda</STRONG></span><EM>.</EM> Si los   dispositivos no se encuentran definidos, debes ejecutar los siguientes comandos:
+      <BLOCKQUOTE>
+          <p align="left" class="Estilo2">mknod /dev/ircomm0 c 161   0<BR>
+            mknod /dev/ircomm1 c 161 1<BR>
+            mknod /dev/irlpt0  c 161 16<BR>
+            mknod   /dev/irlpt1 c 161 17<BR>
+            mknod /dev/irnet c 10 187<BR>
+            chmod 666   /dev/ir*</p>
+      </BLOCKQUOTE>
+    <LI>Es recomendable primero intentar iniciar el servicio IrDA en   modo SIR. Para ello debes elegir el ttySx de acuerdo con el puerto SIR y después   ejecutar el comando <span class="Estilo2"><STRONG>dmesg | grep ttyS*</STRONG></span>, el cual muestra los   dispositivos ttyS* soportados por el equipo. Una vez que conoces qué ttyS* es el   asociado al dispositivo IrDA a través del cual quieres establecer la conexión,   debes ejecutar el comando <span class="Estilo2"><STRONG>irattach ttyS* -s</STRONG></span> </LI>
+  </UL>
+  <UL type="disc">
+    <LI>Si no es posible iniciar el servicio con el modo SIR, puedes   intentarlo con el modo FIR. En este caso, para evitar conflictos con los   dispositivos serie, debes ejecutar el comando <span class="Estilo2"><STRONG>setserial /dev/ttySx uart   none</STRONG></span> </LI>
+  </UL>
+  <UL type="disc">
+    <LI>Debes cargar el módulo correspondiente al chipset que soporta   tu equipo. Para que se muestren los chipset soportados puedes ejecutar el   comando <STRONG><span class="Estilo2">findchip –l</span>.</STRONG> El módulo se carga con <STRONG><span class="Estilo2">modprobe</span>.</STRONG> Si cuando cargamos el módulo se tiene abierto el   fichero <span class="Estilo2"><STRONG>/var/log/messages</STRONG></span>, se puede ver a qué dispositivo se ha   asociado el módulo; tras esto, debes ejecutar el comando <span class="Estilo2"><STRONG>irattach irda*   -s</STRONG></span> </LI>
+  </UL>
+  <UL type="disc">
+    <LI>Puedes utilizar el comando <span class="Estilo2"><STRONG>irdadump</STRONG></span> para que   se muestren todos los dispositivos IrDA que están al alcance. </LI>
+  </UL>
+  <p> </p>
+  <p>Asegúrate que en <STRONG>Configuración &gt;&gt; Mis dispositivos  </STRONG> está seleccionado como <strong>Dispositivo GPRS/3G </strong>el Teléfono   que desees utilizar.</p>
+  <p class="Importante">Con un teléfono enlazado vía infrarrojos sólo podrás realizar conexiones GPRS/3G</p>
+<p> </p>
+<div align="right" class="Estilo1"><a href="em_35.htm#inicio" class="Estilo1 Estilo1">|volver arriba|</a></div>
+</br></div>
+
+
+<div id=navegacion></div>
+
+
+
+
+</p>
+<div class=MsjCorp>
+<a href="http://www.movistar.es/media/legal/texto.htm"
+	target=_blank>Aviso Legal</a> | <a href="http://www.movistar.es/media/legal/legal.htm"
+										target=_blank>Telefónica Móviles 
+ España S.A.U.</a></div>
+</body>
+
+</html>

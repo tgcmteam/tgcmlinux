@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  
+  <bitmap file="banner_bgnd.png" name="banner.bknd" alphacolor=""/>
+  <bitmap file="settings.png" name="ban.settings" alphacolor="">
+    <subbitmap name="ban.settings.normal" left="0" top="0" width="45" height="50"/>
+    <subbitmap name="ban.settings.hot" left="45" top="0" width="45" height="50"/>
+    <subbitmap name="ban.settings.down" left="90" top="0" width="45" height="50"/>
+    <subbitmap name="ban.settings.disable" left="135" top="0" width="45" height="50"/>
+  </bitmap>
+  <bitmap file="help.png" name="ban.help" alphacolor="">
+    <subbitmap name="ban.help.normal" left="0" top="0" width="37" height="50"/>
+    <subbitmap name="ban.help.hot" left="37" top="0" width="37" height="50"/>
+    <subbitmap name="ban.help.down" left="74" top="0" width="37" height="50"/>
+    <subbitmap name="ban.help.disable" left="111" top="0" width="37" height="50"/>
+  </bitmap>  
+  
+  <font name="font.banner" face="Tahoma" height="22" weight="650" underline="false" italic="false"/>
+  <font name="font.buttons" face="Tahoma" height="10" weight="650" underline="false" italic="false"/>
+
+  <layout name="banner.addrbook" width="300" height="64">
+    <border resizeX="false" resizeY="false" minY="64"/>
+    <background type="image" bitmap="banner.bknd">
+      <resize type="frame" left="120" top="0" right="0" bottom="0"/>
+    </background>
+    <widgets>
+
+      <label id="lab.name"
+             anchor-tl="top-left" anchor-br="top-right"
+             left="122" top="15" width="100" height="37"
+             align="left-center"
+             multiline="false"
+             ellipsis="false"
+             font="font.banner"
+             color="#012952"
+             shadow="true"
+             text="#str.srvaddressbook"/>
+    
+      <button id="btn.help"
+              anchor-tl="top-right" anchor-br="none"
+              left="249" top="7" width="37" height="50"
+              onclick="app.openhelp(addressbook)"
+              image-normal="ban.help.normal"
+              image-hot="ban.help.hot"
+              image-down="ban.help.down"
+              image-disable="ban.help.disable"
+	     ellipsis="false"
+              text-align="center-bottom"
+              font-normal="font.buttons"
+              color-normal="#012952"
+              text="#str.help"
+              tooltip="#str.help"/>
+              
+	  </widgets>	
+  </layout>
+
+  <layout name="banner.traffic" width="300" height="64">
+    <border resizeX="false" resizeY="false" minY="64"/>
+    <background type="image" bitmap="banner.bknd">
+      <resize type="frame" left="120" top="0" right="0" bottom="0"/>
+    </background>
+    <widgets>
+    
+      <label id="lab.name"
+             anchor-tl="top-left" anchor-br="top-right"
+             left="122" top="15" width="85" height="37"
+             align="left-center"
+             multiline="false"
+             ellipsis="false"
+             font="font.banner"
+             color="#012952"
+             shadow="true"
+             text="#str.traffic"/>
+    
+      <button id="btn.settings"
+              anchor-tl="top-right" anchor-br="none"
+              left="205" top="7" width="45" height="50"
+              onclick="app.configure(traffic)"
+              image-normal="ban.settings.normal"
+              image-hot="ban.settings.hot"
+              image-down="ban.settings.down"
+              image-disable="ban.settings.disable"
+	     ellipsis="false"
+              text-align="center-bottom"
+              font-normal="font.buttons"
+              color-normal="#012952"
+              text="#str.settings"
+              tooltip="#str.settings"/>
+              
+      <button id="btn.help"
+              anchor-tl="top-right" anchor-br="none"
+              left="249" top="7" width="37" height="50"
+              onclick="app.openhelp(traffic)"
+              image-normal="ban.help.normal"
+              image-hot="ban.help.hot"
+              image-down="ban.help.down"
+              image-disable="ban.help.disable"
+	     ellipsis="false"
+              text-align="center-bottom"
+              font-normal="font.buttons"
+              color-normal="#012952"
+              text="#str.help"
+              tooltip="#str.help"/>
+             
+	  </widgets>
+  </layout>
+
+<layout name="banner.wifi" width="300" height="64">
+    <border resizeX="false" resizeY="false" minY="64"/>
+    <background type="image" bitmap="banner.bknd">
+      <resize type="frame" left="120" top="0" right="0" bottom="0"/>
+    </background>
+    <widgets>
+
+      <label id="lab.name"
+             anchor-tl="top-left" anchor-br="top-right"
+             left="122" top="15" width="85" height="37"
+             align="left-center"
+             multiline="false"
+             ellipsis="false"
+             font="font.banner"
+             color="#012952"
+             shadow="true"
+             text="#str.srvwifi"/>
+    
+      <button id="btn.help"
+              anchor-tl="top-right" anchor-br="none"
+              left="249" top="7" width="37" height="50"
+              onclick="app.openhelp(wifi)"
+              image-normal="ban.help.normal"
+              image-hot="ban.help.hot"
+              image-down="ban.help.down"
+              image-disable="ban.help.disable"
+	     ellipsis="false"
+              text-align="center-bottom"
+              font-normal="font.buttons"
+              color-normal="#012952"
+              text="#str.help"
+              tooltip="#str.help"/>
+              
+    </widgets>	
+  </layout>
+  
+  <layout name="banner.favorites" width="300" height="64">
+    <border resizeX="false" resizeY="false" minY="64"/>
+    <background type="image" bitmap="banner.bknd">
+      <resize type="frame" left="120" top="0" right="0" bottom="0"/>
+    </background>
+    <widgets>
+
+      <label id="lab.name"
+             anchor-tl="top-left" anchor-br="top-right"
+             left="122" top="15" width="86" height="36"
+             align="left-center"
+             multiline="false"
+             ellipsis="false"
+             font="font.banner"
+             color="#012952"
+             shadow="true"
+             text="#str.srvfavorites"/>
+    
+      <button id="btn.settings"
+              anchor-tl="top-right" anchor-br="none"
+              left="205" top="7" width="45" height="50"
+              onclick="app.configure(favorites)"
+              image-normal="ban.settings.normal"
+              image-hot="ban.settings.hot"
+              image-down="ban.settings.down"
+              image-disable="ban.settings.disable"
+	     ellipsis="false"
+              text-align="center-bottom"
+              font-normal="font.buttons"
+              color-normal="#012952"
+              text="#str.settings"
+              tooltip="#str.settings"/>
+              
+      <button id="btn.help"
+              anchor-tl="top-right" anchor-br="none"
+              left="250" top="7" width="36" height="50"
+              onclick="app.openhelp(favorites)"
+              image-normal="ban.help.normal"
+              image-hot="ban.help.hot"
+              image-down="ban.help.down"
+              image-disable="ban.help.disable"
+	     ellipsis="false"
+              text-align="center-bottom"
+              font-normal="font.buttons"
+              color-normal="#012952"
+              text="#str.help"
+              tooltip="#str.help"/>
+              
+    </widgets>
+  </layout>
+  
+  <layout name="banner.sms" width="300" height="64">
+    <border resizeX="false" resizeY="false" minY="64"/>
+    <background type="image" bitmap="banner.bknd">
+      <resize type="frame" left="120" top="0" right="0" bottom="0"/>
+    </background>
+    <widgets>
+
+      <label id="lab.name"
+             anchor-tl="top-left" anchor-br="top-right"
+             left="122" top="15" width="86" height="36"
+             align="left-center"
+             multiline="false"
+             ellipsis="false"
+             font="font.banner"
+             color="#012952"
+             shadow="true"
+             text="#str.srvsms"/>
+    
+      <button id="btn.settings"
+              anchor-tl="top-right" anchor-br="none"
+              left="205" top="7" width="45" height="50"
+              onclick="app.configure(sms)"
+              image-normal="ban.settings.normal"
+              image-hot="ban.settings.hot"
+              image-down="ban.settings.down"
+              image-disable="ban.settings.disable"
+	     ellipsis="false"
+              text-align="center-bottom"
+              font-normal="font.buttons"
+              color-normal="#012952"
+              text="#str.settings"
+              tooltip="#str.settings"/>
+              
+      <button id="btn.help"
+              anchor-tl="top-right" anchor-br="none"
+              left="250" top="7" width="36" height="50"
+              onclick="app.openhelp(sms)"
+              image-normal="ban.help.normal"
+              image-hot="ban.help.hot"
+              image-down="ban.help.down"
+              image-disable="ban.help.disable"
+	     ellipsis="false"
+              text-align="center-bottom"
+              font-normal="font.buttons"
+              color-normal="#012952"
+              text="#str.help"
+              tooltip="#str.help"/>
+              
+    </widgets>
+  </layout>
+  
+</theme>

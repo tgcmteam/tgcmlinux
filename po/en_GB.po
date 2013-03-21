@@ -1,0 +1,4495 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-02-11 16:40+0100\n"
+"PO-Revision-Date: 2010-06-07 18:28+0100\n"
+"Last-Translator: Óscar <oscar.sanjose@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../src/tgcm/__init__.py.in:86
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:63
+#: ../src/tgcm/ui/ThemedDock.py:739 ../src/tgcm/__init__.py:86
+msgid "Contacts"
+msgstr ""
+
+#: ../src/tgcm/__init__.py.in:87 ../src/tgcm/ui/ThemedDock.py:744
+#: ../src/tgcm/__init__.py:87
+msgid "Top-up"
+msgstr ""
+
+#: ../src/tgcm/__init__.py.in:88 ../src/tgcm/ui/windows/Generic/Windows.ui.h:3
+#: ../src/tgcm/ui/ThemedDock.py:763 ../src/tgcm/__init__.py:88
+msgid "Help"
+msgstr ""
+
+#: ../src/tgcm/__init__.py.in:89 ../src/tgcm/ui/windows/Generic/Windows.ui.h:1
+#: ../src/tgcm/ui/ThemedDock.py:761 ../src/tgcm/__init__.py:89
+msgid "Settings"
+msgstr ""
+
+#: ../src/tgcm/__init__.py.in:90 ../src/tgcm/core/TrafficManager.py:564
+#: ../src/tgcm/core/TrafficManager.py:567
+#: ../src/tgcm/ui/windows/Traffic/Traffic.py:52
+#: ../src/tgcm/ui/windows/Traffic/Traffic.ui.h:3
+#: ../src/tgcm/ui/ThemedDock.py:770 ../src/tgcm/__init__.py:90
+msgid "Traffic"
+msgstr ""
+
+#: ../src/tgcm/core/Addressbook.py:218 ../src/tgcm/ui/ThemedDock.py:363
+msgid "Connecting..."
+msgstr ""
+
+#: ../src/tgcm/core/Addressbook.py:220
+msgid "Starting to import..."
+msgstr ""
+
+#: ../src/tgcm/core/Addressbook.py:222
+msgid "Downloading..."
+msgstr ""
+
+#: ../src/tgcm/core/Addressbook.py:224
+msgid "Confirming data..."
+msgstr ""
+
+#: ../src/tgcm/core/Addressbook.py:226
+msgid "Cancelling."
+msgstr "Cancelling..."
+
+#: ../src/tgcm/core/Addressbook.py:228
+msgid "Import correct."
+msgstr ""
+
+#: ../src/tgcm/core/Addressbook.py:230
+msgid "An error has occurred when importing."
+msgstr ""
+
+#: ../src/tgcm/core/Addressbook.py:232
+msgid "All the data has not been imported."
+msgstr ""
+
+#: ../src/tgcm/core/Addressbook.py:236
+msgid "The address book can't be opened."
+msgstr ""
+
+#: ../src/tgcm/core/Addressbook.py:238
+msgid "It can't connect."
+msgstr ""
+
+#: ../src/tgcm/core/Addressbook.py:240
+msgid "An incorrect answer has been entered."
+msgstr ""
+
+#: ../src/tgcm/core/Addressbook.py:242
+msgid "The user/password is incorrect."
+msgstr ""
+
+#: ../src/tgcm/core/Addressbook.py:244
+msgid "Unknown error."
+msgstr ""
+
+#: ../src/tgcm/core/Config.py:1992 ../src/tgcm/ui/ThemedDock.py:742
+msgid "SMS"
+msgstr ""
+
+#: ../src/tgcm/core/Config.py:1994
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:150
+msgid "Text"
+msgstr ""
+
+#: ../src/tgcm/core/Config.py:2047
+msgid "Internet"
+msgstr ""
+
+#: ../src/tgcm/core/Config.py:2064
+msgid "Intranet"
+msgstr ""
+
+#: ../src/tgcm/core/Config.py:2099
+msgid "Selfcare"
+msgstr ""
+
+#: ../src/tgcm/core/Config.py:2119
+msgid "o2Credit"
+msgstr ""
+
+#: ../src/tgcm/core/Config.py:2155
+#, fuzzy
+msgid "Find Hotspots"
+msgstr "Find Hotspots"
+
+#: ../src/tgcm/core/Config.py:2157
+#, fuzzy
+msgid "Wi-Fi areas"
+msgstr "%s mobile internet"
+
+#: ../src/tgcm/core/Config.py:2159
+#, fuzzy
+msgid "Wi-Fi Zone"
+msgstr "%s mobile internet"
+
+#: ../src/tgcm/core/Device.py:508 ../src/tgcm/core/Device.py:517
+#: ../src/tgcm/core/Device.py:524 ../src/tgcm/core/Device.py:554
+msgid "Notification"
+msgstr ""
+
+#: ../src/tgcm/core/Device.py:510
+#, python-format
+msgid "The SMS for %s, sent on %s at %s, has been delivered on %s at %s."
+msgstr ""
+
+#: ../src/tgcm/core/Device.py:519
+#, python-format
+msgid ""
+"There has been an error while sending the SMS for %s, sent on %s at %s. "
+msgstr ""
+
+#: ../src/tgcm/core/Device.py:526
+#, python-format
+msgid ""
+"The SMS for %s, sent on %s at %s, has been stored in the short message "
+"service center."
+msgstr ""
+
+#: ../src/tgcm/core/FreeDesktop.py:678
+#: ../src/tgcm/ui/windows/HelpDialog/HelpDialog.py:43
+#: ../src/tgcm/ui/widgets/dock/Systray/SystrayIndicator.py:98
+#: ../src/tgcm/ui/widgets/dock/Systray/SystrayTrayicon.py:90
+msgid "Unknown"
+msgstr ""
+
+#: ../src/tgcm/core/HotSpotsService.py:37
+msgid "January"
+msgstr ""
+
+#: ../src/tgcm/core/HotSpotsService.py:37
+msgid "February"
+msgstr ""
+
+#: ../src/tgcm/core/HotSpotsService.py:37
+msgid "March"
+msgstr ""
+
+#: ../src/tgcm/core/HotSpotsService.py:37
+msgid "April"
+msgstr ""
+
+#: ../src/tgcm/core/HotSpotsService.py:37
+msgid "May"
+msgstr ""
+
+#: ../src/tgcm/core/HotSpotsService.py:37
+msgid "June"
+msgstr ""
+
+#: ../src/tgcm/core/HotSpotsService.py:38
+msgid "July"
+msgstr ""
+
+#: ../src/tgcm/core/HotSpotsService.py:38
+msgid "August"
+msgstr ""
+
+#: ../src/tgcm/core/HotSpotsService.py:38
+msgid "September"
+msgstr ""
+
+#: ../src/tgcm/core/HotSpotsService.py:38
+msgid "October"
+msgstr ""
+
+#: ../src/tgcm/core/HotSpotsService.py:38
+msgid "November"
+msgstr ""
+
+#: ../src/tgcm/core/HotSpotsService.py:38
+msgid "December"
+msgstr ""
+
+#: ../src/tgcm/core/HotSpotsService.py:57
+#: ../src/tgcm/ui/windows/NewsServiceDialog/NewsServiceDialog.ui.h:2
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad.py:201
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad.py:205
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad.py:209
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad.py:213
+msgid "All"
+msgstr ""
+
+#: ../src/tgcm/core/HotSpotsService.py:101
+#, python-format
+msgid "The hotspots list of %s will not be available due an import error."
+msgstr ""
+
+#: ../src/tgcm/core/HotSpotsService.py:102
+msgid "Unexpected error reading hotspots"
+msgstr ""
+
+#: ../src/tgcm/core/TrafficManager.py:565
+#, fuzzy, python-format
+msgid "The set %s traffic limit has been reached"
+msgstr ""
+"You have used all of your monthly data allowance on the O2 network and will "
+"now start to be charged until your next bill"
+
+#: ../src/tgcm/core/TrafficManager.py:568
+#, fuzzy, python-format
+msgid "The set %s traffic limit percentage has been reached (%s%%)"
+msgstr ""
+"You have used about (%s%s) of your monthly data allowance on the O2 network"
+
+#: ../src/tgcm/contrib/mobile-manager2/data/policy/org.freedesktop.modem-manager.policy.in.h:1
+msgid "Unlock and control a mobile broadband device"
+msgstr ""
+
+#: ../src/tgcm/contrib/mobile-manager2/data/policy/org.freedesktop.modem-manager.policy.in.h:2
+msgid ""
+"System policy prevents unlocking or controlling the mobile broadband device."
+msgstr ""
+
+#: ../src/tgcm/contrib/mobile-manager2/data/policy/org.freedesktop.modem-manager.policy.in.h:3
+msgid "Request mobile broadband device identifying information"
+msgstr ""
+
+#: ../src/tgcm/contrib/mobile-manager2/data/policy/org.freedesktop.modem-manager.policy.in.h:4
+msgid ""
+"System policy prevents requesting identifying information from the mobile "
+"broadband device."
+msgstr ""
+
+#: ../src/tgcm/contrib/mobile-manager2/data/policy/org.freedesktop.modem-manager.policy.in.h:5
+msgid "Add, modify, and delete mobile broadband contacts"
+msgstr ""
+
+#: ../src/tgcm/contrib/mobile-manager2/data/policy/org.freedesktop.modem-manager.policy.in.h:6
+msgid ""
+"System policy prevents adding, modifying, or deleteing this device's "
+"contacts."
+msgstr ""
+
+#: ../src/tgcm/contrib/mobile-manager2/data/policy/org.freedesktop.modem-manager.policy.in.h:7
+msgid "Send, save, modify, and delete text messages"
+msgstr ""
+
+#: ../src/tgcm/contrib/mobile-manager2/data/policy/org.freedesktop.modem-manager.policy.in.h:8
+msgid ""
+"System policy prevents sending or maniuplating this device's text messages."
+msgstr ""
+
+#: ../src/tgcm/contrib/mobile-manager2/data/policy/org.freedesktop.modem-manager.policy.in.h:9
+msgid "Enable and view geographic location and positioning information"
+msgstr ""
+
+#: ../src/tgcm/contrib/mobile-manager2/data/policy/org.freedesktop.modem-manager.policy.in.h:10
+msgid ""
+"System policy prevents enabling or viewing geographic location information."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDProgressWindow_dialog.ui.h:1
+msgid "Connecting to Internet WWAN"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDImporter.py:109
+msgid "The selected file cannot be imported in your country."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDImporter.py:110
+#, python-format
+msgid "The selected file must be installed in \"%s\"."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDImporter.py:116
+msgid "Malformed file, the profile cannot be imported."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDImporter.py:121
+msgid "This favourite cannot be imported"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDImporter.py:122
+msgid ""
+"Error when importing the favourite. Probably the associated file does not "
+"exist in your system."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDImporter.py:128 ../src/tgcm/ui/MSD/MSDImporter.py:143
+#, python-format
+msgid "<b>Favourite: '%s'</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDImporter.py:164 ../src/tgcm/ui/MSD/MSDImporter.py:180
+#, python-format
+msgid "<b>Connection: '%s'</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDImporter_dialog.ui.h:1
+msgid "Import file"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDImporter_dialog.ui.h:2
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook_main.ui.h:6
+#: ../src/tgcm/ui/widgets/settings/Connections/Connections.ui.h:6
+msgid "Import"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDImporter_dialog.ui.h:3
+#: ../src/tgcm/ui/widgets/settings/Connections/Connections.ui.h:10
+msgid "File:"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDImporter_dialog.ui.h:4
+msgid "File name"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDImporter_dialog.ui.h:5
+msgid "The file content is as follows: "
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDImporter_dialog.ui.h:6
+#, fuzzy
+msgid "<b>Connection: WWAN Internet</b>"
+msgstr "<b>Connect to the default connection</b>"
+
+#: ../src/tgcm/ui/MSD/MSDImporter_dialog.ui.h:7
+msgid "This connection cannot be overwritten."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDImporter_dialog.ui.h:8
+msgid "This connection already exists and I would like to overwrite it"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDImporter_dialog.ui.h:9
+msgid ""
+"The connection does not have an associated user.\n"
+"Enter user name to connect."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDImporter_dialog.ui.h:11
+#: ../src/tgcm/ui/windows/ConnectionDialog/ConnectionDialog_editor.ui.h:2
+msgid "Username:"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDImporter_dialog.ui.h:12
+#, fuzzy
+msgid "<b>shortcut: 'test'</b>"
+msgstr "<b>Favourite: 'test'</b>"
+
+#: ../src/tgcm/ui/MSD/MSDImporter_dialog.ui.h:13
+msgid "This shortcut already exists and I would like to overwrite it"
+msgstr "This favourite already exists and I want to overwrite it"
+
+#: ../src/tgcm/ui/MSD/MSDImporter_dialog.ui.h:14
+msgid "Do you want to import this data?"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDUtils.py:138
+msgid "1st"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDUtils.py:139
+msgid "2nd"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDUtils.py:140
+msgid "3rd"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDUtils.py:141
+msgid "4th"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDUtils.py:142
+msgid "5th"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDUtils.py:143
+msgid "6th"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDUtils.py:144
+msgid "7th"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDUtils.py:145
+msgid "8th"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDUtils.py:146
+msgid "9th"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDUtils.py:147
+msgid "10th"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDUtils.py:148
+msgid "11th"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDUtils.py:149
+msgid "12th"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDUtils.py:150
+msgid "13th"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDUtils.py:151
+msgid "14th"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDUtils.py:152
+msgid "15th"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDUtils.py:153
+msgid "16th"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDUtils.py:154
+msgid "17th"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDUtils.py:155
+msgid "18th"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDUtils.py:156
+msgid "19th"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDUtils.py:157
+msgid "20th"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDUtils.py:158
+msgid "21st"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDUtils.py:159
+msgid "22nd"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDUtils.py:160
+msgid "23rd"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDUtils.py:161
+msgid "24th"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDUtils.py:162
+msgid "25th"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDUtils.py:163
+msgid "26th"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDUtils.py:164
+msgid "27th"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDUtils.py:165
+msgid "28th"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDUtils.py:166
+msgid "29th"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDUtils.py:167
+msgid "30th"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDUtils.py:168
+msgid "31st"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDUtils.py:442
+#, python-format
+msgid ""
+"Invalid phone number '%s'. Allowed numbers might start with '+', '#', '*' or "
+"'_' and have between three and twenty digits."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDUtils.py:455
+#, python-format
+msgid ""
+"Invalid mobile phone number '%s'. Allowed Spain numbers start with 6 or 7 "
+"and have at most 9 digits."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDAction.py:180
+msgid "Installing service"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDAction.py:180
+#, python-format
+msgid "Please wait while the service '%s' is being installed."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDAction.py:195
+#: ../src/tgcm/ui/widgets/settings/Services/Services.py:209
+#, python-format
+msgid "Do you want to uninstall the service '%s'?"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDAction.py:201
+#: ../src/tgcm/ui/widgets/settings/Services/Services.py:106
+#: ../src/tgcm/ui/widgets/settings/Services/Services.py:130
+#: ../src/tgcm/ui/widgets/settings/Services/Services.py:214
+#: ../src/tgcm/ui/widgets/settings/Services/Services.py:231
+msgid "Uninstall service"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDAction.py:202
+#: ../src/tgcm/ui/widgets/settings/Services/Services.py:215
+msgid "You will be able to install it again from this configuration window."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDAction.py:206
+msgid "Uninstalling service"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDAction.py:206
+#, python-format
+msgid "Please wait while the service '%s' is being uninstalled."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDAction_frame.ui.h:1
+#: ../src/tgcm/ui/Actions/MSDABookmarks/MSDABookmarks_dialog.ui.h:9
+msgid "_Use the following specific connection:"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDAction_frame.ui.h:2
+msgid "<b>Connection</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDAction_frame.ui.h:3
+msgid "_Install service"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDAction_frame.ui.h:4
+msgid "_Uninstall service"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDConnectionsManager.py:52
+#: ../src/tgcm/ui/ThemedDock.py:354 ../src/tgcm/ui/ThemedDock.py:751
+#: ../src/tgcm/ui/widgets/dock/Systray/SystrayTrayicon.py:111
+#: ../src/tgcm/ui/widgets/dock/ConnectionZone/AvailableNetworksDialog.py:520
+#: ../src/tgcm/ui/widgets/dock/ConnectionZone/AvailableNetworksDialog.py:748
+#: ../src/tgcm/ui/widgets/dock/ConnectionZone/AvailableNetworksDialog.py:843
+msgid "Disconnected"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDConnectionsManager.py:52
+#: ../src/tgcm/ui/ThemedDock.py:336
+#: ../src/tgcm/ui/widgets/dock/ConnectionZone/AvailableNetworksDialog.py:443
+#: ../src/tgcm/ui/widgets/dock/ConnectionZone/AvailableNetworksDialog.py:520
+#: ../src/tgcm/ui/widgets/dock/ConnectionZone/AvailableNetworksDialog.py:748
+#: ../src/tgcm/ui/widgets/dock/ConnectionZone/AvailableNetworksDialog.py:843
+msgid "Connected"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDConnectionsManager.py:52
+msgid "Connecting"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDConnectionsManager.py:52
+msgid "Disconnecting"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDConnectionsManager.py:53
+#: ../src/tgcm/ui/ThemedDock.py:758
+msgid "Connect"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDConnectionsManager.py:53
+#: ../src/tgcm/ui/ThemedDock.py:757
+msgid "Disconnect"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDConnectionsManager.py:217
+msgid ""
+"You are about to connect you in roaming and your customary data fares do not "
+"apply for the traffic that consummate abroad. Inform yourself of your "
+"roaming data fares in the 22119 (free call cost in the European Union; from "
+"other countries applicable price to calls with destination Spain according "
+"to roaming fare of the line). To control your bill you can define alerts in "
+"Escritorio Movistar and will receive notifications when reaching a certain "
+"amount of data spent."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDConnectionsManager.py:219
+msgid ""
+"You're about to connect while abroad. Network operators have different "
+"charges for data usage and costs can soon mount up. To set up alerts so you "
+"know approximately how much data you have used go to Settings / Alerts."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDConnectionsManager.py:220
+msgid "Roaming alert"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDConnectionsManager.py:340
+msgid ""
+"Please try removing the Mobile Internet Device for assuring\n"
+"that the WWAN connection is down."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDConnectionsManager.py:342
+msgid ""
+"Please try removing the Mobile Internet Device for assuring\n"
+"that the 2G/3G/4G connection is down."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDConnectionsManager.py:344
+msgid "Unexpected disconnection failure"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDConnectionsManager.py:500
+msgid "Do not show this dialogue again"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDConnectionsManager.py:524
+msgid "_Use established connection"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDConnectionsManager.py:544
+msgid "Do not ask again"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDConnectionsManager_dialog.ui.h:1
+msgid "Introduction to password"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDConnectionsManager_dialog.ui.h:2
+msgid "Enter the user password for the X connection"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDConnectionsManager_dialog.ui.h:3
+#: ../src/tgcm/ui/windows/ConnectionDialog/ConnectionDialog_editor.ui.h:3
+msgid "Password:"
+msgstr ""
+
+#. !/usr/bin/python
+#. -*- coding: utf-8 -*-
+#.
+#. Authors : Roberto Majadas <roberto.majadas@openshine.com>
+#. Oier Blasco <oierblasco@gmail.com>
+#. Alvaro Peña <alvaro.pena@openshine.com>
+#.
+#. Copyright (c) 2003-2007, Telefonica Móviles España S.A.U.
+#.
+#. This library is free software; you can redistribute it and/or
+#. modify it under the terms of the GNU General Public
+#. License as published by the Free Software Foundation; either
+#. version 2 of the License, or (at your option) any later version.
+#. This library is distributed in the hope that it will be useful,
+#. but WITHOUT ANY WARRANTY; without even the implied warranty of
+#. MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+#. Library General Public License for more details.
+#. You should have received a copy of the GNU General Public
+#. License along with this library; if not, write to the Free
+#. Software Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+#.
+#: ../src/tgcm/ui/MSD/MSDMessages.py:25 ../src/tgcm/ui/MSD/MSDMessages.py:48
+msgid "Connection with the Mobile Internet Device cannot be established."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:30
+msgid "Running device"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:31
+msgid "Device off"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:32
+msgid "Checking PIN code"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:33
+msgid "Checking PUK code"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:34
+msgid "Searching network and registering"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:35
+msgid "Device ready"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:36
+msgid "Device not detected"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:37
+msgid "Device detected"
+msgstr ""
+
+#. dialog de Seguridad sim SIM
+#: ../src/tgcm/ui/MSD/MSDMessages.py:41
+msgid "Introduce the device PIN"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:42
+msgid ""
+"The SIM device PIN code is activated.\n"
+"To activate it enter its value in the box\n"
+"and click on Accept."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:43
+msgid ""
+"The SIM device PIN code is deactivated.\n"
+"To activate it enter its value in the box\n"
+"and click on Accept."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:44
+msgid "The PIN code entered is incorrect."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:45
+msgid ""
+"The PIN code entered must have between 4 and 8 figures.\n"
+"Please, try again."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:46
+msgid "The PIN and the PIN check do not coincide."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:47
+msgid "The PUK code entered is incorrect."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:50
+msgid ""
+"You have cancelled the process checking your PUK code and Mobile Internet "
+"Device will go off\n"
+"\n"
+"To run the process again start it from the device menu through the option "
+"'Activate device'."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:51 ../src/tgcm/ui/MSD/MSDMessages.py:56
+msgid "Checking cancelled"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:53
+msgid ""
+"You have cancelled the process checking the PIN code and your Device Mobile "
+"Internet will go off.\n"
+"\n"
+"To run the process again start it from the device menu through the option "
+"'Activate device'."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:58
+msgid ""
+"The SIM device PIN code change procedure has been unsuccessful.\n"
+"The Mobile Internet Device will now go off. The next time that it is turned "
+"on its PUK code will be requested."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:59
+msgid "Error when changing the PIN"
+msgstr ""
+
+#. Estados del pin
+#: ../src/tgcm/ui/MSD/MSDMessages.py:63
+msgid "Activated"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:64
+msgid "Deactivated"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:66
+msgid ""
+"The SIM device PIN code is activated.\n"
+"To deactivate it enter its value in the box and click on the Accept button."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:68
+msgid ""
+"The SIM device PIN code is deactivated.\n"
+"To activate it enter its value in the box and click on the Accept button."
+msgstr ""
+
+#. buscar operadora
+#: ../src/tgcm/ui/MSD/MSDMessages.py:71
+msgid "Select operator manual"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:72
+msgid ""
+"A search for available operators will now be carried out. This operation "
+"could take a few minutes. To start the search click on Accept."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:74
+msgid ""
+"An error has occurred in the activate/deactivate process of the PIN code of "
+"the SIM device.\n"
+"The Mobile Internet Device will now go off. The next time that it is turned "
+"on its PUK code will be requested."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:76
+msgid "Error on activating/deactivating the PIN"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:78
+msgid ""
+"Please, wait while it searches for available operators.\n"
+"This process could take a few minutes."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:79
+msgid "Searching for operators"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:81
+msgid "An error has occurred while searching for available operators."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:82
+msgid "An error has occurred while the selected operator was being configured."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:84
+msgid ""
+"Please wait while the operator is being configured\n"
+"selected."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:85
+msgid "Configuring operator"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:87
+msgid ""
+"On restarting the information on the accumulated traffic will be deleted."
+msgstr ""
+
+#. Bookmarks
+#: ../src/tgcm/ui/MSD/MSDMessages.py:91
+msgid "<b>Delete favourite</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:92
+#, python-format
+msgid "Do you want to delete the favourite '%s'?"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:94
+msgid "New favourite"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:95
+msgid "Modify favourite"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:97
+msgid "<b>Favourite name is invalid</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:98
+msgid "The favourite name cannot have the character '/'."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:100
+msgid "<b>Favourite name</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:101
+msgid "Enter a name for the favourite."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:103
+#, python-format
+msgid "<b>A favourite with the name '%s' already exists</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:104
+msgid "Please choose another name."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:106
+msgid "<b>You have not chosen a file</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:107
+msgid "Please choose a file to create the favourite."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:109
+msgid "<b>You have not entered the URL</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:110
+msgid "Please enter a URL to create the favourite."
+msgstr ""
+
+#. Connections
+#: ../src/tgcm/ui/MSD/MSDMessages.py:114
+msgid "<b>Delete connection</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:115
+#, python-format
+msgid "Do you want to delete the connection '%s'?"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:117
+msgid "<b>Delete default connection</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:118
+msgid ""
+"The default connection can not be deleted.\n"
+"If you are sure you want to delete this connection, select another one as "
+"default."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:120
+msgid "New connection"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:121
+msgid "Modify connection"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:123
+#, python-format
+msgid "<b>A connection with the name '%s' already exists</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:124
+msgid "Please choose another name"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:126
+msgid "<b>Connection name</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:127
+msgid "Enter a name to connect."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:129
+msgid "<b>Enter a user</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:130
+msgid "You have not entered the user name to connect."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:132
+msgid "<b>Enter the APN</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:133
+msgid "You have not entered the APN."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:135
+msgid "<b>Enter the password</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:136
+msgid "You have not entered the connection password."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:138
+msgid "<b>The personalised profile field is empty</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:139
+msgid "Please, state the personalised profile that you want to use."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:141
+msgid "<b>The DNS information is incomplete</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:142
+msgid "Please, fill in the corresponding fields correctly."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:144
+msgid "<b>The Proxy address is invalid</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:145
+msgid "Enter a valid address."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:147
+msgid "<b>he Proxy port is invalid</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:148
+msgid "Positive whole numbers are allowed."
+msgstr ""
+
+#. Connections Manager
+#: ../src/tgcm/ui/MSD/MSDMessages.py:152
+msgid "<b>Connection with the PPP Manager cannot be established</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:153
+msgid ""
+"Connection through the PPP Manager has failed. This means that at the moment "
+"it is impossible to establish connection with Internet with this application."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:155
+#, python-format
+msgid "<b>Enter the user password to the connection '%s'</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:157
+msgid "<b>Connection is not possible</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:158
+msgid ""
+"The Mobile Internet Device is not ready to be connected. Please Insert it or "
+"turn it on if it is off and wait until it is registered on the network."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:160
+msgid "Close Escritorio Movistar"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:161
+#, python-format
+msgid ""
+"If you close the %s, the connection in progress will be disconnected. Do you "
+"want to continue closing %s?"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:163
+msgid "<b>No device has been selected</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:164
+msgid ""
+"The requested connection cannot be established as there is no device. Please "
+"choose a device in the Configuration window."
+msgstr ""
+"The requested connection cannot be established as there is no device. Please "
+"choose a device in the configuration window."
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:166
+msgid "<b>Error in the connection</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:167
+msgid "Connection cannot be established. Please, try again."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:169
+msgid "<b>Another active connection has been detected</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:171
+#, python-format
+msgid "<b>Open service '%s'</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:172
+#, python-format
+msgid "Do you want to establish connection associated with the service? (%s)"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:173
+#, python-format
+msgid ""
+"At the moment you are connected to '%s'. Do you want to open the service by "
+"changing your associated connection '%s' or would you prefer to use the "
+"current connection?\n"
+"If you change the connection you could loose information in other services "
+"and Open favourites."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:174
+#, python-format
+msgid ""
+"At the moment you are connected to '%s'. Do you want to open the service by "
+"changing to your default connection '%s' or do you prefer to use the "
+"connection current?\n"
+"If you change the connection you could loose information in other services "
+"and Open favourites."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:177
+#, python-format
+msgid "<b>Open favourite '%s'</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:178
+#, python-format
+msgid ""
+"Do you want to establish the connection associated with the favourite? (%s)"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:179
+#, python-format
+msgid ""
+"At the moment you are connected to '%s'. Do you want to open the favourite? "
+"by changing your associated connection '%s' or would you prefer to use the "
+"current connection?\n"
+"If you change the connection you could loose information in other services "
+"and Open favourites."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:180
+#, python-format
+msgid ""
+"At the moment you are connected to '%s'. Do you want to open the favourite? "
+"by changing to your default connection '%s' or do you prefer to use the "
+"connection current?\n"
+"If you change the connection you could loose information in other services "
+"and Open favourites."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:182
+msgid "<b>Connect to the pre-set connection</b>"
+msgstr "<b>Connect to the default connection</b>"
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:183
+msgid "<b>Connect to the selected connection</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:184
+#, python-format
+msgid ""
+"At the moment you are connected to '%s'. Do you want to open the connection "
+"'%s' or Do you prefer to use the current connection?\n"
+"If you change the connection you could loose information in other services "
+"and Open favourites."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:186
+#, python-format
+msgid "Do you want to establish the preset connection (%s)?"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:187
+#, python-format
+msgid "Do you want to establish the connection (%s)?"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:189
+msgid "<b>The telephone number is invalid</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDMessages.py:190
+msgid "Numerical characters are the values allowed."
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDSecurityManager_dialog.ui.h:1
+msgid "User data"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDSecurityManager_dialog.ui.h:2
+msgid "This service requires identification:"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDSecurityManager_dialog.ui.h:3
+#: ../src/tgcm/ui/widgets/settings/Services/Services.ui.h:6
+msgid "Telephone:"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDSecurityManager_dialog.ui.h:4
+#: ../src/tgcm/ui/widgets/settings/Services/Services.ui.h:7
+msgid "Key:"
+msgstr ""
+
+#: ../src/tgcm/ui/MSD/MSDSecurityManager_dialog.ui.h:5
+msgid "Remember telephone number and password"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/RecargaSaldo/RecargaSaldo.py:184
+msgid "Invalid mobile broadband number"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/RecargaSaldo/RecargaSaldo.py:355
+msgid "Waiting for operator response"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/RecargaSaldo/RecargaSaldo.py:400
+msgid "Unexpected error"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/RecargaSaldo/RecargaSaldo.py:401
+msgid ""
+"We're sorry, but it was not possible to query your Broadband Mobile Number. "
+"Please try again later."
+msgstr ""
+
+#: ../src/tgcm/ui/windows/RecargaSaldo/RecargaSaldo_main.ui.h:1
+msgid "Clicking the next links you will be able to:"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/RecargaSaldo/RecargaSaldo_main.ui.h:2
+msgid "Check your Data Card credit"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/RecargaSaldo/RecargaSaldo_main.ui.h:3
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:64
+msgid "Top up your credit"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/RecargaSaldo/RecargaSaldo_main.ui.h:4
+msgid "Get more info about prepaid rates"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/RecargaSaldo/RecargaSaldo_main.ui.h:5
+#, fuzzy
+msgid "<b>My details</b>"
+msgstr "<b>Device configuration</b>"
+
+#: ../src/tgcm/ui/windows/RecargaSaldo/RecargaSaldo_phonebox.ui.h:1
+msgid "Mobile broadband number:"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/RecargaSaldo/RecargaSaldo_phonebox.ui.h:2
+msgid "Query"
+msgstr ""
+
+#. -- Set the tooltips for the entries
+#: ../src/tgcm/ui/windows/PukDialog/PukDialog.py:83
+msgid "PUK number has length of 8 digits"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PukDialog/PukDialog.py:84
+#: ../src/tgcm/ui/windows/PukDialog/PukDialog.py:85
+msgid "PIN number has length between 4 and 8 digits"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PukDialog/PukDialog.py:120
+msgid "Only digits allowed for PUK number"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PukDialog/PukDialog.py:122
+msgid "PUK length is 8 digits"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PukDialog/PukDialog.py:125
+msgid "Only digits allowed for PIN numbers"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PukDialog/PukDialog.py:127
+msgid "PIN length is between 4 and 8 digits"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PukDialog/PukDialog.py:130
+msgid "Both PIN numbers must be equal"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PukDialog/PukDialog.py:201
+msgid "PUK authentication cancel"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PukDialog/PukDialog.py:202
+msgid ""
+"You have canceled the PUK authentication process, the card will be turn off"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PukDialog/PukDialog.py:223
+msgid "PUK authentication failed, please verify the number."
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PukDialog/PukDialog.py:237
+msgid "PUK authentication failure"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PukDialog/PukDialog.py:238
+msgid ""
+"Timeout waiting for PIN ready status. Please try reconnecting the modem."
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PukDialog/PukDialog.ui.h:1
+msgid "SIM card is blocked"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PukDialog/PukDialog.ui.h:2
+msgid "<big><b>SIM card is blocked</b></big>"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PukDialog/PukDialog.ui.h:3
+msgid ""
+"Your SIM card is blocked. You must enter your <b>PUK number</b> and <b>PIN "
+"number</b> for your SIM card.\n"
+"You have 10 attempts in order to enter the correct PUK number. If you fail, "
+"your SIM card will be blocked"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PukDialog/PukDialog.ui.h:5
+msgid "PUK number"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PukDialog/PukDialog.ui.h:6
+msgid "New PIN number"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PukDialog/PukDialog.ui.h:7
+msgid "Confirm PIN number"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/Traffic/Traffic.py:125
+#, python-format
+msgid "The billing period begins on the %s and ends on the %s of each month."
+msgstr ""
+
+#: ../src/tgcm/ui/windows/Traffic/Traffic.py:128
+msgid "Current period"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/Traffic/Traffic.py:139
+#: ../src/tgcm/ui/windows/Traffic/Traffic.py:189
+msgid "This month"
+msgstr "This session"
+
+#: ../src/tgcm/ui/windows/Traffic/Traffic.py:140
+msgid ""
+"This screen gives you information about your mobile broadband usage. 'This "
+"session' tells you about your current O2 data network or Wi-Fi connection. "
+"'This month' shows your usage on the O2 data network only. For more "
+"information see the Help guide."
+msgstr ""
+
+#: ../src/tgcm/ui/windows/Traffic/Traffic.py:146
+msgid "You are going to delete all the history data. Are you sure?"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/Traffic/Traffic.py:149
+msgid "Restart accumulated traffic"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/Traffic/Traffic.py:191
+#, fuzzy
+msgid "Current billing period"
+msgstr "<b>This session</b>"
+
+#. It is necessary to increment the days difference by one
+#: ../src/tgcm/ui/windows/Traffic/Traffic.py:194
+msgid "day"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/Traffic/Traffic.py:194
+msgid "days"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/Traffic/Traffic.py:195
+#, python-format
+msgid ""
+"%(delta_days)s %(day_str)s - from %(day)s/%(month)s/%(year)s until today"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/Traffic/Traffic.py:203
+#, python-format
+msgid "<b>Summary from %s</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/Traffic/Traffic.py:220
+#: ../src/tgcm/ui/windows/Traffic/Traffic.ui.h:10
+#, fuzzy
+msgid "Change your billing period"
+msgstr "Cancelling..."
+
+#: ../src/tgcm/ui/windows/Traffic/Traffic.ui.h:1
+#, fuzzy
+msgid "<b>Current period</b>"
+msgstr "<b>This session</b>"
+
+#: ../src/tgcm/ui/windows/Traffic/Traffic.ui.h:2
+#, fuzzy
+msgid "<b>Current billing period (from x to y)</b>"
+msgstr "<b>This session</b>"
+
+#: ../src/tgcm/ui/windows/Traffic/Traffic.ui.h:5
+#, no-c-format
+msgid "<b>Sumary from %s</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/Traffic/Traffic.ui.h:6
+msgid "Restart"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/Traffic/Traffic.ui.h:7
+msgid "History"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/Traffic/Traffic.ui.h:8
+msgid ""
+"<small>The invoicing period starts the 18th and ends the 17th of every "
+"month. The Information provided is for guidance.</small>"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/Traffic/Traffic.ui.h:9
+msgid ""
+"<small>The information provided is approximate. Remember that if you want to "
+"know your exact traffic usage, go to:</small>"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/Traffic/Traffic.ui.h:11
+msgid ""
+"<small>The data counter gives you a close estimate of what you've used and "
+"might not be the\n"
+"same as you see on your bill. If you use your dongle on more than one "
+"computer, \n"
+"each computer will have it's oun data counter. Add together all you data "
+"counters\n"
+" to find out what you've used in total.</small>"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/Traffic/BillingDayChangeDialog.ui.h:1
+msgid "Select the day your monthly billing starts:"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/Dialog/Dialog.ui.h:1
+#: ../src/tgcm/ui/windows/Generic/Windows.ui.h:2
+msgid "<span color=\"#012952\" size=\"small\" weight=\"bold\">Settings</span>"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/Dialog/Dialog.ui.h:2
+#: ../src/tgcm/ui/windows/Generic/Windows.ui.h:4
+msgid "<span color=\"#012952\" size=\"small\" weight=\"bold\">Help</span>"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PinDialog/AskPinDialog.py:125
+#, fuzzy
+msgid ""
+"You have canceled the PIN code insertion, the mobile device will be turned "
+"off"
+msgstr ""
+"Sorry, we can’t connect you if you don’t enter your PIN.\n"
+"\n"
+"Please close Connection Manager, re-start it and enter your PIN when "
+"Connection Manager prompts you."
+
+#: ../src/tgcm/ui/windows/PinDialog/AskPinDialog.py:129
+msgid "PIN code insertion canceled"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PinDialog/AskPinDialog.py:145
+#: ../src/tgcm/ui/windows/PinDialog/ChangePinDialog.py:110
+#: ../src/tgcm/ui/windows/PinDialog/ManagePinDialog.py:113
+msgid "The PIN code requires between 4 and 8 digits"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PinDialog/AskPinDialog.py:159
+#: ../src/tgcm/ui/windows/PinDialog/ChangePinDialog.py:136
+#: ../src/tgcm/ui/windows/PinDialog/ManagePinDialog.py:136
+msgid "The PIN code is invalid"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PinDialog/AskPinDialog.ui.h:1
+msgid "Enter PIN code"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PinDialog/AskPinDialog.ui.h:2
+msgid "<b><big>Enter PIN code</big></b>"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PinDialog/AskPinDialog.ui.h:3
+msgid ""
+"Enter the PIN for the SIM card. You have 3 attempts to enter the correct PIN "
+"code before the SIM is blocked."
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PinDialog/AskPinDialog.ui.h:4
+#: ../src/tgcm/ui/windows/PinDialog/ManagePinDialog.ui.h:5
+msgid "PIN code:"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PinDialog/ChangePinDialog.py:115
+msgid "The two PIN codes are not equal"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PinDialog/ChangePinDialog.py:126
+msgid "<b>Error changing PIN code</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PinDialog/ChangePinDialog.py:127
+msgid ""
+"The PIN code change of your SIM card has failed. Now , your card will be "
+"turn off. The next turn on of your card, the PUK code will be required"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PinDialog/ChangePinDialog.ui.h:1
+msgid "Change PIN code"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PinDialog/ChangePinDialog.ui.h:2
+msgid "<b><big>Change PIN code</big></b>"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PinDialog/ChangePinDialog.ui.h:3
+msgid ""
+"Please, enter the old and the new PIN code.\n"
+"You have 3 attempts in order to enter the PIN code correctly. If you fail, "
+"the SIM card will be blocked."
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PinDialog/ChangePinDialog.ui.h:5
+msgid "Old PIN code:"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PinDialog/ChangePinDialog.ui.h:6
+msgid "New PIN code:"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PinDialog/ChangePinDialog.ui.h:7
+msgid "Confirm PIN code:"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PinDialog/ManagePinDialog.py:84
+msgid ""
+"The <b>PIN code</b> of your SIM card is not activated. If you want to "
+"activate it, enter your <b>PIN code</b> and press Accept button.\n"
+"You have 3 attempts in order to enter the PIN code correctly. If you fail, "
+"the SIM card will be blocked."
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PinDialog/ManagePinDialog.py:85
+#: ../src/tgcm/ui/windows/PinDialog/ManagePinDialog.ui.h:2
+msgid "<b><big>Activate PIN code</big></b>"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PinDialog/ManagePinDialog.py:86
+#: ../src/tgcm/ui/windows/PinDialog/ManagePinDialog.ui.h:1
+msgid "Activate PIN code"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PinDialog/ManagePinDialog.py:88
+msgid ""
+"The <b>PIN code</b> of your SIM card is activated. If you want to deactivate "
+"it, enter your <b>PIN code</b> and press Accept button.\n"
+"You have 3 attempts in order to enter the PIN code correctly. If you fail, "
+"the SIM card will be blocked."
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PinDialog/ManagePinDialog.py:89
+msgid "<b><big>Deactivate PIN code</big></b>"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PinDialog/ManagePinDialog.py:90
+msgid "Deactivate PIN code"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PinDialog/ManagePinDialog.py:126
+msgid "<b>Wrong insertion of PIN code</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PinDialog/ManagePinDialog.py:127
+msgid ""
+"The PIN code insertion process of your SIM card has failed. Now , your card "
+"will be turn off. The next turn on of your card, the PUK code will be "
+"required"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PinDialog/ManagePinDialog.ui.h:3
+msgid ""
+"The PIN code of your SIM card is not activated. If you want to activate it, "
+"enter your PIN code and press Accept button.\n"
+"You have 3 attempts in order to enter the PIN code correctly. If you fail, "
+"the SIM card will be blocked."
+msgstr ""
+
+#: ../src/tgcm/ui/windows/PinDialog/ManagePinDialog.ui.h:6
+msgid "error_label"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/NewsServiceDialog/NewsServiceDialog.py:126
+#, python-format
+msgid "%s - News and Updates"
+msgstr ""
+
+#. # News TreeView widgets
+#. # Update TreeView widgets
+#: ../src/tgcm/ui/windows/NewsServiceDialog/NewsServiceDialog.py:159
+#: ../src/tgcm/ui/windows/NewsServiceDialog/NewsServiceDialog.py:186
+msgid "Title"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/NewsServiceDialog/NewsServiceDialog.py:172
+#: ../src/tgcm/ui/windows/NewsServiceDialog/NewsServiceDialog.py:199
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:844
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:869
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:943
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:968
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1046
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1072
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS_main.ui.h:12
+msgid "Date"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/NewsServiceDialog/NewsServiceDialog.py:204
+msgid "Size"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/NewsServiceDialog/NewsServiceDialog.py:241
+#: ../src/tgcm/ui/windows/NewsServiceDialog/NewsServiceDialog.py:243
+#: ../src/tgcm/ui/windows/NewsServiceDialog/NewsServiceDialog.ui.h:4
+msgid "News"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/NewsServiceDialog/NewsServiceDialog.py:248
+#: ../src/tgcm/ui/windows/NewsServiceDialog/NewsServiceDialog.py:250
+#: ../src/tgcm/ui/windows/NewsServiceDialog/NewsServiceDialog.ui.h:6
+msgid "Updates"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/NewsServiceDialog/NewsServiceDialog.py:363
+#: ../src/tgcm/ui/windows/NewsServiceDialog/NewsServiceDialog.py:399
+#: ../src/tgcm/ui/Actions/DERecharge/DERecharge.py:103
+#: ../src/tgcm/ui/Actions/DERecharge/DERecharge.py:128
+#: ../src/tgcm/ui/Actions/DERecharge/DERecharge.py:159
+#: ../src/tgcm/ui/Actions/CZRecharge/CZRecharge.py:90
+#: ../src/tgcm/ui/Actions/CZRecharge/CZRecharge.py:116
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad.py:223
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad.py:240
+msgid "Please wait a minute..."
+msgstr ""
+
+#: ../src/tgcm/ui/windows/NewsServiceDialog/NewsServiceDialog.py:390
+#, fuzzy
+msgid "<b>Warning: slow connection</b>"
+msgstr "<b>Connect to the default connection</b>"
+
+#: ../src/tgcm/ui/windows/NewsServiceDialog/NewsServiceDialog.py:391
+msgid ""
+"Your connection seems too slow and the download would take you quite a long "
+"time. Are you sure to continue?"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/NewsServiceDialog/NewsServiceDialog.py:414
+msgid "<b>The update could not be installed</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/NewsServiceDialog/NewsServiceDialog.py:415
+msgid "Please check your network configuration and try again"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/NewsServiceDialog/NewsServiceDialog.ui.h:1
+msgid "Open Link"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/NewsServiceDialog/NewsServiceDialog.ui.h:3
+msgid "Unread"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/NewsServiceDialog/NewsServiceDialog.ui.h:5
+msgid "Install"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/Settings/Settings.py:94
+#: ../src/tgcm/ui/widgets/settings/General/General.ui.h:9
+msgid "Options"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/Settings/Settings.py:95
+msgid "Display"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/Settings/Settings.py:96
+msgid "Devices"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/Settings/Settings.py:97
+msgid "My Internet connections"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/Settings/Settings.py:98
+#: ../src/tgcm/ui/widgets/settings/Services/Services.ui.h:2
+msgid "Services"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/Settings/Settings.py:99
+msgid "Alerts"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/Settings/Settings.py:103
+#: ../src/tgcm/ui/widgets/settings/Dock/Dock.py:59
+msgid "Appearance"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/Settings/Settings.py:125
+#, python-format
+msgid "%s - Settings"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/CarrierDialog/CarrierDialog.py:107
+#: ../src/tgcm/ui/widgets/dock/DeviceMenuPopup/DeviceMenuPopup.ui.h:11
+msgid "Operator selection"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/CarrierDialog/CarrierDialog.py:108
+msgid ""
+"Sorry, but need to wait until the Mobile Internet Device is done with the "
+"scan request."
+msgstr ""
+
+#: ../src/tgcm/ui/windows/CarrierDialog/CarrierDialog.py:146
+msgid "Attaching to network"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/CarrierDialog/CarrierDialog.py:157
+#: ../src/tgcm/ui/windows/CarrierDialog/CarrierDialog.py:178
+msgid "Operator selection failure"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/CarrierDialog/CarrierDialog.py:158
+msgid "Operator selection has failed. Try again or select another network."
+msgstr ""
+
+#: ../src/tgcm/ui/windows/CarrierDialog/CarrierDialog.py:179
+msgid ""
+"The operation failed. Please try it again or check for the Mobile Internet "
+"Device and SIM card."
+msgstr ""
+
+#: ../src/tgcm/ui/windows/CarrierDialog/CarrierDialog.py:259
+#: ../src/tgcm/ui/windows/CarrierDialog/CarrierDialog.ui.h:5
+msgid "Scanning carriers"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/CarrierDialog/CarrierDialog.ui.h:1
+msgid "Carrier selection"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/CarrierDialog/CarrierDialog.ui.h:2
+msgid "<b><big>Carrier selection</big></b>"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/CarrierDialog/CarrierDialog.ui.h:3
+msgid ""
+"Select a carrier from the available list below pressing Accept button or "
+"search new networks pressing Refresh button."
+msgstr ""
+
+#: ../src/tgcm/ui/windows/CarrierDialog/CarrierDialog.ui.h:4
+msgid "Carrier list : "
+msgstr ""
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:84
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:195
+msgid "Text to find"
+msgstr ""
+
+#. Independently of the click event show a pop-up menu
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:113
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook_main.ui.h:4
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:432
+msgid "Send message"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:114
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook_main.ui.h:5
+msgid "Send mail"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:115
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:893
+msgid "New contact"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:116
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:900
+msgid "Modify contact"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:117
+msgid "Delete contact"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:179
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:181
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:195
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:700
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:702
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:716
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1120
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1127
+msgid "Name"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:179
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:700
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1120
+msgid "Telephone"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:179
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:181
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:197
+msgid "E-mail"
+msgstr "Email"
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:181
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:702
+msgid "Phone number"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:394
+msgid "Select destination file to export"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:413
+msgid "Select file to import"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:509
+msgid "A client application for sending email can not be found."
+msgstr ""
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:510
+msgid "Error starting email client"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:559
+#, python-format
+msgid "Do you want to delete the contact \"%s\"?"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:560
+msgid "Please wait until the contact is deleted."
+msgstr ""
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:562
+#, python-format
+msgid "Do you want to delete the %d selected contacts?"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:563
+msgid "Please wait until the contacts are deleted."
+msgstr ""
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:627
+msgid ""
+"It is not possible to import contacts from the SIM card because the Mobile "
+"Internet Device is busy or not ready.\n"
+"Please insert it or turn it on if it is switched off, and try again in a few "
+"moments."
+msgstr ""
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:708
+msgid "Device SIM"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:753
+#, python-format
+msgid ""
+"Cancelled by user. %s contacts have been already imported from the selected "
+"source."
+msgstr ""
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:756
+msgid "Unexpected timeout while importing contacts from the selected source."
+msgstr ""
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:760
+#, python-format
+msgid ""
+"%s contacts in the address book have been imported from the selected source."
+msgstr ""
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:821
+msgid "Close"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:854
+msgid "Phone number:"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:938
+msgid "Invalid contact name"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:939
+msgid "Invalid contact name. Please enter a valid name."
+msgstr ""
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:948
+msgid "Invalid telephone number"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:949
+msgid ""
+"Invalid telephone number. This field only allows numbers and characters +, # "
+"and *."
+msgstr ""
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:960
+msgid "Invalid email address"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:961
+msgid ""
+"Invalid email address. Please enter a valid address (e.g. test@test.com)."
+msgstr ""
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook.py:995
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:427
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:434
+msgid "Assign to contact"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook_editor.ui.h:1
+msgid "Edit contact"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook_editor.ui.h:2
+msgid "<small><i>The fields in bold are mandatory</i></small>"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook_editor.ui.h:3
+#: ../src/tgcm/ui/Actions/MSDABookmarks/MSDABookmarks_dialog.ui.h:2
+#, fuzzy
+msgid "<b>Name:</b>"
+msgstr "Phone number"
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook_editor.ui.h:4
+#, fuzzy
+msgid "<b>Telephone:</b>"
+msgstr "Phone number"
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook_editor.ui.h:5
+#, fuzzy
+msgid "E-mail:"
+msgstr "Email"
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook_import.ui.h:1
+msgid "Import contacts"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook_import.ui.h:2
+msgid "Select the source:"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook_import.ui.h:3
+msgid "Import progress:"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook_import.ui.h:4
+msgid "<b>Data source.</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook_import.ui.h:5
+msgid "Import result:"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook_import.ui.h:6
+msgid "< Back"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook_import.ui.h:7
+msgid "Next >"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook_main.ui.h:1
+#: ../src/tgcm/ui/Actions/MSDABookmarks/MSDABookmarks_prefs.ui.h:6
+msgid "New"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook_main.ui.h:2
+#: ../src/tgcm/ui/Actions/MSDABookmarks/MSDABookmarks_prefs.ui.h:7
+#: ../src/tgcm/ui/widgets/settings/Connections/Connections.ui.h:4
+msgid "Modify"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook_main.ui.h:3
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:267
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS_main.ui.h:6
+#: ../src/tgcm/ui/widgets/settings/Connections/Connections.ui.h:5
+msgid "Delete"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook_main.ui.h:7
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS_main.ui.h:1
+msgid "Search: "
+msgstr ""
+
+#: ../src/tgcm/ui/windows/AddressBook/AddressBook_search_contact.ui.h:1
+msgid "Search:"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/ConnectionDialog/ConnectionDialog.py:42
+#: ../src/tgcm/ui/widgets/settings/Connections/Connections.py:66
+msgid "New 2G/3G/4G connection"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/ConnectionDialog/ConnectionDialog.py:44
+#: ../src/tgcm/ui/widgets/settings/Connections/Connections.ui.h:2
+msgid "New WWAN connection"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/ConnectionDialog/ConnectionDialog.py:89
+#, python-format
+msgid "Edit connection - %s"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/ConnectionDialog/ConnectionDialog.py:366
+msgid "Proxy settings"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/ConnectionDialog/ConnectionDialog_editor.ui.h:1
+#, fuzzy
+msgid "<b>Connection name:</b>"
+msgstr "<b>Connect to the default connection</b>"
+
+#: ../src/tgcm/ui/windows/ConnectionDialog/ConnectionDialog_editor.ui.h:4
+msgid "Ask password"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/ConnectionDialog/ConnectionDialog_editor.ui.h:5
+msgid "<b>User identification</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/ConnectionDialog/ConnectionDialog_editor.ui.h:6
+msgid "<b>APN address</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/ConnectionDialog/ConnectionDialog_editor.ui.h:7
+msgid "Connection details"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/ConnectionDialog/ConnectionDialog_editor.ui.h:8
+msgid "Don't use proxy server"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/ConnectionDialog/ConnectionDialog_editor.ui.h:9
+#, fuzzy
+msgid "Use proxy server"
+msgstr "Use proxy server: "
+
+#: ../src/tgcm/ui/windows/ConnectionDialog/ConnectionDialog_editor.ui.h:10
+#, fuzzy
+msgid "Address:"
+msgstr "Address:"
+
+#: ../src/tgcm/ui/windows/ConnectionDialog/ConnectionDialog_editor.ui.h:11
+#, fuzzy
+msgid "Port:"
+msgstr "Port:"
+
+#: ../src/tgcm/ui/windows/ConnectionDialog/ConnectionDialog_editor.ui.h:12
+msgid "More options"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/ConnectionDialog/ConnectionDialog_editor.ui.h:13
+msgid "<b>Internet access proxy</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/ConnectionDialog/ConnectionDialog_editor.ui.h:14
+msgid "Assigned by the network"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/ConnectionDialog/ConnectionDialog_editor.ui.h:15
+msgid "Assigned by the user"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/ConnectionDialog/ConnectionDialog_editor.ui.h:16
+#, fuzzy
+msgid "Primary DNS:"
+msgstr "Primary DNS: "
+
+#: ../src/tgcm/ui/windows/ConnectionDialog/ConnectionDialog_editor.ui.h:17
+#, fuzzy
+msgid "Secondary DNS:"
+msgstr "Secondary DNS: "
+
+#: ../src/tgcm/ui/windows/ConnectionDialog/ConnectionDialog_editor.ui.h:18
+#, fuzzy
+msgid "DNS suffix search order:"
+msgstr "DNS suffix search order: "
+
+#: ../src/tgcm/ui/windows/ConnectionDialog/ConnectionDialog_editor.ui.h:19
+msgid "<small>Use commas (,) to separate the suffixes</small>"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/ConnectionDialog/ConnectionDialog_editor.ui.h:20
+#, fuzzy
+msgid "<b>Advanced options</b>"
+msgstr "<b>Connect to the default connection</b>"
+
+#: ../src/tgcm/ui/windows/ConnectionDialog/ConnectionDialog_editor.ui.h:21
+msgid "<b>Domain name servers</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/ConnectionDialog/ConnectionDialog_editor.ui.h:22
+msgid "Network configuration"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/ConnectionDialog/ConnectionDialog_proxy.ui.h:1
+#, fuzzy
+msgid "<b>Type</b>"
+msgstr "Phone number"
+
+#: ../src/tgcm/ui/windows/ConnectionDialog/ConnectionDialog_proxy.ui.h:2
+#, fuzzy
+msgid "<b>Proxy address</b>"
+msgstr "<b>Device configuration</b>"
+
+#: ../src/tgcm/ui/windows/ConnectionDialog/ConnectionDialog_proxy.ui.h:3
+#, fuzzy
+msgid "<b>Port</b>"
+msgstr "<b>This month</b>"
+
+#: ../src/tgcm/ui/windows/ConnectionDialog/ConnectionDialog_proxy.ui.h:4
+#, fuzzy
+msgid "Use same proxy server for all connections"
+msgstr "Use proxy server: "
+
+#: ../src/tgcm/ui/windows/ConnectionDialog/ConnectionDialog_proxy.ui.h:5
+msgid "No proxy for:"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/HelpDialog/HelpDialog.py:42
+msgid "No device in use"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/HelpDialog/HelpDialog.py:61
+#, python-format
+msgid "%s - Help"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/HelpDialog/HelpDialog.py:86
+msgid "Online help"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/HelpDialog/HelpDialog.py:99
+#, python-format
+msgid ""
+"For more information, you can either call %s or post your enquiry at the "
+"following address:"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/HelpDialog/HelpDialog.py:101
+msgid "For more information, you can send your query to the following address:"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/HelpDialog/HelpDialog.py:103
+#, python-format
+msgid "For more information, you can phone %s."
+msgstr ""
+
+#: ../src/tgcm/ui/windows/HelpDialog/HelpDialog.py:165
+msgid "Model:"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/HelpDialog/HelpDialog.py:166
+msgid "Manufacturer:"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/HelpDialog/HelpDialog.py:167
+msgid "Firmware:"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/HelpDialog/HelpDialog.py:168
+msgid "IMEI:"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/HelpDialog/HelpDialog.py:180
+msgid "Physical address:"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/HelpDialog/HelpDialog.ui.h:1
+msgid "Escritorio Movistar - Help"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/HelpDialog/HelpDialog.ui.h:2
+msgid ""
+"Help topics shown in the application manual including a list of the "
+"questions and answers regarding the most frequent problems."
+msgstr ""
+
+#: ../src/tgcm/ui/windows/HelpDialog/HelpDialog.ui.h:3
+msgid "Help topics"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/HelpDialog/HelpDialog.ui.h:4
+msgid ""
+"For more information, you can either call 1004 or post your enquiry at the "
+"following address:"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/HelpDialog/HelpDialog.ui.h:5
+msgid "<b>escritorio movistar Linux 7.0</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/HelpDialog/HelpDialog.ui.h:6
+msgid "Information about devices:"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/HelpDialog/HelpDialog.ui.h:7
+msgid ""
+"Copyright © 2003-2012\n"
+"Telefónica Móviles España"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/CheckboxDialog/CheckboxDialog.py:52
+#: ../src/tgcm/ui/Actions/MSDABookmarks/MSDABookmarks_confirm.ui.h:3
+msgid "_Do not show this message again"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/UnlockDeviceDialog/UnlockDeviceDialog.py:42
+msgid "Enter network PIN code"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/UnlockDeviceDialog/UnlockDeviceDialog.py:82
+msgid "Unlocking succeeded"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/UnlockDeviceDialog/UnlockDeviceDialog.py:84
+msgid "You succeed in unlocking your device network lock."
+msgstr ""
+
+#: ../src/tgcm/ui/windows/UnlockDeviceDialog/UnlockDeviceDialog.py:90
+#: ../src/tgcm/ui/windows/UnlockDeviceDialog/UnlockDeviceDialog.py:97
+msgid "Error unlocking network PIN"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/UnlockDeviceDialog/UnlockDeviceDialog.py:92
+msgid "The network PIN code entered is incorrect. Please try again."
+msgstr ""
+
+#: ../src/tgcm/ui/windows/UnlockDeviceDialog/UnlockDeviceDialog.py:99
+msgid "It is not possible to unlock the device. Please contact your operator."
+msgstr ""
+
+#: ../src/tgcm/ui/windows/UnlockDeviceDialog/UnlockDeviceDialog.ui.h:1
+msgid "Insert the network PIN code. Ask your operator for this code."
+msgstr ""
+
+#: ../src/tgcm/ui/windows/UnlockDeviceDialog/UnlockDeviceDialog.ui.h:2
+msgid "Network PIN code:"
+msgstr ""
+
+#: ../src/tgcm/ui/windows/UnlockDeviceDialog/UnlockDeviceDialog.ui.h:3
+#, fuzzy
+msgid "<b>Attention:</b>"
+msgstr "<b>Connect to the default connection</b>"
+
+#: ../src/tgcm/ui/windows/UnlockDeviceDialog/UnlockDeviceDialog.ui.h:4
+msgid ""
+"You have an unknown number of attempts remaining to enter the correct "
+"network PIN code."
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:62
+msgid ""
+"An error has occurred when trying to send the message. Please check the "
+"numbers and assure that you have enough credit. If you have not enough "
+"credit, recharge and try again."
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:63
+msgid ""
+"An error has occurred when trying to send the message. Please check the "
+"numbers and if you are allowed to send messages to premium services, then "
+"try again."
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:66
+msgid ""
+"The message could not be sent because the Mobile Internet Device is not "
+"available.\n"
+"\n"
+"The outstanding messages will be saved as pending in the Sent Messages "
+"folder and they will be send as soon as the Mobile Internet Device is ready."
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:68
+#, python-format
+msgid ""
+"It is not possible to send more than %s SMS simultaneously. Please check the "
+"number of SMS to sent and try again."
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:74
+msgid "Error"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:75
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1666
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1667
+msgid "Pending"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:152
+msgid "Messages"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:176
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS_main.ui.h:22
+msgid "Contacts:"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:177
+msgid "Send delivery report"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:178
+msgid "From:"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:412
+msgid "Open url"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:414
+msgid "Add to favourites"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:425
+msgid "Send e-mail"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:426
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:433
+msgid "Add to contact list"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:461
+#: ../src/tgcm/ui/ThemedDock.py:313
+#: ../src/tgcm/ui/widgets/dock/Systray/SystrayIndicator.py:130
+msgid "Not connected"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:462
+#: ../src/tgcm/ui/ThemedDock.py:314
+msgid "The web page cannot be opened because you are not connected"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:463
+#: ../src/tgcm/ui/ThemedDock.py:315
+msgid "Please connect and try again"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:652
+msgid "Pending messages"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:658
+msgid "Accept"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:660
+msgid "There are pending messages to be sent. What do you want to do?"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:662
+msgid "Save pending messages and close"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:663
+msgid "Delete all pending messages and close"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:794
+msgid "Add recipients"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:796
+msgid "Add recipient"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:837
+#, python-format
+msgid "The contacts %s are already in the receiver list."
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:839
+#, python-format
+msgid "The contact %s is already in the receiver list."
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:844
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:856
+msgid "From"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:844
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:863
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:943
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:962
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1046
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1066
+msgid "Content"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:863
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:962
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1066
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1139
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1140
+msgid "Message"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:937
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:939
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS_main.ui.h:15
+msgid "Inbox"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:943
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:955
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1046
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1059
+msgid "To"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1036
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1038
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS_main.ui.h:19
+#: ../src/tgcm/ui/widgets/traffic/TrafficGraph/TrafficGraph.py:153
+msgid "Sent"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1114
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1116
+msgid "Draft"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1259
+msgid "character left"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1259
+msgid "characters left"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1260
+msgid "messages"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1260
+msgid "message"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1329
+msgid ""
+"The text and the message recipients that you are writing will be deleted. "
+"Are you sure?"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1338
+msgid "The draft is going to be updated. Do you want to continue?"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1340
+msgid "The draft copy is going to be saved. Do you want to continue?"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1370
+msgid "Your sms will be sent. Do you want to continue?"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1373
+msgid "Send SMS"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1405
+msgid "There was an error sending the message"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1454
+msgid "Preparing messages to send"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1457
+msgid "Preparing pending messages to be sent"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1476
+#, python-format
+msgid "Sending message to '%s'"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1478
+#, python-format
+msgid "Retrying sending message to '%s'"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1617
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1673
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1713
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1925
+#, python-format
+msgid "Today at %s"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1730
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1784
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1856
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:2030
+msgid ""
+"The selected messages will be deleted permanently. Do you want to continue?"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1940
+#, python-format
+msgid ""
+"From: %s\t\t\tReceived: %s\n"
+"%s"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:1951
+#, python-format
+msgid ""
+"To: %s\t\t\t\tSent: %s\n"
+"%s"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:2049
+msgid "Update drafts"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:2052
+msgid "Save"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:2097
+msgid "Services - SMS"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:2126
+msgid "SMS received"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:2130
+#, python-format
+msgid "%s Information"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:2132
+#, python-format
+msgid "SMS from %s :"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:2321
+msgid ""
+"A new message is being edited, do you want to continue and overwrite it?"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:2337
+msgid "Error on sending"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS.py:2340
+msgid "Don't show again"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS_main.ui.h:2
+msgid "To:"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS_main.ui.h:3
+msgid "Message:"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS_main.ui.h:4
+msgid "<b>Total X characters / 1 message</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS_main.ui.h:5
+msgid "Send notification"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS_main.ui.h:7
+msgid "Send"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS_main.ui.h:8
+msgid "New message"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS_main.ui.h:9
+msgid "From: "
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS_main.ui.h:10
+msgid "Caller"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS_main.ui.h:11
+msgid "Date: "
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS_main.ui.h:13
+msgid "Reply"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS_main.ui.h:14
+msgid "Forward"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS_main.ui.h:16
+msgid "For: "
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS_main.ui.h:17
+msgid "Recipient"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS_main.ui.h:18
+msgid "Edit"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS_main.ui.h:20
+msgid "Show messages: "
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS_main.ui.h:21
+#: ../src/tgcm/ui/widgets/traffic/TrafficGraph/TrafficGraph.py:153
+msgid "Received"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS_main.ui.h:23
+msgid "Messages: "
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS_main.ui.h:24
+msgid "Conversations"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS_main.ui.h:25
+msgid "Drafts"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS_prefs.ui.h:1
+#, fuzzy
+msgid "<big><b>SMS</b></big>"
+msgstr "<b><big>Favourite</big></b>"
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS_prefs.ui.h:2
+#, fuzzy
+msgid ""
+"Discover SMS service, the easiest way to send and receive text messages "
+"using your Mobile Internet Device and your computer.\n"
+"            \n"
+"With SMS service, you can:\n"
+"\n"
+"> Send up to 10 text messages per minute.\n"
+"> Save as many sent and received messages as you like.\n"
+"> Send messages to your Address Book contacts.\n"
+"\n"
+"To use this service, you must have a Mobile Internet Device."
+msgstr " "
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS_prefs.ui.h:11
+#, fuzzy
+msgid ""
+"With Direct Messaging discover the easiest way to send and receive messages "
+"in text with you Mobile Internet Device and your computer.\n"
+"\n"
+"With Direct Messaging you will be able to:\n"
+"> Send up to 10 text messages a minute.\n"
+"> Store as many sent and received messages as you want.\n"
+"> Send messages to your Address Book contacts.\n"
+"\n"
+"To use this service you need a Device for Mobile Internet."
+msgstr " "
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS_prefs.ui.h:19
+msgid "Use this short message centre:"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS_prefs.ui.h:20
+msgid "Activate notifications"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS_prefs.ui.h:21
+msgid "Always ask"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDASendSMS/MSDASendSMS_prefs.ui.h:22
+#, fuzzy
+msgid "<b>Send notification</b>"
+msgstr "<b>Connect to the default connection</b>"
+
+#: ../src/tgcm/ui/Actions/MSDAIntranet/MSDAIntranet_prefs.ui.h:1
+#, fuzzy
+msgid "<big><b>Intranet</b></big>"
+msgstr "<b><big>Favourite</big></b>"
+
+#: ../src/tgcm/ui/Actions/MSDAIntranet/MSDAIntranet_prefs.ui.h:2
+msgid ""
+"Quick, easy and secure access to your company Intranet.\n"
+"\n"
+"This service must be contracted specifically. For more information contact "
+"the sales representative associated with your company."
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDAIntranet/MSDAIntranet_prefs.ui.h:5
+msgid ""
+"This service lets you access your company Intranet easily and securely. This "
+"service must be specifically contracted. For more information, contact the "
+"sales representative assigned to your company."
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDAIntranet/MSDAIntranet_prefs.ui.h:6
+msgid "Open web browser when connecting"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDAIntranet/MSDAIntranet_prefs.ui.h:7
+#: ../src/tgcm/ui/Actions/MSDAInternet/MSDAInternet_prefs.ui.h:5
+msgid "Page:"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDAIntranet/MSDAIntranet_prefs.ui.h:8
+#, fuzzy
+msgid "<b>Homepage</b>"
+msgstr "Phone number"
+
+#: ../src/tgcm/ui/Actions/DERecharge/DERecharge.py:310
+#: ../src/tgcm/ui/Actions/DERecharge/DERecharge.py:325
+#: ../src/tgcm/ui/Actions/CZRecharge/CZRecharge.py:143
+#: ../src/tgcm/ui/Actions/CZRecharge/CZRecharge.py:158
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad.py:273
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad.py:289
+msgid "Sending message"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/DERecharge/DERecharge.py:311
+#: ../src/tgcm/ui/Actions/CZRecharge/CZRecharge.py:144
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad.py:274
+msgid "<b>Answer received:</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/DERecharge/DERecharge.py:327
+#: ../src/tgcm/ui/Actions/CZRecharge/CZRecharge.py:160
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad.py:291
+#: ../src/tgcm/ui/Actions/CZSelfcare/CZSelfcare.py:53
+msgid "Service not available"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/DERecharge/DERecharge_main.ui.h:1
+msgid "Balance"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/DERecharge/DERecharge_main.ui.h:2
+#: ../src/tgcm/ui/Actions/DERecharge/DERecharge_recharge.ui.h:1
+#: ../src/tgcm/ui/Actions/CZRecharge/CZRecharge_main.ui.h:3
+msgid "Recharge"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/DERecharge/DERecharge_main.ui.h:3
+#: ../src/tgcm/ui/Actions/DERecharge/DERecharge_plan.ui.h:1
+msgid "Plan management"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/DERecharge/DERecharge_prefs.ui.h:1
+#: ../src/tgcm/ui/Actions/CZRecharge/CZRecharge_prefs.ui.h:1
+#: ../src/tgcm/ui/Actions/CZSelfcare/CZSelfcare_prefs.ui.h:1
+msgid "Browse quickly through your favourite internet pages from any where"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/DERecharge/DERecharge_prefs.ui.h:2
+#: ../src/tgcm/ui/Actions/CZRecharge/CZRecharge_prefs.ui.h:2
+#: ../src/tgcm/ui/Actions/MSDAInternet/MSDAInternet_prefs.ui.h:3
+#: ../src/tgcm/ui/Actions/CZSelfcare/CZSelfcare_prefs.ui.h:2
+msgid ""
+"This service enables you to access Internet from the Escritorio movistar."
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/DERecharge/DERecharge_recharge.ui.h:2
+msgid "<b><big>Recharge</big></b>"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/DERecharge/DERecharge_recharge.ui.h:3
+msgid "Enter number :  "
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/CZRecharge/CZRecharge_main.ui.h:1
+msgid ""
+"<span color=\"red\"><big>Recharge Dob&#xED;jen&#xED; Kreditu .</big></span>"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/CZRecharge/CZRecharge_main.ui.h:2
+msgid "Enter voucher number :   "
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/CZRecharge/CZRecharge_main.ui.h:4
+msgid "My balance :"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/CZRecharge/CZRecharge_main.ui.h:5
+msgid "Check"
+msgstr ""
+
+#. -- Favorites service dialog, it is shown when 'launch_action()' is executed
+#. _("Wi-Fi areas")
+#: ../src/tgcm/ui/Actions/MSDABookmarks/MSDABookmarks.py:88
+#: ../src/tgcm/ui/ThemedDock.py:741
+msgid "Favourites"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDABookmarks/MSDABookmarks.py:94
+msgid ""
+"(*) If you do not select this option, the connection used will be the one "
+"that is currently active or the preferred O2 connection."
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDABookmarks/MSDABookmarks_confirm.ui.h:1
+msgid "Favourite created"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDABookmarks/MSDABookmarks_confirm.ui.h:2
+msgid ""
+"Favourite created successfully. Don't forget that you can modify it from "
+"Settings > Services > Favourites."
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDABookmarks/MSDABookmarks_dialog.ui.h:1
+msgid "dialogue"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDABookmarks/MSDABookmarks_dialog.ui.h:3
+msgid "<b>When connecting open:</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDABookmarks/MSDABookmarks_dialog.ui.h:4
+msgid "      "
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDABookmarks/MSDABookmarks_dialog.ui.h:5
+msgid "Select a file"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDABookmarks/MSDABookmarks_dialog.ui.h:6
+msgid "File"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDABookmarks/MSDABookmarks_dialog.ui.h:7
+#, fuzzy
+msgid "URL Address:"
+msgstr "URL address: "
+
+#: ../src/tgcm/ui/Actions/MSDABookmarks/MSDABookmarks_dialog.ui.h:8
+msgid "<b>Connection:</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDABookmarks/MSDABookmarks_prefs.ui.h:1
+#, fuzzy
+msgid "<big><b>Favourites</b></big>"
+msgstr "<b><big>Favourite</big></b>"
+
+#: ../src/tgcm/ui/Actions/MSDABookmarks/MSDABookmarks_prefs.ui.h:2
+msgid "List of favourites:"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDABookmarks/MSDABookmarks_prefs.ui.h:3
+msgid ""
+"Discover Favourites services, the easiest way to have all your most-"
+"frequently used program and web pages one click away.\n"
+"\n"
+"Click install to start using the service and discover a few of useful "
+"network-operator provided links."
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDABookmarks/MSDABookmarks_prefs.ui.h:8
+msgid "Open"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDAInternet/MSDAInternet_prefs.ui.h:1
+#, fuzzy
+msgid "<big><b>Internet</b></big>"
+msgstr "<b><big>Favourite</big></b>"
+
+#: ../src/tgcm/ui/Actions/MSDAInternet/MSDAInternet_prefs.ui.h:2
+msgid "Browse quickly through your favourite internet pages from any where."
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDAInternet/MSDAInternet_prefs.ui.h:4
+msgid "Open web browser by default when starting the service"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDAInternet/MSDAInternet_prefs.ui.h:6
+msgid "<b>Home page</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad.py:124
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad.py:125
+msgid "Enter a letter of the location you want to find and click search."
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad.py:126
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad.py:127
+msgid ""
+"Enter a letter or a number of the postcode you want to find and click search."
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad.py:136
+#, python-format
+msgid "Updated on %s"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad.py:229
+msgid ""
+"There are no Wi-Fi\n"
+"access points with the selected criteria."
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad.py:276
+msgid "Service not available. Please try again later."
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad_main.ui.h:1
+#, fuzzy
+msgid "Check Wi-Fi areas online"
+msgstr "%s mobile internet"
+
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad_main.ui.h:2
+#, fuzzy
+msgid "<b>List of Wi-Fi</b>"
+msgstr " "
+
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad_main.ui.h:3
+#, fuzzy
+msgid "Location:"
+msgstr "Location"
+
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad_main.ui.h:4
+#, fuzzy
+msgid "Province:"
+msgstr "Province"
+
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad_main.ui.h:5
+msgid "City:"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad_main.ui.h:6
+msgid "Postcode:"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad_main.ui.h:7
+msgid "Type:"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad_main.ui.h:8
+msgid "If your Rate includes Wi-Fi access request your connection password:"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad_main.ui.h:9
+msgid "Request password"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad_main.ui.h:10
+msgid "Wi-Fi access points found in the search:"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad_main.ui.h:11
+#: ../src/tgcm/ui/widgets/traffic/SessionInfo/SessionInfoUK.ui.h:4
+msgid "--"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad_prefs.ui.h:1
+msgid ""
+"With any of the <b>Mobile Broad Band Rates</b> with Premium Quality you will "
+"be able to connect up to the Zonas Wi-Fi de Telefónica free and with "
+"unlimited access.\n"
+"\n"
+"The Rates that you will be able to take advantage of with the Wi-Fi access "
+"are the following :\n"
+"\n"
+"<b>- Internet in the Móvil Plus</b>\n"
+"<b>- Flat Rate Internet Plus</b>\n"
+"<b>- Flat Rate Internet Premium</b>\n"
+"\n"
+"For more information on the Broad Band Mobile Rates phone the <b>109</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/MSDAMovilidad/MSDAMovilidad_prefs.ui.h:10
+msgid ""
+"With any of the <b>Mobile Broad Band Rates</b> with Premium Quality you will "
+"be able to connect up to the Zonas Wi-Fi de Telefónica free and with "
+"unlimited access."
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/CZSelfcare/CZSelfcare.py:54
+msgid "<b>Service not available</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/Actions/CZSelfcare/CZSelfcare.py:55
+msgid "To access the Selfcare, please connect via O2 GPRS/UMTS network"
+msgstr ""
+
+#: ../src/tgcm/ui/DevicePolicy.py:115
+msgid ""
+"The Internet Mobile Device does not have a valid SIM card. Please, check "
+"that the SIM card is correctly inserted in the Internet Mobile Device."
+msgstr ""
+
+#: ../src/tgcm/ui/DevicePolicy.py:116
+msgid "<b>SIM not found</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/DevicePolicy.py:262
+msgid ""
+"The Mobile Internet Device does not have a valid SIM card.\n"
+"Please check to see that the device contains a SIM of your network operator."
+msgstr ""
+
+#: ../src/tgcm/ui/DevicePolicy.py:263
+msgid "<b>Invalid SIM</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/DevicePolicy.py:370
+msgid "Plug &amp; play device detected"
+msgstr ""
+
+#: ../src/tgcm/ui/DevicePolicy.py:385
+#, fuzzy, python-format
+msgid ""
+"Device '%s' has been detected.\n"
+"Would you like to select it as a 2G/3G/4G device?"
+msgstr ""
+"The inserted dongle has been found :\n"
+"\n"
+"<b>%s</b>.\n"
+"\n"
+"Would you like to use it?"
+
+#: ../src/tgcm/ui/DevicePolicy.py:387
+#, fuzzy, python-format
+msgid ""
+"Device '%s' has been detected.\n"
+"Would you like to select it as a WWAN device?"
+msgstr ""
+"The inserted dongle has been found :\n"
+"\n"
+"<b>%s</b>.\n"
+"\n"
+"Would you like to use it?"
+
+#: ../src/tgcm/ui/ThemedDock.py:469
+msgid "Device switched off"
+msgstr ""
+
+#: ../src/tgcm/ui/ThemedDock.py:539
+#, fuzzy, python-format
+msgid ""
+"Data purchased: %s\n"
+"You've used: %s\n"
+"Data available until %s: %s"
+msgstr ""
+"Data purchased: %s\n"
+"Data used: %s\n"
+"Data available until %s : %s"
+
+#: ../src/tgcm/ui/ThemedDock.py:542
+#, python-format
+msgid "Consumed data since %s: %s"
+msgstr ""
+
+#: ../src/tgcm/ui/ThemedDock.py:545
+#, fuzzy, python-format
+msgid ""
+"Data purchased: %s\n"
+"Consumed data: %s\n"
+"Available data until %s: %s"
+msgstr ""
+"Data purchased: %s\n"
+"Data used: %s\n"
+"Data available until %s : %s"
+
+#: ../src/tgcm/ui/ThemedDock.py:662
+msgid "Very low Wi-Fi coverage"
+msgstr ""
+
+#: ../src/tgcm/ui/ThemedDock.py:663
+msgid "Low Wi-Fi coverage"
+msgstr ""
+
+#: ../src/tgcm/ui/ThemedDock.py:664
+msgid "Good Wi-Fi coverage level"
+msgstr ""
+
+#: ../src/tgcm/ui/ThemedDock.py:665
+msgid "Very good Wi-Fi coverage"
+msgstr ""
+
+#: ../src/tgcm/ui/ThemedDock.py:666
+msgid "Excellent Wi-Fi coverage"
+msgstr ""
+
+#: ../src/tgcm/ui/ThemedDock.py:670
+msgid "Very low coverage level"
+msgstr ""
+
+#: ../src/tgcm/ui/ThemedDock.py:671
+msgid "Low coverage level"
+msgstr ""
+
+#: ../src/tgcm/ui/ThemedDock.py:672
+msgid "Good coverage level"
+msgstr ""
+
+#: ../src/tgcm/ui/ThemedDock.py:673
+msgid "Very good coverage level"
+msgstr ""
+
+#: ../src/tgcm/ui/ThemedDock.py:674
+msgid "Excellent coverage level"
+msgstr ""
+
+#: ../src/tgcm/ui/ThemedDock.py:682
+msgid "Switched off"
+msgstr ""
+
+#: ../src/tgcm/ui/ThemedDock.py:689
+msgid "LAN connectivity"
+msgstr ""
+
+#: ../src/tgcm/ui/ThemedDock.py:712
+#: ../src/tgcm/ui/widgets/dock/DeviceZone/DeviceZone.py:106
+#: ../src/tgcm/ui/widgets/dock/DeviceZone/DeviceZone.py:162
+msgid "No device"
+msgstr ""
+
+#: ../src/tgcm/ui/ThemedDock.py:713
+#: ../src/tgcm/ui/widgets/dock/DeviceZone/DeviceZone.py:216
+#: ../src/tgcm/ui/widgets/dock/DeviceZone/DeviceZone.py:217
+msgid "Device: No device"
+msgstr ""
+
+#: ../src/tgcm/ui/ThemedDock.py:724
+msgid "Data used"
+msgstr ""
+
+#: ../src/tgcm/ui/ThemedDock.py:726
+msgid "Available data"
+msgstr ""
+
+#: ../src/tgcm/ui/ThemedDock.py:731
+msgid "You've used"
+msgstr ""
+
+#. localizables
+#: ../src/tgcm/ui/ThemedDock.py:736
+#: ../src/tgcm/ui/widgets/dock/Window/Window.py:90
+msgid "Minimize to system tray"
+msgstr ""
+
+#: ../src/tgcm/ui/ThemedDock.py:737
+msgid "Minimize"
+msgstr ""
+
+#: ../src/tgcm/ui/ThemedDock.py:738
+msgid "More..."
+msgstr ""
+
+#: ../src/tgcm/ui/ThemedDock.py:743
+msgid "Prepay"
+msgstr ""
+
+#: ../src/tgcm/ui/ThemedDock.py:745 ../src/tgcm/ui/ThemedDock.py:746
+#: ../src/tgcm/ui/widgets/dock/Window/Window.py:84
+#, python-format
+msgid "Close %s"
+msgstr ""
+
+#: ../src/tgcm/ui/ThemedDock.py:749
+msgid "Smart Connection"
+msgstr ""
+
+#: ../src/tgcm/ui/ThemedDock.py:750
+msgid "Get connected launching Smart Connection"
+msgstr ""
+
+#: ../src/tgcm/ui/ThemedDock.py:752
+msgid "Status"
+msgstr ""
+
+#: ../src/tgcm/ui/ThemedDock.py:754
+msgid "Get connected to the default connection"
+msgstr ""
+
+#: ../src/tgcm/ui/ThemedDock.py:759
+msgid "Cancel"
+msgstr ""
+
+#. self.vars ["str.prepaypage.description"] = theApp.m_iconfig.prepay_url()
+#: ../src/tgcm/ui/ThemedDock.py:767
+#: ../src/tgcm/ui/widgets/dock/Menubar/Menubar.py:63
+#: ../src/tgcm/ui/widgets/dock/ConnectionZone/AvailableNetworksDialog.py:42
+msgid "Available networks"
+msgstr ""
+
+#: ../src/tgcm/ui/ThemedDock.py:769
+msgid "Available mobile networks"
+msgstr ""
+
+#: ../src/tgcm/ui/ThemedDock.py:780
+#, python-format
+msgid "To cancel connection to %s, click here"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Dock/Dock.ui.h:1
+msgid "<big><b>Display</b></big>"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Dock/Dock.ui.h:2
+#, fuzzy
+msgid ""
+"Check those services and favourites that will be ready in the menu area in "
+"your dock. Have in mind that the first 4 will be shown, but the rest will be "
+"displayed under the menu displayed after clicking the \"more\" button. Sort "
+"the order of your services using the arrow buttons beside the list."
+msgstr ""
+"Check those services and favourites that will be ready in the menu area of "
+"your Escritorio Movistar. Sort the order of your services using the arrow "
+"buttons beside the list."
+
+#: ../src/tgcm/ui/widgets/settings/Alerts/Alerts.py:46
+#: ../src/tgcm/ui/widgets/settings/Alerts/Alerts.ui.h:7
+#, no-c-format, python-format
+msgid ""
+"Alert me when I reach %(percent)s%% of the reference data volume (%(data)s)"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Alerts/Alerts.py:91
+#: ../src/tgcm/ui/widgets/settings/Alerts/Alerts.ui.h:3
+#, fuzzy, no-c-format, python-format
+msgid "<b>When connected via %s network...</b>"
+msgstr "<b>Connect to the default connection</b>"
+
+#: ../src/tgcm/ui/widgets/settings/Alerts/Alerts.py:138
+#: ../src/tgcm/ui/widgets/settings/General/MyDetailsCommon.py:101
+msgid "Other"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Alerts/Alerts.ui.h:1
+#, fuzzy
+msgid "<big><b>Alerts</b></big>"
+msgstr "<b><big>Favourite</big></b>"
+
+#: ../src/tgcm/ui/widgets/settings/Alerts/Alerts.ui.h:4
+msgid "Select the reference data volume:"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Alerts/Alerts.ui.h:5
+#: ../src/tgcm/ui/widgets/settings/General/MyDetailsCommon.ui.h:6
+#: ../src/tgcm/ui/widgets/settings/General/MyDetailsUK.ui.h:6
+msgid "MB"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Alerts/Alerts.ui.h:8
+#, fuzzy
+msgid "<b>When connected via roaming...</b>"
+msgstr "<b>Connect to the default connection</b>"
+
+#. -- Replace for having wrapping labels
+#: ../src/tgcm/ui/widgets/settings/Connections/Connections.py:60
+#, python-format
+msgid ""
+"Here, you can manage the connections saved in %s and order them according to "
+"your connection preferences."
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Connections/Connections.py:62
+#, python-format
+msgid "You can add new connections to %s by pressing the following buttons:"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Connections/Connections.py:204
+msgid "Export connection"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Connections/Connections.py:213
+#: ../src/tgcm/ui/widgets/settings/Connections/Connections.py:249
+msgid "TGCM files"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Connections/Connections.py:225
+msgid "<b>The file must have an extension</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Connections/Connections.py:226
+msgid "The files that you save must have extension .tgcm"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Connections/Connections.py:241
+msgid "Import connection"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Connections/Connections.ui.h:1
+#: ../src/tgcm/ui/widgets/settings/Devices/Devices.ui.h:2
+msgid "label"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Connections/Connections.ui.h:3
+msgid "New Wi-Fi connection"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Connections/Connections.ui.h:7
+#, fuzzy
+msgid "Export"
+msgstr "E_xport..."
+
+#: ../src/tgcm/ui/widgets/settings/Connections/Connections.ui.h:8
+msgid "Activate connection log"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Connections/Connections.ui.h:9
+msgid "Open log"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Connections/Connections.ui.h:11
+msgid "<big><b>My Internet connections</b></big>"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Devices/Devices.py:63
+#, python-format
+msgid ""
+"Choose the device you want to use with %s to connect to the %s networks. You "
+"can use a Mobile Internet Device."
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Devices/Devices.py:65
+#, fuzzy, python-format
+msgid "<b>%s Device</b>"
+msgstr "<b>Device configuration</b>"
+
+#: ../src/tgcm/ui/widgets/settings/Devices/Devices.py:68
+#, python-format
+msgid ""
+"Choose the device you want to use with %s to connect to the Wi-Fi networks."
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Devices/Devices.ui.h:1
+#, fuzzy
+msgid "<big><b>Devices</b></big>"
+msgstr "<b>Device configuration</b>"
+
+#: ../src/tgcm/ui/widgets/settings/Devices/Devices.ui.h:3
+msgid "List of devices:"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Devices/Devices.ui.h:4
+msgid "Select"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Devices/Devices.ui.h:5
+msgid "Unlock device"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Devices/Devices.ui.h:6
+#, fuzzy
+msgid "<b>Wi-Fi Device</b>"
+msgstr "<b>Device configuration</b>"
+
+#: ../src/tgcm/ui/widgets/settings/General/General.py:186
+msgid "No device found"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/General.py:188
+#: ../src/tgcm/ui/widgets/settings/General/General.ui.h:12
+#, no-c-format, python-format
+msgid "Settings for device: %s"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/General.ui.h:1
+msgid "<big><b>Options</b></big>"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/General.ui.h:2
+msgid "Launch the application when I start up my computer"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/General.ui.h:3
+#, fuzzy
+msgid "Connect to the Internet when I open the application"
+msgstr "Connect to the default connection"
+
+#: ../src/tgcm/ui/widgets/settings/General/General.ui.h:4
+#, fuzzy
+msgid "Automatically reconnect when the connection is lost"
+msgstr "Connect me automatically when Connection Manager starts up"
+
+#: ../src/tgcm/ui/widgets/settings/General/General.ui.h:5
+#, fuzzy
+msgid "<b>Start up and Connection</b>"
+msgstr "<b>Connect to the default connection</b>"
+
+#: ../src/tgcm/ui/widgets/settings/General/General.ui.h:6
+msgid "Automatically check for news and updates when I connect"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/General.ui.h:7
+msgid "See news and updates"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/General.ui.h:8
+msgid "<b>News and Updates</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/General.ui.h:10
+#, fuzzy
+msgid "My Details"
+msgstr "<b>Device configuration</b>"
+
+#: ../src/tgcm/ui/widgets/settings/General/General.ui.h:13
+msgid "Deactivate PIN"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/General.ui.h:14
+msgid "Change PIN"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/General.ui.h:15
+msgid "<b>PIN management</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/General.ui.h:16
+msgid "Automatic"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/General.ui.h:17
+msgid "Manual. Use this network technology: "
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/General.ui.h:18
+msgid "<b>Network technology selection</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/General.ui.h:19
+#: ../src/tgcm/ui/widgets/settings/General/MyDetailsUK.py:62
+msgid "Manual"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/General.ui.h:20
+msgid "Search operators"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/General.ui.h:21
+msgid "<b>Operator selection</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/General.ui.h:22
+msgid "Networks and SIM card"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/General.ui.h:23
+msgid "UTMS/3G only"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/General.ui.h:24
+msgid "UTMS/3G preferred"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/General.ui.h:25
+msgid "GPRS/2.5G only"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/General.ui.h:26
+msgid "GPRS/2.5G preferred"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/MyDetailsCommon.py:64
+msgid "Mobile broadband number"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/MyDetailsCommon.ui.h:1
+#, fuzzy
+msgid ""
+"To get the most out of your mobile broadband service, please complete the "
+"fields below. If you don't know about this, please call 1004 to review it."
+msgstr " "
+
+#: ../src/tgcm/ui/widgets/settings/General/MyDetailsCommon.ui.h:2
+msgid "I'm a Pre-pay user"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/MyDetailsCommon.ui.h:3
+msgid "I'm a Post-pay user"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/MyDetailsCommon.ui.h:4
+msgid "Your monthly data allowance (excluding Wi-Fi) is:"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/MyDetailsCommon.ui.h:5
+msgid "Your billing period is:"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/MyDetailsCommon.ui.h:7
+msgid ""
+"Type your mobile number associated to your Mobile Broadband (BAM).\n"
+"If you don't know it, click Query and it will be filled for you in seconds."
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/MyDetailsCommon.ui.h:9
+msgid "Help about MBN"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/MyDetailsUK.py:72
+msgid ""
+"This is your monthly data allowance on the O2 network. You can find this by "
+"looking on your bill."
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/MyDetailsUK.py:77
+msgid "You can find this on your bill."
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/MyDetailsUK.py:82
+msgid "You can find your mobile broadband number on your bill or contract."
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/MyDetailsUK.py:87
+msgid "This is your personal or business mobile phone number."
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/MyDetailsUK.py:174
+msgid "Custom"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/MyDetailsUK.ui.h:1
+msgid ""
+"To get the most out of your mobile broadband service, please complete the "
+"fields below:"
+msgstr " "
+
+#: ../src/tgcm/ui/widgets/settings/General/MyDetailsUK.ui.h:2
+msgid "I'm on the O2 Mobile Broadband Pay & Go"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/MyDetailsUK.ui.h:3
+msgid "I'm on the O2 Mobile Broadband Pay Monthly"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/MyDetailsUK.ui.h:4
+msgid "My monthly O2 network data allowance (excluding Wi-Fi): "
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/MyDetailsUK.ui.h:5
+msgid "My bill date:"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/MyDetailsUK.ui.h:7
+msgid ""
+"To help us keep you informed of things like software updates, improvements "
+"to mobile broadband and O2 offers, please complete the following fields:"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/MyDetailsUK.ui.h:8
+msgid "Mobile broadband number: "
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/MyDetailsUK.ui.h:9
+msgid ""
+"<span color=\"red\">This number must be a number 11 digits long,\n"
+"starting with 07.</span>"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/MyDetailsUK.ui.h:11
+msgid "Mobile phone number:"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/MyDetailsUK.ui.h:12
+msgid "Please, see your O2's Privacy Policy at "
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/General/MyDetailsUK.ui.h:13
+msgid "<span foreground=\"blue\" underline=\"single\">o2.co.uk</span>"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Services/Services.py:108
+#: ../src/tgcm/ui/widgets/settings/Services/Services.py:132
+#: ../src/tgcm/ui/widgets/settings/Services/Services.py:233
+msgid "Install service"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Services/Services.py:193
+msgid "Services - User details"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Services/Services.ui.h:1
+#, fuzzy
+msgid "<big><b>Services</b></big>"
+msgstr "<b><big>Favourite</big></b>"
+
+#: ../src/tgcm/ui/widgets/settings/Services/Services.ui.h:3
+msgid ""
+"Some Escritorio Movistar services require identification. You can save your "
+"username and password here."
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Services/Services.ui.h:4
+msgid "Select how you want to connect to Movistar services:"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Services/Services.ui.h:5
+msgid "Use the following data"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Services/Services.ui.h:8
+msgid "Always request key on connecting"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Services/Services.ui.h:9
+msgid "Connect without identifying myself"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Services/Services.ui.h:10
+msgid ""
+"If you are a new Movistar services user or you have forgotten your password, "
+"request your password with a free text message to 22770. Enter the password "
+"you want in the message text."
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Services/Services.ui.h:11
+msgid ""
+"The password should be between 6 and 14 characters long and it is case "
+"sensitive. After sending the message, you will receive a text message "
+"confirming your password.\n"
+"\n"
+"Example: send the word \"Blues\" to 22770 if you want this word to be your "
+"password."
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/settings/Services/Services.ui.h:14
+#, fuzzy
+msgid "<b>New users</b>"
+msgstr "<b>Device configuration</b>"
+
+#: ../src/tgcm/ui/widgets/settings/Services/Services.ui.h:15
+msgid "User details"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/SessionInfo/SessionInfo.ui.h:1
+#, fuzzy
+msgid "<small>Maximum speed:</small>"
+msgstr "Maximum speed: "
+
+#: ../src/tgcm/ui/widgets/traffic/SessionInfo/SessionInfo.ui.h:2
+msgid "<small>Time:</small>"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/SessionInfo/SessionInfo.ui.h:3
+msgid "<small>Data transfered:</small>"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/SessionInfo/SessionInfoUK.ui.h:1
+msgid "How long:"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/SessionInfo/SessionInfoUK.ui.h:2
+msgid "00:00:00"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/SessionInfo/SessionInfoUK.ui.h:3
+msgid "How much:"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/TrafficHistoryGraph/TrafficHistoryGraph.py:148
+#: ../src/tgcm/ui/widgets/traffic/TrafficHistoryGraph/TrafficHistoryGraph.py:201
+msgid "Billing"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/TrafficHistoryGraph/TrafficHistoryGraph.py:149
+#: ../src/tgcm/ui/widgets/traffic/TrafficHistoryGraph/TrafficHistoryGraph.py:202
+msgid "period"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/TrafficHistoryGraph/TrafficHistoryGraph.py:150
+#: ../src/tgcm/ui/widgets/traffic/TrafficHistoryGraph/TrafficHistoryGraph.py:222
+msgid "Data used (MB)"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/TrafficHistoryGraph/TrafficHistoryGraph.py:169
+msgid "Transference limit"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/TrafficHistoryGraph/TrafficHistoryGraph.py:320
+msgid "This"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/TrafficHistoryGraph/TrafficHistoryGraph.py:322
+msgid "Last"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/TrafficHistoryGraph/TrafficHistoryGraph.py:323
+#, fuzzy
+msgid "month"
+msgstr "This session"
+
+#: ../src/tgcm/ui/widgets/traffic/TrafficHistoryGraph/TrafficHistoryGraph.py:357
+#, python-format
+msgid "Month %d"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/TrafficHistoryGraph/TrafficHistoryGraph.py:391
+#: ../src/tgcm/ui/widgets/traffic/TrafficHistoryGraph/TrafficHistoryGraph.py:407
+#, fuzzy, python-format
+msgid "%s network"
+msgstr "%s mobile internet"
+
+#: ../src/tgcm/ui/widgets/traffic/TrafficHistoryGraph/TrafficHistoryGraph.py:394
+#: ../src/tgcm/ui/widgets/traffic/TrafficHistoryGraph/TrafficHistoryGraph.py:421
+msgid "Roaming"
+msgstr "Abroad"
+
+#: ../src/tgcm/ui/widgets/traffic/TrafficHistoryGraph/TrafficHistoryGraph.py:496
+#, python-format
+msgid "Summary from %s to current date"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/TrafficHistoryGraph/TrafficHistoryGraph.py:512
+#, python-format
+msgid ""
+"%s used data:\n"
+"- National: %s\n"
+"- Roaming: %s"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/TrafficGraph/TrafficGraph.py:53
+msgid "Now"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/TrafficGraph/TrafficGraph.py:54
+msgid "Time"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/TrafficGraph/TrafficGraph.py:154
+#, python-format
+msgid ""
+"Average Speed: %.2f Kbits/s\n"
+"Download Speed: %.2f Kbits/s\n"
+"Upload Speed: %.2f Kbits/s"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfo.py:81
+msgid "Data limit at maximun speed"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfo.py:82
+msgid "Available data at maximun speed"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfo.ui.h:1
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfoES.ui.h:1
+msgid "<small><b>Data transfered</b></small>"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfo.ui.h:2
+msgid "<small>Transference limit</small>"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfo.ui.h:3
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfoUK.ui.h:3
+msgid "<b>1GB</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfo.ui.h:4
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfoES.ui.h:2
+msgid "<small>Data used</small>"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfo.ui.h:5
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfoES.ui.h:3
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfoUK.ui.h:5
+msgid "<b>256MB</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfo.ui.h:6
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfoES.ui.h:4
+msgid "<small>Roaming data</small>"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfo.ui.h:7
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfoES.ui.h:5
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfoUK.ui.h:10
+msgid "<b>34MB</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfo.ui.h:8
+msgid "<small>Available data</small>"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfo.ui.h:9
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfoUK.ui.h:7
+msgid "<b>756MB</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfo.ui.h:10
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfoES.ui.h:6
+msgid "<small><b>SMS sent</b></small>"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfo.ui.h:11
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfoES.ui.h:7
+msgid "<small>Total</small>"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfo.ui.h:12
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfoES.ui.h:8
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfoUK.ui.h:13
+msgid "<b>12</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfo.ui.h:13
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfoES.ui.h:9
+msgid "<small>Roaming</small>"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfo.ui.h:14
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfoES.ui.h:10
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfoUK.ui.h:15
+msgid "<b>0</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfoUK.ui.h:1
+msgid "<b>How much</b>"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfoUK.ui.h:2
+msgid "<small>Monthly allowance</small>"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfoUK.ui.h:4
+msgid "<small>What you've used</small>"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfoUK.ui.h:6
+msgid "<small>What's left</small>"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfoUK.ui.h:8
+msgid ""
+" <small><span foreground=\"blue\" underline=\"single\">My details</span></"
+"small>"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfoUK.ui.h:9
+msgid "<small>Data abroad</small>"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfoUK.ui.h:11
+msgid "<small>Texts sent</small>"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfoUK.ui.h:12
+msgid "<small>UK</small>"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfoUK.ui.h:14
+msgid "<small>Abroad</small>"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/traffic/BillingInfo/BillingInfoUK.ui.h:16
+#, fuzzy
+msgid ""
+"<b><small><span color=\"red\">You have exceed your monthly data usage "
+"allowance and will now be charged\n"
+"for any data you use on the O2 network until the start of your next bill.\n"
+"\n"
+"Don't forget that you receibe unlimited Wi-Fi through our partners The "
+"Cloud\n"
+"and BT Openzone.</span></small></b>"
+msgstr ""
+"<span color='red'><b><small>You have exceed your monthly data usage "
+"allowance and will now be charged\n"
+"for any data you use on the O2 network until the start of your next bill.\n"
+"\n"
+"Don't forget that you receibe unlimited Wi-Fi through our partners The "
+"Cloud\n"
+"and BT Openzone.</small></b></span>"
+
+#: ../src/tgcm/ui/widgets/dock/Systray/Systray.py:97
+#: ../src/tgcm/ui/widgets/dock/Systray/Systray.py:98
+#: ../src/tgcm/ui/widgets/dock/Systray/Systray.py:99
+#, fuzzy
+msgid "Calculating..."
+msgstr "Cancelling..."
+
+#: ../src/tgcm/ui/widgets/dock/Systray/Systray.py:137
+#, fuzzy, python-format
+msgid "Current speed: %s"
+msgstr "This session"
+
+#: ../src/tgcm/ui/widgets/dock/Systray/Systray.py:140
+#, python-format
+msgid "Time elapsed: %02d:%02d:%02d"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/Systray/Systray.py:145
+#, python-format
+msgid "Data usage: %s"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/Systray/Systray.ui.h:1
+#: ../src/tgcm/ui/widgets/dock/Systray/SystrayIndicator.py:51
+msgid "Show the dock"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/Systray/Systray.ui.h:2
+msgid "See available networks"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/Systray/SystrayIndicator.py:100
+#: ../src/tgcm/ui/widgets/dock/Systray/SystrayTrayicon.py:92
+msgid "Ethernet"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/Systray/SystrayIndicator.py:105
+#: ../src/tgcm/ui/widgets/dock/Systray/SystrayTrayicon.py:94
+msgid "Wi-Fi"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/Systray/SystrayIndicator.py:124
+#, python-format
+msgid "Connected to %(name)s (%(type)s)"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/Systray/SystrayIndicator.py:150
+#: ../src/tgcm/ui/widgets/dock/Systray/SystrayTrayicon.py:116
+#, python-format
+msgid "%d unread SMS"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/Systray/SystrayTrayicon.py:45
+#, python-format
+msgid "Open %s"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/Systray/SystrayTrayicon.py:108
+#, python-format
+msgid "Connected to %s (%s)"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/DeviceMenuPopup/DeviceMenuPopup.ui.h:1
+msgid "PIN management"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/DeviceMenuPopup/DeviceMenuPopup.ui.h:2
+msgid "_Activate PIN"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/DeviceMenuPopup/DeviceMenuPopup.ui.h:3
+msgid "_Deactivate PIN"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/DeviceMenuPopup/DeviceMenuPopup.ui.h:4
+msgid "_Change PIN"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/DeviceMenuPopup/DeviceMenuPopup.ui.h:5
+msgid "Network technology selection"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/DeviceMenuPopup/DeviceMenuPopup.ui.h:6
+msgid "_Automatic"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/DeviceMenuPopup/DeviceMenuPopup.ui.h:7
+msgid "_UTMS/3G only"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/DeviceMenuPopup/DeviceMenuPopup.ui.h:8
+msgid "U_TMS/3G preferred"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/DeviceMenuPopup/DeviceMenuPopup.ui.h:9
+msgid "_GPRS/2.5G only"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/DeviceMenuPopup/DeviceMenuPopup.ui.h:10
+msgid "_GPRS/2.5G preferred"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/DeviceMenuPopup/DeviceMenuPopup.ui.h:12
+msgid "_Manual"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/DeviceMenuPopup/DeviceMenuPopup.ui.h:13
+msgid "Turn on"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/DeviceMenuPopup/DeviceMenuPopup.ui.h:14
+msgid "Turn off"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/Window/Window.py:97
+#, python-format
+msgid "%s Help"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/Window/Window.py:104
+#, python-format
+msgid "%s Settings"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/ServicesToolbar/ServicesToolbar.py:121
+msgid "More"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/ConnectionZone/ConnectionZone.py:223
+msgid ""
+"This network is not encrypted and can be unsafe. Are you sure you want to "
+"proceed connecting?"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/ConnectionZone/ConnectionZone.py:225
+msgid "Warning: Unsafe network"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/ConnectionZone/AvailableNetworksDialog.py:57
+msgid ""
+"Select the connection that you want to use and press the Connect button."
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/ConnectionZone/AvailableNetworksDialog.py:518
+#, fuzzy
+msgid "Wi-Fi Network"
+msgstr "%s mobile internet"
+
+#: ../src/tgcm/ui/widgets/dock/ConnectionZone/AvailableNetworksDialog.py:521
+#, python-format
+msgid "Status: %s"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/ConnectionZone/AvailableNetworksDialog.py:522
+msgid "Secured network"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/ConnectionZone/AvailableNetworksDialog.py:522
+msgid "Unsecured network"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/ConnectionZone/AvailableNetworksDialog.py:706
+#: ../src/tgcm/ui/widgets/dock/ConnectionZone/AvailableNetworksDialog.py:709
+msgid "No connections available"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/ConnectionZone/AvailableNetworksDialog.py:747
+#, fuzzy
+msgid "Ethernet Network"
+msgstr "%s mobile internet"
+
+#: ../src/tgcm/ui/widgets/dock/ConnectionZone/AvailableNetworksDialog.py:842
+#, fuzzy
+msgid "3G Network"
+msgstr "%s mobile internet"
+
+#: ../src/tgcm/ui/widgets/dock/LinkButton/LinkButton.py:38
+msgid "View usage &amp; buy access"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/DeviceZone/DeviceZone.py:82
+msgid "Very low"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/DeviceZone/DeviceZone.py:83
+msgid "Low"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/DeviceZone/DeviceZone.py:84
+msgid "Good"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/DeviceZone/DeviceZone.py:85
+msgid "Very good"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/DeviceZone/DeviceZone.py:86
+msgid "Excellent"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/DeviceZone/DeviceZone.py:132
+msgid "No valid SIM"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/DeviceZone/DeviceZone.py:167
+msgid "Mobile Internet Device connection failed"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/DeviceZone/DeviceZone.py:168
+msgid "Please remove the Mobile Internet Device and connect again"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/DeviceZone/DeviceZone.py:169
+msgid ""
+"The connection with the Mobile Internet Device has failed. It is not "
+"possible to establish a new connection until the device is removed and "
+"inserted again."
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/DeviceZone/DeviceZone.py:221
+#, python-format
+msgid ""
+"Device: %s\n"
+"Device turned off"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/DeviceZone/DeviceZone.py:238
+msgid "Activate"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/DeviceZone/DeviceZone.py:240
+msgid "Deactivate"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/DeviceZone/DeviceZone.py:242
+#, python-format
+msgid ""
+"Device: %s\n"
+"Signal Strength: %s\n"
+"Network technology: %s\n"
+"Operator: %s\n"
+"PIN: %s"
+msgstr ""
+
+#: ../src/tgcm/ui/widgets/dock/DeviceZone/DeviceZone.py:245
+#, python-format
+msgid "Device: %s"
+msgstr ""
+
+#: ../src/tgcm/ui/tgcm:120
+msgid "The application is already running in this session"
+msgstr ""
+
+#: ../src/tgcm/ui/tgcm:129
+msgid "User \"root\" is not allowed to execute the application"
+msgstr ""
+
+#: ../src/tgcm/ui/tgcm:130
+msgid "Please execute the application as a non-privileged user"
+msgstr ""
+
+#: ../src/tgcm/ui/tgcm:146
+msgid "Permissions error"
+msgstr ""
+
+#: ../src/tgcm/ui/tgcm:147
+#, c-format
+msgid ""
+"Please check if you have read and write permissions for the following path:\n"
+"\n"
+"\t%s"
+msgstr ""
+
+#: ../src/tgcm/ui/tgcm:152
+msgid "Unknown country_code code"
+msgstr ""
+
+#: ../src/tgcm/ui/tgcm:153
+#, c-format
+msgid ""
+"The specified code '%s' is not supported or unknown. The available codes "
+"are:\n"
+"\n"
+" %s"
+msgstr ""
+
+#: ../src/tgcm/ui/tgcm:162
+#, c-format
+msgid "%s is not properly configured"
+msgstr ""
+
+#: ../src/tgcm/ui/tgcm:163
+#, c-format
+msgid ""
+"D-Bus service '%s' is not available. Please check %s is installed and "
+"properly configured and then try again."
+msgstr ""
+
+#: ../src/tgcm/ui/tgcm:176
+msgid "Application start error"
+msgstr ""
+
+#~ msgid "Password :  "
+#~ msgstr "Password:"
+
+#~ msgid "TGCM - Address book"
+#~ msgstr "Contacts"
+
+#~ msgid "_Configuration"
+#~ msgstr "_Settings"
+
+#, fuzzy
+#~ msgid "Location"
+#~ msgstr "Location"
+
+#~ msgid "Address :"
+#~ msgstr "Address:"
+
+#~ msgid "DNS suffix search order : "
+#~ msgstr "DNS suffix search order: "
+
+#~ msgid "Port :"
+#~ msgstr "Port:"
+
+#~ msgid "Primary DNS : "
+#~ msgstr "Primary DNS: "
+
+#~ msgid "Secondary DNS : "
+#~ msgstr "Secondary DNS: "
+
+#~ msgid "Use proxy server : "
+#~ msgstr "Use proxy server: "
+
+#, fuzzy
+#~ msgid "Port"
+#~ msgstr "Port:"
+
+#~ msgid ""
+#~ "(*) If you do not select this option, the connection used will be the one "
+#~ "that is currently active or the Escritorio preferred connection."
+#~ msgstr ""
+#~ "(*) If you do not select this option, the connection used will be the one "
+#~ "that is currently active or the Connection Manager default connection."
+
+#~ msgid ""
+#~ "(*) As this option has not been selected the connection that will be used "
+#~ "is either the one which is currently active or the TGCM pre-set "
+#~ "connection."
+#~ msgstr ""
+#~ "(*) As this option has not been selected the connection that will be used "
+#~ "is either the one which is currently active or the Connection Manager "
+#~ "default connection."
+
+#~ msgid "Please select a behaviour for the dock:"
+#~ msgstr " "
+
+#, fuzzy
+#~ msgid "When connected via %s network..."
+#~ msgstr "<b>Connect to the default connection</b>"
+
+#, fuzzy
+#~ msgid "<b>2G/3G/4G Devices</b>"
+#~ msgstr "<b>Device configuration</b>"
+
+#~ msgid "Dock"
+#~ msgstr "Dock (home screen)"
+
+#, fuzzy
+#~ msgid "Current speed: %.2f kbits/s"
+#~ msgstr "This session"
+
+#, fuzzy
+#~ msgid "Current speed: %.2f Kbits/s"
+#~ msgstr "This session"
+
+#~ msgid "<b>Data Used History</b>"
+#~ msgstr "What you've used"
+
+#, fuzzy
+#~ msgid ""
+#~ "Some services need identification. You can save your user and key here.\n"
+#~ "\n"
+#~ "Select how you want to connect up to the movistar services:"
+#~ msgstr ""
+#~ "Some Connection Manager services need identification. From here you can\n"
+#~ "save your user and key.\n"
+#~ "\n"
+#~ "Select how you want to connect up to the Movistar services:"
+
+#~ msgid ""
+#~ "You can choose between save your contact list in the address book on "
+#~ "Evolution, or save them in the built-in address book itself."
+#~ msgstr ""
+#~ "You can choose between save your contact list on\n"
+#~ "Evolution, or save them in the Connection Manager address book itself."
+
+#~ msgid "Pre-set"
+#~ msgstr "Default"
+
+#~ msgid "<b><span foreground=\"#515774\">Connection : </span></b>"
+#~ msgstr "<b><span foreground=\"#515774\">Connection: </span></b>"
+
+#~ msgid "<b><span foreground=\"#515774\">Time : </span></b>"
+#~ msgstr "<b><span foreground=\"#515774\">Time: </span></b>"
+
+#~ msgid "<b><span foreground=\"#515774\">Traffic : </span></b>"
+#~ msgstr "<b><span foreground=\"#515774\">Traffic: </span></b>"
+
+#~ msgid "<b><span foreground=\"#515774\">Velocity : </span></b>"
+#~ msgstr "<b><span foreground=\"#515774\">Speed: </span></b>"
+
+#~ msgid "Telefónica"
+#~ msgstr "Telefónica Móviles España"
+
+#~ msgid "Configuration "
+#~ msgstr "Settings"
+
+#~ msgid "Open TGCM configuration and its services"
+#~ msgstr "Open Connection Manager Settings and its services"
+
+#~ msgid "Open TGCM contact address book"
+#~ msgstr "Open Contacts services"
+
+#~ msgid "Open TGCM help information"
+#~ msgstr "Open Help information"
+
+#~ msgid "Open your shortcut to local applications and Internet addresses"
+#~ msgstr "Open your favourites to local applications and Internet addresses"
+
+#~ msgid "Shortcuts"
+#~ msgstr "Favourites"
+
+#~ msgid "TGCM - Traffic"
+#~ msgstr "Traffic"
+
+#~ msgid "Traffic : "
+#~ msgstr "Traffic:"
+
+#~ msgid "Traffic announcement on Roaming : "
+#~ msgstr "Traffic announcement on Roaming: "
+
+#~ msgid "Traffic announcement on movistar Network : "
+#~ msgstr "Traffic announcement on local Network: "
+
+#~ msgid ""
+#~ "(*) As this option has not been selected the connection that will be used "
+#~ "is the one which is active at the moment or the Desktop pre-set "
+#~ "connection."
+#~ msgstr ""
+#~ "(*) As this option has not been selected the connection that will be used "
+#~ "is the one which is active at the moment or the Connection Manager "
+#~ "default connection."
+
+#~ msgid "APN"
+#~ msgstr "APN address"
+
+#~ msgid "Choose if you want the TGCM to download news."
+#~ msgstr "Choose if you want the Connection Manager to download news."
+
+#~ msgid "Choose if you want the TGCM to run when you turn on the computer."
+#~ msgstr ""
+#~ "Choose if you want the Connection Manager to run when you turn on the "
+#~ "computer."
+
+#~ msgid "Choose if you want to automatically connect to start TGCM."
+#~ msgstr ""
+#~ "Choose if you want to automatically connect to start Connection Manager."
+
+#~ msgid "Domain search :  "
+#~ msgstr "Domain search:  "
+
+#~ msgid ""
+#~ "From the TGCM Address book you can keep a list of contacts\n"
+#~ "that you will be able to send e-mails to."
+#~ msgstr ""
+#~ "From the Contacts you can keep a list of contacts\n"
+#~ "that you will be able to send e-mails to."
+
+#~ msgid ""
+#~ "Moreover, if you use the service <b>Copiagenda</b> from movistar, you "
+#~ "will be able to\n"
+#~ "download the network contacts you have stored. Downloading\n"
+#~ "contacts will vary in cost depending on the data subscribed.\n"
+#~ "For more information about this service you can visit :"
+#~ msgstr ""
+#~ "Moreover, if you use the service <b>Copiagenda</b> from Movistar, you "
+#~ "will be able to\n"
+#~ "download the network contacts you have stored. Downloading\n"
+#~ "contacts will vary in cost depending on the data subscribed.\n"
+#~ "For more information about this service you can visit:"
+
+#~ msgid "Run TGCM when the session starts"
+#~ msgstr "Run Connection Manager when the session starts"
+
+#~ msgid "Secondary server :"
+#~ msgstr "Secondary server:"
+
+#~ msgid "Shortcut"
+#~ msgstr "Favourite"
+
+#~ msgid "Shortcut created"
+#~ msgstr "Favourite created"
+
+#~ msgid ""
+#~ "Shortcut created successfully. Dont forget that you can modify it from "
+#~ "Configuration > Shortcut."
+#~ msgstr ""
+#~ "Favourite created successfully. Don't forget that you can modify it from "
+#~ "Settings > Services > Favourites."
+
+#~ msgid "TGCM - Configuration"
+#~ msgstr "Settings"
+
+#~ msgid "Use the TGCM address book."
+#~ msgstr "Use Connection Manager address book."
+
+#~ msgid ""
+#~ "You can choose between save your contact list in the address book on\n"
+#~ "Evolution, or save them in the TGCM address book itself."
+#~ msgstr ""
+#~ "You can choose between save your contact list on\n"
+#~ "Evolution, or save them in the Connection Manager address book itself."
+
+#~ msgid "_Import ..."
+#~ msgstr "_Import..."
+
+#~ msgid "_Modify ..."
+#~ msgstr "_Modify..."
+
+#~ msgid "_New ..."
+#~ msgstr "_New..."
+
+#~ msgid "_Pre-set"
+#~ msgstr "_Default"
+
+#~ msgid "shortcut list :"
+#~ msgstr "Favourites list:"
+
+#~ msgid ""
+#~ "The messages can't be sent as it has not detected any available devices."
+#~ msgstr ""
+#~ "Sorry, we couldn't send your text because your dongle / modem isn't "
+#~ "ready. "
+
+#~ msgid "Velocity : "
+#~ msgstr "Speed:"
+
+#~ msgid ""
+#~ "Tick the box if you want the application to check for updates and news"
+#~ msgstr "Automatically check for latest updates and news when I connect"
+
+#~ msgid ""
+#~ "Tick the box if you want the application to start running when turn on "
+#~ "the computer"
+#~ msgstr "Launch Connection Manager when system starts"
+
+#~ msgid "Export shortcut"
+#~ msgstr "Export favourite..."
+
+#~ msgid "Import shortcut"
+#~ msgstr "Import favourite..."
+
+#~ msgid "Configuration"
+#~ msgstr "Settings"
+
+#~ msgid "New shortcut..."
+#~ msgstr "New favourite..."
+
+#~ msgid "Configure shortcuts..."
+#~ msgstr "Edit favourites..."
+
+#~ msgid "22th"
+#~ msgstr "22nd"
+
+#~ msgid "23th"
+#~ msgstr "23rd"

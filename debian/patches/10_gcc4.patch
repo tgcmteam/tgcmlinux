@@ -1,0 +1,34 @@
+diff -Nur -x '*.orig' -x '*~' tgcm.git/src/common-libs/syncml/vCard.cpp tgcm.git.new/src/common-libs/syncml/vCard.cpp
+--- tgcm.git/src/common-libs/syncml/vCard.cpp	2010-04-23 10:34:33.000000000 +0200
++++ tgcm.git.new/src/common-libs/syncml/vCard.cpp	2010-04-23 10:46:39.546407163 +0200
+@@ -21,6 +21,7 @@
+ #include "stdafx.h"
+ #include "vCard.h"
+ #include <sstream>
++#include <cstdio>
+ #include "ptools.h"
+ #include <cstdio>
+ 
+diff -Nur -x '*.orig' -x '*~' tgcm.git/src/common-libs/traffic/traffic/Traffic.cpp tgcm.git.new/src/common-libs/traffic/traffic/Traffic.cpp
+--- tgcm.git/src/common-libs/traffic/traffic/Traffic.cpp	2010-04-23 10:34:33.000000000 +0200
++++ tgcm.git.new/src/common-libs/traffic/traffic/Traffic.cpp	2010-04-23 10:46:39.546407163 +0200
+@@ -25,7 +25,7 @@
+ #include <sstream>
+ #include <iomanip>
+ #include <stdlib.h>
+-
++#include <stdint.h>
+ 
+ std::tstring CTraffic::m_db, CTraffic::m_verName;
+ int CTraffic::m_nVerMj, CTraffic::m_nVerMn, CTraffic::m_nVerUp;
+diff -Nur -x '*.orig' -x '*~' tgcm.git/src/common-libs/traffic/traffic/Traffic.h tgcm.git.new/src/common-libs/traffic/traffic/Traffic.h
+--- tgcm.git/src/common-libs/traffic/traffic/Traffic.h	2010-04-23 10:34:33.000000000 +0200
++++ tgcm.git.new/src/common-libs/traffic/traffic/Traffic.h	2010-04-23 10:46:39.630404354 +0200
+@@ -26,6 +26,7 @@
+ #include "ptools.h"
+ #include <deque>
+ #include <vector>
++#include <stdint.h>
+ 
+ class CTraffic
+ {

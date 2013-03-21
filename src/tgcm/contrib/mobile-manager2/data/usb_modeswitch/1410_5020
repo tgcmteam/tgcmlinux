@@ -1,0 +1,11 @@
+######################################################## 
+# Novatel MC990D
+
+DefaultVendor=0x1410
+DefaultProduct=0x5020
+
+TargetVendor=0x1410
+TargetProduct=0x7001
+
+CheckSuccess=20
+MessageContent="5553424312345678000000000000061b000000020000000000000000000000"

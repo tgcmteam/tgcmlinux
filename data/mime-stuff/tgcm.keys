@@ -1,0 +1,9 @@
+application/x-extension-emsc
+        icon_filename=movistar_icon
+        category=Internet
+        description=Archivo de configuración del TGCM
+        short_list_application_ids_for_novice_user_level=tgcm
+        short_list_application_ids_for_intermediate_user_level=tgcm
+        short_list_application_ids_for_advanced_user_level=tgcm
+        open=tgcm %f
+        view=tgcm %f

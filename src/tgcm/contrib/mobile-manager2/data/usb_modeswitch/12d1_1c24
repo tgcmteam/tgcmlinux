@@ -1,0 +1,12 @@
+######################################################## 
+# Huawei E173-S
+
+DefaultVendor=0x12d1
+DefaultProduct=0x1c24
+
+TargetVendor=0x12d1
+TargetProduct=0x1c23
+
+CheckSuccess=5
+
+MessageContent="55534243000000000000000000000011060000000000000000000000000000"

@@ -1,0 +1,10 @@
+#!/usr/bin/python
+
+import gconf
+import os
+
+if os.path.exists(os.path.join(os.environ["HOME"], ".tgcm")):
+	os.system("rm -fr %s" % os.path.join(os.environ["HOME"], ".tgcm"))
+	client = gconf.client_get_default()
+	client.recursive_unset ('/apps/tgcm', gconf.UNSET_INCLUDING_SCHEMA_NAMES)
+	client.suggest_sync ()

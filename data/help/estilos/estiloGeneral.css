@@ -1,0 +1,263 @@
+/* CSS Document */
+BODY{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	width:1000px;
+	background-color:#FFFFFF;
+	color:#000000;
+}
+h5{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+}
+/***/
+.Izq{
+	width:20%;
+	/*height:500px;*/
+	border:1px #999999 solid;
+	float:left;
+	position:relative;
+	padding: 5px 5px 5px 10px;
+}
+.Der{
+	width:75%;
+	/*height:500px;*/
+	float:left;
+	position:relative;
+	padding: 5px 5px 5px 15px;
+}
+.Der a.estasEn{
+	background-color:#EFEFEF;
+	color:#000099;
+	text-decoration:none;
+}
+.Der a.estasEn:hover{
+	background-color:#EFEFEF;
+	color:#000099;
+	text-decoration:underline;
+}
+.CabeceraMarcas
+{
+width:100%;
+background-image:url(../img/PortadaP.jpg);
+background-position:right;
+background-position:top;
+background-repeat:no-repeat;
+height:95px;
+}
+.VolverArriba
+{
+color:#248EE0;
+text-align:right;
+}
+
+.Titulo{
+	background-color:#FFFFFF;
+	color:#000099;
+	text-align:center;
+	font-size:16px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+.TituloPrincipal{
+	background-color:#FFFFFF;
+	color:#000099;
+	text-align:center;
+	font-size:16px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+}
+.Enlaces a{
+	text-decoration:none;
+}
+
+.Enlaces a:hover{
+	text-decoration:underline;
+}
+.Enlaces a.Nivel1{
+	background-color:#FFFFFF;
+	color:#000055;
+	font-weight:bold;
+}
+.Enlaces a.Nivel1:visited{
+	background-color:#FFFFFF;
+	color:#000055;
+	font-weight:bold;
+}
+.Nivel1Seleccionado{
+	padding: 5px 0px 5px 0px;
+	background-color:#000099;
+	color:#FFFFFF;
+	font-weight:bold;
+}
+.Nivel1Seleccionado a{
+	background-color:#000099;
+	color:#FFFFFF;
+}
+.Nivel1Seleccionado a:hover{
+	background-color:#000099;
+	color:#FFFFFF;
+}
+.Nivel1Seleccionado a:visited{
+	background-color:#000099;
+	color:#FFFFFF;
+}
+.Enlaces a.Nivel2{
+	background-color:#FFFFFF;
+	color:#0000FF;
+	padding: 0px 0px 0px 10px;
+}
+.Nivel2Seleccionado{
+	padding: 5px 0px 5px 10px;
+	background-color:#000099;
+	color:#FFFFFF;
+	font-weight:bold;
+}
+.Nivel2Seleccionado a{
+	background-color:#000099;
+	color:#FFFFFF;
+	font-weight:bold;
+}
+.Nivel2Seleccionado a:hover{
+	background-color:#000099;
+	color:#FFFFFF;
+	font-weight:bold;
+}
+.Enlaces img{
+	border:0px #FFFFFF solid;
+	padding:0px 5px 0px 0px;
+}
+
+.BarraSuperior{
+	text-align:left;
+	text-decoration:none;
+	background-color:#EFEFEF;
+	/*border: 1px #666666 solid;*/
+	color:#666666;
+}
+.BarraSuperior a{
+	text-decoration:none;
+	background-color:#EFEFEF;
+	color:#0000FF;	
+}
+.BarraSuperior a:hover{
+	text-decoration:underline;
+}
+.BarraSuperior p{
+	text-decoration:none;
+	background-color:#EFEFEF;
+	color:#0000FF;
+	text-align:right;
+}
+.SigAnt{
+	background-color:#E8F2FF;
+	color:#000000;
+	/*border: 1px #666666 solid;*/
+	text-align:right;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	margin: 0px 0px 10px 0px;
+}
+.SigAnt a:hover{
+	text-decoration:underline;
+}
+.SigAnt a{
+	text-decoration:none;
+	background-color:#E8F2FF;
+	color:#0000FF;
+}
+.Contenido {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	text-align:justify;
+	margin: 5px 5px 5px 5px;
+}
+.Contenido table{
+	padding: 0px 0px 10px 0px;
+	text-align:center;
+	margin:auto;
+}
+.Contenido td{
+	border:1px #000000 solid;
+	width:300px;
+}
+.Contenido tr{
+	border:1px #000000 solid;
+}
+.Contenido th{
+	border:1px #000000 solid;
+	font-weight:bold;
+	color:#000000;
+	background-color:#EFEFEF;
+	width:300px;
+}
+.Contenido caption{
+	padding:0px 0px 7px 0px;
+	font-weight:bold;
+	margin:auto;
+}
+.Contenido img{
+	border: 0px #000000 solid;
+	padding:7px 0px 5px 0px;
+	display: block;
+	margin: auto;	
+}
+.glosarioLetra{
+	font-weight:bold;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:14px;
+	text-align:center;
+	color:#000000;
+	background-color:#0099FF;
+}
+.Contenido ul{
+	list-style-type:disc;
+}
+#Importante
+{
+	border: 2px #333333 double;
+	background-color:#EEEEEE;
+	color:#000000;
+	margin:10px 5px 10px 5px;
+	padding:5px 5px 5px 5px;
+}
+.centrado{
+	text-align:center;
+}
+.piePagina{
+	width:100%;
+	height:50px;
+	position:relative;
+	float:left;
+	text-align:center;
+}
+.MensajesCorporativos a{
+	text-align:center;
+	background-color:#FFFFFF;
+	color:#999999;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-style:normal;
+	text-decoration:none;
+}
+.MensajesCorporativos a:hover{
+	text-decoration:underline;
+}
+.MensajesCorporativos p{
+	text-align:center;
+	background-color:#FFFFFF;
+	color:#999999;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-style:normal;
+	text-decoration:none;
+	text-indent:2px;
+}
+.separador{
+	height:1px;
+	background-color:#666666;
+	color:#000000;
+	margin: 10px 0px 0px 0px;
+}
+

@@ -1,0 +1,40 @@
+README
+------
+
+Some USB GSM-modems must be switched to its modem-functionality before they
+can be used. This switching is done with the help of the application
+'usb_modeswitch' and a proper configuration file. Actually the distributions
+provide 'usb_modeswitch' config files for the most common modems, but
+in some cases it's required to add a new one. This README describes the
+steps for installing a new config file with the help of the Tgcm build
+environment.
+
+- First check that after the modem's plug-in, the typical serial ttyUSB-ports
+  are created. If this is not the case, check if 'usb_modeswitch' tries to
+  switch the device by checking the '/var/log/syslog'
+
+  Aug 25 07:54:08 entelluis usb_modeswitch: switching 12d1:1446 (HUAWEI Technology: HUAWEI Mobile)
+
+  If this doesn't happen probably you need to get a config file for 'usb_modeswitch.'
+  Search in the www with your preferred search engine for it and copy this
+  file to the directory '../usb_modeswitch/'. Now edit the udev-rule
+  '77-mobile-manager.rules.in' and add a line with the new configuration file.
+
+  IMPORTANT: After changes in the udev-rule, the script 'autogen.sh' must be
+  executed again.
+
+- Now check in the log file '/var/log/mobile-manager.log' if the modem is
+  recognized. If this not the case, probably the internal devices table
+  of the Mobile Manager must be updated. This table is placed in the
+  file "DevicesTable.py" (under "src") and has different sections for
+  vendors and products. Search the proper vendor and add the new product
+  to its list. Now (hopefully) the new device is recognized and the Tgcm
+  displays it in the Device Zone.
+
+
+Luis Galdos <luisgaldos@gmail.com>
+
+
+
+  
+

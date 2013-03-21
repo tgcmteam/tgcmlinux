@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+  <bitmap file="tbnsms.png" name="notif.sms.bknd"/>
+  <bitmap file="tbngen.png" name="notif.gen.bknd"/>
+  <bitmap file="tbnerror.png" name="notif.error.bknd"/>
+  <bitmap file="tbntraffic.png" name="notif.traffic.bknd"/>
+  <bitmap file="tbnclose.png" name="notif.close" alphacolor="#FF00FF">
+    <subbitmap name="notif.close.normal" left="0" top="0" width="13" height="13"/>
+    <subbitmap name="notif.close.hot" left="13" top="0" width="13" height="13"/>
+    <subbitmap name="notif.close.down" left="26" top="0" width="13" height="13"/>
+  </bitmap>
+    
+  <font name="font.notif.title" face="Arial" height="10" weight="650" underline="false" italic="false"/>  
+  <font name="font.notif.message" face="Trebuchet MS" height="11" weight="650" underline="false" italic="false"/>
+  <font name="font.error.message" face="Trebuchet MS" height="9" weight="650" underline="false" italic="false"/>
+ 
+  <layout name="notifier.generic" width="128" height="110">
+    <border resizeX="false" resizeY="false" minX="128" minY="110" />
+    <background type="image" bitmap="notif.gen.bknd"/>
+    <widgets>
+    
+    <label id="lab.title"
+           anchor-tl="top-left" anchor-br="top-right"
+           left="5" top="5" width="106" height="14"
+           align="left-top"
+           multiline="false"
+           ellipsis="true"
+           font="font.notif.title"
+           color="#FFFFFF"
+           text="#str.apptitle"/>
+
+    <button id="btn.close"
+            anchor-tl="top-right" anchor-br="none"
+            left="110" top="5" width="13" height="13"
+            onclick="wnd.close()"
+            image-normal="notif.close.normal"
+            image-hot="notif.close.hot"
+            image-down="notif.close.down"/>
+
+    <button id="btn.message"
+            anchor-tl="top-right" anchor-br="none"
+            left="10" top="32" width="108" height="65"
+            onclick="wnd.click()"
+            text-align="center-center"
+            cursor="hand"
+            font-normal="font.notif.message"
+            color-normal="#FFFFFF"
+            multiline="true"
+            text="#notifier.generic.text"/>
+	  </widgets>
+  </layout>
+
+
+  <layout name="notifier.error" width="255" height="206">
+    <border resizeX="false" resizeY="false" minX="255" minY="206" />
+    <background type="image" bitmap="notif.error.bknd"/>
+    <widgets>
+    
+    <label id="lab.title"
+           anchor-tl="top-left" anchor-br="top-right"
+           left="40" top="10" width="180" height="14"
+           align="left-top"
+           multiline="false"
+           ellipsis="true"
+           font="font.notif.title"
+           color="#FFFFFF"
+           text="#str.apptitle"/>
+
+    <button id="btn.close"
+            anchor-tl="top-right" anchor-br="none"
+            left="237" top="5" width="13" height="13"
+            onclick="wnd.close()"
+            image-normal="notif.close.normal"
+            image-hot="notif.close.hot"
+            image-down="notif.close.down"/>
+    <label id="btn.message"
+            anchor-tl="top-right" anchor-br="none"
+            left="10" top="25" width="230" height="165"
+            align="center-center"
+            font="font.error.message"
+            color="#FFFFFF"
+            ellipsis="true"
+            multiline="true"
+            text="#notifier.error.text"/>
+	  </widgets>
+  </layout>
+  
+  <layout name="notifier.traffic" width="192" height="155">
+    <border resizeX="false" resizeY="false" minX="192" minY="155" />
+    <background type="image" bitmap="notif.traffic.bknd"/>
+    <widgets>
+    
+    <label id="lab.title"
+           anchor-tl="top-left" anchor-br="top-right"
+           left="5" top="5" width="106" height="14"
+           align="left-top"
+           multiline="false"
+           ellipsis="true"
+           font="font.notif.title"
+           color="#FFFFFF"
+           text="#str.apptitle"/>
+
+    <button id="btn.close"
+            anchor-tl="top-right" anchor-br="none"
+            left="174" top="5" width="13" height="13"
+            onclick="wnd.close()"
+            image-normal="notif.close.normal"
+            image-hot="notif.close.hot"
+            image-down="notif.close.down"/>
+
+    <button id="btn.message"
+            anchor-tl="top-right" anchor-br="none"
+            left="10" top="25" width="175" height="130"
+            onclick="wnd.click()"
+            text-align="center-center"
+            cursor="hand"
+            font-normal="font.notif.message"
+            color-normal="#FFFFFF"
+            multiline="true"
+            text="#notifier.traffic.text"/>
+	  </widgets>
+  </layout>
+
+  <layout name="notifier.sms" width="128" height="90">
+    <border resizeX="false" resizeY="false" minX="128" minY="90" />
+    <background type="image" bitmap="notif.sms.bknd"/>
+    <widgets>
+    
+    <label id="lab.title"
+           anchor-tl="top-left" anchor-br="top-right"
+           left="5" top="5" width="100" height="16"
+           align="left-top"
+           multiline="false"
+           ellipsis="true"
+           font="font.notif.title"
+           color="#FFFFFF"
+           text="#notifier.sms.title"/>
+
+    <button id="btn.close"
+            anchor-tl="top-right" anchor-br="none"
+            left="110" top="5" width="13" height="13"
+            onclick="wnd.close()"
+            image-normal="notif.close.normal"
+            image-hot="notif.close.hot"
+            image-down="notif.close.down"/>
+
+    <button id="btn.message"
+            anchor-tl="top-right" anchor-br="none"
+            left="11" top="60" width="100" height="35"
+            onclick="wnd.click()"
+            text-align="center-center"
+            cursor="hand"
+            font-normal="font.notif.message"
+            color-normal="#FFFFFF"
+            multiline="true"
+            ellipsis="true"			
+            text="#notifier.sms.text"/>
+
+
+     <button id="link"
+            anchor-tl="top-right" anchor-br="none"
+            left="0" top="16" width="128" height="74"
+            onclick="wnd.click()"
+            text-align="center-center"
+            cursor="hand"
+            font-normal="font.notif.message"
+            color-normal="#FFFFFF"
+            multiline="true"
+            text=""/>
+ 
+	  </widgets>
+  </layout>
+
+</theme>

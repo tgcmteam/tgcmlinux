@@ -1,0 +1,6 @@
+usr/bin
+usr/sbin
+usr/share
+lib/udev/rules.d
+etc/dbus-1/system.d
+var/lib/mobile-manager

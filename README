@@ -1,0 +1,9 @@
+Compile in developer mode
+-------------------------
+
+./autogen.sh --prefix=/usr --sysconfdir=/etc --localstatedir=/var --with-init-scripts=debian
+make
+make install or sudo make install
+
+You can change debian for redhat or suse or another one distro supported.
+If you don't use the init-scripts flag, the init scripts will not be installed.

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=Telefonica Group Connection Manager
+Comment=TGCM
+Exec=tgcm -s -c mx
+Terminal=false
+Type=Application
+Categories=
+GenericName=

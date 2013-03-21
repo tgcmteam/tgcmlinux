@@ -1,0 +1,120 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+#
+# Authors : Roberto Majadas <roberto.majadas@openshine.com>
+#           Luis Galdos <luisgaldos@gmail.com>
+#           David Castellanos <dcastellanos@indra.es>
+#
+# Copyright (c) 2010-2012, Telefonica Móviles España S.A.U.
+#
+# This program is free software; you can redistribute it and/or
+# modify it under the terms of the GNU Lesser General Public
+# License as published by the Free Software Foundation; either
+# version 2.1 of the License, or (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+# Lesser General Public License for more details.
+#
+# You should have received a copy of the GNU Lesser General Public
+# License along with this program; if not, write to the
+# Free Software Foundation, Inc., 59 Temple Place - Suite 330,
+# Boston, MA 02111-1307, USA.
+#
+
+import os
+import sys
+
+import syslog
+import logging
+import gobject
+import argparse
+import fnmatch
+
+import mobilemanager.Logging
+from mobilemanager.ModemManager import ModemManager
+
+DEBUG_STR = 'debug'
+INFO_STR = 'info'
+WARN_STR = 'warn'
+ERROR_STR = 'error'
+CRITICAL_STR = 'critical'
+
+DEBUG_LEVELS_STR = (DEBUG_STR, INFO_STR, WARN_STR, ERROR_STR, CRITICAL_STR)
+DEBUG_LEVELS = {
+    DEBUG_STR : logging.DEBUG,
+    INFO_STR : logging.INFO,
+    WARN_STR : logging.WARN,
+    ERROR_STR : logging.ERROR,
+    CRITICAL_STR : logging.CRITICAL,
+}
+
+def eclipse_path(string):
+    # Is it really an existing directory?
+    if os.path.exists(string) and os.path.isdir(string):
+        path = os.path.expanduser(string)
+        path = os.path.abspath(path)
+    else:
+        msg = '%s directory does not exist' % string
+        raise argparse.ArgumentTypeError(msg)
+
+    # Is it an Eclipse installation directory?
+    pydev_path = None
+    try:
+        for path, dirs, files in os.walk(path):
+            for filename in fnmatch.filter(files, 'pydevd.py'):
+                # I've found the path of the Pydev installation
+                pydev_path = path
+                # Stop the two nested for loops
+                raise StopIteration()
+    except StopIteration:
+        pass
+
+    # If a Pydev installation directory wasn't found we have a wrong parameter
+    if pydev_path is None:
+        msg = 'Invalid Eclipse installation dir, "pydevd.py" file not found'
+        raise argparse.ArgumentTypeError(msg)
+
+    return pydev_path
+
+def pydev_debugger_support(pydevpath):
+    if not pydevpath in sys.path:
+        sys.path.append(pydevpath)
+    try:
+        import pydevd
+        pydevd.settrace()
+    except ImportError:
+        pass
+
+if __name__ == '__main__':
+    # Parse program arguments
+    parser = argparse.ArgumentParser(
+            description='''A custom launcher for MobileManager, intended to ease its
+                           development and optional remote Pydev debugging''')
+    parser.add_argument('-d', '--debug-level',
+            type=str, choices=DEBUG_LEVELS_STR, default=INFO_STR,
+            help='establish the default debug level')
+    parser.add_argument('-e', '--eclipse-path',
+            nargs=1, type=eclipse_path,
+            help='''location of the Eclipse installation directory, required to enable
+                    remote Eclipse Pydev debugging''')
+    args = parser.parse_args()
+
+    # Attempt to configure Pydev debugger if requested by the user
+    if args.eclipse_path is not None:
+        pydev_debugger_support(args.eclipse_path[0])
+
+    gobject.threads_init()
+
+    # -- Init the logging system with the corresponding level
+    loglevel = DEBUG_LEVELS[args.debug_level]
+    mobilemanager.Logging.init(loglevel)
+
+    # -- Create an entry in the logsys
+    syslog.openlog("mobile-manager2")
+    syslog.syslog(syslog.LOG_INFO, "Starting the Modem Manager")
+
+    # -- Now start the manager
+    MODEM_MANAGER = ModemManager()
+    MODEM_MANAGER.run()
