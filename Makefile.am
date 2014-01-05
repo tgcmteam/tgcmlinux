@@ -21,8 +21,8 @@ EXTRA_DIST = \
     NEWS                    \
     README					\
     latest-revision         \
-    debian/*                \	
-    debian/patches/*        
+    debian/*                \
+    debian/patches/*
 
 
 #Ignore scrollkeeper files
