@@ -3,11 +3,18 @@ tgcmlinux
 
 Escritorio Movistar para Linux
 
-Â¿QuÃ© es Escritorio Movistar?
+¿Qué es Escritorio Movistar?
 
-Escritorio Movistar para Linux es un software gratuito que gestiona de forma inteligente tus conexiones Wi-Fi Ã³ WWAN y permite acceder en condiciones de movilidad a servicios de datos, tales como Internet, Intranets corporativas, correo electrÃ³nico y servicios Movistar con la velocidad de un puesto de trabajo fijo. Movistar facilita accesos en movilidad a velocidades equivalentes a conexiones ADSL gracias a la tecnologÃ­a UMTS/3G y 3.5G/3.5G+/HSPA+, garantizando ademÃ¡s la mÃ¡xima cobertura con la red GPRS/EDGE.
+Escritorio Movistar para Linux es un software gratuito que gestiona de
+forma inteligente tus conexiones Wi-Fi ó WWAN y permite acceder en 
+condiciones de movilidad a servicios de datos, tales como Internet, 
+Intranets corporativas, correo electrónico y servicios Movistar con la 
+velocidad de un puesto de trabajo fijo. Movistar facilita accesos en 
+movilidad a velocidades equivalentes a conexiones ADSL gracias a la 
+tecnología UMTS/3G y 3.5G/3.5G+/HSPA+, garantizando además la máxima 
+cobertura con la red GPRS/EDGE. 
  
-La Ãºltima versiÃ³n estable es Escritorio Movistar 8.9
+La última versión estable es Escritorio Movistar 8.9
 
-MÃs informaciÃn en: http://www.tgcm.es
+Más información en: http://www.tgcm.es
 
